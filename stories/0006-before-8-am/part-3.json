@@ -1,0 +1,530 @@
+{
+  "schemaVersion": 1,
+  "storyId": "0006",
+  "partNumber": 3,
+  "title": "Thirtieth of May",
+  "summary": "Iain explains: in January, before he knew Ruth, he applied to transfer to Dunedin to help his daughter with her twins. It came through a week ago and he hadn't found the words. For Ruth it echoes her ex-husband's three weeks' notice, but Sam points out this is the opposite of his dad. Ruth refuses long distance and asks for the six weeks, eyes open. Fiona writes to her kindly. Iain leaves on 29 May. The next morning Ruth plays the nocturne before 8.",
+  "status": "final",
+  "cliffhanger": null,
+  "createdAt": "2026-10-09T20:00:00Z",
+  "updatedAt": "2026-10-09T20:00:00Z",
+  "screenshots": [
+    {
+      "id": "s01",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "6:04"
+        }
+      },
+      "deviceOwner": "ruth",
+      "participants": [
+        "ruth",
+        "iain"
+      ],
+      "title": "Iain (3B)",
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Sun, 18 Apr at 5:49 PM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "ruth",
+          "text": "Out by 30 May. Transfer."
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "ruth",
+          "text": "Out of where, Iain?"
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "iain",
+          "text": "Out of 3B. I'm moving to Dunedin. I put in for a transfer to the comms centre there in January."
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "iain",
+          "text": "Fiona's having twins in June. Her husband's away on the boats half the year. I'm the only family she's got down there."
+        },
+        {
+          "kind": "message",
+          "id": "m05",
+          "sender": "iain",
+          "text": "It came through last week. I've been trying to find a way to say it."
+        },
+        {
+          "kind": "message",
+          "id": "m06",
+          "sender": "ruth",
+          "text": "You've had a week of ways, Iain. Oriental Bay. The concert. A dozen dinners. You've known since January."
+        },
+        {
+          "kind": "message",
+          "id": "m07",
+          "sender": "iain",
+          "text": "I know."
+        },
+        {
+          "kind": "message",
+          "id": "m08",
+          "sender": "iain",
+          "text": "When I applied I didn't know you. I wasn't expecting to meet anyone. I'm 52. I'd sort of decided that part was done."
+        },
+        {
+          "kind": "message",
+          "id": "m09",
+          "sender": "ruth",
+          "text": "So had I."
+        },
+        {
+          "kind": "message",
+          "id": "m10",
+          "sender": "iain",
+          "text": "I'm not making an excuse. I should have told you the day it came through."
+        },
+        {
+          "kind": "message",
+          "id": "m11",
+          "sender": "ruth",
+          "text": "Yes. You should have."
+        },
+        {
+          "kind": "message",
+          "id": "m12",
+          "sender": "ruth",
+          "text": "I need tonight. Go to work."
+        },
+        {
+          "kind": "message",
+          "id": "m13",
+          "sender": "iain",
+          "text": "Aye. I'll go."
+        }
+      ],
+      "meta": {
+        "beat": "The explanation."
+      }
+    },
+    {
+      "id": "s02",
+      "type": "conversation",
+      "theme": "dark",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "10:20"
+        }
+      },
+      "deviceOwner": "ruth",
+      "participants": [
+        "ruth",
+        "sam"
+      ],
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Sun, 18 Apr at 10:12 PM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "ruth",
+          "text": "He's moving to Dunedin on 30 May. He's known for a week. He applied in January."
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "sam",
+          "text": "oh mum"
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "sam",
+          "text": "are u ok"
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "ruth",
+          "text": "Your father gave me three weeks' notice after twenty-two years. It turns out I'm still not good at finding things out by accident."
+        },
+        {
+          "kind": "message",
+          "id": "m05",
+          "sender": "sam",
+          "text": "this isnt that though"
+        },
+        {
+          "kind": "message",
+          "id": "m06",
+          "sender": "sam",
+          "text": "dad was leaving YOU. this guy's moving to help his daughter with twins. thats like. the opposite of dad"
+        },
+        {
+          "kind": "message",
+          "id": "m07",
+          "sender": "ruth",
+          "text": "When did you get wise?"
+        },
+        {
+          "kind": "message",
+          "id": "m08",
+          "sender": "sam",
+          "text": "uni. also tiktok"
+        },
+        {
+          "kind": "message",
+          "id": "m09",
+          "sender": "ruth",
+          "text": "I'm 48, Sam. I'm not doing long distance on seven weeks' evidence."
+        },
+        {
+          "kind": "message",
+          "id": "m10",
+          "sender": "sam",
+          "text": "ok. so dont do long distance. but there's 6 weeks left. thats not nothing"
+        },
+        {
+          "kind": "message",
+          "id": "m11",
+          "sender": "ruth",
+          "text": "…When did you get wise, honestly."
+        },
+        {
+          "kind": "message",
+          "id": "m12",
+          "sender": "sam",
+          "text": "i told u. tiktok 💙"
+        }
+      ],
+      "meta": {
+        "beat": "'The opposite of Dad.'"
+      }
+    },
+    {
+      "id": "s03",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "7:09"
+        }
+      },
+      "deviceOwner": "ruth",
+      "participants": [
+        "ruth",
+        "iain"
+      ],
+      "title": "Iain (3B)",
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Mon, 19 Apr at 7:05 AM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "ruth",
+          "text": "You're home?"
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "iain",
+          "text": "Just in. Sitting on the stairs. Didn't want to slam anything."
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "ruth",
+          "text": "I'm going to say this plainly and you're going to let me finish."
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "ruth",
+          "text": "I'm not doing long distance. I'm 48 and I've done enough waiting by a phone. I won't make you promises about Dunedin and I won't ask for any."
+        },
+        {
+          "kind": "message",
+          "id": "m05",
+          "sender": "iain",
+          "text": "That's fair."
+        },
+        {
+          "kind": "message",
+          "id": "m06",
+          "sender": "ruth",
+          "text": "I wasn't finished."
+        },
+        {
+          "kind": "message",
+          "id": "m07",
+          "sender": "iain",
+          "text": "Sorry. Go on."
+        },
+        {
+          "kind": "message",
+          "id": "m08",
+          "sender": "ruth",
+          "text": "You have six weeks left. I'd like them. Eyes open, no wee lies, and you tell me the day anything changes."
+        },
+        {
+          "kind": "message",
+          "id": "m09",
+          "sender": "iain",
+          "text": "Every day. I'll tell you every day."
+        },
+        {
+          "kind": "message",
+          "id": "m10",
+          "sender": "iain",
+          "text": "Can I come up? I'll bring two coffees."
+        },
+        {
+          "kind": "message",
+          "id": "m11",
+          "sender": "ruth",
+          "text": "The door's unlocked. Close it like a baby.",
+          "receipt": {
+            "status": "read",
+            "at": "7:09 AM"
+          }
+        }
+      ],
+      "meta": {
+        "beat": "Six weeks, eyes open."
+      }
+    },
+    {
+      "id": "s04",
+      "type": "conversation",
+      "theme": "dark",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "8:34"
+        }
+      },
+      "deviceOwner": "ruth",
+      "participants": [
+        "ruth",
+        "fiona"
+      ],
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Thu, 13 May at 8:26 PM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "fiona",
+          "text": "Hi Ruth, it's Fiona, Iain's daughter. He gave me your number. I hope that's ok."
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "fiona",
+          "text": "I wanted to say sorry about the text mix-up. He told me what happened. He's mortified, which is fair."
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "fiona",
+          "text": "He talks about you. A lot. He hasn't talked about anyone like that since Mum."
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "ruth",
+          "text": "Hi Fiona. Thank you for writing; that was kind of you."
+        },
+        {
+          "kind": "message",
+          "id": "m05",
+          "sender": "ruth",
+          "text": "How are you feeling? Twins sounds like a great deal."
+        },
+        {
+          "kind": "message",
+          "id": "m06",
+          "sender": "fiona",
+          "text": "Enormous and furious, thanks 😅 And very glad he's coming. But I'm sorry it costs you something."
+        },
+        {
+          "kind": "message",
+          "id": "m07",
+          "sender": "ruth",
+          "text": "It costs us both something. He's doing the right thing."
+        },
+        {
+          "kind": "message",
+          "id": "m08",
+          "sender": "fiona",
+          "text": "So are you, I think. x"
+        }
+      ],
+      "meta": {
+        "beat": "Fiona's message."
+      }
+    },
+    {
+      "id": "s05",
+      "type": "conversation-list",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "9:13"
+        }
+      },
+      "deviceOwner": "ruth",
+      "title": "Messages",
+      "conversations": [
+        {
+          "id": "c1",
+          "participants": [
+            "iain"
+          ],
+          "name": "Iain (3B)",
+          "preview": "Truck's packed. Coming up to say it properly. No slamming.",
+          "time": "9:12 AM",
+          "unread": true,
+          "unreadCount": 1
+        },
+        {
+          "id": "c2",
+          "participants": [
+            "sam"
+          ],
+          "name": "Sam 💙",
+          "preview": "proud of u mum. call me after 💙",
+          "time": "8:40 AM"
+        },
+        {
+          "id": "c3",
+          "participants": [
+            "fiona"
+          ],
+          "name": "Fiona Mackie",
+          "preview": "He says he's on the road by 11. Thank you for the six weeks x",
+          "time": "Yesterday"
+        },
+        {
+          "id": "c4",
+          "participants": [
+            "kerry"
+          ],
+          "name": "Kerry – Harbourview BC",
+          "preview": "Lift repaired. Thanks for your patience. Kerry",
+          "time": "Thursday"
+        }
+      ],
+      "meta": {
+        "beat": "Moving day, Saturday 29 May."
+      }
+    },
+    {
+      "id": "s06",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "7:55"
+        }
+      },
+      "deviceOwner": "ruth",
+      "participants": [
+        "ruth",
+        "iain"
+      ],
+      "title": "Iain (3B)",
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Sat, 29 May at 9:40 PM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "iain",
+          "text": "On the ferry. Cook Strait's in a mood. The truck's tied down better than I am."
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "ruth",
+          "text": "Text me when you're in Dunedin."
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "iain",
+          "text": "Aye. Every day, remember."
+        },
+        {
+          "kind": "timestamp",
+          "id": "t02",
+          "label": "Sun, 30 May at 7:52 AM"
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "ruth",
+          "attachment": {
+            "type": "image",
+            "label": "Photo",
+            "detail": "Chopin — Nocturne in E-flat, Op. 9 No. 2, open on the piano"
+          }
+        },
+        {
+          "kind": "message",
+          "id": "m05",
+          "sender": "ruth",
+          "text": "Played it before 8. Nobody complained."
+        },
+        {
+          "kind": "message",
+          "id": "m06",
+          "sender": "iain",
+          "text": "Dunedin has pianos. Just saying."
+        },
+        {
+          "kind": "message",
+          "id": "m07",
+          "sender": "ruth",
+          "text": "…Saying what, exactly?",
+          "receipt": {
+            "status": "read",
+            "at": "7:55 AM"
+          }
+        },
+        {
+          "kind": "typing",
+          "id": "typing",
+          "sender": "iain"
+        }
+      ],
+      "meta": {
+        "beat": "Final: open ending."
+      }
+    }
+  ]
+}

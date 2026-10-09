@@ -1,0 +1,578 @@
+{
+  "schemaVersion": 1,
+  "storyId": "0004",
+  "partNumber": 4,
+  "title": "Hana 🌵",
+  "summary": "At dawn Hana sends the true version, no excuses: she was 25, terrified for herself, and made Ben the reason. Marisol refuses to forward anything without Ben's consent and asks him first. Ben agrees to one message, and Hana's apology comes out to him in her own words. Their mother's surgery goes well. Ben asks to see Hana alone at the shop; afterwards she has 'maybe' for Christmas, and Marisol has a real date. The contact gets renamed.",
+  "status": "final",
+  "cliffhanger": null,
+  "createdAt": "2026-10-09T20:00:00Z",
+  "updatedAt": "2026-10-09T20:00:00Z",
+  "screenshots": [
+    {
+      "id": "s01",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "6:03"
+        }
+      },
+      "deviceOwner": "marisol",
+      "participants": [
+        "marisol",
+        "hana"
+      ],
+      "title": "Not Ben ❓",
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Mon, Nov 16 at 5:52 AM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "hana",
+          "text": "I'm sorry I left. I sat in the car for an hour, then I drove out to Gates Pass and back."
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "hana",
+          "text": "Here's the true version. Ben came out at dinner in March 2020. Dad said he didn't have a son. Mom cleared the plates like it was any other night."
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "hana",
+          "text": "I walked Ben to his car. He was shaking. And I said, 'Maybe you could just not make it everyone's business.'"
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "hana",
+          "text": "I said it because I was 25 and I'd known about myself since I was 14, and I had just watched exactly what would happen to me."
+        },
+        {
+          "kind": "message",
+          "id": "m05",
+          "sender": "hana",
+          "text": "I made him the reason I was scared. I've never said that to anyone."
+        },
+        {
+          "kind": "message",
+          "id": "m06",
+          "sender": "hana",
+          "text": "I told you we drifted because 'drifted' doesn't have a person in it."
+        },
+        {
+          "kind": "message",
+          "id": "m07",
+          "sender": "hana",
+          "text": "I'm not asking you to forgive me for it."
+        },
+        {
+          "kind": "message",
+          "id": "m08",
+          "sender": "marisol",
+          "text": "i'm not the one who gets to forgive you"
+        },
+        {
+          "kind": "message",
+          "id": "m09",
+          "sender": "marisol",
+          "text": "but thank you for the true version"
+        },
+        {
+          "kind": "message",
+          "id": "m10",
+          "sender": "hana",
+          "text": "Will you still talk to me?"
+        },
+        {
+          "kind": "message",
+          "id": "m11",
+          "sender": "marisol",
+          "text": "i'm awake at 5:52 on my day off. what do you think"
+        }
+      ],
+      "meta": {
+        "beat": "The true version."
+      }
+    },
+    {
+      "id": "s02",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "2:26"
+        }
+      },
+      "deviceOwner": "marisol",
+      "participants": [
+        "marisol",
+        "hana"
+      ],
+      "title": "Not Ben ❓",
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Mon, Nov 16 at 2:20 PM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "hana",
+          "text": "I wrote something for Ben. Could you send it to him? He won't answer my number."
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "marisol",
+          "text": "i can't just forward it. he asked me not to text unless he did first"
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "marisol",
+          "text": "i'm not going to be another thing he didn't get a say in"
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "hana",
+          "text": "You're right. I'm sorry."
+        },
+        {
+          "kind": "message",
+          "id": "m05",
+          "sender": "marisol",
+          "text": "i'll ask him if he wants it. one text. if he says no, that's the answer"
+        },
+        {
+          "kind": "message",
+          "id": "m06",
+          "sender": "hana",
+          "text": "Okay. Thank you for asking him instead of deciding for him."
+        }
+      ],
+      "meta": {
+        "beat": "Consent first."
+      }
+    },
+    {
+      "id": "s03",
+      "type": "conversation",
+      "theme": "dark",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "9:58"
+        }
+      },
+      "deviceOwner": "marisol",
+      "participants": [
+        "marisol",
+        "ben"
+      ],
+      "title": "Ben (the real one)",
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Mon, Nov 16 at 2:31 PM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "marisol",
+          "text": "i know you said don't text first. i'm sorry. one question and then i'll leave you alone"
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "marisol",
+          "text": "hana wrote you something. do you want it? if you say no i won't send it and i won't ask again"
+        },
+        {
+          "kind": "timestamp",
+          "id": "t02",
+          "label": "Mon, Nov 16 at 9:48 PM"
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "ben",
+          "text": "is your bike shifting ok."
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "marisol",
+          "text": "perfect. it doesn't click anymore"
+        },
+        {
+          "kind": "message",
+          "id": "m05",
+          "sender": "ben",
+          "text": "good."
+        },
+        {
+          "kind": "message",
+          "id": "m06",
+          "sender": "ben",
+          "text": "one message. then we see."
+        },
+        {
+          "kind": "message",
+          "id": "m07",
+          "sender": "marisol",
+          "text": "from hana, word for word:"
+        },
+        {
+          "kind": "message",
+          "id": "m08",
+          "sender": "marisol",
+          "text": "\"Ben. What I said by your car was the cruellest thing anyone said that night, because I was the one person at that table who should have understood. You didn't know why. I'm gay. I've known since I was 14.\""
+        },
+        {
+          "kind": "message",
+          "id": "m09",
+          "sender": "marisol",
+          "text": "\"I watched what happened to you and I was terrified, and I made you the reason. I'm sorry. Mom's surgery is Wednesday at 7. You don't owe anyone anything. I'd like to know you again, on whatever terms are yours. — Hana\"",
+          "receipt": {
+            "status": "read",
+            "at": "9:53 PM"
+          }
+        }
+      ],
+      "meta": {
+        "beat": "One message."
+      }
+    },
+    {
+      "id": "s04",
+      "type": "notification-center",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "deviceOwner": "marisol",
+      "lockScreen": {
+        "time": "12:40",
+        "date": "Wednesday 18 November"
+      },
+      "notifications": [
+        {
+          "id": "n1",
+          "app": "messages",
+          "sender": "ben",
+          "body": "how's mom.",
+          "time": "9m ago"
+        },
+        {
+          "id": "n2",
+          "app": "messages",
+          "sender": "hana",
+          "body": "The surgeon came out. It went well. She's in recovery.",
+          "time": "42m ago"
+        },
+        {
+          "id": "n3",
+          "app": "messages",
+          "sender": "lucia",
+          "body": "how's her mom?? i lit a candle at work (battery kind, health code)",
+          "time": "4h ago"
+        },
+        {
+          "id": "n4",
+          "app": "messages",
+          "sender": "hana",
+          "body": "They took her in. Four to five hours, they said.",
+          "time": "5h ago"
+        }
+      ],
+      "meta": {
+        "beat": "Surgery day."
+      }
+    },
+    {
+      "id": "s05",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "6:09"
+        }
+      },
+      "deviceOwner": "marisol",
+      "participants": [
+        "marisol",
+        "ben"
+      ],
+      "title": "Ben (the real one)",
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Wed, Nov 18 at 12:41 PM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "marisol",
+          "text": "it went well. she's in recovery. hana's with her"
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "ben",
+          "text": "ok."
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "ben",
+          "text": "ok. good."
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "ben",
+          "text": "i read it like forty times."
+        },
+        {
+          "kind": "message",
+          "id": "m05",
+          "sender": "ben",
+          "text": "i didn't know. about her."
+        },
+        {
+          "kind": "message",
+          "id": "m06",
+          "sender": "marisol",
+          "text": "that was hers to tell"
+        },
+        {
+          "kind": "message",
+          "id": "m07",
+          "sender": "ben",
+          "text": "yeah. and you didn't. not at the shop, not after."
+        },
+        {
+          "kind": "message",
+          "id": "m08",
+          "sender": "ben",
+          "text": "thanks for that."
+        },
+        {
+          "kind": "timestamp",
+          "id": "t02",
+          "label": "Wed, Nov 18 at 6:05 PM"
+        },
+        {
+          "kind": "message",
+          "id": "m09",
+          "sender": "ben",
+          "text": "tell her saturday, 10, the shop. just her. not mom and dad. not yet."
+        },
+        {
+          "kind": "message",
+          "id": "m10",
+          "sender": "ben",
+          "text": "and tell her biscuit doesn't like hugs. she'll know that one's for her too."
+        },
+        {
+          "kind": "message",
+          "id": "m11",
+          "sender": "marisol",
+          "text": "i'll tell her",
+          "reactions": [
+            {
+              "by": "ben",
+              "type": "thumbs-up"
+            }
+          ]
+        }
+      ],
+      "meta": {
+        "beat": "'Just her.'"
+      }
+    },
+    {
+      "id": "s06",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "12:41"
+        }
+      },
+      "deviceOwner": "marisol",
+      "participants": [
+        "marisol",
+        "hana"
+      ],
+      "title": "Hana 🌵",
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Sat, Nov 21 at 12:34 PM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "hana",
+          "text": "Two hours. We talked for two hours."
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "hana",
+          "text": "He's still angry. He said so. He also said 'Christmas, maybe, if Dad isn't there.'"
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "hana",
+          "text": "Maybe is more than I've had in six years."
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "marisol",
+          "text": "hana 🥹"
+        },
+        {
+          "kind": "message",
+          "id": "m05",
+          "sender": "marisol",
+          "text": "how are you"
+        },
+        {
+          "kind": "message",
+          "id": "m06",
+          "sender": "hana",
+          "text": "Shaky. Lighter. Hungry."
+        },
+        {
+          "kind": "message",
+          "id": "m07",
+          "sender": "marisol",
+          "text": "so tonight is still on"
+        },
+        {
+          "kind": "message",
+          "id": "m08",
+          "sender": "hana",
+          "text": "Yes. And I want it to be a real date. Not 'the wrong number buys you tacos.' A date."
+        },
+        {
+          "kind": "message",
+          "id": "m09",
+          "sender": "marisol",
+          "text": "it was always a date to me lol"
+        },
+        {
+          "kind": "message",
+          "id": "m10",
+          "sender": "hana",
+          "text": "I fly back tomorrow. I don't know what this is long-distance."
+        },
+        {
+          "kind": "message",
+          "id": "m11",
+          "sender": "marisol",
+          "text": "let's see?"
+        },
+        {
+          "kind": "message",
+          "id": "m12",
+          "sender": "hana",
+          "text": "Let's see.",
+          "reactions": [
+            {
+              "by": "marisol",
+              "type": "heart"
+            }
+          ]
+        }
+      ],
+      "meta": {
+        "beat": "A real date."
+      }
+    },
+    {
+      "id": "s07",
+      "type": "conversation-list",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "1:02"
+        }
+      },
+      "deviceOwner": "marisol",
+      "title": "Messages",
+      "conversations": [
+        {
+          "id": "c1",
+          "participants": [
+            "hana"
+          ],
+          "name": "Hana 🌵",
+          "preview": "Let's see.",
+          "time": "12:40 PM",
+          "pinned": true
+        },
+        {
+          "id": "c2",
+          "participants": [
+            "lucia"
+          ],
+          "name": "Lucía 🫠",
+          "preview": "WHAT ARE YOU WEARING. send pics",
+          "time": "12:58 PM",
+          "unread": true,
+          "unreadCount": 3
+        },
+        {
+          "id": "c3",
+          "participants": [
+            "mama"
+          ],
+          "name": "Mamá",
+          "preview": "Te guardé pozole por si la traes 🫶",
+          "time": "11:15 AM"
+        },
+        {
+          "id": "c4",
+          "participants": [
+            "ben"
+          ],
+          "name": "Ben (the real one)",
+          "preview": "and tell her biscuit doesn't like hugs. she'll know that one's for her too.",
+          "time": "Wednesday"
+        },
+        {
+          "id": "c5",
+          "participants": [
+            "gabe"
+          ],
+          "name": "+1 (520) 555-0176",
+          "preview": "well now i know where his shop is lol. take care!",
+          "time": "11/12/26"
+        }
+      ],
+      "meta": {
+        "beat": "Final: renamed and pinned."
+      }
+    }
+  ]
+}

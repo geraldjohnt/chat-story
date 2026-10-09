@@ -1,0 +1,281 @@
+{
+  "schemaVersion": 1,
+  "id": "0005",
+  "title": "Split the Rental",
+  "slug": "split-the-rental",
+  "genre": "forced-proximity-romance",
+  "tags": [
+    "strangers-to-lovers",
+    "road-trip",
+    "workplace",
+    "conflict-of-interest",
+    "ethics",
+    "romance"
+  ],
+  "language": "en",
+  "setting": "Denver International Airport → Omaha, Nebraska; 19 December 2026 – 12 January 2027.",
+  "premise": "Two strangers stranded by a blizzard split the last rental car for an eight-hour drive. Weeks later, he finds out she's the consultant hired to restructure his department, and that she knew for six days before telling him.",
+  "synopsis": "When every flight to Omaha is cancelled, Femi gets the last SUV and the woman behind him in line offers to split it. Eight hours of snow, one gas station cat and two weeks of late-night calls later, a company-wide email names Claire as the consultant reviewing his department. His friend's job is on the line, Claire knew first, and somebody is going to have to pay for doing the right thing.",
+  "characters": [
+    {
+      "id": "femi",
+      "name": "Femi Adebayo",
+      "contactName": "Femi",
+      "role": "Device owner, operations manager at Halvorsen Freight",
+      "age": 36,
+      "description": "Steady, principled, protective of his team; a little lonely since a long relationship ended. Proper capitalisation, dry humour, 👍 only to his sister.",
+      "avatar": {
+        "initials": "FA",
+        "color": "#283593"
+      }
+    },
+    {
+      "id": "claire",
+      "name": "Claire Novak",
+      "contactName": "Claire (Split Rental)",
+      "role": "Senior consultant, Lindqvist Partners (Chicago)",
+      "age": 34,
+      "description": "Ambitious, funny, honest by instinct; partner-track year. Rapid, self-deprecating, lots of (parentheses), 'ok but', rare emoji.",
+      "avatar": {
+        "initials": "CN",
+        "color": "#2E7D32"
+      }
+    },
+    {
+      "id": "tolu",
+      "name": "Tolu Adebayo",
+      "contactName": "Tolu 🦋",
+      "role": "Femi's sister (Minneapolis)",
+      "age": 31,
+      "description": "Comic relief with real wisdom. All lowercase, 😭💀, 'brother.'",
+      "avatar": {
+        "initials": "TA",
+        "color": "#C2185B"
+      }
+    },
+    {
+      "id": "dev",
+      "name": "Dev Raman",
+      "contactName": "Dev",
+      "role": "Femi's direct report and friend",
+      "age": 40,
+      "description": "Anxious and decent; two kids, new mortgage, wife Meera. 'hey man', long worried messages, then 'anyway'.",
+      "avatar": {
+        "initials": "DR",
+        "color": "#F57C00"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "femi",
+      "to": "claire",
+      "type": "strangers → romance",
+      "description": "Meet in a rental-car line on 19 Dec; the drive becomes three weeks of calls."
+    },
+    {
+      "from": "femi",
+      "to": "tolu",
+      "type": "siblings",
+      "description": "Close; she teases, he 👍s."
+    },
+    {
+      "from": "femi",
+      "to": "dev",
+      "type": "manager / friend",
+      "description": "Femi hired Dev six years ago."
+    },
+    {
+      "from": "claire",
+      "to": "femi",
+      "type": "consultant / employee in scope",
+      "description": "From 29 Dec Claire knows Femi's team is in her review's scope."
+    }
+  ],
+  "centralConflict": "New feelings against professional integrity on both sides: Claire must choose between disclosure (losing the engagement and probably her promotion) and silence (an ethics breach that could taint the review). Femi must protect his team without looking as if he traded on the relationship.",
+  "secrets": [
+    {
+      "id": "six-days",
+      "holder": "claire",
+      "description": "Claire saw the Halvorsen org chart with Femi's name on 29 Dec and did not tell him until the review was announced on 4 Jan.",
+      "revealedInPart": 2
+    },
+    {
+      "id": "boring-client",
+      "holder": "claire",
+      "description": "Claire's 'boring client' in Omaha is Halvorsen Freight.",
+      "revealedInPart": 1
+    },
+    {
+      "id": "disclosure",
+      "holder": "claire",
+      "description": "Claire had not disclosed the relationship to her firm by 6 Jan; she does on 7 Jan.",
+      "revealedInPart": 2
+    },
+    {
+      "id": "femi-and-claire",
+      "holder": "femi",
+      "description": "Femi hadn't told Dev he knows the consultant.",
+      "revealedInPart": 3
+    }
+  ],
+  "plotOutline": [
+    {
+      "partNumber": 1,
+      "title": "Last SUV",
+      "beats": [
+        "Flight cancelled",
+        "The last SUV; the woman in the green coat",
+        "Snacks and bay 4",
+        "Home safe; the stolen ice scraper",
+        "Claire's 29 Dec tone shift",
+        "New Year's",
+        "All-staff email names Claire"
+      ]
+    },
+    {
+      "partNumber": 2,
+      "title": "In Scope",
+      "beats": [
+        "'Six days, Claire.'",
+        "Dev asks if Femi has heard anything",
+        "Claire refuses to answer and names the rule",
+        "Tolu: she's right",
+        "Claire: 'tell me which one you can live with'"
+      ]
+    },
+    {
+      "partNumber": 3,
+      "title": "Disclosure",
+      "beats": [
+        "Disclosure email; Claire removed",
+        "Dev: 'is it you'",
+        "Femi tells Dev the truth",
+        "Femi writes to his VP on the record",
+        "Outcome: Dev's role restructured, not cut",
+        "The ice scraper"
+      ]
+    }
+  ],
+  "plannedEnding": "Romance with a cost. Claire discloses and is removed from the engagement; her partner review moves to next cycle. The review continues under Daniel Price. Femi argues for Dev on the record without contacting Lindqvist; Dev's role becomes a new Dispatch & Planning Lead position. Dev apologises for suspecting him. Claire returns to Omaha on 16 Jan, not for work.",
+  "continuity": [
+    "Skyway Air SK 2214 DEN→OMA cancelled Sat 19 Dec 2026. Rental: white Ford Explorer, Front Range Car Rental, bay 4; Claire paid the extra-driver fee.",
+    "Drive 8 h 40 min via I-76/I-80; Claire drove the Colorado leg; stop at a North Platte gas station with a cat on the register. Claire took Femi's ice scraper (he wrote CLAIRE on it).",
+    "Claire's dad lives in Omaha (met her with a shovel, in his robe; burned the Christmas cinnamon rolls). Claire is based in Chicago.",
+    "Claire saw the org chart on 29 Dec. Review announced 4 Jan 7:58 am; Operations and Dispatch in scope for phase one.",
+    "Claire's partner: Margaret Holt. Replacement lead: Daniel Price. Femi's VP: Karen Lund. Finance gossip: Marcy.",
+    "Claire disclosed 7 Jan 6:31 am; removed the same day; partner review moved to next cycle.",
+    "Phase one outcome 12 Jan: Dispatch consolidated under Operations; Dev becomes Dispatch & Planning Lead.",
+    "Claire returns to Omaha Sat 16 Jan, not for work."
+  ],
+  "timeline": [
+    {
+      "id": "tl-01",
+      "when": "2026-12-19",
+      "event": "Flight cancelled; Femi and Claire split the rental and drive to Omaha.",
+      "partNumber": 1
+    },
+    {
+      "id": "tl-02",
+      "when": "2026-12-25",
+      "event": "Christmas photos.",
+      "partNumber": 1
+    },
+    {
+      "id": "tl-03",
+      "when": "2026-12-29",
+      "event": "Claire sees the org chart; asks to talk after the 4th.",
+      "partNumber": 1
+    },
+    {
+      "id": "tl-04",
+      "when": "2026-12-31",
+      "event": "New Year's call.",
+      "partNumber": 1
+    },
+    {
+      "id": "tl-05",
+      "when": "2027-01-04 07:58",
+      "event": "All-staff email announces the review led by Claire.",
+      "partNumber": 1
+    },
+    {
+      "id": "tl-06",
+      "when": "2027-01-06",
+      "event": "Claire asks Femi to choose; he refuses.",
+      "partNumber": 2
+    },
+    {
+      "id": "tl-07",
+      "when": "2027-01-07",
+      "event": "Claire discloses and is removed.",
+      "partNumber": 3
+    },
+    {
+      "id": "tl-08",
+      "when": "2027-01-08",
+      "event": "Femi tells Dev the truth.",
+      "partNumber": 3
+    },
+    {
+      "id": "tl-09",
+      "when": "2027-01-09",
+      "event": "Femi writes to Karen Lund on the record.",
+      "partNumber": 3
+    },
+    {
+      "id": "tl-10",
+      "when": "2027-01-12",
+      "event": "Phase one outcome; Claire plans to return on the 16th.",
+      "partNumber": 3
+    }
+  ],
+  "unresolvedThreads": [
+    {
+      "id": "client",
+      "description": "Who is Claire's 'boring client'?",
+      "introducedInPart": 1,
+      "resolvedInPart": 1
+    },
+    {
+      "id": "six-days",
+      "description": "When did Claire know, and why didn't she say?",
+      "introducedInPart": 1,
+      "resolvedInPart": 2
+    },
+    {
+      "id": "disclose",
+      "description": "Will Claire disclose the relationship?",
+      "introducedInPart": 2,
+      "resolvedInPart": 3
+    },
+    {
+      "id": "dev-job",
+      "description": "Will Dev's job survive the review?",
+      "introducedInPart": 2,
+      "resolvedInPart": 3
+    }
+  ],
+  "partSummaries": [
+    {
+      "partNumber": 1,
+      "title": "Last SUV",
+      "summary": "A blizzard cancels Femi's flight home to Omaha. He gets the last SUV in Denver, and Claire, the woman behind him in the line, offers to split it. They survive eight hours of snow, a gas station cat and her terrible snacks, then keep texting through Christmas and New Year. On 29 Dec Claire asks to talk 'after the 4th'. On the 4th, a company email names her as the consultant reviewing Femi's department."
+    },
+    {
+      "partNumber": 2,
+      "title": "In Scope",
+      "summary": "Claire admits she saw Femi's name on the org chart on 29 Dec and spent six days deciding how to tell him. Dev, scared for his job, asks Femi what he knows; Femi knows nothing and sounds evasive anyway. When Femi asks Claire whether Dev is on a list, she refuses and warns she'd have to report a second ask. Then she lays out her choice: disclose and lose the project, or stay silent and lose him. She asks Femi to choose."
+    },
+    {
+      "partNumber": 3,
+      "title": "Disclosure",
+      "summary": "Claire discloses before her morning coffee, including the six days, and is taken off the project the same day; her partner review slips a year. Office gossip tells Dev the old consultant had a conflict 'with someone in ops', and Femi tells him the truth. Femi argues for Dev's role on the record, through the proper channel. Dev's job is restructured, not cut. Claire is coming back to Omaha, not for work."
+    }
+  ],
+  "plannedPartCount": 3,
+  "completedPartCount": 3,
+  "status": "completed",
+  "createdAt": "2026-10-09T20:00:00Z",
+  "updatedAt": "2026-10-09T20:00:00Z"
+}

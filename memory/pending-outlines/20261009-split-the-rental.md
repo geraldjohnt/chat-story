@@ -1,6 +1,6 @@
 # Split the Rental
 
-Status: pending
+Status: approved → story 0005
 Proposed: 2026-10-09
 Genre: Forced-proximity romance / workplace conflict of interest → romance with a cost
 Setting: Denver International Airport → Omaha, Nebraska; 19 December 2026 – 12 January 2027
@@ -101,3 +101,6 @@ Compared with 0001, 0002, 0003, and this batch's "Is This Still Ben?" and "Befor
   conflict is driven by choices, not documents.
 - It's the first male device owner.
 - The ending (romance gained at a professional price) isn't used in the index.
+
+## Generation notes (2026-10-09)
+Femi's VP is Karen Lund; finance gossip is Marcy; Dev's wife is Meera. Femi wrote CLAIRE on the ice scraper at North Platte; Claire took it. No Skyway/Halvorsen character IDs: automated senders appear only as notification titles.

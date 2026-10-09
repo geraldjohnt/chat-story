@@ -105,7 +105,111 @@
       "synopsis": "A cheerful refund email from the wedding venue makes no sense to Mia: she never cancelled anything. Josh calls it a glitch. The venue coordinator, the best man's slip, the kitchen iPad and Josh's sister each add a piece, until the only question left isn't what Josh did — it's what Mia does next.",
       "createdAt": "2026-10-09T19:00:00Z",
       "updatedAt": "2026-10-09T19:00:00Z"
+    },
+    {
+      "id": "0004",
+      "slug": "is-this-still-ben",
+      "title": "Is This Still Ben?",
+      "genres": [
+        "wrong-number-romance",
+        "family-estrangement",
+        "hopeful"
+      ],
+      "status": "completed",
+      "partCount": 4,
+      "storyPath": "0004-is-this-still-ben/story.json",
+      "parts": [
+        {
+          "partNumber": 1,
+          "path": "0004-is-this-still-ben/part-1.json",
+          "title": "Wrong Number"
+        },
+        {
+          "partNumber": 2,
+          "path": "0004-is-this-still-ben/part-2.json",
+          "title": "Saguaro Spoke"
+        },
+        {
+          "partNumber": 3,
+          "path": "0004-is-this-still-ben/part-3.json",
+          "title": "Repair Ticket"
+        },
+        {
+          "partNumber": 4,
+          "path": "0004-is-this-still-ben/part-4.json",
+          "title": "Hana 🌵"
+        }
+      ],
+      "synopsis": "At 11:48 pm a stranger texts Marisol's phone: \"Is this still Ben?\" Hana is back in Tucson for her mother's heart surgery and trying to reach the brother she says she drifted away from. Late-night texts become coffee, and coffee becomes something more. Then a lead to Ben's bike shop puts Marisol face to face with the other side of the story, and with a secret that isn't hers to tell.",
+      "createdAt": "2026-10-09T20:00:00Z",
+      "updatedAt": "2026-10-09T20:00:00Z"
+    },
+    {
+      "id": "0005",
+      "slug": "split-the-rental",
+      "title": "Split the Rental",
+      "genres": [
+        "forced-proximity-romance",
+        "workplace",
+        "romance"
+      ],
+      "status": "completed",
+      "partCount": 3,
+      "storyPath": "0005-split-the-rental/story.json",
+      "parts": [
+        {
+          "partNumber": 1,
+          "path": "0005-split-the-rental/part-1.json",
+          "title": "Last SUV"
+        },
+        {
+          "partNumber": 2,
+          "path": "0005-split-the-rental/part-2.json",
+          "title": "In Scope"
+        },
+        {
+          "partNumber": 3,
+          "path": "0005-split-the-rental/part-3.json",
+          "title": "Disclosure"
+        }
+      ],
+      "synopsis": "When every flight to Omaha is cancelled, Femi gets the last SUV and the woman behind him in line offers to split it. Eight hours of snow, one gas station cat and two weeks of late-night calls later, a company-wide email names Claire as the consultant reviewing his department. His friend's job is on the line, Claire knew first, and somebody is going to have to pay for doing the right thing.",
+      "createdAt": "2026-10-09T20:00:00Z",
+      "updatedAt": "2026-10-09T20:00:00Z"
+    },
+    {
+      "id": "0006",
+      "slug": "before-8-am",
+      "title": "Before 8 A.M.",
+      "genres": [
+        "neighbours-romance",
+        "later-life-romance",
+        "open-ending"
+      ],
+      "status": "completed",
+      "partCount": 3,
+      "storyPath": "0006-before-8-am/story.json",
+      "parts": [
+        {
+          "partNumber": 1,
+          "path": "0006-before-8-am/part-1.json",
+          "title": "Noise Complaint"
+        },
+        {
+          "partNumber": 2,
+          "path": "0006-before-8-am/part-2.json",
+          "title": "3B"
+        },
+        {
+          "partNumber": 3,
+          "path": "0006-before-8-am/part-3.json",
+          "title": "Thirtieth of May"
+        }
+      ],
+      "synopsis": "A noise complaint about Ruth's early-morning piano lessons sends her straight to the building directory and the new man in 3B. Iain swears he didn't complain. A truce, a note about Chopin and a walk along Oriental Bay later, Ruth learns two things he didn't tell her, and has to decide what six weeks are worth.",
+      "createdAt": "2026-10-09T20:00:00Z",
+      "updatedAt": "2026-10-09T20:00:00Z"
     }
   ],
-  "updatedAt": "2026-10-09T19:00:00Z"
+  "updatedAt": "2026-10-09T20:00:00Z"
 }

@@ -1,0 +1,315 @@
+{
+  "schemaVersion": 1,
+  "id": "0004",
+  "title": "Is This Still Ben?",
+  "slug": "is-this-still-ben",
+  "genre": "wrong-number-romance",
+  "tags": [
+    "wrong-number",
+    "strangers-to-lovers",
+    "sapphic",
+    "family-estrangement",
+    "coming-out",
+    "hopeful"
+  ],
+  "language": "en",
+  "setting": "Tucson, Arizona; 3–21 November 2026.",
+  "premise": "A pastry chef gets a text from a woman trying to reach her estranged brother at an old number. While helping her find him, she falls for her, and then she finds out why he changed his number.",
+  "synopsis": "At 11:48 pm a stranger texts Marisol's phone: \"Is this still Ben?\" Hana is back in Tucson for her mother's heart surgery and trying to reach the brother she says she drifted away from. Late-night texts become coffee, and coffee becomes something more. Then a lead to Ben's bike shop puts Marisol face to face with the other side of the story, and with a secret that isn't hers to tell.",
+  "characters": [
+    {
+      "id": "marisol",
+      "name": "Marisol Vega",
+      "contactName": "Marisol",
+      "role": "Device owner, pastry chef",
+      "age": 30,
+      "description": "Pastry chef at a downtown hotel, up at 4 am. Open, funny, loyal; came out at 17 to a family who were fine with it. Lowercase, quick bursts, 🙃 and 🌵, jokes when nervous.",
+      "avatar": {
+        "initials": "MV",
+        "color": "#E65100"
+      }
+    },
+    {
+      "id": "hana",
+      "name": "Hana Sato",
+      "contactName": "Not Ben ❓",
+      "role": "Wrong number; Ben's sister",
+      "age": 31,
+      "description": "Structural engineer in Seattle, in Tucson for three weeks. Careful and guilty; out at work, not to her family. Full sentences, correct punctuation, long messages then 'Sorry, that was a lot.'",
+      "avatar": {
+        "initials": "HS",
+        "color": "#00897B"
+      }
+    },
+    {
+      "id": "ben",
+      "name": "Ben Sato",
+      "contactName": "Ben (the real one)",
+      "role": "Hana's estranged brother",
+      "age": 36,
+      "description": "Owns Saguaro Spoke bike repair on 4th Avenue. Warm with strangers, shut off on this subject. Short, dry, lowercase, no emoji.",
+      "avatar": {
+        "initials": "BS",
+        "color": "#5D4037"
+      }
+    },
+    {
+      "id": "gabe",
+      "name": "Gabe Ortiz",
+      "role": "Ben's old college friend",
+      "age": 36,
+      "description": "Texts the old number once. All-caps excitement, 'BENNY'.",
+      "avatar": {
+        "initials": "GO",
+        "color": "#7CB342"
+      }
+    },
+    {
+      "id": "lucia",
+      "name": "Lucía Vega",
+      "contactName": "Lucía 🫠",
+      "role": "Marisol's sister",
+      "age": 27,
+      "description": "Nosy, supportive confidant. 'girl.', 🫠, voice-note energy.",
+      "avatar": {
+        "initials": "LV",
+        "color": "#D81B60"
+      }
+    },
+    {
+      "id": "mama",
+      "name": "Rosa Vega",
+      "contactName": "Mamá",
+      "role": "Marisol's mother",
+      "age": 58,
+      "description": "Appears only in the final conversation list.",
+      "avatar": {
+        "initials": "RV",
+        "color": "#8E24AA"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "marisol",
+      "to": "hana",
+      "type": "strangers → romance",
+      "description": "A wrong-number text becomes late-night conversations, coffee and a first date."
+    },
+    {
+      "from": "hana",
+      "to": "ben",
+      "type": "estranged siblings",
+      "description": "No contact since March 2020, when Ben came out and their parents cut him off."
+    },
+    {
+      "from": "marisol",
+      "to": "lucia",
+      "type": "sisters",
+      "description": "Close; Lucía hears everything."
+    },
+    {
+      "from": "marisol",
+      "to": "ben",
+      "type": "customer / reluctant go-between",
+      "description": "Meets him at his shop; earns his trust by keeping Hana's secret."
+    }
+  ],
+  "centralConflict": "Marisol is falling for someone whose version of the past is incomplete. She is caught between honesty with Hana, Ben's right not to be found, and Hana's right to come out on her own terms.",
+  "secrets": [
+    {
+      "id": "parking-lot",
+      "holder": "hana",
+      "description": "When Ben came out in March 2020, Hana (25) told him: 'Maybe you could just not make it everyone's business.' She tells people they 'drifted'.",
+      "revealedInPart": 3
+    },
+    {
+      "id": "not-out",
+      "holder": "hana",
+      "description": "Hana has known she is gay since she was 14 and has never told her family about anyone.",
+      "revealedInPart": 2
+    },
+    {
+      "id": "went-dark",
+      "holder": "ben",
+      "description": "Ben changed his number on purpose in 2020 and cut off old friends too, but stayed in Tucson.",
+      "revealedInPart": 2
+    },
+    {
+      "id": "repair-ticket",
+      "holder": "marisol",
+      "description": "Marisol went to Ben's shop for Hana; she wrote his old number on the repair ticket.",
+      "revealedInPart": 3
+    }
+  ],
+  "plotOutline": [
+    {
+      "partNumber": 1,
+      "title": "Wrong Number",
+      "beats": [
+        "11:48 pm wrong-number text",
+        "Hana's careful explanation: 'we drifted'",
+        "Lucía: 'is she cute'",
+        "Second night until 2:10 am",
+        "Coffee invitation"
+      ]
+    },
+    {
+      "partNumber": 2,
+      "title": "Saguaro Spoke",
+      "beats": [
+        "After the coffee",
+        "Hana: 'I've never told my parents about anyone'",
+        "Gabe's text to the old number",
+        "Hana asks Marisol to check on Ben",
+        "Tune-up booked"
+      ]
+    },
+    {
+      "partNumber": 3,
+      "title": "Repair Ticket",
+      "beats": [
+        "Live from the shop",
+        "The number on the ticket",
+        "Ben's side of the story",
+        "'You didn't drift'",
+        "Read, no reply"
+      ]
+    },
+    {
+      "partNumber": 4,
+      "title": "Hana 🌵",
+      "beats": [
+        "Hana's true version",
+        "Marisol asks Ben first",
+        "Hana comes out to Ben in her own words",
+        "Surgery day",
+        "Ben: 'saturday, 10, the shop. just her.'",
+        "A real date; contact renamed"
+      ]
+    }
+  ],
+  "plannedEnding": "Hopeful, not tidy. Hana owns what she said and comes out to Ben in her own apology, relayed word for word only after Ben agrees. Keiko's surgery goes well. Ben meets Hana alone, still angry, 'Christmas, maybe'. Marisol and Hana have a real date before Hana flies home; 'let's see'. Contact renamed 'Hana 🌵'.",
+  "continuity": [
+    "Marisol has had the number (Ben's old one) since spring 2024. Ben changed it in March 2020.",
+    "Ben came out at a family dinner in March 2020, aged 30; their father said he \"didn't have a son\"; Hana was 25.",
+    "Keiko Sato's bypass surgery: Wed 18 Nov 2026, 7 am; it went well.",
+    "Hana flies back to Seattle Sun 22 Nov. Profile photo: the Fremont Bridge (she worked on its seismic retrofit).",
+    "Marisol's bike: green Raleigh. Ben's shop: Saguaro Spoke on 4th Avenue; shop dog Biscuit ('doesn't like hugs').",
+    "Hana's ex: Joanne, three years, never met her parents. Marisol's family: Mamá made pozole when she came out.",
+    "Ben met Hana Sat 21 Nov, 10 am, at the shop, alone; parents not yet."
+  ],
+  "timeline": [
+    {
+      "id": "tl-01",
+      "when": "2020-03",
+      "event": "Ben comes out; parents cut him off; Hana's parking-lot remark; Ben changes his number."
+    },
+    {
+      "id": "tl-02",
+      "when": "2024 spring",
+      "event": "Marisol gets the recycled number."
+    },
+    {
+      "id": "tl-03",
+      "when": "2026-11-03 23:48",
+      "event": "Hana texts the old number.",
+      "partNumber": 1
+    },
+    {
+      "id": "tl-04",
+      "when": "2026-11-05 02:10",
+      "event": "Hana asks Marisol for coffee.",
+      "partNumber": 1
+    },
+    {
+      "id": "tl-05",
+      "when": "2026-11-07",
+      "event": "First coffee.",
+      "partNumber": 2
+    },
+    {
+      "id": "tl-06",
+      "when": "2026-11-12",
+      "event": "Gabe's text reveals Saguaro Spoke.",
+      "partNumber": 2
+    },
+    {
+      "id": "tl-07",
+      "when": "2026-11-14",
+      "event": "Marisol visits the shop; Ben texts her; Hana leaves without replying.",
+      "partNumber": 3
+    },
+    {
+      "id": "tl-08",
+      "when": "2026-11-16",
+      "event": "Hana's true version; Ben agrees to one message.",
+      "partNumber": 4
+    },
+    {
+      "id": "tl-09",
+      "when": "2026-11-18",
+      "event": "Keiko's surgery goes well.",
+      "partNumber": 4
+    },
+    {
+      "id": "tl-10",
+      "when": "2026-11-21",
+      "event": "Hana meets Ben; first real date.",
+      "partNumber": 4
+    }
+  ],
+  "unresolvedThreads": [
+    {
+      "id": "why-estranged",
+      "description": "Why did Hana and Ben stop talking?",
+      "introducedInPart": 1,
+      "resolvedInPart": 3
+    },
+    {
+      "id": "find-ben",
+      "description": "Where is Ben, and is he okay?",
+      "introducedInPart": 1,
+      "resolvedInPart": 3
+    },
+    {
+      "id": "romance",
+      "description": "Will Marisol and Hana become something?",
+      "introducedInPart": 1,
+      "resolvedInPart": 4
+    },
+    {
+      "id": "reconcile",
+      "description": "Will Ben see Hana before or after the surgery?",
+      "introducedInPart": 3,
+      "resolvedInPart": 4
+    }
+  ],
+  "partSummaries": [
+    {
+      "partNumber": 1,
+      "title": "Wrong Number",
+      "summary": "At 11:48 pm a stranger texts Marisol looking for Ben, the previous owner of her number. Hana is back in Tucson for her mother's heart surgery and says she and her brother 'drifted'. Marisol tells her sister everything; the next night she and Hana talk until 2:10 am, and Hana asks her out for coffee."
+    },
+    {
+      "partNumber": 2,
+      "title": "Saguaro Spoke",
+      "summary": "After their first coffee, Marisol is smitten and Hana confides that she has never told her parents about anyone she's loved. A text from Ben's old friend to Marisol's number reveals Ben never left Tucson: he owns a bike shop on 4th Avenue. Too frightened to go herself, Hana asks Marisol to check that he's okay without saying her name. Marisol books a tune-up."
+    },
+    {
+      "partNumber": 3,
+      "title": "Repair Ticket",
+      "summary": "Marisol reports live from the shop: Ben is kind, settled and has his sister's eyebrows. She has to write her number on the repair ticket, which is Ben's old number. That evening Ben texts: 'she sent you, didn't she.' He tells Marisol the part Hana left out: when he came out, Hana told him not to make it everyone's business. Marisol keeps Hana's secret, then confronts her. Hana reads it and drives away without a word."
+    },
+    {
+      "partNumber": 4,
+      "title": "Hana 🌵",
+      "summary": "At dawn Hana sends the true version, no excuses: she was 25, terrified for herself, and made Ben the reason. Marisol refuses to forward anything without Ben's consent and asks him first. Ben agrees to one message, and Hana's apology comes out to him in her own words. Their mother's surgery goes well. Ben asks to see Hana alone at the shop; afterwards she has 'maybe' for Christmas, and Marisol has a real date. The contact gets renamed."
+    }
+  ],
+  "plannedPartCount": 4,
+  "completedPartCount": 4,
+  "status": "completed",
+  "createdAt": "2026-10-09T20:00:00Z",
+  "updatedAt": "2026-10-09T20:00:00Z"
+}

@@ -1,0 +1,581 @@
+{
+  "schemaVersion": 1,
+  "storyId": "0005",
+  "partNumber": 1,
+  "title": "Last SUV",
+  "summary": "A blizzard cancels Femi's flight home to Omaha. He gets the last SUV in Denver, and Claire, the woman behind him in the line, offers to split it. They survive eight hours of snow, a gas station cat and her terrible snacks, then keep texting through Christmas and New Year. On 29 Dec Claire asks to talk 'after the 4th'. On the 4th, a company email names her as the consultant reviewing Femi's department.",
+  "status": "final",
+  "cliffhanger": "The all-staff email: 'operational efficiency review led by Claire Novak'.",
+  "createdAt": "2026-10-09T20:00:00Z",
+  "updatedAt": "2026-10-09T20:00:00Z",
+  "screenshots": [
+    {
+      "id": "s01",
+      "type": "notification",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "deviceOwner": "femi",
+      "lockScreen": {
+        "time": "2:16",
+        "date": "Saturday 19 December"
+      },
+      "notifications": [
+        {
+          "id": "n1",
+          "app": "other",
+          "appName": "Skyway Air",
+          "title": "Skyway Air",
+          "body": "Flight SK 2214 to Omaha (OMA) has been cancelled due to weather. Next available seat: Tue, Dec 22. Tap to rebook.",
+          "time": "now"
+        },
+        {
+          "id": "n2",
+          "app": "messages",
+          "sender": "tolu",
+          "body": "did u land?? mom made jollof for 12 people and it's 4 of us",
+          "time": "20m ago"
+        }
+      ],
+      "meta": {
+        "beat": "Hook: grounded."
+      }
+    },
+    {
+      "id": "s02",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "2:29"
+        }
+      },
+      "deviceOwner": "femi",
+      "participants": [
+        "femi",
+        "tolu"
+      ],
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Sat, Dec 19 at 2:24 PM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "femi",
+          "text": "Cancelled. Next seat is Tuesday."
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "tolu",
+          "text": "TUESDAY 😭"
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "femi",
+          "text": "I'm in the rental line. Every counter is sold out except one."
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "femi",
+          "text": "One SUV left. I got it."
+        },
+        {
+          "kind": "message",
+          "id": "m05",
+          "sender": "tolu",
+          "text": "W"
+        },
+        {
+          "kind": "message",
+          "id": "m06",
+          "sender": "femi",
+          "text": "The woman behind me asked if she could split it. She's going to Omaha too."
+        },
+        {
+          "kind": "message",
+          "id": "m07",
+          "sender": "tolu",
+          "text": "brother."
+        },
+        {
+          "kind": "message",
+          "id": "m08",
+          "sender": "tolu",
+          "text": "you're driving 8 hours through a blizzard with a stranger"
+        },
+        {
+          "kind": "message",
+          "id": "m09",
+          "sender": "femi",
+          "text": "She has a valid licence and a better plan than the airline."
+        },
+        {
+          "kind": "message",
+          "id": "m10",
+          "sender": "tolu",
+          "text": "send a pic in case she's a serial killer"
+        },
+        {
+          "kind": "message",
+          "id": "m11",
+          "sender": "femi",
+          "text": "I'm not photographing a stranger, Tolu."
+        },
+        {
+          "kind": "message",
+          "id": "m12",
+          "sender": "tolu",
+          "text": "then describe her for the police"
+        },
+        {
+          "kind": "message",
+          "id": "m13",
+          "sender": "femi",
+          "text": "Green coat. Chicago accent. Has apologised to me twice for things that weren't her fault."
+        },
+        {
+          "kind": "message",
+          "id": "m14",
+          "sender": "tolu",
+          "text": "ok so she's either canadian or a consultant"
+        }
+      ],
+      "meta": {
+        "beat": "The deal."
+      }
+    },
+    {
+      "id": "s03",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "2:47"
+        }
+      },
+      "deviceOwner": "femi",
+      "participants": [
+        "femi",
+        "claire"
+      ],
+      "title": "+1 (312) 555-0127",
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Sat, Dec 19 at 2:41 PM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "claire",
+          "text": "Hi, it's Claire (green coat) (the one who begged for half your car)"
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "claire",
+          "text": "Texting so you have my number for the paperwork"
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "femi",
+          "text": "Got it. I've added you as a second driver. It's $14 a day, I'll split that too."
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "claire",
+          "text": "Absolutely not, I'm paying the driver fee, you got to the counter first"
+        },
+        {
+          "kind": "message",
+          "id": "m05",
+          "sender": "femi",
+          "text": "We can fight about it in Nebraska."
+        },
+        {
+          "kind": "message",
+          "id": "m06",
+          "sender": "claire",
+          "text": "Deal. I'm in line for the shuttle. I bought snacks (they're bad snacks)"
+        },
+        {
+          "kind": "message",
+          "id": "m07",
+          "sender": "femi",
+          "text": "Bay 4. White Explorer. What snacks?"
+        },
+        {
+          "kind": "message",
+          "id": "m08",
+          "sender": "claire",
+          "text": "Gas station sushi, two bananas, and something called a 'Ranch Explosion'"
+        },
+        {
+          "kind": "message",
+          "id": "m09",
+          "sender": "femi",
+          "text": "We are not opening the sushi in the car."
+        },
+        {
+          "kind": "message",
+          "id": "m10",
+          "sender": "claire",
+          "text": "Rude. Correct, but rude."
+        }
+      ],
+      "meta": {
+        "beat": "Bay 4."
+      }
+    },
+    {
+      "id": "s04",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "5:58"
+        }
+      },
+      "deviceOwner": "femi",
+      "participants": [
+        "femi",
+        "tolu"
+      ],
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Sat, Dec 19 at 5:52 PM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "femi",
+          "text": "She's driving the Colorado leg. Texting from the passenger seat so you know I'm alive."
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "tolu",
+          "text": "pic or kidnapped"
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "femi",
+          "attachment": {
+            "type": "image",
+            "label": "Photo",
+            "detail": "I-76 · snow, wipers, dashboard"
+          }
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "tolu",
+          "text": "why is there sushi on the dashboard 💀"
+        },
+        {
+          "kind": "message",
+          "id": "m05",
+          "sender": "femi",
+          "text": "It's unopened. She says it's a talisman."
+        },
+        {
+          "kind": "message",
+          "id": "m06",
+          "sender": "tolu",
+          "text": "i like her"
+        },
+        {
+          "kind": "message",
+          "id": "m07",
+          "sender": "femi",
+          "text": "She's singing along to a song she doesn't know the words to."
+        },
+        {
+          "kind": "message",
+          "id": "m08",
+          "sender": "tolu",
+          "text": "i LOVE her"
+        }
+      ],
+      "meta": {
+        "beat": "On the road."
+      }
+    },
+    {
+      "id": "s05",
+      "type": "conversation",
+      "theme": "dark",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "1:20"
+        }
+      },
+      "deviceOwner": "femi",
+      "participants": [
+        "femi",
+        "claire"
+      ],
+      "title": "Claire (Split Rental)",
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Sun, Dec 20 at 1:12 AM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "claire",
+          "text": "Home safe? (My dad met me in the driveway in his robe holding a snow shovel like a weapon)"
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "femi",
+          "text": "Home safe. 8 hours 40 minutes. A personal record for worst drive."
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "claire",
+          "text": "And best gas station in North Platte"
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "femi",
+          "text": "That gas station had one working light and a cat on the register."
+        },
+        {
+          "kind": "message",
+          "id": "m05",
+          "sender": "claire",
+          "text": "Exactly. Five stars."
+        },
+        {
+          "kind": "message",
+          "id": "m06",
+          "sender": "claire",
+          "text": "Also I stole your ice scraper. It's in my bag. That's on me."
+        },
+        {
+          "kind": "message",
+          "id": "m07",
+          "sender": "femi",
+          "text": "Keep it. Proof of the worst drive."
+        },
+        {
+          "kind": "message",
+          "id": "m08",
+          "sender": "claire",
+          "text": "I'm here for Christmas, and then back here for work in January actually. A client. Very boring. I can't talk about it."
+        },
+        {
+          "kind": "message",
+          "id": "m09",
+          "sender": "femi",
+          "text": "Then you'll need a coffee in January."
+        },
+        {
+          "kind": "message",
+          "id": "m10",
+          "sender": "claire",
+          "text": "I'll need several. Goodnight, Femi."
+        },
+        {
+          "kind": "message",
+          "id": "m11",
+          "sender": "femi",
+          "text": "Goodnight, Claire."
+        }
+      ],
+      "meta": {
+        "beat": "After the drive."
+      }
+    },
+    {
+      "id": "s06",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "4:52"
+        }
+      },
+      "deviceOwner": "femi",
+      "participants": [
+        "femi",
+        "claire"
+      ],
+      "title": "Claire (Split Rental)",
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Fri, Dec 25 at 9:14 AM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "claire",
+          "attachment": {
+            "type": "image",
+            "label": "Photo",
+            "detail": "Burnt cinnamon rolls, dad giving a thumbs up"
+          }
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "claire",
+          "text": "Merry Christmas from my dad's kitchen. He swears they're \"caramelised\""
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "femi",
+          "text": "Merry Christmas. Tell him the dark ones are the crispy ones.",
+          "reactions": [
+            {
+              "by": "claire",
+              "type": "haha"
+            }
+          ]
+        },
+        {
+          "kind": "timestamp",
+          "id": "t02",
+          "label": "Tue, Dec 29 at 4:47 PM"
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "claire",
+          "text": "Hey. Can we talk after the 4th? (Nothing bad.) (Mostly.)"
+        },
+        {
+          "kind": "message",
+          "id": "m05",
+          "sender": "femi",
+          "text": "That's the most ominous parenthesis you've sent me yet."
+        },
+        {
+          "kind": "message",
+          "id": "m06",
+          "sender": "claire",
+          "text": "I know. I'm sorry. It's a work thing. I can't explain until then."
+        },
+        {
+          "kind": "message",
+          "id": "m07",
+          "sender": "femi",
+          "text": "The boring client?"
+        },
+        {
+          "kind": "message",
+          "id": "m08",
+          "sender": "claire",
+          "text": "The boring client."
+        },
+        {
+          "kind": "message",
+          "id": "m09",
+          "sender": "femi",
+          "text": "Okay. After the 4th. Are we still on for midnight on the 31st?"
+        },
+        {
+          "kind": "message",
+          "id": "m10",
+          "sender": "claire",
+          "text": "Yes. Absolutely yes. That part isn't complicated."
+        }
+      ],
+      "meta": {
+        "beat": "The tone shift."
+      }
+    },
+    {
+      "id": "s07",
+      "type": "notification-center",
+      "theme": "dark",
+      "exportProfile": "iphone",
+      "deviceOwner": "femi",
+      "lockScreen": {
+        "time": "11:58",
+        "date": "Thursday 31 December"
+      },
+      "notifications": [
+        {
+          "id": "n1",
+          "app": "messages",
+          "sender": "claire",
+          "body": "Calling you at midnight. Pick up. (Don't make it weird.) (I'm making it weird.)",
+          "time": "now"
+        },
+        {
+          "id": "n2",
+          "app": "messages",
+          "sender": "tolu",
+          "body": "mom says you were in the garage on the phone for 2 HOURS last night. with 'split rental claire'. explain",
+          "time": "9:02 PM"
+        },
+        {
+          "id": "n3",
+          "app": "messages",
+          "sender": "dev",
+          "body": "happy new year boss 🎉 the kids say hi. back to it monday!",
+          "time": "6:15 PM"
+        }
+      ],
+      "meta": {
+        "beat": "New Year's."
+      }
+    },
+    {
+      "id": "s08",
+      "type": "notification",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "deviceOwner": "femi",
+      "lockScreen": {
+        "time": "7:58",
+        "date": "Monday 4 January"
+      },
+      "notifications": [
+        {
+          "id": "n1",
+          "app": "mail",
+          "title": "Halvorsen Freight – All Staff",
+          "body": "Welcome Lindqvist Partners — Team, this week we begin an operational efficiency review led by Claire Novak, Senior Consultant, Lindqvist Partners. Operations and Dispatch are in scope for phase one…",
+          "time": "now"
+        },
+        {
+          "id": "n2",
+          "app": "messages",
+          "sender": "dev",
+          "body": "hey man did u see the all staff?? 'efficiency review' 😬",
+          "time": "now"
+        }
+      ],
+      "meta": {
+        "beat": "Cliffhanger: her name in the preview."
+      }
+    }
+  ]
+}

@@ -1,0 +1,461 @@
+{
+  "schemaVersion": 1,
+  "storyId": "0005",
+  "partNumber": 3,
+  "title": "Disclosure",
+  "summary": "Claire discloses before her morning coffee, including the six days, and is taken off the project the same day; her partner review slips a year. Office gossip tells Dev the old consultant had a conflict 'with someone in ops', and Femi tells him the truth. Femi argues for Dev's role on the record, through the proper channel. Dev's job is restructured, not cut. Claire is coming back to Omaha, not for work.",
+  "status": "final",
+  "cliffhanger": null,
+  "createdAt": "2026-10-09T20:00:00Z",
+  "updatedAt": "2026-10-09T20:00:00Z",
+  "screenshots": [
+    {
+      "id": "s01",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "9:15"
+        }
+      },
+      "deviceOwner": "femi",
+      "participants": [
+        "femi",
+        "claire"
+      ],
+      "title": "Claire (Split Rental)",
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Thu, Jan 7 at 6:40 AM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "claire",
+          "attachment": {
+            "type": "image",
+            "label": "Screenshot — Email to Margaret Holt",
+            "detail": "Sent 6:31 AM · Disclosure of personal relationship"
+          }
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "claire",
+          "text": "Sent. Before coffee, so I couldn't talk myself out of it."
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "claire",
+          "text": "I wrote that I met an employee in scope on Dec 19 before I knew, that it became personal, that I learned of the conflict on Dec 29 and should have raised it then. And that I haven't shared anything."
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "femi",
+          "text": "You put in the six days."
+        },
+        {
+          "kind": "message",
+          "id": "m05",
+          "sender": "claire",
+          "text": "It's true. If I left it out, it'd be the first thing anyone found."
+        },
+        {
+          "kind": "message",
+          "id": "m06",
+          "sender": "femi",
+          "text": "Are you okay?"
+        },
+        {
+          "kind": "message",
+          "id": "m07",
+          "sender": "claire",
+          "text": "Ask me after Margaret replies."
+        },
+        {
+          "kind": "timestamp",
+          "id": "t02",
+          "label": "Thu, Jan 7 at 9:12 AM"
+        },
+        {
+          "kind": "message",
+          "id": "m08",
+          "sender": "claire",
+          "text": "She replied. \"Thank you for raising this. You'll come off Halvorsen effective today; Daniel Price will lead. Your partner review will likely move to the next cycle. You did the right thing, and you did it late. Both are true.\""
+        },
+        {
+          "kind": "message",
+          "id": "m09",
+          "sender": "claire",
+          "text": "Both are true. That's Margaret."
+        },
+        {
+          "kind": "message",
+          "id": "m10",
+          "sender": "femi",
+          "text": "She's right on both."
+        },
+        {
+          "kind": "message",
+          "id": "m11",
+          "sender": "claire",
+          "text": "I know. I'm flying back to Chicago tonight."
+        }
+      ],
+      "meta": {
+        "beat": "Disclosure."
+      }
+    },
+    {
+      "id": "s02",
+      "type": "notification-center",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "deviceOwner": "femi",
+      "lockScreen": {
+        "time": "11:52",
+        "date": "Friday 8 January"
+      },
+      "notifications": [
+        {
+          "id": "n1",
+          "app": "messages",
+          "sender": "dev",
+          "body": "femi is it you",
+          "time": "4m ago"
+        },
+        {
+          "id": "n2",
+          "app": "messages",
+          "sender": "dev",
+          "body": "dude. marcy says the old consultant had a 'conflict.' with someone in OPS",
+          "time": "5m ago"
+        },
+        {
+          "id": "n3",
+          "app": "messages",
+          "sender": "dev",
+          "body": "wait why'd they swap consultants",
+          "time": "2h ago"
+        },
+        {
+          "id": "n4",
+          "app": "mail",
+          "title": "Halvorsen Freight – All Staff",
+          "body": "Update: Lindqvist review team change — Daniel Price will lead the operational review going forward. Timelines are unchanged.",
+          "time": "2h ago"
+        }
+      ],
+      "meta": {
+        "beat": "Gossip travels."
+      }
+    },
+    {
+      "id": "s03",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "12:14"
+        }
+      },
+      "deviceOwner": "femi",
+      "participants": [
+        "femi",
+        "dev"
+      ],
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Fri, Jan 8 at 12:05 PM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "femi",
+          "text": "Yes. It's me."
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "femi",
+          "text": "We met in December at the Denver airport, before either of us knew. When she found out, she reported it and took herself off the project."
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "dev",
+          "text": "so the whole time you were telling me you didn't know anything"
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "femi",
+          "text": "I didn't know anything. She never told me a word about the review. I asked her once, about you. She said if I asked again she'd have to report it."
+        },
+        {
+          "kind": "message",
+          "id": "m05",
+          "sender": "dev",
+          "text": "you asked about me?"
+        },
+        {
+          "kind": "message",
+          "id": "m06",
+          "sender": "femi",
+          "text": "Of course I asked about you. I hired you."
+        },
+        {
+          "kind": "message",
+          "id": "m07",
+          "sender": "dev",
+          "text": "…"
+        },
+        {
+          "kind": "message",
+          "id": "m08",
+          "sender": "dev",
+          "text": "i thought you'd sold us out man. for like an hour i really thought it"
+        },
+        {
+          "kind": "message",
+          "id": "m09",
+          "sender": "femi",
+          "text": "I know. It's a fair hour."
+        },
+        {
+          "kind": "message",
+          "id": "m10",
+          "sender": "dev",
+          "text": "it's not fair. i'm sorry. meera says i'm an idiot and also that you owe her dinner for the stress"
+        },
+        {
+          "kind": "message",
+          "id": "m11",
+          "sender": "femi",
+          "text": "Tell Meera she's right on both."
+        }
+      ],
+      "meta": {
+        "beat": "The truth to Dev."
+      }
+    },
+    {
+      "id": "s04",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "3:26"
+        }
+      },
+      "deviceOwner": "femi",
+      "participants": [
+        "femi",
+        "tolu"
+      ],
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Sat, Jan 9 at 3:20 PM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "femi",
+          "text": "I wrote to Karen today. On the record, HR copied. Everything Dev does that doesn't show up on a spreadsheet."
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "tolu",
+          "text": "look at u being a good boss on paper"
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "femi",
+          "text": "I didn't contact anyone at Lindqvist. Not Claire, not Daniel. It goes through the proper channel or it doesn't go."
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "tolu",
+          "text": "and claire?"
+        },
+        {
+          "kind": "message",
+          "id": "m05",
+          "sender": "femi",
+          "text": "We talk every night. She hasn't asked about Halvorsen once."
+        },
+        {
+          "kind": "message",
+          "id": "m06",
+          "sender": "tolu",
+          "text": "marry her"
+        },
+        {
+          "kind": "message",
+          "id": "m07",
+          "sender": "femi",
+          "text": "👍"
+        },
+        {
+          "kind": "message",
+          "id": "m08",
+          "sender": "tolu",
+          "text": "😭😭"
+        }
+      ],
+      "meta": {
+        "beat": "The right way."
+      }
+    },
+    {
+      "id": "s05",
+      "type": "notification",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "deviceOwner": "femi",
+      "lockScreen": {
+        "time": "8:44",
+        "date": "Tuesday 12 January"
+      },
+      "notifications": [
+        {
+          "id": "n1",
+          "app": "messages",
+          "sender": "dev",
+          "body": "IT'S ME. THE NEW ROLE IS ME. karen just called. dispatch & planning lead. MEERA IS CRYING",
+          "time": "now"
+        },
+        {
+          "id": "n2",
+          "app": "mail",
+          "title": "Halvorsen Freight – All Staff",
+          "body": "Phase one outcomes — Dispatch will consolidate under Operations. Two roles are being combined into a new Dispatch & Planning Lead position…",
+          "time": "14m ago"
+        },
+        {
+          "id": "n3",
+          "app": "mail",
+          "title": "Karen Lund",
+          "body": "Re: Dispatch staffing — Femi, your memo is on record and went to the review team through the normal channel. Thank you for putting it in writing.",
+          "time": "Mon"
+        }
+      ],
+      "meta": {
+        "beat": "The outcome."
+      }
+    },
+    {
+      "id": "s06",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "7:31"
+        }
+      },
+      "deviceOwner": "femi",
+      "participants": [
+        "femi",
+        "claire"
+      ],
+      "title": "Claire (Split Rental)",
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Tue, Jan 12 at 7:20 PM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "femi",
+          "text": "Dev's job got restructured, not cut. He's the new Dispatch & Planning Lead. He's already insufferable."
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "claire",
+          "text": "I'm so glad. (I didn't know. I want that on the record too.)"
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "femi",
+          "text": "I know you didn't."
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "claire",
+          "text": "Margaret moved my review to next cycle. Officially."
+        },
+        {
+          "kind": "message",
+          "id": "m05",
+          "sender": "femi",
+          "text": "I'm sorry."
+        },
+        {
+          "kind": "message",
+          "id": "m06",
+          "sender": "claire",
+          "text": "Don't be. I'd rather make partner next year than make it this year and wonder what I traded for it."
+        },
+        {
+          "kind": "message",
+          "id": "m07",
+          "sender": "claire",
+          "text": "I'm in Omaha on the 16th. Not for work. (Do you still have the ice scraper?)"
+        },
+        {
+          "kind": "message",
+          "id": "m08",
+          "sender": "femi",
+          "text": "You have the ice scraper. It has your name on it."
+        },
+        {
+          "kind": "message",
+          "id": "m09",
+          "sender": "claire",
+          "text": "Literally?"
+        },
+        {
+          "kind": "message",
+          "id": "m10",
+          "sender": "femi",
+          "text": "I wrote CLAIRE on it in Sharpie at the North Platte gas station while you were petting the cat. Don't make it weird."
+        },
+        {
+          "kind": "message",
+          "id": "m11",
+          "sender": "claire",
+          "text": "I'm making it weird.",
+          "reactions": [
+            {
+              "by": "femi",
+              "type": "heart"
+            }
+          ]
+        }
+      ],
+      "meta": {
+        "beat": "Final: not for work."
+      }
+    }
+  ]
+}

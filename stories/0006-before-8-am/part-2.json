@@ -1,0 +1,469 @@
+{
+  "schemaVersion": 1,
+  "storyId": "0006",
+  "partNumber": 2,
+  "title": "3B",
+  "summary": "Ruth confronts Iain with Kerry's email. He admits it: his first sleepless week, a web form, then a small lie he couldn't take back once he liked her. Sam tells her to 'be the hedge'. Ruth forgives him on three terms, and the weeks that follow are Oriental Bay, a school concert and good-morning texts after his shifts. Then a text meant for his daughter lands in her thread: he's moving out by 30 May.",
+  "status": "final",
+  "cliffhanger": "Iain, by mistake: 'Told the agent I'll be out by 30 May, transfer's confirmed x' — 'That wasn't meant for you.'",
+  "createdAt": "2026-10-09T20:00:00Z",
+  "updatedAt": "2026-10-09T20:00:00Z",
+  "screenshots": [
+    {
+      "id": "s01",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "10:41"
+        }
+      },
+      "deviceOwner": "ruth",
+      "participants": [
+        "ruth",
+        "iain"
+      ],
+      "title": "Iain (3B)",
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Sat, 20 Mar at 10:25 AM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "iain",
+          "text": "Morning. Coffee on the landing if you're up? I've two cups and nowhere to be."
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "ruth",
+          "attachment": {
+            "type": "image",
+            "label": "Screenshot — Email from Kerry Walsh",
+            "detail": "Complaint #0214 · lodged 14/02/2027 · Unit 3B"
+          }
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "ruth",
+          "text": "'I've never complained about anything in my life. Ask anyone.'"
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "ruth",
+          "text": "I asked Kerry."
+        },
+        {
+          "kind": "message",
+          "id": "m05",
+          "sender": "iain",
+          "text": "Ah."
+        },
+        {
+          "kind": "message",
+          "id": "m06",
+          "sender": "iain",
+          "text": "Ruth."
+        },
+        {
+          "kind": "message",
+          "id": "m07",
+          "sender": "iain",
+          "text": "It was my first week. I'd done four nights straight and not slept in two days, and at 7:20 someone above me started on scales. I filled in the form on the website and went to sleep."
+        },
+        {
+          "kind": "message",
+          "id": "m08",
+          "sender": "iain",
+          "text": "Then you texted me, furious and polite and funny, and I didn't want to be the man who'd filled in the form."
+        },
+        {
+          "kind": "message",
+          "id": "m09",
+          "sender": "iain",
+          "text": "I was knackered and you were a stranger. Then you weren't."
+        },
+        {
+          "kind": "message",
+          "id": "m10",
+          "sender": "iain",
+          "text": "I'm sorry. It was a stupid wee lie and I've felt like an eejit about it for three weeks."
+        }
+      ],
+      "meta": {
+        "beat": "The admission."
+      }
+    },
+    {
+      "id": "s02",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "11:27"
+        }
+      },
+      "deviceOwner": "ruth",
+      "participants": [
+        "ruth",
+        "sam"
+      ],
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Sat, 20 Mar at 11:20 AM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "ruth",
+          "text": "He did complain. His first week. Then he lied about it for three weeks."
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "sam",
+          "text": "NOOO"
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "sam",
+          "text": "ok wait how bad. on the scale of dad"
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "ruth",
+          "text": "Sam."
+        },
+        {
+          "kind": "message",
+          "id": "m05",
+          "sender": "sam",
+          "text": "sorry. but genuinely"
+        },
+        {
+          "kind": "message",
+          "id": "m06",
+          "sender": "ruth",
+          "text": "It's a small lie. It's just that it's a lie about exactly the thing I asked him."
+        },
+        {
+          "kind": "message",
+          "id": "m07",
+          "sender": "sam",
+          "text": "mum he said eejit. he's embarrassed. dad was never embarrassed about anything"
+        },
+        {
+          "kind": "message",
+          "id": "m08",
+          "sender": "ruth",
+          "text": "…That's true."
+        },
+        {
+          "kind": "message",
+          "id": "m09",
+          "sender": "sam",
+          "text": "let him sweat for 24 hrs then forgive him with terms. like when i crashed the corolla"
+        },
+        {
+          "kind": "message",
+          "id": "m10",
+          "sender": "ruth",
+          "text": "You crashed the Corolla into a hedge, love. Not the same."
+        },
+        {
+          "kind": "message",
+          "id": "m11",
+          "sender": "sam",
+          "text": "the hedge forgave me. be the hedge"
+        }
+      ],
+      "meta": {
+        "beat": "'Be the hedge.'"
+      }
+    },
+    {
+      "id": "s03",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "10:40"
+        }
+      },
+      "deviceOwner": "ruth",
+      "participants": [
+        "ruth",
+        "iain"
+      ],
+      "title": "Iain (3B)",
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Sun, 21 Mar at 10:32 AM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "ruth",
+          "text": "My terms."
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "ruth",
+          "text": "One: no more lies, not even wee ones. Two: you'll carry my keyboard to Aroha's school concert on the 10th, since the lift will be broken. Three: you'll take me for a walk somewhere that isn't the landing."
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "iain",
+          "text": "Agreed. Agreed. And gladly."
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "iain",
+          "text": "Oriental Bay. Saturday. I'll bring the coffee, you bring your files."
+        },
+        {
+          "kind": "message",
+          "id": "m05",
+          "sender": "ruth",
+          "text": "Deal."
+        },
+        {
+          "kind": "message",
+          "id": "m06",
+          "sender": "ruth",
+          "text": "Don't slam the door on your way out."
+        },
+        {
+          "kind": "message",
+          "id": "m07",
+          "sender": "iain",
+          "text": "Like a baby, Ruth.",
+          "reactions": [
+            {
+              "by": "ruth",
+              "type": "haha"
+            }
+          ]
+        }
+      ],
+      "meta": {
+        "beat": "Terms."
+      }
+    },
+    {
+      "id": "s04",
+      "type": "conversation",
+      "theme": "dark",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "9:46"
+        }
+      },
+      "deviceOwner": "ruth",
+      "participants": [
+        "ruth",
+        "sam"
+      ],
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Sat, 27 Mar at 9:40 PM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "sam",
+          "text": "SO???"
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "ruth",
+          "text": "We walked the whole of Oriental Bay and back. Fish and chips on the steps. He told me about Glasgow and I told him about you."
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "ruth",
+          "text": "He held my hand crossing the road, like it was 1985."
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "sam",
+          "text": "proud of u"
+        },
+        {
+          "kind": "message",
+          "id": "m05",
+          "sender": "sam",
+          "text": "also gross"
+        },
+        {
+          "kind": "message",
+          "id": "m06",
+          "sender": "ruth",
+          "text": "Both noted."
+        },
+        {
+          "kind": "message",
+          "id": "m07",
+          "sender": "sam",
+          "text": "is he coming to arohas concert"
+        },
+        {
+          "kind": "message",
+          "id": "m08",
+          "sender": "ruth",
+          "text": "He's carrying the keyboard. Those were the terms."
+        },
+        {
+          "kind": "message",
+          "id": "m09",
+          "sender": "sam",
+          "text": "mum you're glowing through the phone 😭"
+        }
+      ],
+      "meta": {
+        "beat": "Oriental Bay."
+      }
+    },
+    {
+      "id": "s05",
+      "type": "notification-center",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "deviceOwner": "ruth",
+      "lockScreen": {
+        "time": "7:10",
+        "date": "Thursday 15 April"
+      },
+      "notifications": [
+        {
+          "id": "n1",
+          "app": "messages",
+          "sender": "iain",
+          "body": "Home. Long night, good outcome. Sleep well? Morning, I mean. You know what I mean.",
+          "time": "29m ago"
+        },
+        {
+          "id": "n2",
+          "app": "messages",
+          "sender": "iain",
+          "body": "Home. Rough one. Play something before 8 if you like. I'll not complain. (I've learned.)",
+          "time": "Wed"
+        },
+        {
+          "id": "n3",
+          "app": "messages",
+          "sender": "sam",
+          "body": "aroha's mum posted the concert vid. is that man in the back row crying",
+          "time": "Sun"
+        },
+        {
+          "id": "n4",
+          "app": "messages",
+          "sender": "iain",
+          "body": "The keyboard has been delivered home safe. So has the pianist.",
+          "time": "Sat"
+        }
+      ],
+      "meta": {
+        "beat": "Warm weeks."
+      }
+    },
+    {
+      "id": "s06",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "5:48"
+        }
+      },
+      "deviceOwner": "ruth",
+      "participants": [
+        "ruth",
+        "iain"
+      ],
+      "title": "Iain (3B)",
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Sun, 18 Apr at 2:14 PM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "ruth",
+          "text": "Are you up for dinner tonight or are you on?"
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "iain",
+          "text": "On tonight, sorry. Tomorrow?"
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "ruth",
+          "text": "Tomorrow. I'll make the lamb."
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "iain",
+          "text": "I'll bring the wine and an appetite. And no lies, wee or otherwise."
+        },
+        {
+          "kind": "timestamp",
+          "id": "t02",
+          "label": "Sun, 18 Apr at 5:47 PM"
+        },
+        {
+          "kind": "message",
+          "id": "m05",
+          "sender": "iain",
+          "text": "Told the agent I'll be out by 30 May, transfer's confirmed x"
+        },
+        {
+          "kind": "message",
+          "id": "m06",
+          "sender": "iain",
+          "text": "That wasn't meant for you."
+        },
+        {
+          "kind": "message",
+          "id": "m07",
+          "sender": "iain",
+          "text": "Ruth, that was meant for Fiona."
+        }
+      ],
+      "meta": {
+        "beat": "Cliffhanger: the misdirected text."
+      }
+    }
+  ]
+}

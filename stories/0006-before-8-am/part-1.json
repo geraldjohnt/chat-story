@@ -1,0 +1,551 @@
+{
+  "schemaVersion": 1,
+  "storyId": "0006",
+  "partNumber": 1,
+  "title": "Noise Complaint",
+  "summary": "The body corporate tells Ruth someone has complained about her piano before 8 am. She texts the new man downstairs with ferocious politeness. Iain says he has never complained about anything in his life; he just works nights. They agree a truce, and the texts thaw into song titles and a note about Chopin. Then Ruth asks the body corporate for the complaint record, 'for her files'.",
+  "status": "final",
+  "cliffhanger": "Kerry's email: complaint lodged 14/02/2027 by the occupant of Unit 3B.",
+  "createdAt": "2026-10-09T20:00:00Z",
+  "updatedAt": "2026-10-09T20:00:00Z",
+  "screenshots": [
+    {
+      "id": "s01",
+      "type": "notification",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "deviceOwner": "ruth",
+      "lockScreen": {
+        "time": "9:14",
+        "date": "Tuesday 2 March"
+      },
+      "notifications": [
+        {
+          "id": "n1",
+          "app": "messages",
+          "sender": "kerry",
+          "body": "Hi Ruth, a noise complaint has been lodged regarding piano playing from Unit 4B before 8am. Please refer to Rule 12 (quiet hours 10pm–8am). Thanks, Kerry",
+          "time": "now"
+        }
+      ],
+      "meta": {
+        "beat": "Hook: a complaint."
+      }
+    },
+    {
+      "id": "s02",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "9:40"
+        }
+      },
+      "deviceOwner": "ruth",
+      "participants": [
+        "ruth",
+        "kerry"
+      ],
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Tue, 2 Mar at 9:31 AM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "ruth",
+          "text": "Morning Kerry. I teach one lesson at 7:15 on Tuesdays and Thursdays; a Year 12 student with exams. It's a digital piano at moderate volume. I've done this for six years without a word. May I ask who complained?"
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "kerry",
+          "text": "Hi Ruth, thanks for coming back to me. Unfortunately I can't share the complainant's details under our privacy policy. Quiet hours run until 8am. Thanks, Kerry"
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "ruth",
+          "text": "Understood. Thank you."
+        }
+      ],
+      "meta": {
+        "beat": "Kerry stonewalls."
+      }
+    },
+    {
+      "id": "s03",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "9:49"
+        }
+      },
+      "deviceOwner": "ruth",
+      "participants": [
+        "ruth",
+        "sam"
+      ],
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Tue, 2 Mar at 9:44 AM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "ruth",
+          "text": "Someone has complained about my piano. Before 8am. I've played before 8am since you were in Year 9."
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "sam",
+          "text": "MUM."
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "sam",
+          "text": "is it the new guy downstairs"
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "ruth",
+          "text": "It is quite obviously the new guy downstairs. He moved in last month. He slams the fire door at 7:40 every morning like it owes him money."
+        },
+        {
+          "kind": "message",
+          "id": "m05",
+          "sender": "sam",
+          "text": "are you about to be passive aggressive to a stranger"
+        },
+        {
+          "kind": "message",
+          "id": "m06",
+          "sender": "ruth",
+          "text": "I'm about to be perfectly polite to a stranger."
+        },
+        {
+          "kind": "message",
+          "id": "m07",
+          "sender": "sam",
+          "text": "so yes"
+        },
+        {
+          "kind": "message",
+          "id": "m08",
+          "sender": "ruth",
+          "text": "His number's in the building directory. Everyone's is. That's what it's for."
+        },
+        {
+          "kind": "message",
+          "id": "m09",
+          "sender": "sam",
+          "text": "send screenshots. this is the best thing that has happened to me all semester 😭"
+        }
+      ],
+      "meta": {
+        "beat": "'MUM.'"
+      }
+    },
+    {
+      "id": "s04",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "6:15"
+        }
+      },
+      "deviceOwner": "ruth",
+      "participants": [
+        "ruth",
+        "iain"
+      ],
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Tue, 2 Mar at 6:02 PM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "ruth",
+          "text": "Good evening. This is Ruth Danvers in 4B, directly above you. I understand you've lodged a complaint about my piano. I'd have been happy to discuss it with you directly. Ruth (4B)"
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "iain",
+          "text": "Evening. I've not complained about anything."
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "iain",
+          "text": "I've never complained about anything in my life. Ask anyone."
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "ruth",
+          "text": "Someone complained about piano before 8am. Yours is the only flat below mine."
+        },
+        {
+          "kind": "message",
+          "id": "m05",
+          "sender": "iain",
+          "text": "Aye, well. It wasn't me."
+        },
+        {
+          "kind": "message",
+          "id": "m06",
+          "sender": "iain",
+          "text": "Though since you mention it. I work nights. 111 call centre. I'm in at half six and asleep by eight. Usually."
+        },
+        {
+          "kind": "message",
+          "id": "m07",
+          "sender": "iain",
+          "text": "Usually."
+        },
+        {
+          "kind": "message",
+          "id": "m08",
+          "sender": "ruth",
+          "text": "So you didn't complain; you'd just like me to stop."
+        },
+        {
+          "kind": "message",
+          "id": "m09",
+          "sender": "iain",
+          "text": "I'd like to sleep. Different thing."
+        },
+        {
+          "kind": "message",
+          "id": "m10",
+          "sender": "ruth",
+          "text": "My student has exams this year. I'm not moving her for a stranger who 'didn't complain'. Ruth (4B)"
+        },
+        {
+          "kind": "message",
+          "id": "m11",
+          "sender": "iain",
+          "text": "Fair enough. Though if it's the scales, they're not the worst thing to fall asleep to."
+        }
+      ],
+      "meta": {
+        "beat": "'I've never complained about anything in my life.'"
+      }
+    },
+    {
+      "id": "s05",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "7:55"
+        }
+      },
+      "deviceOwner": "ruth",
+      "participants": [
+        "ruth",
+        "iain"
+      ],
+      "title": "Iain (3B)",
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Thu, 4 Mar at 7:43 AM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "iain",
+          "text": "Morning. Your student got through the second page without stopping today."
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "ruth",
+          "text": "You are awake."
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "iain",
+          "text": "I'm lying in the dark listening to a teenager play Clementi, so aye."
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "ruth",
+          "text": "I'll make you a deal. I'll move Thursdays to 4pm if you stop slamming the fire door at 7:40."
+        },
+        {
+          "kind": "message",
+          "id": "m05",
+          "sender": "iain",
+          "text": "I don't slam it."
+        },
+        {
+          "kind": "message",
+          "id": "m06",
+          "sender": "ruth",
+          "text": "Every morning, Mr Mackie. The whole stairwell hears it."
+        },
+        {
+          "kind": "message",
+          "id": "m07",
+          "sender": "iain",
+          "text": "It's a heavy door. I'm a heavy man coming off a ten-hour shift."
+        },
+        {
+          "kind": "message",
+          "id": "m08",
+          "sender": "iain",
+          "text": "Fine. Deal. I'll close it like it's a baby."
+        },
+        {
+          "kind": "message",
+          "id": "m09",
+          "sender": "ruth",
+          "text": "Tuesdays have to stay. Her mum works."
+        },
+        {
+          "kind": "message",
+          "id": "m10",
+          "sender": "iain",
+          "text": "Tuesdays I'll wear earplugs. That's called compromise, I'm told."
+        },
+        {
+          "kind": "message",
+          "id": "m11",
+          "sender": "ruth",
+          "text": "Thank you. Ruth (4B)"
+        },
+        {
+          "kind": "message",
+          "id": "m12",
+          "sender": "iain",
+          "text": "You can stop signing off with your flat number. I know where you live."
+        },
+        {
+          "kind": "message",
+          "id": "m13",
+          "sender": "ruth",
+          "text": "That sounds slightly threatening."
+        },
+        {
+          "kind": "message",
+          "id": "m14",
+          "sender": "iain",
+          "text": "Aye, it came out wrong. Goodnight. Well. Good morning."
+        }
+      ],
+      "meta": {
+        "beat": "The truce."
+      }
+    },
+    {
+      "id": "s06",
+      "type": "notification-center",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "deviceOwner": "ruth",
+      "lockScreen": {
+        "time": "9:02",
+        "date": "Friday 19 March"
+      },
+      "notifications": [
+        {
+          "id": "n1",
+          "app": "messages",
+          "sender": "iain",
+          "body": "Fire door closed like a baby. Please report to management.",
+          "time": "2h ago"
+        },
+        {
+          "id": "n2",
+          "app": "messages",
+          "sender": "iain",
+          "body": "Song for the walk home: 'Fisherman's Blues'. You'll not have heard of it.",
+          "time": "Thu"
+        },
+        {
+          "id": "n3",
+          "app": "messages",
+          "sender": "sam",
+          "body": "u have smiled at ur phone 4 times on this video call mum. who is it",
+          "time": "Wed"
+        },
+        {
+          "id": "n4",
+          "app": "messages",
+          "sender": "iain",
+          "body": "There's a note on your door. Don't read it till I'm asleep.",
+          "time": "Tue"
+        }
+      ],
+      "meta": {
+        "beat": "Weeks of thaw."
+      }
+    },
+    {
+      "id": "s07",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "4:16"
+        }
+      },
+      "deviceOwner": "ruth",
+      "participants": [
+        "ruth",
+        "iain"
+      ],
+      "title": "Iain (3B)",
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Tue, 16 Mar at 9:15 AM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "ruth",
+          "attachment": {
+            "type": "image",
+            "label": "Photo",
+            "detail": "Note taped to 4B: \"The Chopin on Tuesday was good. — 3B\""
+          }
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "ruth",
+          "text": "I played Chopin for six minutes after Aroha left. At 7:52. You were supposed to be asleep."
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "iain",
+          "text": "I was nearly asleep. It's a good way to nearly sleep."
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "iain",
+          "text": "Nocturne in E flat. My wife used to play it. Badly, she said."
+        },
+        {
+          "kind": "message",
+          "id": "m05",
+          "sender": "ruth",
+          "text": "I'm sorry. I didn't know."
+        },
+        {
+          "kind": "message",
+          "id": "m06",
+          "sender": "iain",
+          "text": "Six years now. It's alright. It was nice to hear it played properly."
+        },
+        {
+          "kind": "message",
+          "id": "m07",
+          "sender": "ruth",
+          "text": "I play it badly too. Just with more confidence."
+        },
+        {
+          "kind": "timestamp",
+          "id": "t02",
+          "label": "Fri, 19 Mar at 4:10 PM"
+        },
+        {
+          "kind": "message",
+          "id": "m08",
+          "sender": "ruth",
+          "text": "The lift's broken again. Fourth time this month."
+        },
+        {
+          "kind": "message",
+          "id": "m09",
+          "sender": "iain",
+          "text": "I carried my shopping up like a mountaineer. Nearly planted a flag on the landing."
+        },
+        {
+          "kind": "message",
+          "id": "m10",
+          "sender": "ruth",
+          "text": "I'm writing to Kerry about the lift. While I'm at it I'll ask for the complaint record. For my files."
+        },
+        {
+          "kind": "message",
+          "id": "m11",
+          "sender": "iain",
+          "text": "Your files."
+        },
+        {
+          "kind": "message",
+          "id": "m12",
+          "sender": "ruth",
+          "text": "I'm a woman with files, Iain."
+        },
+        {
+          "kind": "message",
+          "id": "m13",
+          "sender": "iain",
+          "text": "I don't doubt it."
+        }
+      ],
+      "meta": {
+        "beat": "The note; the files."
+      }
+    },
+    {
+      "id": "s08",
+      "type": "notification",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "deviceOwner": "ruth",
+      "lockScreen": {
+        "time": "10:31",
+        "date": "Saturday 20 March"
+      },
+      "notifications": [
+        {
+          "id": "n1",
+          "app": "mail",
+          "title": "Kerry Walsh – Harbourview BC",
+          "body": "RE: Lift & complaint record — Hi Ruth, lift technician booked for Tuesday. Re your request: complaint #0214 was lodged 14/02/2027 by the occupant of Unit 3B. Kind regards, Kerry",
+          "time": "now"
+        },
+        {
+          "id": "n2",
+          "app": "messages",
+          "sender": "iain",
+          "body": "Morning. Coffee on the landing if you're up? I've two cups and nowhere to be.",
+          "time": "6m ago"
+        }
+      ],
+      "meta": {
+        "beat": "Cliffhanger: Unit 3B."
+      }
+    }
+  ]
+}

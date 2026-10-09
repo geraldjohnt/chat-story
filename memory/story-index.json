@@ -67,6 +67,70 @@
       "endingType": "breakup",
       "outline": "memory/pending-outlines/20261009-deposit-returned.md",
       "createdAt": "2026-10-09T19:00:00Z"
+    },
+    {
+      "id": "0004",
+      "slug": "is-this-still-ben",
+      "title": "Is This Still Ben?",
+      "status": "completed",
+      "parts": 4,
+      "genre": "wrong-number-romance",
+      "relationshipType": "sapphic romance / estranged siblings",
+      "setting": "Tucson, Arizona, Nov 2026",
+      "premise": "Wrong-number texter searching for her estranged brother; the device owner finds him and learns the sister's complicity.",
+      "centralConflict": "Honesty with a new love vs. a brother's right not to be found vs. her right to come out on her own terms.",
+      "secrets": [
+        "sister told brother to keep quiet when he came out",
+        "sister not out to family",
+        "brother changed number on purpose",
+        "repair-ticket number"
+      ],
+      "twistMechanism": "Recycled-number evidence (stranger's misdirected text, repair ticket); turn is the love interest owning a past act.",
+      "endingType": "hopeful new beginning",
+      "outline": "memory/pending-outlines/20261009-is-this-still-ben.md",
+      "createdAt": "2026-10-09T20:00:00Z"
+    },
+    {
+      "id": "0005",
+      "slug": "split-the-rental",
+      "title": "Split the Rental",
+      "status": "completed",
+      "parts": 3,
+      "genre": "forced-proximity-romance",
+      "relationshipType": "strangers → couple; consultant / employee in scope",
+      "setting": "Denver → Omaha, Dec 2026–Jan 2027",
+      "premise": "Strangers split a rental in a blizzard; she turns out to be the consultant reviewing his department.",
+      "centralConflict": "New feelings vs. professional integrity; disclosure costs her the engagement and a promotion year.",
+      "secrets": [
+        "consultant knew six days before telling him",
+        "undisclosed conflict of interest",
+        "he hadn't told his report he knew her"
+      ],
+      "twistMechanism": "All-staff email hook, then choice-driven ethical conflict; no villain.",
+      "endingType": "romance with a professional cost",
+      "outline": "memory/pending-outlines/20261009-split-the-rental.md",
+      "createdAt": "2026-10-09T20:00:00Z"
+    },
+    {
+      "id": "0006",
+      "slug": "before-8-am",
+      "title": "Before 8 A.M.",
+      "status": "completed",
+      "parts": 3,
+      "genre": "neighbours-romance",
+      "relationshipType": "neighbours → later-life romance",
+      "setting": "Wellington, NZ, Mar–May 2027",
+      "premise": "Feuding upstairs/downstairs neighbours fall for each other; he lied about the noise complaint and is moving away.",
+      "centralConflict": "Fear of being blindsided again vs. a decent man's small evasions and a love with an end date.",
+      "secrets": [
+        "he lodged the complaint, then denied it",
+        "transfer to Dunedin",
+        "her ex left with three weeks' notice"
+      ],
+      "twistMechanism": "Body-corporate record and a misdirected text; small human lies, not big deceptions.",
+      "endingType": "ambiguous / open",
+      "outline": "memory/pending-outlines/20261009-before-8-am.md",
+      "createdAt": "2026-10-09T20:00:00Z"
     }
   ]
 }

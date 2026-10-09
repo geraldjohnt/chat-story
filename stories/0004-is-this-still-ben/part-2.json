@@ -1,0 +1,542 @@
+{
+  "schemaVersion": 1,
+  "storyId": "0004",
+  "partNumber": 2,
+  "title": "Saguaro Spoke",
+  "summary": "After their first coffee, Marisol is smitten and Hana confides that she has never told her parents about anyone she's loved. A text from Ben's old friend to Marisol's number reveals Ben never left Tucson: he owns a bike shop on 4th Avenue. Too frightened to go herself, Hana asks Marisol to check that he's okay without saying her name. Marisol books a tune-up.",
+  "status": "final",
+  "cliffhanger": "Saguaro Spoke confirms Marisol's tune-up for Saturday at 9.",
+  "createdAt": "2026-10-09T20:00:00Z",
+  "updatedAt": "2026-10-09T20:00:00Z",
+  "screenshots": [
+    {
+      "id": "s01",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "3:09"
+        }
+      },
+      "deviceOwner": "marisol",
+      "participants": [
+        "marisol",
+        "lucia"
+      ],
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Sat, Nov 7 at 3:05 PM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "lucia",
+          "text": "WELL???"
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "lucia",
+          "text": "you've been gone 3 hours for a COFFEE"
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "marisol",
+          "text": "we walked up to the A mountain lookout?? and then got tacos"
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "marisol",
+          "text": "she's tall and she laughs like she's surprised every time it happens"
+        },
+        {
+          "kind": "message",
+          "id": "m05",
+          "sender": "lucia",
+          "text": "doomed. i called it"
+        },
+        {
+          "kind": "message",
+          "id": "m06",
+          "sender": "marisol",
+          "text": "she explained how the 4th ave underpass holds up the trains and i was INTO it"
+        },
+        {
+          "kind": "message",
+          "id": "m07",
+          "sender": "lucia",
+          "text": "girl."
+        },
+        {
+          "kind": "message",
+          "id": "m08",
+          "sender": "marisol",
+          "text": "she's only here till the 22nd tho"
+        },
+        {
+          "kind": "message",
+          "id": "m09",
+          "sender": "lucia",
+          "text": "that's 15 days. people have built whole lives in 15 days"
+        },
+        {
+          "kind": "message",
+          "id": "m10",
+          "sender": "lucia",
+          "text": "(have they? idk. go off)"
+        }
+      ],
+      "meta": {
+        "beat": "After the coffee."
+      }
+    },
+    {
+      "id": "s02",
+      "type": "conversation",
+      "theme": "dark",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "9:41"
+        }
+      },
+      "deviceOwner": "marisol",
+      "participants": [
+        "marisol",
+        "hana"
+      ],
+      "title": "Not Ben ❓",
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Tue, Nov 10 at 9:22 PM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "hana",
+          "text": "Can I tell you something I haven't said out loud before?"
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "marisol",
+          "text": "always"
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "hana",
+          "text": "When you asked on Saturday if I was seeing anyone in Seattle, I said not really. That's true now. But there was someone for three years."
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "hana",
+          "text": "Her name was Joanne. My parents never met her. They don't know she existed."
+        },
+        {
+          "kind": "message",
+          "id": "m05",
+          "sender": "hana",
+          "text": "I've never told my parents about anyone."
+        },
+        {
+          "kind": "message",
+          "id": "m06",
+          "sender": "marisol",
+          "text": "oh hana"
+        },
+        {
+          "kind": "message",
+          "id": "m07",
+          "sender": "marisol",
+          "text": "thank you for telling me"
+        },
+        {
+          "kind": "message",
+          "id": "m08",
+          "sender": "marisol",
+          "text": "you don't owe them that. or me. you know that right"
+        },
+        {
+          "kind": "message",
+          "id": "m09",
+          "sender": "hana",
+          "text": "I know it in my head."
+        },
+        {
+          "kind": "message",
+          "id": "m10",
+          "sender": "hana",
+          "text": "Mom asked at dinner if I'd 'met a nice man in Seattle.' I said I was busy with work. Then I went to the bathroom and texted you."
+        },
+        {
+          "kind": "message",
+          "id": "m11",
+          "sender": "marisol",
+          "text": "i'm glad you texted me"
+        },
+        {
+          "kind": "message",
+          "id": "m12",
+          "sender": "marisol",
+          "text": "for the record i'm very out and my abuela still asks if i've met a nice man. she's 91, she's allowed"
+        },
+        {
+          "kind": "message",
+          "id": "m13",
+          "sender": "hana",
+          "text": "Was it hard? With your family?"
+        },
+        {
+          "kind": "message",
+          "id": "m14",
+          "sender": "marisol",
+          "text": "honestly no. i was 17, my mom cried for an hour and then made pozole. that was the whole thing"
+        },
+        {
+          "kind": "message",
+          "id": "m15",
+          "sender": "marisol",
+          "text": "i know i got lucky"
+        },
+        {
+          "kind": "message",
+          "id": "m16",
+          "sender": "hana",
+          "text": "You did. Not everyone gets pozole."
+        }
+      ],
+      "meta": {
+        "beat": "Hana is not out to her family."
+      }
+    },
+    {
+      "id": "s03",
+      "type": "notification",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "deviceOwner": "marisol",
+      "lockScreen": {
+        "time": "7:14",
+        "date": "Thursday 12 November"
+      },
+      "notifications": [
+        {
+          "id": "n1",
+          "app": "messages",
+          "title": "+1 (520) 555-0176",
+          "body": "BENNY!!! saw Saguaro Spoke in the paper this morning — BEST BIKE SHOP ON 4TH AVE?? proud of u man. call me sometime. it's Gabe",
+          "time": "now"
+        },
+        {
+          "id": "n2",
+          "app": "messages",
+          "sender": "hana",
+          "body": "Good morning. Mom's pre-op tests are today. Wish me patience.",
+          "time": "38m ago"
+        }
+      ],
+      "meta": {
+        "beat": "A stranger texts the old number."
+      }
+    },
+    {
+      "id": "s04",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "7:21"
+        }
+      },
+      "deviceOwner": "marisol",
+      "participants": [
+        "marisol",
+        "gabe"
+      ],
+      "title": "+1 (520) 555-0176",
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Thu, Nov 12 at 7:16 AM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "gabe",
+          "text": "BENNY!!! saw Saguaro Spoke in the paper this morning — BEST BIKE SHOP ON 4TH AVE?? proud of u man. call me sometime. it's Gabe"
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "marisol",
+          "text": "hi! sorry, this isn't ben anymore. i've had the number a couple years"
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "gabe",
+          "text": "NOOO"
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "gabe",
+          "text": "man. he went dark on everybody in 2020. figured maybe he'd kept the number"
+        },
+        {
+          "kind": "message",
+          "id": "m05",
+          "sender": "gabe",
+          "text": "sorry to bug u!!"
+        },
+        {
+          "kind": "message",
+          "id": "m06",
+          "sender": "marisol",
+          "text": "no worries. i hope you find him"
+        },
+        {
+          "kind": "message",
+          "id": "m07",
+          "sender": "gabe",
+          "text": "well now i know where his shop is lol. take care!"
+        }
+      ],
+      "meta": {
+        "beat": "'He went dark on everybody.'"
+      }
+    },
+    {
+      "id": "s05",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "12:52"
+        }
+      },
+      "deviceOwner": "marisol",
+      "participants": [
+        "marisol",
+        "hana"
+      ],
+      "title": "Not Ben ❓",
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Thu, Nov 12 at 12:40 PM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "marisol",
+          "text": "ok i need to tell you something and you can tell me to butt out"
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "marisol",
+          "text": "an old friend of ben's texted my number this morning. ben owns a bike shop on 4th ave. Saguaro Spoke"
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "marisol",
+          "text": "it's 10 min from my work"
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "hana",
+          "text": "He's here? In Tucson?"
+        },
+        {
+          "kind": "message",
+          "id": "m05",
+          "sender": "hana",
+          "text": "He stayed. I thought he moved away. I thought that was why the number changed."
+        },
+        {
+          "kind": "message",
+          "id": "m06",
+          "sender": "marisol",
+          "text": "the friend said he 'went dark on everybody' in 2020"
+        },
+        {
+          "kind": "message",
+          "id": "m07",
+          "sender": "hana",
+          "text": "Not just us, then."
+        },
+        {
+          "kind": "message",
+          "id": "m08",
+          "sender": "hana",
+          "text": "I don't know if that makes it better or worse."
+        },
+        {
+          "kind": "message",
+          "id": "m09",
+          "sender": "marisol",
+          "text": "you could go see him"
+        },
+        {
+          "kind": "message",
+          "id": "m10",
+          "sender": "hana",
+          "text": "I can't walk into his shop. If he looks at me the way he did the last time, I won't get through Mom's surgery."
+        },
+        {
+          "kind": "message",
+          "id": "m11",
+          "sender": "hana",
+          "text": "Could you just see if he's okay? You don't have to talk to him. Don't say my name."
+        },
+        {
+          "kind": "message",
+          "id": "m12",
+          "sender": "marisol",
+          "text": "hana…"
+        },
+        {
+          "kind": "message",
+          "id": "m13",
+          "sender": "hana",
+          "text": "I know. It's too much to ask. Forget it."
+        },
+        {
+          "kind": "message",
+          "id": "m14",
+          "sender": "marisol",
+          "text": "i didn't say no"
+        }
+      ],
+      "meta": {
+        "beat": "The ask."
+      }
+    },
+    {
+      "id": "s06",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "6:34"
+        }
+      },
+      "deviceOwner": "marisol",
+      "participants": [
+        "marisol",
+        "lucia"
+      ],
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Thu, Nov 12 at 6:30 PM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "marisol",
+          "text": "she asked me to go look at her brother. undercover"
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "lucia",
+          "text": "this is a terrible idea"
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "lucia",
+          "text": "i'm in"
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "marisol",
+          "text": "you're not in. you work saturdays"
+        },
+        {
+          "kind": "message",
+          "id": "m05",
+          "sender": "lucia",
+          "text": "then you're reporting live. every minute"
+        },
+        {
+          "kind": "message",
+          "id": "m06",
+          "sender": "marisol",
+          "text": "my raleigh needs a tune-up anyway. the gears click"
+        },
+        {
+          "kind": "message",
+          "id": "m07",
+          "sender": "lucia",
+          "text": "your gears have clicked since 2019"
+        },
+        {
+          "kind": "message",
+          "id": "m08",
+          "sender": "marisol",
+          "text": "so it's a legitimate errand"
+        },
+        {
+          "kind": "message",
+          "id": "m09",
+          "sender": "lucia",
+          "text": "you're a terrible spy and i love you"
+        }
+      ],
+      "meta": {
+        "beat": "Covert ops."
+      }
+    },
+    {
+      "id": "s07",
+      "type": "notification",
+      "theme": "dark",
+      "exportProfile": "iphone",
+      "deviceOwner": "marisol",
+      "lockScreen": {
+        "time": "6:51",
+        "date": "Thursday 12 November"
+      },
+      "notifications": [
+        {
+          "id": "n1",
+          "app": "mail",
+          "title": "Saguaro Spoke",
+          "body": "Tune-up booked — Hi Marisol! You're in for Saturday, Nov 14 at 9:00 AM. Bring the bike, we'll handle the rest. 🚲",
+          "time": "now"
+        },
+        {
+          "id": "n2",
+          "app": "messages",
+          "sender": "hana",
+          "body": "Thank you. I mean it. I don't know how to thank you.",
+          "time": "9m ago"
+        }
+      ],
+      "meta": {
+        "beat": "Cliffhanger: booked."
+      }
+    }
+  ]
+}

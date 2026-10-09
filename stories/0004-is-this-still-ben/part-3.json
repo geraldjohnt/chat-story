@@ -1,0 +1,515 @@
+{
+  "schemaVersion": 1,
+  "storyId": "0004",
+  "partNumber": 3,
+  "title": "Repair Ticket",
+  "summary": "Marisol reports live from the shop: Ben is kind, settled and has his sister's eyebrows. She has to write her number on the repair ticket, which is Ben's old number. That evening Ben texts: 'she sent you, didn't she.' He tells Marisol the part Hana left out: when he came out, Hana told him not to make it everyone's business. Marisol keeps Hana's secret, then confronts her. Hana reads it and drives away without a word.",
+  "status": "final",
+  "cliffhanger": "Marisol: 'you didn't drift. you told him to keep it quiet.' Hana reads it, leaves, and doesn't reply.",
+  "createdAt": "2026-10-09T20:00:00Z",
+  "updatedAt": "2026-10-09T20:00:00Z",
+  "screenshots": [
+    {
+      "id": "s01",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "9:17"
+        }
+      },
+      "deviceOwner": "marisol",
+      "participants": [
+        "marisol",
+        "lucia"
+      ],
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Sat, Nov 14 at 9:04 AM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "marisol",
+          "text": "i'm here"
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "marisol",
+          "text": "it smells like chain grease and coffee. there's a dog asleep on a tire"
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "lucia",
+          "text": "is it him"
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "marisol",
+          "text": "tall, beard, has her EXACT eyebrows"
+        },
+        {
+          "kind": "message",
+          "id": "m05",
+          "sender": "lucia",
+          "text": "EYEBROWS"
+        },
+        {
+          "kind": "message",
+          "id": "m06",
+          "sender": "marisol",
+          "text": "he called my bike 'a good honest frame.' i almost cried"
+        },
+        {
+          "kind": "message",
+          "id": "m07",
+          "sender": "marisol",
+          "text": "he gave the kid before me a free inner tube. people love him here"
+        },
+        {
+          "kind": "message",
+          "id": "m08",
+          "sender": "lucia",
+          "text": "so he's ok?"
+        },
+        {
+          "kind": "message",
+          "id": "m09",
+          "sender": "marisol",
+          "text": "he looks ok. he looks settled"
+        },
+        {
+          "kind": "message",
+          "id": "m10",
+          "sender": "marisol",
+          "text": "i had to write my name and number on the repair ticket"
+        },
+        {
+          "kind": "message",
+          "id": "m11",
+          "sender": "lucia",
+          "text": "your REAL number?"
+        },
+        {
+          "kind": "message",
+          "id": "m12",
+          "sender": "marisol",
+          "text": "it's the only number i have lucía"
+        },
+        {
+          "kind": "message",
+          "id": "m13",
+          "sender": "lucia",
+          "text": "babe. it's BEN'S OLD NUMBER. on BEN'S desk"
+        },
+        {
+          "kind": "message",
+          "id": "m14",
+          "sender": "marisol",
+          "text": "…"
+        },
+        {
+          "kind": "message",
+          "id": "m15",
+          "sender": "marisol",
+          "text": "oh no"
+        }
+      ],
+      "meta": {
+        "beat": "Live from the shop; the fatal ticket."
+      }
+    },
+    {
+      "id": "s02",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "11:36"
+        }
+      },
+      "deviceOwner": "marisol",
+      "participants": [
+        "marisol",
+        "hana"
+      ],
+      "title": "Not Ben ❓",
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Sat, Nov 14 at 11:30 AM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "marisol",
+          "text": "he's okay. better than okay. the shop is busy and there's a shop dog named Biscuit"
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "hana",
+          "text": "Biscuit."
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "hana",
+          "text": "We had a dog called Mochi when we were kids. He said when he grew up he'd have a dog in every room."
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "hana",
+          "text": "Did he seem happy?"
+        },
+        {
+          "kind": "message",
+          "id": "m05",
+          "sender": "marisol",
+          "text": "he seemed like someone who built a life on purpose"
+        },
+        {
+          "kind": "message",
+          "id": "m06",
+          "sender": "hana",
+          "text": "Thank you."
+        },
+        {
+          "kind": "message",
+          "id": "m07",
+          "sender": "marisol",
+          "text": "thank me with dinner. 7?"
+        },
+        {
+          "kind": "message",
+          "id": "m08",
+          "sender": "hana",
+          "text": "7. I'll pick you up."
+        }
+      ],
+      "meta": {
+        "beat": "The report."
+      }
+    },
+    {
+      "id": "s03",
+      "type": "notification",
+      "theme": "dark",
+      "exportProfile": "iphone",
+      "deviceOwner": "marisol",
+      "lockScreen": {
+        "time": "6:47",
+        "date": "Saturday 14 November"
+      },
+      "notifications": [
+        {
+          "id": "n1",
+          "app": "messages",
+          "title": "+1 (520) 555-0198",
+          "body": "you're the woman with the green raleigh.",
+          "time": "now"
+        },
+        {
+          "id": "n2",
+          "app": "messages",
+          "title": "+1 (520) 555-0198",
+          "body": "she sent you, didn't she.",
+          "time": "now"
+        },
+        {
+          "id": "n3",
+          "app": "messages",
+          "sender": "hana",
+          "body": "Leaving in 10. Is 7 still okay?",
+          "time": "4m ago"
+        }
+      ],
+      "meta": {
+        "beat": "He knows."
+      }
+    },
+    {
+      "id": "s04",
+      "type": "conversation",
+      "theme": "dark",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "7:02"
+        }
+      },
+      "deviceOwner": "marisol",
+      "participants": [
+        "marisol",
+        "ben"
+      ],
+      "title": "+1 (520) 555-0198",
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Sat, Nov 14 at 6:47 PM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "ben",
+          "text": "you're the woman with the green raleigh."
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "ben",
+          "text": "she sent you, didn't she."
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "marisol",
+          "text": "hi. yes that's my bike"
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "marisol",
+          "text": "how did you"
+        },
+        {
+          "kind": "message",
+          "id": "m05",
+          "sender": "ben",
+          "text": "you wrote my old number on my repair ticket."
+        },
+        {
+          "kind": "message",
+          "id": "m06",
+          "sender": "ben",
+          "text": "took me an hour to work out why it looked familiar. so. hana?"
+        },
+        {
+          "kind": "message",
+          "id": "m07",
+          "sender": "marisol",
+          "text": "she's in town. your mom's having heart surgery wednesday. she wanted you to know, and she wanted to know you were ok"
+        },
+        {
+          "kind": "message",
+          "id": "m08",
+          "sender": "ben",
+          "text": "and she couldn't ask me herself."
+        },
+        {
+          "kind": "message",
+          "id": "m09",
+          "sender": "marisol",
+          "text": "she was scared"
+        },
+        {
+          "kind": "message",
+          "id": "m10",
+          "sender": "ben",
+          "text": "yeah. she's good at that."
+        },
+        {
+          "kind": "message",
+          "id": "m11",
+          "sender": "marisol",
+          "text": "that's not fair"
+        },
+        {
+          "kind": "message",
+          "id": "m12",
+          "sender": "ben",
+          "text": "you want fair?"
+        },
+        {
+          "kind": "message",
+          "id": "m13",
+          "sender": "ben",
+          "text": "i came out to my parents in march 2020. i was 30. dad stood up and said he didn't have a son. mom started clearing the plates."
+        },
+        {
+          "kind": "message",
+          "id": "m14",
+          "sender": "ben",
+          "text": "hana walked me to my car after. you know what she said?"
+        },
+        {
+          "kind": "message",
+          "id": "m15",
+          "sender": "ben",
+          "text": "'maybe you could just not make it everyone's business.'"
+        },
+        {
+          "kind": "message",
+          "id": "m16",
+          "sender": "ben",
+          "text": "that's the last thing my sister said to me."
+        },
+        {
+          "kind": "message",
+          "id": "m17",
+          "sender": "marisol",
+          "text": "ben. i'm so sorry"
+        },
+        {
+          "kind": "message",
+          "id": "m18",
+          "sender": "ben",
+          "text": "she told you we drifted, right"
+        },
+        {
+          "kind": "message",
+          "id": "m19",
+          "sender": "marisol",
+          "text": "she told me you hadn't talked since 2020"
+        },
+        {
+          "kind": "message",
+          "id": "m20",
+          "sender": "ben",
+          "text": "we didn't drift. she picked."
+        },
+        {
+          "kind": "message",
+          "id": "m21",
+          "sender": "ben",
+          "text": "i'll think about mom. don't text this number unless i text first."
+        }
+      ],
+      "meta": {
+        "beat": "Ben's side."
+      }
+    },
+    {
+      "id": "s05",
+      "type": "conversation",
+      "theme": "dark",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "7:09"
+        }
+      },
+      "deviceOwner": "marisol",
+      "participants": [
+        "marisol",
+        "hana"
+      ],
+      "title": "Not Ben ❓",
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Sat, Nov 14 at 7:06 PM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "hana",
+          "text": "I'm outside. Are you okay?"
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "marisol",
+          "text": "he figured it out. i wrote my number on the repair ticket. his old number"
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "marisol",
+          "text": "he texted me"
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "hana",
+          "text": "What did he say?"
+        },
+        {
+          "kind": "message",
+          "id": "m05",
+          "sender": "marisol",
+          "text": "that he'll think about your mom"
+        },
+        {
+          "kind": "message",
+          "id": "m06",
+          "sender": "marisol",
+          "text": "and what you said to him by his car"
+        },
+        {
+          "kind": "message",
+          "id": "m07",
+          "sender": "marisol",
+          "text": "hana. you didn't drift. you told him to keep it quiet.",
+          "receipt": {
+            "status": "read",
+            "at": "7:09 PM"
+          }
+        },
+        {
+          "kind": "typing",
+          "id": "typing",
+          "sender": "hana"
+        }
+      ],
+      "meta": {
+        "beat": "The confrontation."
+      }
+    },
+    {
+      "id": "s06",
+      "type": "conversation",
+      "theme": "dark",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "8:21"
+        }
+      },
+      "deviceOwner": "marisol",
+      "participants": [
+        "marisol",
+        "hana"
+      ],
+      "title": "Not Ben ❓",
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Sat, Nov 14 at 8:14 PM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "marisol",
+          "text": "your car's gone"
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "marisol",
+          "text": "hana please say something",
+          "receipt": {
+            "status": "read",
+            "at": "8:15 PM"
+          }
+        }
+      ],
+      "meta": {
+        "beat": "Cliffhanger: read, no reply."
+      }
+    }
+  ]
+}

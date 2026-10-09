@@ -1,0 +1,501 @@
+{
+  "schemaVersion": 1,
+  "storyId": "0004",
+  "partNumber": 1,
+  "title": "Wrong Number",
+  "summary": "At 11:48 pm a stranger texts Marisol looking for Ben, the previous owner of her number. Hana is back in Tucson for her mother's heart surgery and says she and her brother 'drifted'. Marisol tells her sister everything; the next night she and Hana talk until 2:10 am, and Hana asks her out for coffee.",
+  "status": "final",
+  "cliffhanger": "Hana: 'Could I buy you a coffee? I'd like to know what a person who answers wrong numbers looks like.'",
+  "createdAt": "2026-10-09T20:00:00Z",
+  "updatedAt": "2026-10-09T20:00:00Z",
+  "screenshots": [
+    {
+      "id": "s01",
+      "type": "notification",
+      "theme": "dark",
+      "exportProfile": "iphone",
+      "deviceOwner": "marisol",
+      "lockScreen": {
+        "time": "11:48",
+        "date": "Tuesday 3 November"
+      },
+      "notifications": [
+        {
+          "id": "n1",
+          "app": "messages",
+          "title": "+1 (206) 555-0143",
+          "body": "Is this still Ben? It's Hana. I know it's been six years.",
+          "time": "now"
+        },
+        {
+          "id": "n2",
+          "app": "messages",
+          "sender": "lucia",
+          "body": "did u eat dinner or just frosting again",
+          "time": "3h ago"
+        }
+      ],
+      "meta": {
+        "beat": "Hook: a midnight text for someone else."
+      }
+    },
+    {
+      "id": "s02",
+      "type": "conversation",
+      "theme": "dark",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "11:57"
+        }
+      },
+      "deviceOwner": "marisol",
+      "participants": [
+        "marisol",
+        "hana"
+      ],
+      "title": "+1 (206) 555-0143",
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Tue, Nov 3 at 11:48 PM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "hana",
+          "text": "Is this still Ben? It's Hana. I know it's been six years."
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "hana",
+          "text": "I'm sorry for texting so late. I wasn't sure I'd be brave enough in the morning."
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "marisol",
+          "text": "hi! oh no"
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "marisol",
+          "text": "not ben, sorry. i've had this number since 2024"
+        },
+        {
+          "kind": "message",
+          "id": "m05",
+          "sender": "marisol",
+          "text": "you're the first person who's ever asked for him actually"
+        },
+        {
+          "kind": "message",
+          "id": "m06",
+          "sender": "hana",
+          "text": "Oh. Of course. That makes sense."
+        },
+        {
+          "kind": "message",
+          "id": "m07",
+          "sender": "hana",
+          "text": "I'm sorry to bother you. Please ignore this."
+        },
+        {
+          "kind": "message",
+          "id": "m08",
+          "sender": "marisol",
+          "text": "it's ok!! i'm up at 4 for work so this is basically my lunch break"
+        },
+        {
+          "kind": "message",
+          "id": "m09",
+          "sender": "marisol",
+          "text": "is everything ok? that sounded like a big text to send"
+        },
+        {
+          "kind": "message",
+          "id": "m10",
+          "sender": "hana",
+          "text": "It was. He's my brother. We haven't spoken since 2020."
+        },
+        {
+          "kind": "message",
+          "id": "m11",
+          "sender": "hana",
+          "text": "Our mom is having heart surgery in two weeks and I'm back in Tucson for it. I thought he should know. That's all."
+        },
+        {
+          "kind": "message",
+          "id": "m12",
+          "sender": "marisol",
+          "text": "oh man. i'm really sorry"
+        },
+        {
+          "kind": "message",
+          "id": "m13",
+          "sender": "hana",
+          "text": "We drifted. It happens in families, I guess."
+        },
+        {
+          "kind": "message",
+          "id": "m14",
+          "sender": "hana",
+          "text": "Sorry, that was a lot. Goodnight, not-Ben."
+        },
+        {
+          "kind": "message",
+          "id": "m15",
+          "sender": "marisol",
+          "text": "goodnight hana. i hope your mom's ok 🌵",
+          "receipt": {
+            "status": "read",
+            "at": "11:57 PM"
+          }
+        }
+      ],
+      "meta": {
+        "beat": "'We drifted.'"
+      }
+    },
+    {
+      "id": "s03",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "9:44"
+        }
+      },
+      "deviceOwner": "marisol",
+      "participants": [
+        "marisol",
+        "lucia"
+      ],
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Wed, Nov 4 at 9:40 AM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "marisol",
+          "text": "ok weird thing"
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "marisol",
+          "text": "a stranger texted me at midnight looking for her brother. the old owner of my number"
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "lucia",
+          "text": "girl."
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "lucia",
+          "text": "did you block"
+        },
+        {
+          "kind": "message",
+          "id": "m05",
+          "sender": "marisol",
+          "text": "no?? she was so polite. full sentences. she apologized like 3 times"
+        },
+        {
+          "kind": "message",
+          "id": "m06",
+          "sender": "marisol",
+          "text": "her mom's having heart surgery and her brother doesn't talk to her"
+        },
+        {
+          "kind": "message",
+          "id": "m07",
+          "sender": "lucia",
+          "text": "and now you want to adopt her"
+        },
+        {
+          "kind": "message",
+          "id": "m08",
+          "sender": "marisol",
+          "text": "i want to know what happened 🙃"
+        },
+        {
+          "kind": "message",
+          "id": "m09",
+          "sender": "lucia",
+          "text": "that's how true crime podcasts start"
+        },
+        {
+          "kind": "message",
+          "id": "m10",
+          "sender": "lucia",
+          "text": "is she cute"
+        },
+        {
+          "kind": "message",
+          "id": "m11",
+          "sender": "marisol",
+          "text": "it was TEXT lucía"
+        },
+        {
+          "kind": "message",
+          "id": "m12",
+          "sender": "marisol",
+          "text": "…her profile pic is a bridge. like a photo OF a bridge"
+        },
+        {
+          "kind": "message",
+          "id": "m13",
+          "sender": "lucia",
+          "text": "a woman of mystery and infrastructure"
+        },
+        {
+          "kind": "message",
+          "id": "m14",
+          "sender": "lucia",
+          "text": "if you text her first i'll know you're doomed"
+        }
+      ],
+      "meta": {
+        "beat": "The sister weighs in."
+      }
+    },
+    {
+      "id": "s04",
+      "type": "conversation",
+      "theme": "dark",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "8:52"
+        }
+      },
+      "deviceOwner": "marisol",
+      "participants": [
+        "marisol",
+        "hana"
+      ],
+      "title": "Not Ben ❓",
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Wed, Nov 4 at 8:31 PM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "hana",
+          "text": "Hi. It's Hana, the wrong number from last night. I wanted to say thank you for being kind about it. You didn't have to be."
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "marisol",
+          "text": "hi wrong number 🙂"
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "marisol",
+          "text": "how's your mom"
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "hana",
+          "text": "Stubborn. She told the cardiologist she'd 'think about' the surgery. He told her it isn't optional."
+        },
+        {
+          "kind": "message",
+          "id": "m05",
+          "sender": "hana",
+          "text": "Can I ask your name? I've been calling you not-Ben in my head and it feels rude."
+        },
+        {
+          "kind": "message",
+          "id": "m06",
+          "sender": "marisol",
+          "text": "marisol! i make the croissants at a hotel downtown so i'm awake at 4 and asleep by 8:30"
+        },
+        {
+          "kind": "message",
+          "id": "m07",
+          "sender": "marisol",
+          "text": "so this is past my bedtime and i'm choosing chaos"
+        },
+        {
+          "kind": "message",
+          "id": "m08",
+          "sender": "hana",
+          "text": "I'll let you sleep."
+        },
+        {
+          "kind": "message",
+          "id": "m09",
+          "sender": "marisol",
+          "text": "no wait. why is your profile pic a bridge"
+        },
+        {
+          "kind": "message",
+          "id": "m10",
+          "sender": "hana",
+          "text": "It's the Fremont Bridge in Seattle. I'm a structural engineer. I worked on its seismic retrofit."
+        },
+        {
+          "kind": "message",
+          "id": "m11",
+          "sender": "hana",
+          "text": "I realise that's the least mysterious possible answer."
+        },
+        {
+          "kind": "message",
+          "id": "m12",
+          "sender": "marisol",
+          "text": "my sister called you 'a woman of mystery and infrastructure' so"
+        },
+        {
+          "kind": "message",
+          "id": "m13",
+          "sender": "hana",
+          "text": "You told your sister about me?"
+        },
+        {
+          "kind": "message",
+          "id": "m14",
+          "sender": "marisol",
+          "text": "i tell my sister everything. she's a menace"
+        },
+        {
+          "kind": "message",
+          "id": "m15",
+          "sender": "hana",
+          "text": "I don't really have anyone like that anymore."
+        },
+        {
+          "kind": "message",
+          "id": "m16",
+          "sender": "hana",
+          "text": "Sorry. That came out bleak."
+        }
+      ],
+      "meta": {
+        "beat": "Names, jobs, a bridge."
+      }
+    },
+    {
+      "id": "s05",
+      "type": "conversation",
+      "theme": "dark",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "2:11"
+        }
+      },
+      "deviceOwner": "marisol",
+      "participants": [
+        "marisol",
+        "hana"
+      ],
+      "title": "Not Ben ❓",
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Thu, Nov 5 at 12:47 AM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "hana",
+          "text": "Okay, your turn. Worst thing you have ever baked."
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "marisol",
+          "text": "a wedding cake that slid off its own dowels. in july. outdoors. in tucson"
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "marisol",
+          "text": "the groom ate a whole tier off the grass to make his wife laugh. they'll make it"
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "hana",
+          "text": "That's the most structurally upsetting thing I've ever heard."
+        },
+        {
+          "kind": "message",
+          "id": "m05",
+          "sender": "marisol",
+          "text": "you would've saved that cake"
+        },
+        {
+          "kind": "message",
+          "id": "m06",
+          "sender": "hana",
+          "text": "I would have told you not to build a cake outside in July."
+        },
+        {
+          "kind": "timestamp",
+          "id": "t02",
+          "label": "Thu, Nov 5 at 2:10 AM"
+        },
+        {
+          "kind": "message",
+          "id": "m07",
+          "sender": "marisol",
+          "text": "oh no. it's 2:10"
+        },
+        {
+          "kind": "message",
+          "id": "m08",
+          "sender": "marisol",
+          "text": "i have to laminate 400 croissants in two hours"
+        },
+        {
+          "kind": "message",
+          "id": "m09",
+          "sender": "hana",
+          "text": "I'm so sorry. Go to sleep. I mean it."
+        },
+        {
+          "kind": "message",
+          "id": "m10",
+          "sender": "marisol",
+          "text": "worth it 🙃"
+        },
+        {
+          "kind": "message",
+          "id": "m11",
+          "sender": "hana",
+          "text": "Marisol."
+        },
+        {
+          "kind": "message",
+          "id": "m12",
+          "sender": "hana",
+          "text": "Could I buy you a coffee? I'd like to know what a person who answers wrong numbers looks like."
+        }
+      ],
+      "meta": {
+        "beat": "Cliffhanger: the invitation."
+      }
+    }
+  ]
+}

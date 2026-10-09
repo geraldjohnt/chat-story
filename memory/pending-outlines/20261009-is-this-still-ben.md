@@ -1,6 +1,6 @@
 # Is This Still Ben?
 
-Status: pending
+Status: approved → story 0004
 Proposed: 2026-10-09
 Genre: Wrong-number romance / family estrangement → hopeful beginning
 Setting: Tucson, Arizona; 3–21 November 2026
@@ -106,3 +106,6 @@ proposals in this batch ("Split the Rental", "Before 8 A.M.").
 - The ending is a new beginning, which no existing story uses.
 - Ben's need for privacy is a deliberate counterweight, so the plot isn't "find the lost relative and
   everyone hugs".
+
+## Generation notes (2026-10-09)
+Ben was 30 and Hana 25 when he came out (March 2020); the outline's "19" contradicted the six-year gap. Hana chooses to come out to Ben inside her own apology; Marisol relays it word for word only after Ben consents. Added Marisol's mother (`mama`) for the final conversation list. Ben's shop dog is Biscuit; Ben suggests "Christmas, maybe".

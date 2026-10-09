@@ -1,0 +1,299 @@
+{
+  "schemaVersion": 1,
+  "id": "0006",
+  "title": "Before 8 A.M.",
+  "slug": "before-8-am",
+  "genre": "neighbours-romance",
+  "tags": [
+    "neighbours",
+    "enemies-to-lovers",
+    "later-life-romance",
+    "small-lies",
+    "open-ending"
+  ],
+  "language": "en",
+  "setting": "Wellington, New Zealand; Harbourview apartments, Mount Victoria; 2 March – 30 May 2027 (autumn).",
+  "premise": "A divorced piano teacher swaps passive-aggressive texts with the night-shift neighbour below her over a noise complaint. They fall for each other. Then she finds out he filed the complaint after all, and that he's leaving.",
+  "synopsis": "A noise complaint about Ruth's early-morning piano lessons sends her straight to the building directory and the new man in 3B. Iain swears he didn't complain. A truce, a note about Chopin and a walk along Oriental Bay later, Ruth learns two things he didn't tell her, and has to decide what six weeks are worth.",
+  "characters": [
+    {
+      "id": "ruth",
+      "name": "Ruth Danvers",
+      "contactName": "Ruth (4B)",
+      "role": "Device owner, piano teacher",
+      "age": 48,
+      "description": "Teaches from home; divorced four years (her ex left with three weeks' notice). Wry, self-sufficient, wary of being blindsided. Complete sentences, semicolons, early sign-offs \"Ruth (4B)\", warms into ellipses.",
+      "avatar": {
+        "initials": "RD",
+        "color": "#6A1B9A"
+      }
+    },
+    {
+      "id": "iain",
+      "name": "Iain Mackie",
+      "contactName": "Iain (3B)",
+      "role": "111 call-taker, downstairs neighbour",
+      "age": 52,
+      "description": "Glasgow-born, widowed six years, night shifts 8 pm–6 am. Kind, conflict-avoidant, embarrassed by small lies. Dry Scots phrasing (\"aye\", \"wee\"), short texts, full stops.",
+      "avatar": {
+        "initials": "IM",
+        "color": "#00695C"
+      }
+    },
+    {
+      "id": "sam",
+      "name": "Sam Danvers",
+      "contactName": "Sam 💙",
+      "role": "Ruth's son (uni, Auckland)",
+      "age": 22,
+      "description": "Teasing and protective. 'MUM.', 😭, lowercase, 'proud of u'.",
+      "avatar": {
+        "initials": "SD",
+        "color": "#1565C0"
+      }
+    },
+    {
+      "id": "kerry",
+      "name": "Kerry Walsh",
+      "contactName": "Kerry – Harbourview BC",
+      "role": "Body corporate manager",
+      "description": "Brisk, polite, boilerplate; signs \"Thanks, Kerry\".",
+      "avatar": {
+        "initials": "KW",
+        "color": "#546E7A"
+      }
+    },
+    {
+      "id": "fiona",
+      "name": "Fiona Mackie",
+      "contactName": "Fiona Mackie",
+      "role": "Iain's daughter (Dunedin)",
+      "age": 26,
+      "description": "Pregnant with twins; warm and practical.",
+      "avatar": {
+        "initials": "FM",
+        "color": "#AD1457"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "ruth",
+      "to": "iain",
+      "type": "neighbours → romance",
+      "description": "She owns 4B; he rents 3B directly below on a six-month fixed term."
+    },
+    {
+      "from": "ruth",
+      "to": "sam",
+      "type": "mother / son",
+      "description": "Close; he is her confidant."
+    },
+    {
+      "from": "iain",
+      "to": "fiona",
+      "type": "father / daughter",
+      "description": "Close; Iain's wife died six years ago."
+    },
+    {
+      "from": "ruth",
+      "to": "kerry",
+      "type": "owner / body corporate manager",
+      "description": "Noise rules and the lift."
+    }
+  ],
+  "centralConflict": "Ruth wants a second love that won't blindside her the way her marriage ended. Iain is a decent man whose small evasions add up to exactly what she fears. Can two adults risk something that has an end date?",
+  "secrets": [
+    {
+      "id": "complaint",
+      "holder": "iain",
+      "description": "Iain lodged the noise complaint on 14 Feb 2027, his first week, sleepless after night shifts, then denied it.",
+      "revealedInPart": 1
+    },
+    {
+      "id": "dunedin",
+      "holder": "iain",
+      "description": "Iain applied in January to transfer to the Dunedin comms centre to be near Fiona's twins; confirmed in April; he leaves 29 May.",
+      "revealedInPart": 2
+    },
+    {
+      "id": "three-weeks",
+      "holder": "ruth",
+      "description": "Ruth's ex-husband left after 22 years with three weeks' notice.",
+      "revealedInPart": 3
+    }
+  ],
+  "plotOutline": [
+    {
+      "partNumber": 1,
+      "title": "Noise Complaint",
+      "beats": [
+        "Body corporate complaint text",
+        "Sam: 'MUM.'",
+        "Iain: 'I've never complained about anything in my life'",
+        "The truce: lesson moved, door closed like a baby",
+        "Thaw: song titles and a Chopin note",
+        "Kerry: lodged by Unit 3B"
+      ]
+    },
+    {
+      "partNumber": 2,
+      "title": "3B",
+      "beats": [
+        "Confronting the lie",
+        "Iain's admission",
+        "Sam: 'be the hedge'",
+        "Ruth's terms",
+        "Oriental Bay; the concert",
+        "Misdirected text: out by 30 May"
+      ]
+    },
+    {
+      "partNumber": 3,
+      "title": "Thirtieth of May",
+      "beats": [
+        "The transfer explained",
+        "Sam: 'the opposite of dad'",
+        "No long distance, but six weeks",
+        "Fiona's message",
+        "Moving day",
+        "'Dunedin has pianos.'"
+      ]
+    }
+  ],
+  "plannedEnding": "Open and hopeful, without a promise. Ruth refuses long distance but takes the six weeks with eyes open. Iain moves to Dunedin on 29 May. On 30 May Ruth plays the nocturne before 8 and texts him; he replies 'Dunedin has pianos. Just saying.' The story ends on his typing indicator.",
+  "continuity": [
+    "Harbourview apartments, Mount Victoria. Ruth owns 4B; Iain rents 3B directly below (six-month fixed term). Body corporate manager Kerry Walsh; quiet hours 10 pm–8 am (Rule 12). The lift breaks repeatedly; repaired late May.",
+    "Ruth's 7:15 am Tuesday/Thursday student: Aroha, 16, Year 12 (Clementi). Thursday lesson moved to 4 pm. Aroha's school concert Sat 10 Apr; Iain carried the keyboard.",
+    "Iain works 8 pm–6 am at the Wellington 111 comms centre; complaint #0214 lodged 14/02/2027 by 3B.",
+    "Iain's late wife played Chopin's Nocturne in E-flat, Op. 9 No. 2. First date: Oriental Bay, Sat 27 Mar (fish and chips on the steps).",
+    "Ruth's ex left after 22 years with three weeks' notice. Sam (22) crashed the Corolla into a hedge as a teen.",
+    "Iain's transfer to the Dunedin comms centre confirmed in April; Fiona's twins due in June; her husband works on the boats. Iain left Sat 29 May (ferry); Ruth's last messages 30 May."
+  ],
+  "timeline": [
+    {
+      "id": "tl-01",
+      "when": "2027-01",
+      "event": "Iain applies for a transfer to Dunedin."
+    },
+    {
+      "id": "tl-02",
+      "when": "2027-02-14",
+      "event": "Iain lodges the noise complaint (first week in 3B)."
+    },
+    {
+      "id": "tl-03",
+      "when": "2027-03-02",
+      "event": "Complaint notice; Ruth texts Iain.",
+      "partNumber": 1
+    },
+    {
+      "id": "tl-04",
+      "when": "2027-03-04",
+      "event": "Truce.",
+      "partNumber": 1
+    },
+    {
+      "id": "tl-05",
+      "when": "2027-03-16",
+      "event": "The Chopin note.",
+      "partNumber": 1
+    },
+    {
+      "id": "tl-06",
+      "when": "2027-03-20",
+      "event": "Kerry's email: lodged by 3B; Ruth confronts Iain.",
+      "partNumber": 1
+    },
+    {
+      "id": "tl-07",
+      "when": "2027-03-21",
+      "event": "Ruth's terms.",
+      "partNumber": 2
+    },
+    {
+      "id": "tl-08",
+      "when": "2027-03-27",
+      "event": "Oriental Bay.",
+      "partNumber": 2
+    },
+    {
+      "id": "tl-09",
+      "when": "2027-04-10",
+      "event": "Aroha's concert.",
+      "partNumber": 2
+    },
+    {
+      "id": "tl-10",
+      "when": "2027-04-18",
+      "event": "Misdirected text; transfer revealed.",
+      "partNumber": 2
+    },
+    {
+      "id": "tl-11",
+      "when": "2027-04-19",
+      "event": "Ruth chooses the six weeks.",
+      "partNumber": 3
+    },
+    {
+      "id": "tl-12",
+      "when": "2027-05-13",
+      "event": "Fiona writes to Ruth.",
+      "partNumber": 3
+    },
+    {
+      "id": "tl-13",
+      "when": "2027-05-29",
+      "event": "Iain moves.",
+      "partNumber": 3
+    },
+    {
+      "id": "tl-14",
+      "when": "2027-05-30 07:52",
+      "event": "Ruth: 'Played it before 8.'",
+      "partNumber": 3
+    }
+  ],
+  "unresolvedThreads": [
+    {
+      "id": "who-complained",
+      "description": "Who lodged the noise complaint?",
+      "introducedInPart": 1,
+      "resolvedInPart": 1
+    },
+    {
+      "id": "forgive",
+      "description": "Will Ruth forgive the lie?",
+      "introducedInPart": 1,
+      "resolvedInPart": 2
+    },
+    {
+      "id": "leaving",
+      "description": "What does \"out by 30 May\" mean for them?",
+      "introducedInPart": 2,
+      "resolvedInPart": 3
+    }
+  ],
+  "partSummaries": [
+    {
+      "partNumber": 1,
+      "title": "Noise Complaint",
+      "summary": "The body corporate tells Ruth someone has complained about her piano before 8 am. She texts the new man downstairs with ferocious politeness. Iain says he has never complained about anything in his life; he just works nights. They agree a truce, and the texts thaw into song titles and a note about Chopin. Then Ruth asks the body corporate for the complaint record, 'for her files'."
+    },
+    {
+      "partNumber": 2,
+      "title": "3B",
+      "summary": "Ruth confronts Iain with Kerry's email. He admits it: his first sleepless week, a web form, then a small lie he couldn't take back once he liked her. Sam tells her to 'be the hedge'. Ruth forgives him on three terms, and the weeks that follow are Oriental Bay, a school concert and good-morning texts after his shifts. Then a text meant for his daughter lands in her thread: he's moving out by 30 May."
+    },
+    {
+      "partNumber": 3,
+      "title": "Thirtieth of May",
+      "summary": "Iain explains: in January, before he knew Ruth, he applied to transfer to Dunedin to help his daughter with her twins. It came through a week ago and he hadn't found the words. For Ruth it echoes her ex-husband's three weeks' notice, but Sam points out this is the opposite of his dad. Ruth refuses long distance and asks for the six weeks, eyes open. Fiona writes to her kindly. Iain leaves on 29 May. The next morning Ruth plays the nocturne before 8."
+    }
+  ],
+  "plannedPartCount": 3,
+  "completedPartCount": 3,
+  "status": "completed",
+  "createdAt": "2026-10-09T20:00:00Z",
+  "updatedAt": "2026-10-09T20:00:00Z"
+}

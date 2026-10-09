@@ -1,0 +1,449 @@
+{
+  "schemaVersion": 1,
+  "storyId": "0005",
+  "partNumber": 2,
+  "title": "In Scope",
+  "summary": "Claire admits she saw Femi's name on the org chart on 29 Dec and spent six days deciding how to tell him. Dev, scared for his job, asks Femi what he knows; Femi knows nothing and sounds evasive anyway. When Femi asks Claire whether Dev is on a list, she refuses and warns she'd have to report a second ask. Then she lays out her choice: disclose and lose the project, or stay silent and lose him. She asks Femi to choose.",
+  "status": "final",
+  "cliffhanger": "Femi refuses to make Claire's choice for her: 'That one's yours.' She starts typing.",
+  "createdAt": "2026-10-09T20:00:00Z",
+  "updatedAt": "2026-10-09T20:00:00Z",
+  "screenshots": [
+    {
+      "id": "s01",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "8:14"
+        }
+      },
+      "deviceOwner": "femi",
+      "participants": [
+        "femi",
+        "claire"
+      ],
+      "title": "Claire (Split Rental)",
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Mon, Jan 4 at 8:06 AM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "femi",
+          "text": "Operational efficiency review."
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "femi",
+          "text": "Led by Claire Novak."
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "femi",
+          "text": "When did you know?"
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "claire",
+          "text": "The 29th. The org chart came through that afternoon. Your name was on it. Operations Manager, 14 reports."
+        },
+        {
+          "kind": "message",
+          "id": "m05",
+          "sender": "femi",
+          "text": "Six days, Claire."
+        },
+        {
+          "kind": "message",
+          "id": "m06",
+          "sender": "claire",
+          "text": "I know."
+        },
+        {
+          "kind": "message",
+          "id": "m07",
+          "sender": "claire",
+          "text": "I didn't tell you on the 29th because I didn't know what I was allowed to tell you. I spent New Year's Day reading our conflict-of-interest policy like it was a thriller."
+        },
+        {
+          "kind": "message",
+          "id": "m08",
+          "sender": "claire",
+          "text": "I was going to come to your office first thing today and tell you before you read it. Someone in comms hit send at 7:58."
+        },
+        {
+          "kind": "message",
+          "id": "m09",
+          "sender": "femi",
+          "text": "You were going to walk into my office as the person reviewing my team."
+        },
+        {
+          "kind": "message",
+          "id": "m10",
+          "sender": "claire",
+          "text": "Yes. Every way of telling you was terrible. I picked the least terrible and it still got beaten by an email."
+        },
+        {
+          "kind": "message",
+          "id": "m11",
+          "sender": "femi",
+          "text": "The kickoff is in twenty minutes. In a room with you."
+        },
+        {
+          "kind": "message",
+          "id": "m12",
+          "sender": "claire",
+          "text": "I won't pretend anything in there. I'll be professional. That's different."
+        }
+      ],
+      "meta": {
+        "beat": "'Six days.'"
+      }
+    },
+    {
+      "id": "s02",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "4:22"
+        }
+      },
+      "deviceOwner": "femi",
+      "participants": [
+        "femi",
+        "dev"
+      ],
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Mon, Jan 4 at 4:15 PM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "dev",
+          "text": "hey man"
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "dev",
+          "text": "so the consultant asked me for 'a walkthrough of a typical day' 😬"
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "dev",
+          "text": "marcy in finance says ops is first and dispatch is getting folded into the lincoln office"
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "dev",
+          "text": "you hear anything? anything at all. meera's freaking out, we just refinanced"
+        },
+        {
+          "kind": "message",
+          "id": "m05",
+          "sender": "femi",
+          "text": "I haven't heard anything. I promise you that."
+        },
+        {
+          "kind": "message",
+          "id": "m06",
+          "sender": "dev",
+          "text": "you'd tell me right? if you knew"
+        },
+        {
+          "kind": "message",
+          "id": "m07",
+          "sender": "femi",
+          "text": "If I knew something I was allowed to tell you, I'd tell you."
+        },
+        {
+          "kind": "message",
+          "id": "m08",
+          "sender": "dev",
+          "text": "that's a lawyer answer femi"
+        },
+        {
+          "kind": "message",
+          "id": "m09",
+          "sender": "dev",
+          "text": "anyway. sorry. long day. see you tmrw"
+        }
+      ],
+      "meta": {
+        "beat": "Dev's fear."
+      }
+    },
+    {
+      "id": "s03",
+      "type": "conversation",
+      "theme": "dark",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "9:51"
+        }
+      },
+      "deviceOwner": "femi",
+      "participants": [
+        "femi",
+        "claire"
+      ],
+      "title": "Claire (Split Rental)",
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Mon, Jan 4 at 9:40 PM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "femi",
+          "text": "Can I ask you something and you tell me straight?"
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "claire",
+          "text": "You can ask."
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "femi",
+          "text": "Is my team on a list? Is Dev? He has two kids and a new mortgage."
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "claire",
+          "text": "I can't answer that."
+        },
+        {
+          "kind": "message",
+          "id": "m05",
+          "sender": "claire",
+          "text": "Not because there is or isn't a list. Because I can't answer anything about the review to anyone in scope. You're in scope."
+        },
+        {
+          "kind": "message",
+          "id": "m06",
+          "sender": "claire",
+          "text": "And if you ask again, I have to report that you asked. That's the rule. I'd hate it, and I'd do it."
+        },
+        {
+          "kind": "message",
+          "id": "m07",
+          "sender": "femi",
+          "text": "Okay."
+        },
+        {
+          "kind": "message",
+          "id": "m08",
+          "sender": "femi",
+          "text": "That's the right answer. I hate that it's the right answer."
+        },
+        {
+          "kind": "message",
+          "id": "m09",
+          "sender": "claire",
+          "text": "Me too."
+        },
+        {
+          "kind": "message",
+          "id": "m10",
+          "sender": "femi",
+          "text": "For what it's worth, I wouldn't have told him."
+        },
+        {
+          "kind": "message",
+          "id": "m11",
+          "sender": "claire",
+          "text": "I know. That's why I told you the rule instead of just saying no."
+        }
+      ],
+      "meta": {
+        "beat": "She holds the line."
+      }
+    },
+    {
+      "id": "s04",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "7:36"
+        }
+      },
+      "deviceOwner": "femi",
+      "participants": [
+        "femi",
+        "tolu"
+      ],
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Tue, Jan 5 at 7:30 PM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "femi",
+          "text": "She won't tell me anything about the review. I asked her straight."
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "tolu",
+          "text": "brother she's RIGHT though"
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "tolu",
+          "text": "imagine if she DID tell u. you'd never trust her again"
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "femi",
+          "text": "I know."
+        },
+        {
+          "kind": "message",
+          "id": "m05",
+          "sender": "femi",
+          "text": "Dev asked if I'd tell him. I gave him a lawyer answer. He looked at me today like I'd already sold him out."
+        },
+        {
+          "kind": "message",
+          "id": "m06",
+          "sender": "tolu",
+          "text": "have u told him u know her"
+        },
+        {
+          "kind": "message",
+          "id": "m07",
+          "sender": "femi",
+          "text": "Know her how? We drove across Nebraska and talked on the phone for two weeks."
+        },
+        {
+          "kind": "message",
+          "id": "m08",
+          "sender": "tolu",
+          "text": "femi. you sent me a voice note about her laugh. it was 4 minutes"
+        },
+        {
+          "kind": "message",
+          "id": "m09",
+          "sender": "tolu",
+          "text": "that's not 'drove across nebraska'"
+        },
+        {
+          "kind": "message",
+          "id": "m10",
+          "sender": "femi",
+          "text": "👍"
+        },
+        {
+          "kind": "message",
+          "id": "m11",
+          "sender": "tolu",
+          "text": "don't 👍 me"
+        }
+      ],
+      "meta": {
+        "beat": "Tolu's verdict."
+      }
+    },
+    {
+      "id": "s05",
+      "type": "conversation",
+      "theme": "dark",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "10:58"
+        }
+      },
+      "deviceOwner": "femi",
+      "participants": [
+        "femi",
+        "claire"
+      ],
+      "title": "Claire (Split Rental)",
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Wed, Jan 6 at 10:52 PM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "claire",
+          "text": "I haven't disclosed yet."
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "claire",
+          "text": "I've written the email three times. If I send it, I'm off the project. It's my partner-track year, Margaret picked me for this, and they won't staff me on something this size again until next cycle."
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "claire",
+          "text": "If I don't send it, I can't see you. Not until the review ends in March. Maybe not after, if anyone ever finds out."
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "claire",
+          "text": "I need you to tell me which one you can live with."
+        },
+        {
+          "kind": "message",
+          "id": "m05",
+          "sender": "femi",
+          "text": "No."
+        },
+        {
+          "kind": "message",
+          "id": "m06",
+          "sender": "femi",
+          "text": "That one's yours, Claire. If I choose, you'll always wonder whether I picked it for my team.",
+          "receipt": {
+            "status": "read",
+            "at": "10:58 PM"
+          }
+        },
+        {
+          "kind": "typing",
+          "id": "typing",
+          "sender": "claire"
+        }
+      ],
+      "meta": {
+        "beat": "Cliffhanger: her choice."
+      }
+    }
+  ]
+}
