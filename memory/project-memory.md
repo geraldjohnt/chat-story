@@ -26,11 +26,17 @@
 
 ## Status (2026-10-09)
 - Application implemented and tested (unit, integration, Playwright E2E). Production library empty.
+- Deployed by GitHub Actions to https://geraldjohnt.github.io/chat-story/ (deploy job reported success).
 - No real stories or outlines have been generated yet.
 
+## Repository / Pages setup facts
+- Repository is public; Pages source = GitHub Actions.
+- The repository default branch is `ccr-92f428a9-pxzr8u` (GitHub picked the first pushed branch).
+  Switching it to `main` failed once from the phone UI. Deployments come from `main`, which is allowed
+  through a "main" deployment-branch rule on the `github-pages` environment. Keep both rules in mind if
+  deployments are rejected with no log (environment protection).
+
 ## Known limitations / remaining work
-- Pages from a **private** repository requires a paid GitHub plan; otherwise the repo must be public
-  (owner decision). Pages "Source" must be set to GitHub Actions by the owner.
 - iOS Safari may open downloads in a viewer instead of saving; ZIP export of many screenshots is
   memory-heavy on old phones.
 - No schema migrations exist yet (all files v1). See `src/schemas/migrations.ts` for the procedure.
