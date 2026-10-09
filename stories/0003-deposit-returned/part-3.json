@@ -1,0 +1,464 @@
+{
+  "schemaVersion": 1,
+  "storyId": "0003",
+  "partNumber": 3,
+  "title": "Seven Weeks",
+  "summary": "Kieran admits he has known since June. Josh sends a real apology: he has called Gambler's Help and self-excluded. Mia tells him she's glad — and that she is calling off the wedding, not because he gambled but because he managed her for a year instead of telling her. She cancels the venue, tells the wedding party with kindness, separates their finances and keeps Lauren.",
+  "status": "final",
+  "cliffhanger": null,
+  "createdAt": "2026-10-09T19:00:00Z",
+  "updatedAt": "2026-10-09T19:00:00Z",
+  "screenshots": [
+    {
+      "id": "s01",
+      "type": "conversation",
+      "theme": "dark",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "8:37"
+        }
+      },
+      "deviceOwner": "mia",
+      "participants": [
+        "mia",
+        "kieran"
+      ],
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Wed 8:30 PM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "mia",
+          "text": "Kieran. What was 'the thing'?"
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "kieran",
+          "text": "mate"
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "kieran",
+          "text": "has he told you"
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "mia",
+          "text": "Most of it. I want to know how long you've known."
+        },
+        {
+          "kind": "message",
+          "id": "m05",
+          "sender": "kieran",
+          "text": "since june. he asked me for 2 grand and I said no and he told me why"
+        },
+        {
+          "kind": "message",
+          "id": "m06",
+          "sender": "kieran",
+          "text": "I told him he had to tell you. like five times"
+        },
+        {
+          "kind": "message",
+          "id": "m07",
+          "sender": "kieran",
+          "text": "I should've told you myself. I'm sorry Mia. I thought the wedding would make him do it"
+        },
+        {
+          "kind": "message",
+          "id": "m08",
+          "sender": "mia",
+          "text": "Did you know about the venue?"
+        },
+        {
+          "kind": "message",
+          "id": "m09",
+          "sender": "kieran",
+          "text": "no. swear on my life"
+        },
+        {
+          "kind": "message",
+          "id": "m10",
+          "sender": "kieran",
+          "text": "he's not a bad bloke Mia. he's sick"
+        },
+        {
+          "kind": "message",
+          "id": "m11",
+          "sender": "mia",
+          "text": "I know he's sick. That's not the part I'm deciding about.",
+          "receipt": {
+            "status": "read",
+            "at": "8:37 PM"
+          }
+        }
+      ],
+      "meta": {
+        "beat": "The best man knew."
+      }
+    },
+    {
+      "id": "s02",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "7:47"
+        }
+      },
+      "deviceOwner": "mia",
+      "participants": [
+        "mia",
+        "josh"
+      ],
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Thu 1:12 AM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "josh",
+          "text": "I can't sleep. I've written this ten times."
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "josh",
+          "text": "no excuses. I lied to you every day for a year. I lied when you asked me straight. I took money we saved together and money from my sister, and I moved our wedding without asking you and told you it was a glitch."
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "josh",
+          "text": "I called Gambler's Help today. I've got an intake call Friday. I've self-excluded from every app."
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "josh",
+          "text": "what I said about everyone knowing was the worst thing I've ever said to you. I'm sorry."
+        },
+        {
+          "kind": "message",
+          "id": "m05",
+          "sender": "josh",
+          "text": "I love you. please don't call it off. we can do the wednesday, small, just family, and I'll spend every day earning it back"
+        },
+        {
+          "kind": "timestamp",
+          "id": "t02",
+          "label": "Thu 7:40 AM"
+        },
+        {
+          "kind": "message",
+          "id": "m06",
+          "sender": "mia",
+          "text": "I'm glad you called them. Please keep going, whatever happens with us."
+        },
+        {
+          "kind": "message",
+          "id": "m07",
+          "sender": "mia",
+          "text": "I'm not calling it off because you gambled. I'm calling it off because you looked at me every day for a year and managed me instead of telling me."
+        },
+        {
+          "kind": "message",
+          "id": "m08",
+          "sender": "mia",
+          "text": "I'd be marrying someone I just met. I can't do that in seven weeks."
+        },
+        {
+          "kind": "message",
+          "id": "m09",
+          "sender": "josh",
+          "text": "mia please"
+        },
+        {
+          "kind": "message",
+          "id": "m10",
+          "sender": "mia",
+          "text": "I'm staying at Mum's. Let's talk about the flat next week, with someone else in the room.",
+          "receipt": {
+            "status": "read",
+            "at": "7:46 AM"
+          }
+        },
+        {
+          "kind": "message",
+          "id": "m11",
+          "sender": "josh",
+          "text": "ok"
+        }
+      ],
+      "meta": {
+        "beat": "The decision."
+      }
+    },
+    {
+      "id": "s03",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "9:14"
+        }
+      },
+      "deviceOwner": "mia",
+      "participants": [
+        "mia",
+        "bec"
+      ],
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Thu 9:10 AM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "mia",
+          "text": "Hi Bec. I'm so sorry to do this to you. We need to cancel entirely, including the Wednesday hold."
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "bec",
+          "text": "Oh Mia. I'm so sorry 💛 I'll take care of everything, you don't need to explain."
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "bec",
+          "text": "Nothing further is owing on your side — the Wednesday hold had no deposit attached."
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "mia",
+          "text": "Thank you for being so kind about all of this."
+        },
+        {
+          "kind": "message",
+          "id": "m05",
+          "sender": "bec",
+          "text": "Look after yourself. Truly."
+        }
+      ],
+      "meta": {
+        "beat": "Cancelling the venue."
+      }
+    },
+    {
+      "id": "s04",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "6:04"
+        }
+      },
+      "deviceOwner": "mia",
+      "participants": [
+        "mia",
+        "josh",
+        "lauren",
+        "kieran"
+      ],
+      "title": "Wedding Party 💍",
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Thu 6:00 PM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "mia",
+          "text": "Hi all. Josh and I have decided not to go ahead with the wedding. I'm so sorry for all the planning you've put in."
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "mia",
+          "text": "I'll send a note to guests this weekend. Please don't ask either of us for details yet, and please be kind to Josh.",
+          "reactions": [
+            {
+              "by": "lauren",
+              "type": "heart"
+            },
+            {
+              "by": "kieran",
+              "type": "heart"
+            }
+          ]
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "lauren",
+          "text": "we love you. both of you ❤️"
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "kieran",
+          "text": "whatever you need. both of you"
+        },
+        {
+          "kind": "message",
+          "id": "m05",
+          "sender": "josh",
+          "text": "she's being kinder than I deserve. please do what she asks"
+        }
+      ],
+      "meta": {
+        "beat": "Telling the wedding party with dignity."
+      }
+    },
+    {
+      "id": "s05",
+      "type": "conversation",
+      "theme": "dark",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "8:23"
+        }
+      },
+      "deviceOwner": "mia",
+      "participants": [
+        "mia",
+        "lauren"
+      ],
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Fri 8:20 PM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "mia",
+          "text": "Bank stuff's done. Joint account closed, the $4,100 split, and I'm off the lease in November."
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "lauren",
+          "text": "ok so I know this is the worst week of your life but you handled it like a deputy principal"
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "mia",
+          "text": "A deputy principal who cried in the staff toilet twice."
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "lauren",
+          "text": "still counts"
+        },
+        {
+          "kind": "message",
+          "id": "m05",
+          "sender": "mia",
+          "text": "Lauren, I don't want to lose you over this. You know that?",
+          "receipt": {
+            "status": "read",
+            "at": "8:23 PM"
+          }
+        }
+      ],
+      "meta": {
+        "beat": "The sister she keeps."
+      }
+    },
+    {
+      "id": "s06",
+      "type": "conversation-list",
+      "theme": "dark",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "8:25"
+        }
+      },
+      "deviceOwner": "mia",
+      "title": "Messages",
+      "conversations": [
+        {
+          "id": "c1",
+          "participants": [
+            "mia",
+            "lauren"
+          ],
+          "preview": "still my sister. always ❤️",
+          "time": "8:24 PM",
+          "unread": true
+        },
+        {
+          "id": "c2",
+          "participants": [
+            "mia",
+            "kieran"
+          ],
+          "preview": "here if you need anything. no questions",
+          "time": "7:58 PM"
+        },
+        {
+          "id": "c3",
+          "participants": [
+            "mia",
+            "josh"
+          ],
+          "preview": "had my intake call today. not asking for anything. just wanted you to know",
+          "time": "7:15 PM",
+          "muted": true
+        },
+        {
+          "id": "c4",
+          "participants": [
+            "mia",
+            "josh",
+            "lauren",
+            "kieran"
+          ],
+          "name": "Wedding Party 💍",
+          "preview": "Josh: she's being kinder than I deserve. please do what she asks",
+          "time": "Yesterday",
+          "muted": true
+        },
+        {
+          "id": "c5",
+          "participants": [
+            "mia",
+            "bec"
+          ],
+          "preview": "Look after yourself. Truly.",
+          "time": "Yesterday"
+        }
+      ],
+      "meta": {
+        "beat": "Ending: Josh muted but getting help; Lauren unread at the top."
+      }
+    }
+  ]
+}

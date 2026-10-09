@@ -2,5 +2,71 @@
   "schemaVersion": 1,
   "description": "Compact index of every story ever allocated. Keep entries even if a story is retired; IDs are never reused.",
   "retiredIds": [],
-  "stories": []
+  "stories": [
+    {
+      "id": "0001",
+      "slug": "the-rent-went-up",
+      "title": "The Rent Went Up",
+      "status": "completed",
+      "parts": 3,
+      "genre": "roommate-drama",
+      "relationshipType": "roommates / platonic friends",
+      "setting": "Leeds, UK, Jan 2026",
+      "premise": "Woman suspects roommate of skimming rent; he has secretly covered her share of a rent increase.",
+      "centralConflict": "Pride and fear of being used vs. well-meant secrecy.",
+      "secrets": [
+        "rent increase hidden",
+        "roommate covering her share",
+        "fake boiler excuse",
+        "gave up a flat to stay"
+      ],
+      "twistMechanism": "Real evidence misread (misdirection through ambiguous clues); suspicion reframed as kindness.",
+      "endingType": "reconciliation",
+      "outline": "memory/pending-outlines/20261009-the-rent-went-up.md",
+      "createdAt": "2026-10-09T19:00:00Z"
+    },
+    {
+      "id": "0002",
+      "slug": "pickup-at-3-15",
+      "title": "Pickup at 3:15",
+      "status": "completed",
+      "parts": 4,
+      "genre": "co-parenting-drama",
+      "relationshipType": "divorced co-parents + new partner + child",
+      "setting": "Columbus, Ohio, Mar 2026",
+      "premise": "Mom finds ex's girlfriend secretly picking up their daughter; the daughter arranged it to escape bus bullying.",
+      "centralConflict": "Fear of being edged out vs. secrecy; a child hiding a problem because her parents fight.",
+      "secrets": [
+        "child arranged pickups",
+        "bullying on the Y bus",
+        "ex assumed mom knew"
+      ],
+      "twistMechanism": "Synced iPad messages reveal the secret-holder is the child; adult scheme reframed as child's workaround.",
+      "endingType": "bittersweet",
+      "outline": "memory/pending-outlines/20261009-pickup-at-3-15.md",
+      "createdAt": "2026-10-09T19:00:00Z"
+    },
+    {
+      "id": "0003",
+      "slug": "deposit-returned",
+      "title": "Deposit Returned",
+      "status": "completed",
+      "parts": 3,
+      "genre": "engaged-couple-drama",
+      "relationshipType": "engaged couple",
+      "setting": "Melbourne, Australia, Oct 2026",
+      "premise": "Bride discovers the venue deposit was refunded to her fiancé, uncovering a year of hidden gambling debt.",
+      "centralConflict": "Shared future vs. a partner who managed her instead of telling her.",
+      "secrets": [
+        "venue downgrade and refund",
+        "gambling debt over $44,000",
+        "sister's 'ring repair' loan",
+        "best man knew"
+      ],
+      "twistMechanism": "Automated-message evidence chain (venue, betting app, lender); the turn is the heroine's decision, not a reveal.",
+      "endingType": "breakup",
+      "outline": "memory/pending-outlines/20261009-deposit-returned.md",
+      "createdAt": "2026-10-09T19:00:00Z"
+    }
+  ]
 }

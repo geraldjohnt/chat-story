@@ -1,0 +1,410 @@
+{
+  "schemaVersion": 1,
+  "storyId": "0003",
+  "partNumber": 1,
+  "title": "Refund Processed",
+  "summary": "The venue emails Mia that her $6,000 refund has been paid to an account she doesn't recognise, for a Wednesday wedding she never booked. Josh calls it a system glitch. Bec, the coordinator, confirms Josh moved them to a midweek package in September. Josh insists Saturday is locked in. Kieran asks whether Josh has 'talked to her about the thing'. Then Josh finds out she called the venue.",
+  "status": "final",
+  "cliffhanger": "Confronted with Bec's account, Josh starts typing.",
+  "createdAt": "2026-10-09T19:00:00Z",
+  "updatedAt": "2026-10-09T19:00:00Z",
+  "screenshots": [
+    {
+      "id": "s01",
+      "type": "notification",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "deviceOwner": "mia",
+      "lockScreen": {
+        "time": "7:48",
+        "date": "Tuesday 6 October"
+      },
+      "notifications": [
+        {
+          "id": "n1",
+          "app": "mail",
+          "title": "Stonehaven Estate Events",
+          "body": "Your refund has been processed — Hi Mia, we've refunded $6,000.00 to the nominated account ending 4471. We look forward to welcoming you on Wednesday 25 November!",
+          "time": "now"
+        },
+        {
+          "id": "n2",
+          "app": "messages",
+          "sender": "josh",
+          "body": "morning babe ☕ have a good day x",
+          "time": "12m ago"
+        }
+      ],
+      "meta": {
+        "beat": "Hook: a refund nobody asked for."
+      }
+    },
+    {
+      "id": "s02",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "8:09"
+        }
+      },
+      "deviceOwner": "mia",
+      "participants": [
+        "mia",
+        "josh"
+      ],
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Today 8:05 AM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "mia",
+          "text": "Did you get the venue email? They say they've refunded $6,000 and they've got us down for Wednesday the 25th."
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "josh",
+          "text": "haha what"
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "josh",
+          "text": "that's gotta be a system thing babe"
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "mia",
+          "text": "It went to an account ending 4471. That's not our joint account."
+        },
+        {
+          "kind": "message",
+          "id": "m05",
+          "sender": "josh",
+          "text": "weird. probably their end, they changed booking software"
+        },
+        {
+          "kind": "message",
+          "id": "m06",
+          "sender": "josh",
+          "text": "I'll call them at lunch, all good"
+        },
+        {
+          "kind": "message",
+          "id": "m07",
+          "sender": "mia",
+          "text": "I can call. I've got a free at 10:40."
+        },
+        {
+          "kind": "message",
+          "id": "m08",
+          "sender": "josh",
+          "text": "nah you've got enough on with reports. let me do venue stuff, you did all the flowers"
+        },
+        {
+          "kind": "message",
+          "id": "m09",
+          "sender": "mia",
+          "text": "Okay. Let me know."
+        },
+        {
+          "kind": "message",
+          "id": "m10",
+          "sender": "josh",
+          "text": "always ❤️"
+        }
+      ],
+      "meta": {
+        "beat": "'A system thing.'"
+      }
+    },
+    {
+      "id": "s03",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "10:58"
+        }
+      },
+      "deviceOwner": "mia",
+      "participants": [
+        "mia",
+        "bec"
+      ],
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Today 10:52 AM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "bec",
+          "text": "Hi Mia, it's Bec from Stonehaven — lovely to chat just now! As promised, here it is in writing:"
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "bec",
+          "text": "• 14 Sept: Josh moved your booking from Sat 28 Nov to Wed 25 Nov (Midweek Package, up to 60 guests)\n• The $6,000 difference was refunded to the account Josh nominated\n• Your Saturday has since been booked by another couple, I'm so sorry"
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "mia",
+          "text": "I didn't know about any of this."
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "mia",
+          "text": "We have 112 guests confirmed for the Saturday."
+        },
+        {
+          "kind": "message",
+          "id": "m05",
+          "sender": "bec",
+          "text": "Oh no. Mia, I'm so sorry. Josh said you'd both agreed to go smaller 💛"
+        },
+        {
+          "kind": "message",
+          "id": "m06",
+          "sender": "bec",
+          "text": "I'll hold the Wednesday for now. Is there anything else I can do?"
+        },
+        {
+          "kind": "message",
+          "id": "m07",
+          "sender": "mia",
+          "text": "Please don't make any further changes unless both of us confirm in writing."
+        },
+        {
+          "kind": "message",
+          "id": "m08",
+          "sender": "bec",
+          "text": "Of course. I'll note that on the file and email you both to confirm."
+        },
+        {
+          "kind": "message",
+          "id": "m09",
+          "sender": "mia",
+          "text": "Thank you, Bec.",
+          "receipt": {
+            "status": "read",
+            "at": "10:58 AM"
+          }
+        }
+      ],
+      "meta": {
+        "beat": "The booking was moved, deliberately."
+      }
+    },
+    {
+      "id": "s04",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "11:33"
+        }
+      },
+      "deviceOwner": "mia",
+      "participants": [
+        "mia",
+        "josh"
+      ],
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Today 11:31 AM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "josh",
+          "text": "called them. it was a glitch, their new system messed up a bunch of bookings"
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "josh",
+          "text": "they're fixing it. saturday is all locked in ❤️"
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "mia",
+          "text": "Good to know.",
+          "receipt": {
+            "status": "read",
+            "at": "11:33 AM"
+          }
+        }
+      ],
+      "meta": {
+        "beat": "A direct lie."
+      }
+    },
+    {
+      "id": "s05",
+      "type": "conversation",
+      "theme": "dark",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "6:26"
+        }
+      },
+      "deviceOwner": "mia",
+      "participants": [
+        "mia",
+        "kieran"
+      ],
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Today 6:20 PM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "kieran",
+          "text": "hey Mia random q"
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "kieran",
+          "text": "has Josh talked to you about the thing yet"
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "kieran",
+          "text": "ignore that"
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "kieran",
+          "text": "wrong chat sorry"
+        },
+        {
+          "kind": "message",
+          "id": "m05",
+          "sender": "mia",
+          "text": "Kieran, I'm the only Mia in your phone."
+        },
+        {
+          "kind": "message",
+          "id": "m06",
+          "sender": "mia",
+          "text": "What thing?"
+        },
+        {
+          "kind": "message",
+          "id": "m07",
+          "sender": "kieran",
+          "text": "nah nothing. bucks stuff"
+        },
+        {
+          "kind": "message",
+          "id": "m08",
+          "sender": "mia",
+          "text": "The bucks was in August.",
+          "receipt": {
+            "status": "read",
+            "at": "6:24 PM"
+          }
+        },
+        {
+          "kind": "message",
+          "id": "m09",
+          "sender": "kieran",
+          "text": "yeah ha. all good. see you sat"
+        }
+      ],
+      "meta": {
+        "beat": "The best man's slip."
+      }
+    },
+    {
+      "id": "s06",
+      "type": "conversation",
+      "theme": "dark",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "9:44"
+        }
+      },
+      "deviceOwner": "mia",
+      "participants": [
+        "mia",
+        "josh"
+      ],
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Today 9:40 PM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "josh",
+          "text": "babe bec says you rang them today"
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "josh",
+          "text": "please don't call the venue again ok? I'm handling it"
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "mia",
+          "text": "You told me it was a glitch."
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "mia",
+          "text": "Bec says you moved us to a Wednesday on the 14th of September and the $6,000 went to your account."
+        },
+        {
+          "kind": "message",
+          "id": "m05",
+          "sender": "mia",
+          "text": "Our Saturday belongs to another couple now.",
+          "receipt": {
+            "status": "read",
+            "at": "9:43 PM"
+          }
+        },
+        {
+          "kind": "typing",
+          "id": "typing",
+          "sender": "josh"
+        }
+      ],
+      "meta": {
+        "beat": "Cliffhanger: caught."
+      }
+    }
+  ]
+}

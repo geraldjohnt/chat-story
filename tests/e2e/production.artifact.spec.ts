@@ -1,18 +1,32 @@
+import { readFileSync } from 'node:fs';
 import { expect, test } from '@playwright/test';
 
+/** The production library as committed; the artifact must serve exactly this. */
+const manifest = JSON.parse(readFileSync('stories/manifest.json', 'utf8')) as {
+  stories: { id: string; title: string; storyPath: string; parts: { path: string }[] }[];
+};
+
 test.describe('production artifact (dist)', () => {
-  test('renders the empty library state', async ({ page }) => {
-    await page.goto('./');
-    await expect(page.getByRole('heading', { name: 'No published stories yet' })).toBeVisible();
-    await expect(page.getByRole('region', { name: 'Library statistics' })).toContainText('0');
+  test('renders the published library', async ({ page }) => {
     await page.goto('./#/library');
-    await expect(page.getByRole('heading', { name: 'No published stories yet' })).toBeVisible();
+    if (manifest.stories.length === 0) {
+      await expect(page.getByRole('heading', { name: 'No published stories yet' })).toBeVisible();
+      return;
+    }
+    for (const s of manifest.stories) await expect(page.getByText(s.title, { exact: true }).first()).toBeVisible();
   });
 
-  test('serves a valid empty production manifest at the base path', async ({ request }) => {
+  test('serves the committed production manifest and every referenced file', async ({ request }) => {
     const res = await request.get('stories/manifest.json');
     expect(res.status()).toBe(200);
-    expect(await res.json()).toEqual({ schemaVersion: 1, environment: 'production', stories: [] });
+    expect(await res.json()).toEqual(manifest);
+    for (const s of manifest.stories) {
+      for (const p of [s.storyPath, ...s.parts.map((x) => x.path)]) {
+        const r = await request.get(`stories/${p}`);
+        expect(r.status(), p).toBe(200);
+        expect((await r.text()).startsWith('{'), p).toBe(true);
+      }
+    }
   });
 
   test('does not publish fixtures, memory, pending outlines or the gate default', async ({ request }) => {

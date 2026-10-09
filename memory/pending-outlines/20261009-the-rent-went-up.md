@@ -1,6 +1,6 @@
 # The Rent Went Up
 
-Status: pending
+Status: approved → story 0001
 Proposed: 2026-10-09
 Genre: Roommate drama / misunderstanding → reconciliation
 Setting: Shared two-bed terraced house in Leeds, UK; late January, present day
@@ -77,3 +77,6 @@ Fix figures: old rent £1,050 (£525 each), new £1,190 (£595 each); Callum pay
 Compared with: story-index.json (empty), pending outlines (this batch: "Pickup at 3:15",
 "Deposit Returned"). Unique roommate setup, financial secret driven by kindness rather than betrayal,
 misdirection-through-evidence twist, reconciliation ending. No romance or cheating thread.
+
+## Generation notes (2026-10-09)
+Anjali's theory became "the rent went down and Callum kept charging £525"; Priya has paid her share to Callum since October. Callum told Dave Priya "would prefer" he not mention the figure, which is why Dave apologises to her. Hyde Park Road comes from Dave, not a friend. Priya's full hours return in February, which makes the repayment plan possible. Anjali's verdict is passed on by Callum.

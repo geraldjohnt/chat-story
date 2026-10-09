@@ -1,5 +1,111 @@
 {
   "schemaVersion": 1,
   "environment": "production",
-  "stories": []
+  "stories": [
+    {
+      "id": "0001",
+      "slug": "the-rent-went-up",
+      "title": "The Rent Went Up",
+      "genres": [
+        "roommate-drama",
+        "misunderstanding",
+        "reconciliation"
+      ],
+      "status": "completed",
+      "partCount": 3,
+      "storyPath": "0001-the-rent-went-up/story.json",
+      "parts": [
+        {
+          "partNumber": 1,
+          "path": "0001-the-rent-went-up/part-1.json",
+          "title": "Thanks for Sorting January"
+        },
+        {
+          "partNumber": 2,
+          "path": "0001-the-rent-went-up/part-2.json",
+          "title": "The House Chat"
+        },
+        {
+          "partNumber": 3,
+          "path": "0001-the-rent-went-up/part-3.json",
+          "title": "The New Amount"
+        }
+      ],
+      "synopsis": "A puzzling thank-you from their landlord sends Priya down a trail of half-truths: Callum collects her rent, dodges every question and lies about a boiler. Egged on by her sister, Priya demands answers in the house group chat — and learns exactly what Callum has been hiding, and why.",
+      "createdAt": "2026-10-09T19:00:00Z",
+      "updatedAt": "2026-10-09T19:00:00Z"
+    },
+    {
+      "id": "0002",
+      "slug": "pickup-at-3-15",
+      "title": "Pickup at 3:15",
+      "genres": [
+        "co-parenting-drama",
+        "family",
+        "bittersweet"
+      ],
+      "status": "completed",
+      "partCount": 4,
+      "storyPath": "0002-pickup-at-3-15/story.json",
+      "parts": [
+        {
+          "partNumber": 1,
+          "path": "0002-pickup-at-3-15/part-1.json",
+          "title": "Authorized Adult"
+        },
+        {
+          "partNumber": 2,
+          "path": "0002-pickup-at-3-15/part-2.json",
+          "title": "I Thought You Knew"
+        },
+        {
+          "partNumber": 3,
+          "path": "0002-pickup-at-3-15/part-3.json",
+          "title": "Thursdays"
+        },
+        {
+          "partNumber": 4,
+          "path": "0002-pickup-at-3-15/part-4.json",
+          "title": "Team Chat"
+        }
+      ],
+      "synopsis": "A new school text alert tells ER nurse Dana that her ex-husband's girlfriend signed their daughter out on Dana's day. Marcus is evasive, Renée is apologetic but vague, and Dana's lawyer friend sees a custody play taking shape. But the messages on her daughter's iPad tell a different story — one a nine-year-old has been carrying alone.",
+      "createdAt": "2026-10-09T19:00:00Z",
+      "updatedAt": "2026-10-09T19:00:00Z"
+    },
+    {
+      "id": "0003",
+      "slug": "deposit-returned",
+      "title": "Deposit Returned",
+      "genres": [
+        "engaged-couple-drama",
+        "financial-deception",
+        "breakup"
+      ],
+      "status": "completed",
+      "partCount": 3,
+      "storyPath": "0003-deposit-returned/story.json",
+      "parts": [
+        {
+          "partNumber": 1,
+          "path": "0003-deposit-returned/part-1.json",
+          "title": "Refund Processed"
+        },
+        {
+          "partNumber": 2,
+          "path": "0003-deposit-returned/part-2.json",
+          "title": "The Shared iPad"
+        },
+        {
+          "partNumber": 3,
+          "path": "0003-deposit-returned/part-3.json",
+          "title": "Seven Weeks"
+        }
+      ],
+      "synopsis": "A cheerful refund email from the wedding venue makes no sense to Mia: she never cancelled anything. Josh calls it a glitch. The venue coordinator, the best man's slip, the kitchen iPad and Josh's sister each add a piece, until the only question left isn't what Josh did — it's what Mia does next.",
+      "createdAt": "2026-10-09T19:00:00Z",
+      "updatedAt": "2026-10-09T19:00:00Z"
+    }
+  ],
+  "updatedAt": "2026-10-09T19:00:00Z"
 }

@@ -1,0 +1,325 @@
+{
+  "schemaVersion": 1,
+  "storyId": "0002",
+  "partNumber": 2,
+  "title": "I Thought You Knew",
+  "summary": "Marcus admits Renée told him she was 'helping out' on Thursdays and he assumed Dana knew. Tasha drafts a firm email and names Dana's real fear: a paper trail that makes her shifts look like a problem. Then Renée's reply arrives on Dana's phone calling her 'sweetie' — Lily's iPad is synced to Dana's account, and the thread shows Lily begging Renée not to tell.",
+  "status": "final",
+  "cliffhanger": "Lily to Renée, synced to Dana's phone: 'renee pls dont tell mom ok'.",
+  "createdAt": "2026-10-09T19:00:00Z",
+  "updatedAt": "2026-10-09T19:00:00Z",
+  "screenshots": [
+    {
+      "id": "s01",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "3:41"
+        }
+      },
+      "deviceOwner": "dana",
+      "participants": [
+        "dana",
+        "marcus"
+      ],
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Thu, Mar 12 at 3:30 PM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "dana",
+          "text": "You said you'd handle it."
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "marcus",
+          "text": "I did. renee isn't doing anything wrong"
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "dana",
+          "text": "She picked Lily up AGAIN. Ten minutes ago."
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "marcus",
+          "text": "I thought you knew about thursdays"
+        },
+        {
+          "kind": "message",
+          "id": "m05",
+          "sender": "dana",
+          "text": "Knew WHAT about Thursdays?"
+        },
+        {
+          "kind": "message",
+          "id": "m06",
+          "sender": "marcus",
+          "text": "renee said she was helping out thursdays. I figured you two worked it out"
+        },
+        {
+          "kind": "message",
+          "id": "m07",
+          "sender": "dana",
+          "text": "Renée and I have exchanged maybe twenty words. Ever."
+        },
+        {
+          "kind": "message",
+          "id": "m08",
+          "sender": "marcus",
+          "text": "well I don't know what to tell you"
+        },
+        {
+          "kind": "message",
+          "id": "m09",
+          "sender": "dana",
+          "text": "Tell me why your girlfriend is building a routine with my daughter on my days."
+        },
+        {
+          "kind": "message",
+          "id": "m10",
+          "sender": "marcus",
+          "text": "OUR daughter"
+        },
+        {
+          "kind": "message",
+          "id": "m11",
+          "sender": "dana",
+          "text": "K.",
+          "receipt": {
+            "status": "read",
+            "at": "3:41 PM"
+          }
+        }
+      ],
+      "meta": {
+        "beat": "'I thought you knew.'"
+      }
+    },
+    {
+      "id": "s02",
+      "type": "conversation",
+      "theme": "dark",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "8:16"
+        }
+      },
+      "deviceOwner": "dana",
+      "participants": [
+        "dana",
+        "tasha"
+      ],
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Fri, Mar 13 at 8:10 PM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "dana",
+          "text": "Handover was a disaster. He says he 'thought I knew.' Renée told him she was 'helping out.'"
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "tasha",
+          "text": "Helping who?"
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "dana",
+          "text": "Exactly."
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "tasha",
+          "text": "Ok. I drafted something. Not filing anything — just a firm email."
+        },
+        {
+          "kind": "message",
+          "id": "m05",
+          "sender": "tasha",
+          "attachment": {
+            "type": "file",
+            "label": "Pickup authorization – draft.docx",
+            "detail": "Word Document · 24 KB"
+          }
+        },
+        {
+          "kind": "message",
+          "id": "m06",
+          "sender": "tasha",
+          "text": "Remove her from the list. All changes in writing. 48 hours' notice for any third-party pickup."
+        },
+        {
+          "kind": "message",
+          "id": "m07",
+          "sender": "dana",
+          "text": "Is this overkill?"
+        },
+        {
+          "kind": "message",
+          "id": "m08",
+          "sender": "tasha",
+          "text": "It's a paper trail. You're the one on 12-hour shifts. If he ever argues you're not available, he'll have a month of his girlfriend 'helping out' on your days."
+        },
+        {
+          "kind": "message",
+          "id": "m09",
+          "sender": "dana",
+          "text": "That's what scares me."
+        },
+        {
+          "kind": "message",
+          "id": "m10",
+          "sender": "tasha",
+          "text": "Sleep on it. Send it Monday if nothing changes."
+        }
+      ],
+      "meta": {
+        "beat": "The custody fear, named."
+      }
+    },
+    {
+      "id": "s03",
+      "type": "notification",
+      "theme": "dark",
+      "exportProfile": "iphone",
+      "deviceOwner": "dana",
+      "lockScreen": {
+        "time": "9:44",
+        "date": "Sunday, March 15"
+      },
+      "notifications": [
+        {
+          "id": "n1",
+          "app": "messages",
+          "sender": "renee",
+          "body": "Hi sweetie. I'll come Thursday, but I really think we need to tell your mom and dad why. ❤️",
+          "time": "now"
+        }
+      ],
+      "meta": {
+        "beat": "Renée calls Dana 'sweetie'?"
+      }
+    },
+    {
+      "id": "s04",
+      "type": "conversation",
+      "theme": "dark",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "9:47"
+        }
+      },
+      "deviceOwner": "lily",
+      "participants": [
+        "lily",
+        "renee"
+      ],
+      "title": "Renée",
+      "messages": [
+        {
+          "kind": "system",
+          "id": "y01",
+          "text": "Synced from Lily's iPad"
+        },
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Wed, Feb 18 at 7:12 PM"
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "lily",
+          "text": "hi its lily. dad gave me ur number for emergencys"
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "lily",
+          "text": "can u pick me up tmrw at 3:15 instead of the bus"
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "renee",
+          "text": "Hi Lily! Of course I can help. Is everything ok? Does your mom know?"
+        },
+        {
+          "kind": "message",
+          "id": "m05",
+          "sender": "lily",
+          "text": "ya its fine"
+        },
+        {
+          "kind": "message",
+          "id": "m06",
+          "sender": "lily",
+          "text": "pls 🙏🙏"
+        },
+        {
+          "kind": "message",
+          "id": "m07",
+          "sender": "renee",
+          "text": "Okay! I'll be at the front office at 3:15. 🙂"
+        },
+        {
+          "kind": "timestamp",
+          "id": "t02",
+          "label": "Today 9:41 PM"
+        },
+        {
+          "kind": "message",
+          "id": "m08",
+          "sender": "lily",
+          "text": "renee can u come thursday"
+        },
+        {
+          "kind": "message",
+          "id": "m09",
+          "sender": "lily",
+          "text": "pls"
+        },
+        {
+          "kind": "message",
+          "id": "m10",
+          "sender": "renee",
+          "text": "Hi sweetie. I'll come Thursday, but I really think we need to tell your mom and dad why. ❤️"
+        },
+        {
+          "kind": "message",
+          "id": "m11",
+          "sender": "lily",
+          "text": "renee pls dont tell mom ok"
+        },
+        {
+          "kind": "message",
+          "id": "m12",
+          "sender": "lily",
+          "text": "pls pls"
+        }
+      ],
+      "meta": {
+        "beat": "Cliffhanger: the secret is Lily's."
+      }
+    }
+  ]
+}

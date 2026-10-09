@@ -27,7 +27,7 @@
 ## Status (2026-10-09)
 - Application implemented and tested (unit, integration, Playwright E2E). Production library empty.
 - Deployed by GitHub Actions to https://geraldjohnt.github.io/chat-story/ (deploy job reported success).
-- No real stories or outlines have been generated yet.
+- Published (2026-10-09): 0001 The Rent Went Up (3 parts), 0002 Pickup at 3:15 (4), 0003 Deposit Returned (3); all completed. Next ID: 0004.
 
 ## Repository / Pages setup facts
 - Repository is public; Pages source = GitHub Actions.

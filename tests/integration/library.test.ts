@@ -27,11 +27,11 @@ describe('validateLibrary (filesystem)', () => {
     expect(r.referencedFiles).toHaveLength(6);
   });
 
-  it('validates the empty production library', () => {
+  it('validates the production library', () => {
     const r = validateLibrary(path.resolve('stories'), { production: true });
     expect(r.issues.filter((i) => i.severity === 'error')).toEqual([]);
-    expect(r.manifest?.stories).toEqual([]);
     expect(r.manifest?.environment).toBe('production');
+    expect(r.stories).toHaveLength(r.manifest?.stories.length ?? -1);
   });
 
   it('rejects fixtures when validated as production', () => {

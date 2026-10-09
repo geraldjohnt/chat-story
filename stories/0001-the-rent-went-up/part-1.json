@@ -1,0 +1,515 @@
+{
+  "schemaVersion": 1,
+  "storyId": "0001",
+  "partNumber": 1,
+  "title": "Thanks for Sorting January",
+  "summary": "Dave thanks Priya for a rent 'top-up' she never paid. Callum blames a boiler callout, says he's read a new lease she hasn't seen, and keeps postponing a chat. Anjali smells a scam. Then Dave apologises for raising 'the new amount', saying Callum told him Priya would prefer he didn't.",
+  "status": "final",
+  "cliffhanger": "Dave: Callum mentioned you'd prefer he didn't bring up 'the new amount' — something Priya never said.",
+  "createdAt": "2026-10-09T19:00:00Z",
+  "updatedAt": "2026-10-09T19:00:00Z",
+  "screenshots": [
+    {
+      "id": "s01",
+      "type": "notification",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "deviceOwner": "priya",
+      "lockScreen": {
+        "time": "9:12",
+        "date": "Saturday, January 24"
+      },
+      "notifications": [
+        {
+          "id": "n1",
+          "app": "messages",
+          "sender": "dave",
+          "body": "Hello Priya… the paperwork for the new lease is ready, I'll drop it round next week. Thank you both for sorting January's top-up so promptly. Regards, Dave",
+          "time": "now"
+        }
+      ],
+      "meta": {
+        "beat": "Hook: a thank-you for something Priya never paid."
+      }
+    },
+    {
+      "id": "s02",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "9:19"
+        }
+      },
+      "deviceOwner": "priya",
+      "participants": [
+        "priya",
+        "dave"
+      ],
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Today 9:12 AM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "dave",
+          "text": "Hello Priya… the paperwork for the new lease is ready, I'll drop it round next week. Thank you both for sorting January's top-up so promptly. Regards, Dave"
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "priya",
+          "text": "Morning Dave, thanks for letting me know."
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "priya",
+          "text": "Sorry, which top-up do you mean?",
+          "receipt": {
+            "status": "read",
+            "at": "9:16 AM"
+          }
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "dave",
+          "text": "Oh… the one Callum sends over with the rent. All received, nothing to worry about 👍"
+        },
+        {
+          "kind": "message",
+          "id": "m05",
+          "sender": "dave",
+          "text": "Regards, Dave"
+        },
+        {
+          "kind": "message",
+          "id": "m06",
+          "sender": "priya",
+          "text": "Right. Okay. Thanks, Dave.",
+          "receipt": {
+            "status": "read",
+            "at": "9:19 AM"
+          }
+        }
+      ],
+      "meta": {
+        "beat": "Dave assumes Priya knows."
+      }
+    },
+    {
+      "id": "s03",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "11:52"
+        }
+      },
+      "deviceOwner": "priya",
+      "participants": [
+        "priya",
+        "callum"
+      ],
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Today 9:24 AM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "priya",
+          "text": "Are you in?"
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "priya",
+          "text": "Dave just thanked us for a 'top-up' with the rent. What top-up?"
+        },
+        {
+          "kind": "timestamp",
+          "id": "t02",
+          "label": "Today 11:47 AM"
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "callum",
+          "text": "sorry was asleep ha"
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "callum",
+          "text": "oh thats the boiler thing"
+        },
+        {
+          "kind": "message",
+          "id": "m05",
+          "sender": "callum",
+          "text": "remember in december when the pressure dropped and i went at it with the little key. think i made it worse so i paid for the callout"
+        },
+        {
+          "kind": "message",
+          "id": "m06",
+          "sender": "priya",
+          "text": "You never said."
+        },
+        {
+          "kind": "message",
+          "id": "m07",
+          "sender": "callum",
+          "text": "didnt want you to know im useless with a key ha"
+        },
+        {
+          "kind": "message",
+          "id": "m08",
+          "sender": "priya",
+          "text": "You are useless with a key."
+        },
+        {
+          "kind": "message",
+          "id": "m09",
+          "sender": "callum",
+          "text": "harsh but fair"
+        },
+        {
+          "kind": "message",
+          "id": "m10",
+          "sender": "priya",
+          "text": "Also, why is there a new lease? I thought ours just rolled over."
+        },
+        {
+          "kind": "message",
+          "id": "m11",
+          "sender": "callum",
+          "text": "dave likes paperwork. its fine i've read it"
+        },
+        {
+          "kind": "message",
+          "id": "m12",
+          "sender": "priya",
+          "text": "I'd like to read it too. My name's on it."
+        },
+        {
+          "kind": "message",
+          "id": "m13",
+          "sender": "callum",
+          "text": "course yeah. he's bringing it round"
+        },
+        {
+          "kind": "message",
+          "id": "m14",
+          "sender": "callum",
+          "text": "pub tmrw? i owe you a pint for the key thing"
+        },
+        {
+          "kind": "message",
+          "id": "m15",
+          "sender": "priya",
+          "text": "Fine. Tomorrow.",
+          "receipt": {
+            "status": "read",
+            "at": "11:52 AM"
+          }
+        }
+      ],
+      "meta": {
+        "beat": "Callum's boiler story and the lease dodge."
+      }
+    },
+    {
+      "id": "s04",
+      "type": "conversation",
+      "theme": "dark",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "8:51"
+        }
+      },
+      "deviceOwner": "priya",
+      "participants": [
+        "priya",
+        "anjali"
+      ],
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Today 8:40 PM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "priya",
+          "text": "Weird question. If your landlord thanked you for something you didn't pay for, would you ask about it?"
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "anjali",
+          "text": "obviously"
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "anjali",
+          "text": "who paid it"
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "priya",
+          "text": "Callum, apparently. He says it was a boiler callout."
+        },
+        {
+          "kind": "message",
+          "id": "m05",
+          "sender": "anjali",
+          "text": "apparently 👀"
+        },
+        {
+          "kind": "message",
+          "id": "m06",
+          "sender": "priya",
+          "text": "Don't."
+        },
+        {
+          "kind": "message",
+          "id": "m07",
+          "sender": "anjali",
+          "text": "im just saying"
+        },
+        {
+          "kind": "message",
+          "id": "m08",
+          "sender": "anjali",
+          "text": "when did he start collecting your rent again"
+        },
+        {
+          "kind": "message",
+          "id": "m09",
+          "sender": "priya",
+          "text": "October. Dave wanted one payment instead of two. Easier for his accountant."
+        },
+        {
+          "kind": "message",
+          "id": "m10",
+          "sender": "anjali",
+          "text": "says who"
+        },
+        {
+          "kind": "message",
+          "id": "m11",
+          "sender": "priya",
+          "text": "Callum."
+        },
+        {
+          "kind": "message",
+          "id": "m12",
+          "sender": "anjali",
+          "text": "PRIYA"
+        },
+        {
+          "kind": "message",
+          "id": "m13",
+          "sender": "priya",
+          "attachment": {
+            "type": "image",
+            "label": "Screenshot — Banking",
+            "detail": "4 payments · £525.00 to Callum Reid · ref RENT"
+          }
+        },
+        {
+          "kind": "message",
+          "id": "m14",
+          "sender": "priya",
+          "text": "It's the same £525 I've always paid. Nothing's changed."
+        },
+        {
+          "kind": "message",
+          "id": "m15",
+          "sender": "anjali",
+          "text": "on YOUR side"
+        },
+        {
+          "kind": "message",
+          "id": "m16",
+          "sender": "anjali",
+          "text": "you have no idea what he pays dave. or what dave charges"
+        },
+        {
+          "kind": "message",
+          "id": "m17",
+          "sender": "priya",
+          "text": "Dave's had the same rent for three years."
+        },
+        {
+          "kind": "message",
+          "id": "m18",
+          "sender": "anjali",
+          "text": "then why is there a new lease"
+        },
+        {
+          "kind": "message",
+          "id": "m19",
+          "sender": "priya",
+          "text": "I don't know."
+        },
+        {
+          "kind": "message",
+          "id": "m20",
+          "sender": "anjali",
+          "text": "ask to see it. the actual paper"
+        },
+        {
+          "kind": "message",
+          "id": "m21",
+          "sender": "priya",
+          "text": "I am not interrogating my best friend over a boiler.",
+          "receipt": {
+            "status": "read",
+            "at": "8:51 PM"
+          }
+        }
+      ],
+      "meta": {
+        "beat": "Anjali plants suspicion."
+      }
+    },
+    {
+      "id": "s05",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "2:44"
+        }
+      },
+      "deviceOwner": "priya",
+      "participants": [
+        "priya",
+        "callum"
+      ],
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Sun, Jan 25 at 1:05 PM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "callum",
+          "text": "pub at 3?"
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "priya",
+          "text": "Yes. Bring the lease."
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "callum",
+          "text": "ah. its still at daves i think"
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "priya",
+          "text": "You said you'd read it."
+        },
+        {
+          "kind": "message",
+          "id": "m05",
+          "sender": "callum",
+          "text": "read it on his phone when he came round for the meter"
+        },
+        {
+          "kind": "message",
+          "id": "m06",
+          "sender": "priya",
+          "text": "Callum."
+        },
+        {
+          "kind": "message",
+          "id": "m07",
+          "sender": "callum",
+          "text": "promise its boring. pub. 3. my round"
+        },
+        {
+          "kind": "timestamp",
+          "id": "t02",
+          "label": "Sun, Jan 25 at 2:41 PM"
+        },
+        {
+          "kind": "message",
+          "id": "m08",
+          "sender": "callum",
+          "text": "actually can we do next weekend? got called in, someone's off sick"
+        },
+        {
+          "kind": "message",
+          "id": "m09",
+          "sender": "priya",
+          "text": "On a Sunday."
+        },
+        {
+          "kind": "message",
+          "id": "m10",
+          "sender": "callum",
+          "text": "live sound never sleeps ha"
+        },
+        {
+          "kind": "message",
+          "id": "m11",
+          "sender": "priya",
+          "text": "Sure.",
+          "receipt": {
+            "status": "read",
+            "at": "2:44 PM"
+          }
+        }
+      ],
+      "meta": {
+        "beat": "First postponement."
+      }
+    },
+    {
+      "id": "s06",
+      "type": "notification",
+      "theme": "dark",
+      "exportProfile": "iphone",
+      "deviceOwner": "priya",
+      "lockScreen": {
+        "time": "9:58",
+        "date": "Sunday, January 25"
+      },
+      "notifications": [
+        {
+          "id": "n1",
+          "app": "messages",
+          "sender": "dave",
+          "body": "Good evening Priya… just to say sorry if I spoke out of turn yesterday. Callum mentioned you'd prefer I didn't bring up the new amount. Understood, I won't mention it again. Regards, Dave",
+          "time": "now"
+        }
+      ],
+      "meta": {
+        "beat": "Cliffhanger: someone told Dave to stay quiet — in Priya's name."
+      }
+    }
+  ]
+}

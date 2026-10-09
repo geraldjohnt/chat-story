@@ -1,0 +1,321 @@
+{
+  "schemaVersion": 1,
+  "storyId": "0002",
+  "partNumber": 3,
+  "title": "Thursdays",
+  "summary": "Renée owns her mistake but won't break Lily's trust over text — she tells Dana to ask why Thursdays. Jenna, a classmate's mom, reveals two fifth graders on the Thursday Y bus have been taking Lily's things and mocking her. Lily, texting from her bedroom so she doesn't have to look at her mom, admits it — and explains why she told no one.",
+  "status": "final",
+  "cliffhanger": "Lily: 'dont tell dad either. you guys will fight'.",
+  "createdAt": "2026-10-09T19:00:00Z",
+  "updatedAt": "2026-10-09T19:00:00Z",
+  "screenshots": [
+    {
+      "id": "s01",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "7:11"
+        }
+      },
+      "deviceOwner": "dana",
+      "participants": [
+        "dana",
+        "renee"
+      ],
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Mon, Mar 16 at 7:05 AM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "dana",
+          "text": "Renée. Lily's iPad is on my Apple ID. I read your messages."
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "renee",
+          "text": "Oh. Dana, I'm so sorry."
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "dana",
+          "text": "Why is my daughter begging you not to tell me something?"
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "renee",
+          "text": "She told me you knew. By the second week I didn't believe her, and I should have called you that day. That's on me."
+        },
+        {
+          "kind": "message",
+          "id": "m05",
+          "sender": "renee",
+          "text": "I promised her I wouldn't tell, and I've been trying to get her to tell you herself. I won't break her trust over text."
+        },
+        {
+          "kind": "message",
+          "id": "m06",
+          "sender": "renee",
+          "text": "But please ask her why Thursdays. Gently. Not about me — about the bus."
+        },
+        {
+          "kind": "message",
+          "id": "m07",
+          "sender": "dana",
+          "text": "If she's in danger you tell me right now."
+        },
+        {
+          "kind": "message",
+          "id": "m08",
+          "sender": "renee",
+          "text": "She's safe. I've made sure she isn't on that bus. If it were more than that, I'd have called you myself. I promise."
+        },
+        {
+          "kind": "message",
+          "id": "m09",
+          "sender": "dana",
+          "text": "The bus.",
+          "receipt": {
+            "status": "read",
+            "at": "7:11 AM"
+          }
+        },
+        {
+          "kind": "message",
+          "id": "m10",
+          "sender": "renee",
+          "text": "Please ask her."
+        }
+      ],
+      "meta": {
+        "beat": "Renée points at the bus."
+      }
+    },
+    {
+      "id": "s02",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "12:36"
+        }
+      },
+      "deviceOwner": "dana",
+      "participants": [
+        "dana",
+        "jenna"
+      ],
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Mon, Mar 16 at 12:30 PM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "jenna",
+          "text": "Hi Dana, it's Jenna, Maya's mom. Sorry to text out of the blue. Can I ask you something kind of awkward?"
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "dana",
+          "text": "Hi Jenna. Of course."
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "jenna",
+          "text": "Maya says some 5th graders on the Thursday Y bus have been taking Lily's stuff. Her water bottle, her sketchbook. And calling her names."
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "jenna",
+          "text": "Maya says Lily stopped riding it a few weeks ago."
+        },
+        {
+          "kind": "message",
+          "id": "m05",
+          "sender": "jenna",
+          "text": "I didn't know if you knew. I'd want to know."
+        },
+        {
+          "kind": "message",
+          "id": "m06",
+          "sender": "dana",
+          "text": "I didn't know."
+        },
+        {
+          "kind": "message",
+          "id": "m07",
+          "sender": "dana",
+          "text": "Thank you for telling me. Really."
+        },
+        {
+          "kind": "message",
+          "id": "m08",
+          "sender": "jenna",
+          "text": "Of course. Lily made Maya pinky swear not to tell anyone 💔"
+        },
+        {
+          "kind": "message",
+          "id": "m09",
+          "sender": "jenna",
+          "text": "Maya's going to be mad at me. Worth it."
+        }
+      ],
+      "meta": {
+        "beat": "An outside witness."
+      }
+    },
+    {
+      "id": "s03",
+      "type": "conversation",
+      "theme": "dark",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "7:56"
+        }
+      },
+      "deviceOwner": "dana",
+      "participants": [
+        "dana",
+        "lily"
+      ],
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Mon, Mar 16 at 7:48 PM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "dana",
+          "text": "Hey bug. Can I come in?"
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "lily",
+          "text": "im reading"
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "dana",
+          "text": "Okay. Can we text then? You don't have to look at me."
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "lily",
+          "text": "ok"
+        },
+        {
+          "kind": "message",
+          "id": "m05",
+          "sender": "dana",
+          "text": "I know about Thursdays. Renée didn't tell me. And I'm not mad at you. Not even a little."
+        },
+        {
+          "kind": "message",
+          "id": "m06",
+          "sender": "lily",
+          "text": "who told"
+        },
+        {
+          "kind": "message",
+          "id": "m07",
+          "sender": "dana",
+          "text": "That doesn't matter. Did some big kids take your sketchbook?"
+        },
+        {
+          "kind": "message",
+          "id": "m08",
+          "sender": "lily",
+          "text": "and my water bottle"
+        },
+        {
+          "kind": "message",
+          "id": "m09",
+          "sender": "lily",
+          "text": "and they said my drawings are baby drawings"
+        },
+        {
+          "kind": "message",
+          "id": "m10",
+          "sender": "lily",
+          "text": "and they ring a pretend bell and go here bell bell like im a dog"
+        },
+        {
+          "kind": "message",
+          "id": "m11",
+          "sender": "dana",
+          "text": "Oh, bug. I'm so sorry."
+        },
+        {
+          "kind": "message",
+          "id": "m12",
+          "sender": "dana",
+          "text": "Why didn't you tell me or Dad?"
+        },
+        {
+          "kind": "message",
+          "id": "m13",
+          "sender": "lily",
+          "text": "bc u guys would fight"
+        },
+        {
+          "kind": "message",
+          "id": "m14",
+          "sender": "lily",
+          "text": "u fight about everything with me"
+        },
+        {
+          "kind": "message",
+          "id": "m15",
+          "sender": "lily",
+          "text": "renee doesnt make it a big deal"
+        },
+        {
+          "kind": "message",
+          "id": "m16",
+          "sender": "dana",
+          "text": "Can I come in now?",
+          "receipt": {
+            "status": "read",
+            "at": "7:55 PM"
+          }
+        },
+        {
+          "kind": "message",
+          "id": "m17",
+          "sender": "lily",
+          "text": "ok but"
+        },
+        {
+          "kind": "message",
+          "id": "m18",
+          "sender": "lily",
+          "text": "dont tell dad either. you guys will fight"
+        }
+      ],
+      "meta": {
+        "beat": "Cliffhanger: the real cost of the parents' war."
+      }
+    }
+  ]
+}

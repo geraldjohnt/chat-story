@@ -1,5 +1,107 @@
 {
   "schemaVersion": 1,
   "description": "Characters across stories. Key by story ID; character IDs match story.json. Note cross-story links only if stories share a universe.",
-  "stories": {}
+  "stories": {
+    "0001": [
+      {
+        "id": "priya",
+        "name": "Priya Nair",
+        "role": "Device owner",
+        "age": 27
+      },
+      {
+        "id": "callum",
+        "name": "Callum Reid",
+        "role": "Roommate",
+        "age": 29
+      },
+      {
+        "id": "anjali",
+        "name": "Anjali Nair",
+        "role": "Priya's older sister",
+        "age": 31
+      },
+      {
+        "id": "dave",
+        "name": "Dave Whitlock",
+        "role": "Landlord",
+        "age": 58
+      }
+    ],
+    "0002": [
+      {
+        "id": "dana",
+        "name": "Dana Whitfield",
+        "role": "Device owner, Lily's mom",
+        "age": 38
+      },
+      {
+        "id": "marcus",
+        "name": "Marcus Bell",
+        "role": "Lily's dad, Dana's ex-husband",
+        "age": 40
+      },
+      {
+        "id": "renee",
+        "name": "Renée Okafor",
+        "role": "Marcus's girlfriend",
+        "age": 34
+      },
+      {
+        "id": "lily",
+        "name": "Lily Bell",
+        "role": "Dana and Marcus's daughter",
+        "age": 9
+      },
+      {
+        "id": "tasha",
+        "name": "Tasha Grant",
+        "role": "Dana's friend, family lawyer",
+        "age": 39
+      },
+      {
+        "id": "jenna",
+        "name": "Jenna Alvarez",
+        "role": "Classmate's mom",
+        "age": 36
+      },
+      {
+        "id": "school",
+        "name": "Hamilton Elementary",
+        "role": "Automated school SMS"
+      }
+    ],
+    "0003": [
+      {
+        "id": "mia",
+        "name": "Mia Castellano",
+        "role": "Device owner, bride",
+        "age": 31
+      },
+      {
+        "id": "josh",
+        "name": "Josh Pearce",
+        "role": "Fiancé",
+        "age": 33
+      },
+      {
+        "id": "kieran",
+        "name": "Kieran Doyle",
+        "role": "Best man",
+        "age": 33
+      },
+      {
+        "id": "lauren",
+        "name": "Lauren Pearce",
+        "role": "Josh's sister, bridesmaid",
+        "age": 29
+      },
+      {
+        "id": "bec",
+        "name": "Bec Harland",
+        "role": "Venue coordinator, Stonehaven Estate",
+        "age": 27
+      }
+    ]
+  }
 }

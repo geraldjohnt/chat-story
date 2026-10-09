@@ -1,6 +1,6 @@
 # Deposit Returned
 
-Status: pending
+Status: approved → story 0003
 Proposed: 2026-10-09
 Genre: Engaged-couple drama / financial deception → breakup
 Setting: Melbourne, Australia; seven weeks before a wedding, present day (spring, October)
@@ -79,3 +79,6 @@ Compared with: story-index.json (empty), pending outlines (this batch: "The Rent
 not infidelity; evidence chain via automated messages (venue, betting app, lender); twist is the
 character's decision, not an information reveal. Shares a money theme with "The Rent Went Up" but
 inverted (deception for self vs. secrecy out of kindness).
+
+## Generation notes (2026-10-09)
+The total is over $44,000 ($20,400 savings + $15,000 loan + $3,000 Lauren + $6,000 refund), not ~$38,000. Josh lies outright ("glitch, Saturday's locked in") before the cliffhanger. Lauren's family history (father's pokies problem) was added. Josh's intake call is on Friday 9 Oct. The coordinator character is `bec` only; there is no separate venue character.

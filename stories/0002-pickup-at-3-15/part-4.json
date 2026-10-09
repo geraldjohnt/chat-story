@@ -1,0 +1,403 @@
+{
+  "schemaVersion": 1,
+  "storyId": "0002",
+  "partNumber": 4,
+  "title": "Team Chat",
+  "summary": "Dana tells Marcus everything and asks him to be on the same side for once; he shows up. The school moves the fifth graders off the bus and adds a monitor. Tasha's draft is deleted. Dana thanks Renée — and sets a boundary. The four of them start a pickup group chat, and Lily names it.",
+  "status": "final",
+  "cliffhanger": null,
+  "createdAt": "2026-10-09T19:00:00Z",
+  "updatedAt": "2026-10-09T19:00:00Z",
+  "screenshots": [
+    {
+      "id": "s01",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "6:58"
+        }
+      },
+      "deviceOwner": "dana",
+      "participants": [
+        "dana",
+        "marcus"
+      ],
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Tue, Mar 17 at 6:30 AM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "dana",
+          "text": "Marcus, please read all of this before you reply."
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "dana",
+          "text": "Two 5th graders on the Thursday Y bus have been taking Lily's things and mocking her. She asked Renée to drive her so she didn't have to ride it."
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "dana",
+          "text": "She didn't tell either of us because she thinks we'd fight about it."
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "dana",
+          "text": "She's not wrong. So I'm not fighting. I'm asking you to be on the same side for this one."
+        },
+        {
+          "kind": "timestamp",
+          "id": "t02",
+          "label": "Tue, Mar 17 at 6:52 AM"
+        },
+        {
+          "kind": "message",
+          "id": "m05",
+          "sender": "marcus",
+          "text": "jesus"
+        },
+        {
+          "kind": "message",
+          "id": "m06",
+          "sender": "marcus",
+          "text": "ok"
+        },
+        {
+          "kind": "message",
+          "id": "m07",
+          "sender": "marcus",
+          "text": "what do you need"
+        },
+        {
+          "kind": "message",
+          "id": "m08",
+          "sender": "dana",
+          "text": "Call the school with me at 8. Both of us."
+        },
+        {
+          "kind": "message",
+          "id": "m09",
+          "sender": "marcus",
+          "text": "I'll be there. in person if they'll see us"
+        },
+        {
+          "kind": "message",
+          "id": "m10",
+          "sender": "dana",
+          "text": "Even better."
+        },
+        {
+          "kind": "message",
+          "id": "m11",
+          "sender": "marcus",
+          "text": "dana. I really thought you knew. I'm sorry"
+        },
+        {
+          "kind": "message",
+          "id": "m12",
+          "sender": "dana",
+          "text": "I know. Me too.",
+          "receipt": {
+            "status": "read",
+            "at": "6:58 AM"
+          }
+        }
+      ],
+      "meta": {
+        "beat": "Same side."
+      }
+    },
+    {
+      "id": "s02",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "1:19"
+        }
+      },
+      "deviceOwner": "dana",
+      "participants": [
+        "dana",
+        "tasha"
+      ],
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Tue, Mar 17 at 1:15 PM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "dana",
+          "text": "Update: no email."
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "dana",
+          "text": "It was never a custody thing. Lily was hiding from bullies on the bus. She didn't tell us because we fight."
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "tasha",
+          "text": "Oh, Dana. That poor kid."
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "tasha",
+          "text": "Delete the draft. Honestly."
+        },
+        {
+          "kind": "message",
+          "id": "m05",
+          "sender": "dana",
+          "text": "Already did."
+        },
+        {
+          "kind": "message",
+          "id": "m06",
+          "sender": "dana",
+          "text": "Marcus and I met the principal together. The two boys are off the bus and Mr. Patel rides it Thursdays now."
+        },
+        {
+          "kind": "message",
+          "id": "m07",
+          "sender": "tasha",
+          "text": "Ok, I'll say the lawyer thing once: put pickup rules in writing anyway. Not as a weapon. As a plan."
+        },
+        {
+          "kind": "message",
+          "id": "m08",
+          "sender": "dana",
+          "text": "That's what the group chat's for."
+        },
+        {
+          "kind": "message",
+          "id": "m09",
+          "sender": "tasha",
+          "text": "The what"
+        },
+        {
+          "kind": "message",
+          "id": "m10",
+          "sender": "dana",
+          "text": "You'll see 🙂"
+        }
+      ],
+      "meta": {
+        "beat": "The draft deleted."
+      }
+    },
+    {
+      "id": "s03",
+      "type": "conversation",
+      "theme": "dark",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "8:44"
+        }
+      },
+      "deviceOwner": "dana",
+      "participants": [
+        "dana",
+        "renee"
+      ],
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Tue, Mar 17 at 8:40 PM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "dana",
+          "text": "Renée, I owe you a thank-you and a boundary. Both are real."
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "renee",
+          "text": "I'll take both. I'm so sorry, Dana."
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "dana",
+          "text": "Thank you for keeping her off that bus. And next time a child asks you to keep a secret from her mom, you call her mom."
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "renee",
+          "text": "Every time. I promise. I should have the first week."
+        },
+        {
+          "kind": "message",
+          "id": "m05",
+          "sender": "dana",
+          "text": "Marcus and I are starting a group chat for pickups. You in?"
+        },
+        {
+          "kind": "message",
+          "id": "m06",
+          "sender": "renee",
+          "text": "If you want me in, I'm in."
+        },
+        {
+          "kind": "message",
+          "id": "m07",
+          "sender": "dana",
+          "text": "I do.",
+          "receipt": {
+            "status": "read",
+            "at": "8:44 PM"
+          }
+        }
+      ],
+      "meta": {
+        "beat": "Thanks and a boundary."
+      }
+    },
+    {
+      "id": "s04",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "6:12"
+        }
+      },
+      "deviceOwner": "dana",
+      "participants": [
+        "dana",
+        "marcus",
+        "renee",
+        "lily"
+      ],
+      "title": "team chat 🏀",
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Wed, Mar 18 at 6:05 PM"
+        },
+        {
+          "kind": "system",
+          "id": "y01",
+          "text": "Dana named the conversation “Lily pickups”."
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "dana",
+          "text": "Okay. Ground rules: any change to pickups goes here first. No side deals, no secrets."
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "marcus",
+          "text": "👍"
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "dana",
+          "text": "Marcus."
+        },
+        {
+          "kind": "message",
+          "id": "m05",
+          "sender": "marcus",
+          "text": "agreed. in words"
+        },
+        {
+          "kind": "message",
+          "id": "m06",
+          "sender": "renee",
+          "text": "Agreed."
+        },
+        {
+          "kind": "message",
+          "id": "m07",
+          "sender": "marcus",
+          "text": "school found her sketchbook btw. it was in the 5th grade lost and found"
+        },
+        {
+          "kind": "message",
+          "id": "m08",
+          "sender": "lily",
+          "text": "🎨🎨🎨🎨"
+        },
+        {
+          "kind": "message",
+          "id": "m09",
+          "sender": "dana",
+          "text": "Lily, Thursday is your call. The bus with Mr. Patel, or Renée drives you. Both are okay."
+        },
+        {
+          "kind": "message",
+          "id": "m10",
+          "sender": "lily",
+          "text": "is this the team chat 🙂",
+          "reactions": [
+            {
+              "by": "marcus",
+              "type": "heart"
+            },
+            {
+              "by": "renee",
+              "type": "heart"
+            },
+            {
+              "by": "dana",
+              "type": "heart"
+            }
+          ]
+        },
+        {
+          "kind": "message",
+          "id": "m11",
+          "sender": "marcus",
+          "text": "it's the team chat bug"
+        },
+        {
+          "kind": "message",
+          "id": "m12",
+          "sender": "lily",
+          "text": "renee thursday. bus next week"
+        },
+        {
+          "kind": "message",
+          "id": "m13",
+          "sender": "lily",
+          "text": "maybe"
+        },
+        {
+          "kind": "system",
+          "id": "y14",
+          "text": "Lily named the conversation “team chat 🏀”."
+        }
+      ],
+      "meta": {
+        "beat": "Ending: a functional truce, named by Lily."
+      }
+    }
+  ]
+}

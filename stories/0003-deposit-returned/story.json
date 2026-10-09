@@ -1,0 +1,290 @@
+{
+  "schemaVersion": 1,
+  "id": "0003",
+  "title": "Deposit Returned",
+  "slug": "deposit-returned",
+  "genre": "engaged-couple-drama",
+  "tags": [
+    "engagement",
+    "wedding",
+    "gambling",
+    "financial-deception",
+    "breakup"
+  ],
+  "language": "en",
+  "setting": "Melbourne, Australia; 6–9 October 2026, seven weeks before a Saturday 28 November wedding.",
+  "premise": "Seven weeks before her wedding, a bride learns the venue deposit was refunded — to her fiancé's account — and follows the money into a debt he has been hiding for a year.",
+  "synopsis": "A cheerful refund email from the wedding venue makes no sense to Mia: she never cancelled anything. Josh calls it a glitch. The venue coordinator, the best man's slip, the kitchen iPad and Josh's sister each add a piece, until the only question left isn't what Josh did — it's what Mia does next.",
+  "characters": [
+    {
+      "id": "mia",
+      "name": "Mia Castellano",
+      "contactName": "Mia",
+      "role": "Device owner, bride",
+      "age": 31,
+      "description": "Primary-school deputy principal. Methodical; trusting until she isn't; never raises her voice. Clear, measured texts; emoji only when happy; goes quieter as she gets angrier.",
+      "avatar": {
+        "initials": "MC",
+        "color": "#8E24AA"
+      }
+    },
+    {
+      "id": "josh",
+      "name": "Josh Pearce",
+      "contactName": "Josh ❤️",
+      "role": "Fiancé",
+      "age": 33,
+      "description": "Real-estate agent. Charming, confident, a smooth answer for every question. 'babe', 'all good', fast replies; long paragraphs when cornered.",
+      "avatar": {
+        "initials": "JP",
+        "color": "#1976D2"
+      }
+    },
+    {
+      "id": "kieran",
+      "name": "Kieran Doyle",
+      "contactName": "Kieran",
+      "role": "Best man",
+      "age": 33,
+      "description": "Josh's friend since school; loyal but uneasy. 'mate', hedging, double-texts, backpedals with 'ignore that'.",
+      "avatar": {
+        "initials": "KD",
+        "color": "#388E3C"
+      }
+    },
+    {
+      "id": "lauren",
+      "name": "Lauren Pearce",
+      "contactName": "Lauren",
+      "role": "Josh's sister, bridesmaid",
+      "age": 29,
+      "description": "Loves both of them; lent Josh $3,000 in May. Starts with 'ok so', long texts, ❤️.",
+      "avatar": {
+        "initials": "LP",
+        "color": "#F4511E"
+      }
+    },
+    {
+      "id": "bec",
+      "name": "Bec Harland",
+      "contactName": "Bec – Stonehaven",
+      "role": "Venue coordinator, Stonehaven Estate",
+      "age": 27,
+      "description": "Friendly and professional; bullet points and 💛.",
+      "avatar": {
+        "initials": "BH",
+        "color": "#6D4C41"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "mia",
+      "to": "josh",
+      "type": "engaged",
+      "description": "Together four years, engaged 14 months; joint savings for the wedding and a house deposit."
+    },
+    {
+      "from": "josh",
+      "to": "kieran",
+      "type": "best friends",
+      "description": "Friends since school; Kieran is best man."
+    },
+    {
+      "from": "josh",
+      "to": "lauren",
+      "type": "siblings",
+      "description": "Their father had a gambling problem when they were kids."
+    },
+    {
+      "from": "mia",
+      "to": "lauren",
+      "type": "close friends / future sisters-in-law",
+      "description": "Lauren is a bridesmaid and often the go-between."
+    },
+    {
+      "from": "mia",
+      "to": "bec",
+      "type": "client / coordinator",
+      "description": "Bec has handled the booking for a year."
+    }
+  ],
+  "centralConflict": "Mia's investment in a shared future against mounting proof that Josh has been managing her rather than partnering with her. By part 2 the question is not what he did but what she will do.",
+  "secrets": [
+    {
+      "id": "venue-downgrade",
+      "holder": "josh",
+      "description": "On 14 September Josh moved the booking from Sat 28 Nov to the Wed 25 Nov midweek package and had the $6,000 difference refunded to his personal account (ending 4471).",
+      "revealedInPart": 1
+    },
+    {
+      "id": "gambling-debt",
+      "holder": "josh",
+      "description": "A year of sports-betting losses: $20,400 taken from the $24,500 joint savings, a $15,000 personal loan (overdue), Lauren's $3,000 and the $6,000 venue refund — over $44,000.",
+      "revealedInPart": 2
+    },
+    {
+      "id": "ring-repair",
+      "holder": "lauren",
+      "description": "Lauren lent Josh $3,000 in May for a 'ring repair' that never existed.",
+      "revealedInPart": 2
+    },
+    {
+      "id": "kieran-knew",
+      "holder": "kieran",
+      "description": "Kieran has known since June, when Josh asked him for $2,000.",
+      "revealedInPart": 3
+    }
+  ],
+  "plotOutline": [
+    {
+      "partNumber": 1,
+      "title": "Refund Processed",
+      "beats": [
+        "Venue refund email",
+        "Josh: 'banking error'",
+        "Bec: Josh rebooked a Wednesday in September",
+        "Josh: 'it was a glitch, Saturday's locked in'",
+        "Kieran's slip",
+        "Josh: 'please don't call the venue again'"
+      ]
+    },
+    {
+      "partNumber": 2,
+      "title": "The Shared iPad",
+      "beats": [
+        "Josh's partial confession",
+        "Betting and loan notifications on the kitchen iPad",
+        "Lauren's $3,000 'ring repair' and the loan calls",
+        "The full number; Josh's threat"
+      ]
+    },
+    {
+      "partNumber": 3,
+      "title": "Seven Weeks",
+      "beats": [
+        "Kieran knew since June",
+        "Josh's real apology and Gambler's Help",
+        "Mia's decision",
+        "Cancel venue, tell the wedding party, separate finances",
+        "Final conversation list"
+      ]
+    }
+  ],
+  "plannedEnding": "Breakup with dignity. Mia calls off the wedding because Josh managed her instead of telling her, not because he gambled; she encourages him to keep getting help, cancels the venue, tells the wedding party kindly, separates their finances and moves to her mum's. Final screen: Josh's thread muted (he has done his intake call), Lauren's 'still my sister. always ❤️' unread at the top.",
+  "continuity": [
+    "Wedding was Saturday 28 November 2026 at Stonehaven Estate, 112 guests confirmed; Josh moved it to the Wednesday 25 November midweek package (60 guests) on 14 September.",
+    "Figures: venue refund $6,000 to Josh's account ending 4471; joint wedding savings $24,500 → $4,100; QuickFund personal loan $15,000 (repayment $612.40, overdue); Lauren's loan $3,000 (May). Total over $44,000.",
+    "Josh's gambling started at last year's Spring Racing Carnival with a big Melbourne Cup win. Betting app: BetRush.",
+    "Lauren is Josh's emergency contact; QuickFund has been calling her. Their father had a pokies problem when they were children.",
+    "Kieran knew since June (Josh asked him for $2,000; he refused).",
+    "Josh called Gambler's Help on 7 October, self-excluded, and had his intake call on 9 October.",
+    "Mia is staying at her mum's; joint account closed and the $4,100 split; she comes off the flat lease in November."
+  ],
+  "timeline": [
+    {
+      "id": "tl-01",
+      "when": "2025-11",
+      "event": "Josh's Melbourne Cup win; gambling escalates."
+    },
+    {
+      "id": "tl-02",
+      "when": "2026-05",
+      "event": "Lauren lends Josh $3,000 for a 'ring repair'."
+    },
+    {
+      "id": "tl-03",
+      "when": "2026-06",
+      "event": "Josh asks Kieran for $2,000 and tells him why."
+    },
+    {
+      "id": "tl-04",
+      "when": "2026-09-14",
+      "event": "Josh downgrades the venue booking."
+    },
+    {
+      "id": "tl-05",
+      "when": "2026-10-06 07:48",
+      "event": "Refund email reaches Mia.",
+      "partNumber": 1
+    },
+    {
+      "id": "tl-06",
+      "when": "2026-10-06 10:52",
+      "event": "Bec confirms the rebooking.",
+      "partNumber": 1
+    },
+    {
+      "id": "tl-07",
+      "when": "2026-10-07 06:55",
+      "event": "Betting and loan notifications on the kitchen iPad.",
+      "partNumber": 2
+    },
+    {
+      "id": "tl-08",
+      "when": "2026-10-07 10:48",
+      "event": "Josh admits the full debt.",
+      "partNumber": 2
+    },
+    {
+      "id": "tl-09",
+      "when": "2026-10-08",
+      "event": "Mia ends the engagement and cancels the venue.",
+      "partNumber": 3
+    },
+    {
+      "id": "tl-10",
+      "when": "2026-10-09",
+      "event": "Finances separated; Josh's intake call.",
+      "partNumber": 3
+    }
+  ],
+  "unresolvedThreads": [
+    {
+      "id": "refund",
+      "description": "Why was the venue deposit refunded to Josh?",
+      "introducedInPart": 1,
+      "resolvedInPart": 1
+    },
+    {
+      "id": "the-thing",
+      "description": "What is 'the thing' Kieran mentioned?",
+      "introducedInPart": 1,
+      "resolvedInPart": 3
+    },
+    {
+      "id": "money",
+      "description": "Where has the money gone?",
+      "introducedInPart": 1,
+      "resolvedInPart": 2
+    },
+    {
+      "id": "wedding",
+      "description": "Will the wedding go ahead?",
+      "introducedInPart": 2,
+      "resolvedInPart": 3
+    }
+  ],
+  "status": "completed",
+  "createdAt": "2026-10-09T19:00:00Z",
+  "updatedAt": "2026-10-09T19:00:00Z",
+  "partSummaries": [
+    {
+      "partNumber": 1,
+      "title": "Refund Processed",
+      "summary": "The venue emails Mia that her $6,000 refund has been paid to an account she doesn't recognise, for a Wednesday wedding she never booked. Josh calls it a system glitch. Bec, the coordinator, confirms Josh moved them to a midweek package in September. Josh insists Saturday is locked in. Kieran asks whether Josh has 'talked to her about the thing'. Then Josh finds out she called the venue."
+    },
+    {
+      "partNumber": 2,
+      "title": "The Shared iPad",
+      "summary": "Josh admits the downgrade and claims the $6,000 is safe. The next morning the kitchen iPad lights up with a betting app, an overdue loan and a near-empty account. Lauren reveals she lent Josh $3,000 for a 'ring repair' and that a loan company keeps calling her. Mia demands the numbers: over $44,000 gone. Josh's reply is a threat."
+    },
+    {
+      "partNumber": 3,
+      "title": "Seven Weeks",
+      "summary": "Kieran admits he has known since June. Josh sends a real apology: he has called Gambler's Help and self-excluded. Mia tells him she's glad — and that she is calling off the wedding, not because he gambled but because he managed her for a year instead of telling her. She cancels the venue, tells the wedding party with kindness, separates their finances and keeps Lauren."
+    }
+  ],
+  "plannedPartCount": 3,
+  "completedPartCount": 3
+}

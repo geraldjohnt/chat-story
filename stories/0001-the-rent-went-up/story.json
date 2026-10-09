@@ -1,0 +1,264 @@
+{
+  "schemaVersion": 1,
+  "id": "0001",
+  "title": "The Rent Went Up",
+  "slug": "the-rent-went-up",
+  "genre": "roommate-drama",
+  "tags": [
+    "roommates",
+    "money",
+    "misunderstanding",
+    "friendship",
+    "reconciliation"
+  ],
+  "language": "en",
+  "setting": "A shared two-bed terraced house on Ashgrove Road, Leeds, UK; 24–31 January 2026.",
+  "premise": "Priya is convinced her roommate Callum is quietly scamming her on rent — until she finds out he has spent four months secretly paying the landlord's increase on her behalf.",
+  "synopsis": "A puzzling thank-you from their landlord sends Priya down a trail of half-truths: Callum collects her rent, dodges every question and lies about a boiler. Egged on by her sister, Priya demands answers in the house group chat — and learns exactly what Callum has been hiding, and why.",
+  "characters": [
+    {
+      "id": "priya",
+      "name": "Priya Nair",
+      "contactName": "Priya",
+      "role": "Device owner",
+      "age": 27,
+      "description": "Pharmacy technician whose hours were cut in October. Proud, organised, hates owing anyone. Texts in full sentences with full stops; no emoji when upset.",
+      "avatar": {
+        "initials": "PN",
+        "color": "#C2185B"
+      }
+    },
+    {
+      "id": "callum",
+      "name": "Callum Reid",
+      "contactName": "Cal",
+      "role": "Roommate",
+      "age": 29,
+      "description": "Freelance live-sound engineer. Kind, conflict-avoidant, a bad liar. Lowercase, lots of 'ha', deflects with jokes.",
+      "avatar": {
+        "initials": "CR",
+        "color": "#1565C0"
+      }
+    },
+    {
+      "id": "anjali",
+      "name": "Anjali Nair",
+      "contactName": "Anj",
+      "role": "Priya's older sister",
+      "age": 31,
+      "description": "Paralegal. Protective and quick to escalate. Rapid short bursts, CAPS for emphasis, 👀.",
+      "avatar": {
+        "initials": "AN",
+        "color": "#6A1B9A"
+      }
+    },
+    {
+      "id": "dave",
+      "name": "Dave Whitlock",
+      "contactName": "Dave (Landlord)",
+      "role": "Landlord",
+      "age": 58,
+      "description": "Decent, old-fashioned small landlord. Ellipses, thumbs-up, signs off 'Regards, Dave'.",
+      "avatar": {
+        "initials": "DW",
+        "color": "#5D4037"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "priya",
+      "to": "callum",
+      "type": "roommates / close friends",
+      "description": "Met at university; have shared 14 Ashgrove Road for three years. Platonic."
+    },
+    {
+      "from": "priya",
+      "to": "anjali",
+      "type": "sisters",
+      "description": "Anjali is protective and has never liked Callum's 'vibe'."
+    },
+    {
+      "from": "dave",
+      "to": "callum",
+      "type": "landlord / tenant",
+      "description": "Dave likes Callum, who handles house admin."
+    },
+    {
+      "from": "dave",
+      "to": "priya",
+      "type": "landlord / tenant",
+      "description": "Polite, distant."
+    }
+  ],
+  "centralConflict": "Priya's pride and fear of being taken advantage of against Callum's well-meant secrecy: the more he hides, the guiltier he looks.",
+  "secrets": [
+    {
+      "id": "rent-increase",
+      "holder": "callum",
+      "description": "Rent rose from £1,050 to £1,190 a month from 1 October 2025 (letter given to Callum).",
+      "revealedInPart": 3
+    },
+    {
+      "id": "covering-share",
+      "holder": "callum",
+      "description": "Callum has paid Priya's £70 share of the increase since October and asked Dave not to mention the figure, telling him Priya 'would prefer' it.",
+      "revealedInPart": 3
+    },
+    {
+      "id": "boiler-lie",
+      "holder": "callum",
+      "description": "Callum claimed the 'top-up' was a boiler callout; there was none.",
+      "revealedInPart": 2
+    },
+    {
+      "id": "hyde-park-flat",
+      "holder": "callum",
+      "description": "Callum asked Dave for a reference for a one-bed on Hyde Park Road in November, then withdrew to stay.",
+      "revealedInPart": 3
+    }
+  ],
+  "plotOutline": [
+    {
+      "partNumber": 1,
+      "title": "Thanks for Sorting January",
+      "beats": [
+        "Dave thanks Priya for a 'top-up' she never paid",
+        "Callum blames a boiler callout and dodges the new lease",
+        "Anjali plants suspicion; Callum postpones the pub chat",
+        "Dave: Callum said Priya would prefer he didn't mention 'the new amount'"
+      ]
+    },
+    {
+      "partNumber": 2,
+      "title": "The House Chat",
+      "beats": [
+        "Anjali's theory: rent went down and Callum pockets the difference",
+        "Dave: no boiler callout; Callum got 'the letter' in October",
+        "Callum cancels twice",
+        "Priya asks in the house group what the rent actually is"
+      ]
+    },
+    {
+      "partNumber": 3,
+      "title": "The New Amount",
+      "beats": [
+        "Dave states £1,190 since October",
+        "Dave forwards Callum's October message and mentions Hyde Park Road",
+        "Priya's silence; Callum's apology",
+        "Public apology, repayment plan, lease signed, Anjali's verdict"
+      ]
+    }
+  ],
+  "plannedEnding": "Reconciliation with consequences: Priya apologises publicly in the house chat, insists on repaying £280 at £70 a month once her full hours return, and they renew the lease together. Anjali texts Callum for the first time: 'fine. you're alright.'",
+  "continuity": [
+    "Old rent £1,050 (£525 each); from 1 Oct 2025 £1,190 (£595 each). Callum paid £665/month Oct–Jan.",
+    "Since October Priya sends her £525 to Callum (ref RENT), who pays Dave in one payment.",
+    "Priya's hours were cut the first week of October; full hours return Monday 2 February 2026.",
+    "Repayment: £280 total, £70/month for four months, plus Priya does the bins. From February Priya pays £595 directly to Dave.",
+    "New 12-month lease signed 31 January 2026; Dave collects it Monday 2 February.",
+    "Callum skipped the Christmas Edinburgh trip with Priya (money, not work).",
+    "Anjali has Callum's number and texted him for the first time on 31 January."
+  ],
+  "timeline": [
+    {
+      "id": "tl-01",
+      "when": "2025-10-01",
+      "event": "Rent rises to £1,190; Callum starts covering Priya's extra £70."
+    },
+    {
+      "id": "tl-02",
+      "when": "2025-10-03",
+      "event": "Callum asks Dave not to mention the new figure to Priya."
+    },
+    {
+      "id": "tl-03",
+      "when": "2025-11",
+      "event": "Callum asks Dave for a Hyde Park Road reference, then withdraws."
+    },
+    {
+      "id": "tl-04",
+      "when": "2026-01-24 09:12",
+      "event": "Dave thanks Priya for the 'top-up'.",
+      "partNumber": 1
+    },
+    {
+      "id": "tl-05",
+      "when": "2026-01-25 21:58",
+      "event": "Dave's 'new amount' message.",
+      "partNumber": 1
+    },
+    {
+      "id": "tl-06",
+      "when": "2026-01-26",
+      "event": "Dave confirms there was no boiler callout.",
+      "partNumber": 2
+    },
+    {
+      "id": "tl-07",
+      "when": "2026-01-28 08:15",
+      "event": "Priya asks the house group what the rent is.",
+      "partNumber": 2
+    },
+    {
+      "id": "tl-08",
+      "when": "2026-01-28",
+      "event": "Truth revealed; Priya apologises publicly.",
+      "partNumber": 3
+    },
+    {
+      "id": "tl-09",
+      "when": "2026-01-29",
+      "event": "Repayment plan agreed.",
+      "partNumber": 3
+    },
+    {
+      "id": "tl-10",
+      "when": "2026-01-31",
+      "event": "Lease signed; Anjali texts Callum.",
+      "partNumber": 3
+    }
+  ],
+  "unresolvedThreads": [
+    {
+      "id": "top-up",
+      "description": "What is the 'top-up' Callum sends Dave?",
+      "introducedInPart": 1,
+      "resolvedInPart": 3
+    },
+    {
+      "id": "new-lease",
+      "description": "Why is there a new lease, and why hasn't Priya seen it?",
+      "introducedInPart": 1,
+      "resolvedInPart": 3
+    },
+    {
+      "id": "friendship",
+      "description": "Can Priya and Callum's friendship survive the public accusation?",
+      "introducedInPart": 2,
+      "resolvedInPart": 3
+    }
+  ],
+  "status": "completed",
+  "createdAt": "2026-10-09T19:00:00Z",
+  "updatedAt": "2026-10-09T19:00:00Z",
+  "partSummaries": [
+    {
+      "partNumber": 1,
+      "title": "Thanks for Sorting January",
+      "summary": "Dave thanks Priya for a rent 'top-up' she never paid. Callum blames a boiler callout, says he's read a new lease she hasn't seen, and keeps postponing a chat. Anjali smells a scam. Then Dave apologises for raising 'the new amount', saying Callum told him Priya would prefer he didn't."
+    },
+    {
+      "partNumber": 2,
+      "title": "The House Chat",
+      "summary": "Anjali decides the rent went down and Callum is pocketing the difference. Dave confirms there was never a boiler callout and that Callum got 'the letter' in October. Callum begs to talk in person, then cancels twice. Priya takes Anjali's advice and asks the house group chat — landlord included — what the rent actually is."
+    },
+    {
+      "partNumber": 3,
+      "title": "The New Amount",
+      "summary": "Dave reveals the rent rose to £1,190 in October. Callum admits he's been covering Priya's extra £70 since the week her hours were cut. Dave forwards Callum's October message and mentions the flat Callum gave up. After hours of silence Priya apologises — to Callum and publicly — insists on a repayment plan, and they sign the new lease. Anjali finally gives Callum her verdict."
+    }
+  ],
+  "plannedPartCount": 3,
+  "completedPartCount": 3
+}

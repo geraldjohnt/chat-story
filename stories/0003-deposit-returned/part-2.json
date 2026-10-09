@@ -1,0 +1,386 @@
+{
+  "schemaVersion": 1,
+  "storyId": "0003",
+  "partNumber": 2,
+  "title": "The Shared iPad",
+  "summary": "Josh admits the downgrade and claims the $6,000 is safe. The next morning the kitchen iPad lights up with a betting app, an overdue loan and a near-empty account. Lauren reveals she lent Josh $3,000 for a 'ring repair' and that a loan company keeps calling her. Mia demands the numbers: over $44,000 gone. Josh's reply is a threat.",
+  "status": "final",
+  "cliffhanger": "Josh: 'if you leave now everyone will know why.'",
+  "createdAt": "2026-10-09T19:00:00Z",
+  "updatedAt": "2026-10-09T19:00:00Z",
+  "screenshots": [
+    {
+      "id": "s01",
+      "type": "conversation",
+      "theme": "dark",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "9:59"
+        }
+      },
+      "deviceOwner": "mia",
+      "participants": [
+        "mia",
+        "josh"
+      ],
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Tue 9:52 PM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "josh",
+          "text": "ok I should have told you"
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "josh",
+          "text": "I panicked about the budget. the venue was eating everything and I didn't want to stress you out in term 4"
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "josh",
+          "text": "the 6k is safe, it's in my account. I was always going to put it back in the joint"
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "mia",
+          "text": "Then put it back now."
+        },
+        {
+          "kind": "message",
+          "id": "m05",
+          "sender": "josh",
+          "text": "first thing tomorrow, transfers are slow this late"
+        },
+        {
+          "kind": "message",
+          "id": "m06",
+          "sender": "mia",
+          "text": "And the 112 guests?"
+        },
+        {
+          "kind": "message",
+          "id": "m07",
+          "sender": "josh",
+          "text": "we'll sort it. wednesday's actually nicer, less traffic"
+        },
+        {
+          "kind": "message",
+          "id": "m08",
+          "sender": "mia",
+          "text": "I'm going to bed.",
+          "receipt": {
+            "status": "read",
+            "at": "9:58 PM"
+          }
+        },
+        {
+          "kind": "message",
+          "id": "m09",
+          "sender": "josh",
+          "text": "love you"
+        }
+      ],
+      "meta": {
+        "beat": "A partial confession, still lying."
+      }
+    },
+    {
+      "id": "s02",
+      "type": "notification-center",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "lockScreen": {
+        "time": "6:55",
+        "date": "Wednesday 7 October"
+      },
+      "notifications": [
+        {
+          "id": "n1",
+          "app": "other",
+          "appName": "BetRush",
+          "title": "BetRush",
+          "body": "Josh, your $50 bonus bet expires tonight ⚡ Caulfield Cup markets are open!",
+          "time": "now"
+        },
+        {
+          "id": "n2",
+          "app": "other",
+          "appName": "QuickFund",
+          "title": "QuickFund",
+          "body": "Reminder: your repayment of $612.40 is 9 days overdue. Pay now to avoid further fees.",
+          "time": "1h ago"
+        },
+        {
+          "id": "n3",
+          "app": "mail",
+          "title": "Westbank Alerts",
+          "body": "Account ending 4471: available balance $3.18",
+          "time": "2h ago"
+        },
+        {
+          "id": "n4",
+          "app": "other",
+          "appName": "BetRush",
+          "title": "BetRush",
+          "body": "Deposit of $500.00 received. Good luck! 🍀",
+          "time": "Yesterday"
+        }
+      ],
+      "meta": {
+        "beat": "The kitchen iPad, signed in to Josh's accounts."
+      }
+    },
+    {
+      "id": "s03",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "7:41"
+        }
+      },
+      "deviceOwner": "mia",
+      "participants": [
+        "mia",
+        "lauren"
+      ],
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Today 7:30 AM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "mia",
+          "text": "Lauren, can I ask you something and you tell me the truth?"
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "lauren",
+          "text": "ok so that's a terrifying way to start a wednesday but yes"
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "mia",
+          "text": "Is Josh in some kind of money trouble?"
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "lauren",
+          "text": "ok so"
+        },
+        {
+          "kind": "message",
+          "id": "m05",
+          "sender": "lauren",
+          "text": "he borrowed 3k off me in may. for the ring. he said the band cracked and the jeweller wanted it upfront and he didn't want you to know"
+        },
+        {
+          "kind": "message",
+          "id": "m06",
+          "sender": "mia",
+          "text": "The ring has never been damaged. It's never left my hand."
+        },
+        {
+          "kind": "message",
+          "id": "m07",
+          "sender": "lauren",
+          "text": "wait. the ring??"
+        },
+        {
+          "kind": "message",
+          "id": "m08",
+          "sender": "mia",
+          "attachment": {
+            "type": "image",
+            "label": "Photo",
+            "detail": "Kitchen iPad · 6:55 AM"
+          }
+        },
+        {
+          "kind": "message",
+          "id": "m09",
+          "sender": "mia",
+          "text": "That's the iPad on our kitchen bench. He's signed in on it."
+        },
+        {
+          "kind": "message",
+          "id": "m10",
+          "sender": "lauren",
+          "text": "oh no. oh josh"
+        },
+        {
+          "kind": "message",
+          "id": "m11",
+          "sender": "lauren",
+          "text": "ok so this makes sense now. some loan company has been ringing ME. I'm his emergency contact"
+        },
+        {
+          "kind": "message",
+          "id": "m12",
+          "sender": "lauren",
+          "attachment": {
+            "type": "image",
+            "label": "Screenshot — Voicemail",
+            "detail": "QuickFund: \"please ask Joshua to contact us\""
+          }
+        },
+        {
+          "kind": "message",
+          "id": "m13",
+          "sender": "lauren",
+          "text": "mia, dad had a problem with the pokies when we were kids. josh swore he'd never ever"
+        },
+        {
+          "kind": "message",
+          "id": "m14",
+          "sender": "lauren",
+          "text": "I'm so sorry ❤️"
+        }
+      ],
+      "meta": {
+        "beat": "The ring that was never broken."
+      }
+    },
+    {
+      "id": "s04",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "10:52"
+        }
+      },
+      "deviceOwner": "mia",
+      "participants": [
+        "mia",
+        "josh"
+      ],
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Today 9:15 AM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "mia",
+          "text": "I've seen the iPad."
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "mia",
+          "text": "BetRush. QuickFund. $3.18 in the account the venue refund went to."
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "mia",
+          "text": "And Lauren's $3,000 for a ring that's never been damaged."
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "josh",
+          "text": "babe I can explain"
+        },
+        {
+          "kind": "message",
+          "id": "m05",
+          "sender": "mia",
+          "text": "Then explain. Numbers. All of them.",
+          "receipt": {
+            "status": "read",
+            "at": "9:16 AM"
+          }
+        },
+        {
+          "kind": "timestamp",
+          "id": "t02",
+          "label": "Today 10:48 AM"
+        },
+        {
+          "kind": "message",
+          "id": "m06",
+          "sender": "josh",
+          "text": "ok. it started at last year's spring carnival. I won big on the Cup and thought I had a system. then I lost it and kept chasing it and I thought if I got back to even before the wedding you'd never have to know"
+        },
+        {
+          "kind": "message",
+          "id": "m07",
+          "sender": "josh",
+          "text": "I moved money out of the joint in small amounts so it wouldn't look like one thing. there's about 4 left"
+        },
+        {
+          "kind": "message",
+          "id": "m08",
+          "sender": "mia",
+          "text": "Out of $24,500."
+        },
+        {
+          "kind": "message",
+          "id": "m09",
+          "sender": "josh",
+          "text": "yes. and a 15k loan. and lauren. and the 6k is gone too, I lied last night, I'm sorry"
+        },
+        {
+          "kind": "message",
+          "id": "m10",
+          "sender": "mia",
+          "text": "That's more than $44,000, Josh."
+        },
+        {
+          "kind": "message",
+          "id": "m11",
+          "sender": "josh",
+          "text": "I know. I'll fix it. I've deleted the app"
+        },
+        {
+          "kind": "message",
+          "id": "m12",
+          "sender": "mia",
+          "text": "It sent you a bonus bet at 6:55 this morning."
+        },
+        {
+          "kind": "message",
+          "id": "m13",
+          "sender": "josh",
+          "text": "please don't do anything rash"
+        },
+        {
+          "kind": "message",
+          "id": "m14",
+          "sender": "josh",
+          "text": "if you leave now everyone will know why",
+          "reactions": [
+            {
+              "by": "mia",
+              "type": "question"
+            }
+          ]
+        }
+      ],
+      "meta": {
+        "beat": "Cliffhanger: the number, and a threat."
+      }
+    }
+  ]
+}

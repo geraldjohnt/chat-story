@@ -1,0 +1,652 @@
+{
+  "schemaVersion": 1,
+  "storyId": "0001",
+  "partNumber": 3,
+  "title": "The New Amount",
+  "summary": "Dave reveals the rent rose to £1,190 in October. Callum admits he's been covering Priya's extra £70 since the week her hours were cut. Dave forwards Callum's October message and mentions the flat Callum gave up. After hours of silence Priya apologises — to Callum and publicly — insists on a repayment plan, and they sign the new lease. Anjali finally gives Callum her verdict.",
+  "status": "final",
+  "cliffhanger": null,
+  "createdAt": "2026-10-09T19:00:00Z",
+  "updatedAt": "2026-10-09T19:00:00Z",
+  "screenshots": [
+    {
+      "id": "s01",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "8:22"
+        }
+      },
+      "deviceOwner": "priya",
+      "participants": [
+        "priya",
+        "callum",
+        "dave"
+      ],
+      "title": "14 Ashgrove Rd",
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Today 8:19 AM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "dave",
+          "text": "Good morning Priya… it's £1,190 a month since October, as per the letter. I'm very sorry, I assumed you'd both seen it."
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "dave",
+          "text": "First increase in three years… the mortgage went up. I did try to keep it fair."
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "priya",
+          "text": "So my half is £595."
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "priya",
+          "text": "I've been sending Callum £525."
+        },
+        {
+          "kind": "message",
+          "id": "m05",
+          "sender": "callum",
+          "text": "i was going to tell you"
+        },
+        {
+          "kind": "message",
+          "id": "m06",
+          "sender": "callum",
+          "text": "it was 70 quid. you'd just had your hours cut. same week"
+        },
+        {
+          "kind": "message",
+          "id": "m07",
+          "sender": "callum",
+          "text": "i didnt want it to be a thing"
+        },
+        {
+          "kind": "message",
+          "id": "m08",
+          "sender": "priya",
+          "text": "So you made it a secret instead."
+        },
+        {
+          "kind": "message",
+          "id": "m09",
+          "sender": "dave",
+          "text": "I think I'll leave you two to it… Regards, Dave"
+        }
+      ],
+      "meta": {
+        "beat": "The real number."
+      }
+    },
+    {
+      "id": "s02",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "8:47"
+        }
+      },
+      "deviceOwner": "priya",
+      "participants": [
+        "priya",
+        "dave"
+      ],
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Today 8:41 AM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "dave",
+          "text": "Priya… I don't feel right having been part of a secret, so here is what he sent me in October. I hope that's not speaking out of turn."
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "dave",
+          "attachment": {
+            "type": "image",
+            "label": "Screenshot — Messages",
+            "detail": "Callum Reid · 3 Oct"
+          }
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "dave",
+          "text": "It says: 'Dave, P's just had her hours cut. I'll cover the difference, she pays what she's paying. Please don't mention the new figure to her, she'll refuse and she can't afford to.'"
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "dave",
+          "text": "He also asked me for a reference for a one-bed on Hyde Park Road in November, then told me not to bother. I don't know if that's mine to say."
+        },
+        {
+          "kind": "message",
+          "id": "m05",
+          "sender": "dave",
+          "text": "Regards, Dave"
+        },
+        {
+          "kind": "message",
+          "id": "m06",
+          "sender": "priya",
+          "text": "Thank you, Dave. Truly.",
+          "receipt": {
+            "status": "read",
+            "at": "8:47 AM"
+          }
+        }
+      ],
+      "meta": {
+        "beat": "Evidence of motive; the flat he gave up."
+      }
+    },
+    {
+      "id": "s03",
+      "type": "conversation-list",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "11:46"
+        }
+      },
+      "deviceOwner": "priya",
+      "title": "Messages",
+      "conversations": [
+        {
+          "id": "c1",
+          "participants": [
+            "priya",
+            "callum"
+          ],
+          "preview": "i'm not going anywhere. take your time",
+          "time": "11:43 AM",
+          "unread": true,
+          "unreadCount": 4
+        },
+        {
+          "id": "c2",
+          "participants": [
+            "priya",
+            "anjali"
+          ],
+          "preview": "WHAT DID DAVE SAY",
+          "time": "11:20 AM",
+          "unread": true,
+          "unreadCount": 3
+        },
+        {
+          "id": "c3",
+          "participants": [
+            "priya",
+            "dave"
+          ],
+          "preview": "You: Thank you, Dave. Truly.",
+          "time": "8:47 AM"
+        },
+        {
+          "id": "c4",
+          "participants": [
+            "priya",
+            "callum",
+            "dave"
+          ],
+          "name": "14 Ashgrove Rd",
+          "preview": "Dave: I think I'll leave you two to it… Regards, Dave",
+          "time": "8:22 AM"
+        }
+      ],
+      "meta": {
+        "beat": "Three hours of silence."
+      }
+    },
+    {
+      "id": "s04",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "12:04"
+        }
+      },
+      "deviceOwner": "priya",
+      "participants": [
+        "priya",
+        "callum"
+      ],
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Today 8:30 AM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "callum",
+          "text": "sorry. that came out wrong in the group"
+        },
+        {
+          "kind": "timestamp",
+          "id": "t02",
+          "label": "Today 9:15 AM"
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "callum",
+          "text": "i should've told you in october. i just knew you'd say no and then you'd be skipping lunches to pay it"
+        },
+        {
+          "kind": "timestamp",
+          "id": "t03",
+          "label": "Today 10:02 AM"
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "callum",
+          "text": "the boiler thing was stupid. i panicked"
+        },
+        {
+          "kind": "timestamp",
+          "id": "t04",
+          "label": "Today 11:43 AM"
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "callum",
+          "text": "i'm not going anywhere. take your time"
+        },
+        {
+          "kind": "timestamp",
+          "id": "t05",
+          "label": "Today 11:58 AM"
+        },
+        {
+          "kind": "message",
+          "id": "m05",
+          "sender": "priya",
+          "text": "Dave told me about Hyde Park Road."
+        },
+        {
+          "kind": "message",
+          "id": "m06",
+          "sender": "callum",
+          "text": "ah"
+        },
+        {
+          "kind": "message",
+          "id": "m07",
+          "sender": "priya",
+          "text": "You were going to move out."
+        },
+        {
+          "kind": "message",
+          "id": "m08",
+          "sender": "callum",
+          "text": "i was looking. then your hours got cut and i thought if i go you're stuck paying the lot or living with a stranger"
+        },
+        {
+          "kind": "message",
+          "id": "m09",
+          "sender": "callum",
+          "text": "and honestly i didnt want to live with a stranger either ha"
+        },
+        {
+          "kind": "message",
+          "id": "m10",
+          "sender": "priya",
+          "text": "I was about to accuse you of stealing from me. In front of our landlord."
+        },
+        {
+          "kind": "message",
+          "id": "m11",
+          "sender": "callum",
+          "text": "you didnt say stealing"
+        },
+        {
+          "kind": "message",
+          "id": "m12",
+          "sender": "priya",
+          "text": "I was going to."
+        },
+        {
+          "kind": "message",
+          "id": "m13",
+          "sender": "callum",
+          "text": "fair"
+        },
+        {
+          "kind": "message",
+          "id": "m14",
+          "sender": "priya",
+          "text": "I'm so sorry, Cal."
+        },
+        {
+          "kind": "message",
+          "id": "m15",
+          "sender": "callum",
+          "text": "me too. i made you feel like you couldnt trust me. thats on me",
+          "reactions": [
+            {
+              "by": "priya",
+              "type": "heart"
+            }
+          ]
+        }
+      ],
+      "meta": {
+        "beat": "The apology between friends."
+      }
+    },
+    {
+      "id": "s05",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "12:24"
+        }
+      },
+      "deviceOwner": "priya",
+      "participants": [
+        "priya",
+        "callum",
+        "dave"
+      ],
+      "title": "14 Ashgrove Rd",
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Today 12:20 PM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "priya",
+          "text": "Dave, Callum — I owe you both an apology for this morning. Callum has been covering my share of the increase since October, and I implied the opposite in front of you both. I was wrong."
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "priya",
+          "text": "Dave, I'll pay my £595 directly from February."
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "dave",
+          "text": "Thank you Priya… no harm done here. You've got a good one there, if you don't mind me saying 👍"
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "callum",
+          "text": "dave i'm framing that",
+          "reactions": [
+            {
+              "by": "priya",
+              "type": "haha"
+            }
+          ]
+        }
+      ],
+      "meta": {
+        "beat": "Public apology."
+      }
+    },
+    {
+      "id": "s06",
+      "type": "conversation",
+      "theme": "dark",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "7:52"
+        }
+      },
+      "deviceOwner": "priya",
+      "participants": [
+        "priya",
+        "callum"
+      ],
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Thu, Jan 29 at 7:40 PM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "priya",
+          "text": "Okay. Numbers."
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "priya",
+          "text": "October to January is four months at £70. I owe you £280."
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "callum",
+          "text": "you dont owe me anything"
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "priya",
+          "text": "I'm back on full hours from Monday. I found out last week and was saving it to tell you, which is funny now."
+        },
+        {
+          "kind": "message",
+          "id": "m05",
+          "sender": "callum",
+          "text": "wait really?? p thats brilliant"
+        },
+        {
+          "kind": "message",
+          "id": "m06",
+          "sender": "priya",
+          "text": "£70 a month on top of my £595 until it's paid. Non-negotiable."
+        },
+        {
+          "kind": "message",
+          "id": "m07",
+          "sender": "callum",
+          "text": "35 for eight months"
+        },
+        {
+          "kind": "message",
+          "id": "m08",
+          "sender": "priya",
+          "text": "70 for four."
+        },
+        {
+          "kind": "message",
+          "id": "m09",
+          "sender": "callum",
+          "text": "50 and you do the bins"
+        },
+        {
+          "kind": "message",
+          "id": "m10",
+          "sender": "priya",
+          "text": "70 and I do the bins."
+        },
+        {
+          "kind": "message",
+          "id": "m11",
+          "sender": "callum",
+          "text": "deal. you're terrible at negotiating"
+        },
+        {
+          "kind": "message",
+          "id": "m12",
+          "sender": "priya",
+          "text": "I'm excellent at bins."
+        },
+        {
+          "kind": "message",
+          "id": "m13",
+          "sender": "callum",
+          "text": "lease is on the kitchen table btw. the real one. i've signed"
+        },
+        {
+          "kind": "message",
+          "id": "m14",
+          "sender": "priya",
+          "text": "I'll read every word."
+        },
+        {
+          "kind": "message",
+          "id": "m15",
+          "sender": "callum",
+          "text": "i know you will ha",
+          "reactions": [
+            {
+              "by": "priya",
+              "type": "heart"
+            }
+          ]
+        }
+      ],
+      "meta": {
+        "beat": "Repayment plan; Priya's own good news."
+      }
+    },
+    {
+      "id": "s07",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "6:17"
+        }
+      },
+      "deviceOwner": "priya",
+      "participants": [
+        "priya",
+        "callum"
+      ],
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Sat, Jan 31 at 4:02 PM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "priya",
+          "attachment": {
+            "type": "image",
+            "label": "Photo",
+            "detail": "Signed lease · kitchen table"
+          }
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "priya",
+          "text": "Signed. Every word read. Dave's picking it up Monday."
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "callum",
+          "text": "12 more months of you correcting my punctuation"
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "priya",
+          "text": "You don't use punctuation."
+        },
+        {
+          "kind": "message",
+          "id": "m05",
+          "sender": "callum",
+          "text": "exactly. job security"
+        },
+        {
+          "kind": "timestamp",
+          "id": "t02",
+          "label": "Sat, Jan 31 at 6:15 PM"
+        },
+        {
+          "kind": "message",
+          "id": "m06",
+          "sender": "callum",
+          "text": "ok so your sister just texted me"
+        },
+        {
+          "kind": "message",
+          "id": "m07",
+          "sender": "callum",
+          "text": "first time ever. she said 'fine. you're alright.'"
+        },
+        {
+          "kind": "message",
+          "id": "m08",
+          "sender": "callum",
+          "text": "is that good"
+        },
+        {
+          "kind": "message",
+          "id": "m09",
+          "sender": "priya",
+          "text": "That's the nicest thing she's ever said to anyone.",
+          "receipt": {
+            "status": "read",
+            "at": "6:16 PM"
+          }
+        },
+        {
+          "kind": "message",
+          "id": "m10",
+          "sender": "callum",
+          "text": "framing that too",
+          "reactions": [
+            {
+              "by": "priya",
+              "type": "haha"
+            }
+          ]
+        }
+      ],
+      "meta": {
+        "beat": "Resolution and Anjali's verdict."
+      }
+    }
+  ]
+}

@@ -1,0 +1,524 @@
+{
+  "schemaVersion": 1,
+  "storyId": "0001",
+  "partNumber": 2,
+  "title": "The House Chat",
+  "summary": "Anjali decides the rent went down and Callum is pocketing the difference. Dave confirms there was never a boiler callout and that Callum got 'the letter' in October. Callum begs to talk in person, then cancels twice. Priya takes Anjali's advice and asks the house group chat — landlord included — what the rent actually is.",
+  "status": "final",
+  "cliffhanger": "Callum asks to talk in person; Priya refuses — 'No. Here.' — and Dave starts typing.",
+  "createdAt": "2026-10-09T19:00:00Z",
+  "updatedAt": "2026-10-09T19:00:00Z",
+  "screenshots": [
+    {
+      "id": "s01",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "7:41"
+        }
+      },
+      "deviceOwner": "priya",
+      "participants": [
+        "priya",
+        "anjali"
+      ],
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Mon, Jan 26 at 7:32 AM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "priya",
+          "attachment": {
+            "type": "image",
+            "label": "Screenshot — Dave (Landlord)",
+            "detail": "Sunday, 9:58 PM"
+          }
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "priya",
+          "text": "I never asked anyone to hide anything."
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "anjali",
+          "text": "oh hes SO skimming"
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "anjali",
+          "text": "rent went down. he kept charging you 525. told dave to keep quiet"
+        },
+        {
+          "kind": "message",
+          "id": "m05",
+          "sender": "priya",
+          "text": "Why would the rent go down?"
+        },
+        {
+          "kind": "message",
+          "id": "m06",
+          "sender": "anjali",
+          "text": "landlords drop it to keep good tenants all the time"
+        },
+        {
+          "kind": "message",
+          "id": "m07",
+          "sender": "anjali",
+          "text": "whats he been spending on"
+        },
+        {
+          "kind": "message",
+          "id": "m08",
+          "sender": "priya",
+          "text": "Nothing. He bailed on Edinburgh at Christmas, said it was work."
+        },
+        {
+          "kind": "message",
+          "id": "m09",
+          "sender": "anjali",
+          "text": "or he didnt want 6 hours in a car with the person hes robbing"
+        },
+        {
+          "kind": "message",
+          "id": "m10",
+          "sender": "priya",
+          "text": "Anjali."
+        },
+        {
+          "kind": "message",
+          "id": "m11",
+          "sender": "anjali",
+          "text": "im a paralegal. send me the lease and ill tell you in 5 min"
+        },
+        {
+          "kind": "message",
+          "id": "m12",
+          "sender": "priya",
+          "text": "I don't HAVE the lease."
+        },
+        {
+          "kind": "message",
+          "id": "m13",
+          "sender": "anjali",
+          "text": "interesting!!"
+        },
+        {
+          "kind": "message",
+          "id": "m14",
+          "sender": "priya",
+          "text": "I'm asking Dave about the boiler. Just the boiler.",
+          "receipt": {
+            "status": "read",
+            "at": "7:41 AM"
+          }
+        },
+        {
+          "kind": "message",
+          "id": "m15",
+          "sender": "anjali",
+          "text": "👀"
+        }
+      ],
+      "meta": {
+        "beat": "Anjali's skimming theory; the Edinburgh clue."
+      }
+    },
+    {
+      "id": "s02",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "12:21"
+        }
+      },
+      "deviceOwner": "priya",
+      "participants": [
+        "priya",
+        "dave"
+      ],
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Mon, Jan 26 at 12:15 PM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "priya",
+          "text": "Hi Dave, quick one. Did you have to send anyone out for the boiler in December? Callum thinks he might have knocked the pressure."
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "dave",
+          "text": "Hello Priya… no callouts this winter, touch wood! It was serviced in September and it's been good as gold since."
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "dave",
+          "text": "If the pressure drops just top it up with the little key, it's under the sink 👍"
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "priya",
+          "text": "Great, thanks. And could I get a copy of the new lease?"
+        },
+        {
+          "kind": "message",
+          "id": "m05",
+          "sender": "dave",
+          "text": "Of course… I gave Callum a copy in October with the letter, but I'll bring another round on Friday."
+        },
+        {
+          "kind": "message",
+          "id": "m06",
+          "sender": "dave",
+          "text": "Regards, Dave"
+        },
+        {
+          "kind": "message",
+          "id": "m07",
+          "sender": "priya",
+          "text": "With the letter. Okay. Thank you.",
+          "receipt": {
+            "status": "read",
+            "at": "12:21 PM"
+          }
+        }
+      ],
+      "meta": {
+        "beat": "The boiler lie is exposed; a letter Priya never saw."
+      }
+    },
+    {
+      "id": "s03",
+      "type": "conversation",
+      "theme": "dark",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "10:34"
+        }
+      },
+      "deviceOwner": "priya",
+      "participants": [
+        "priya",
+        "callum"
+      ],
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Mon, Jan 26 at 6:10 PM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "priya",
+          "text": "Dave says there was no boiler callout.",
+          "receipt": {
+            "status": "read",
+            "at": "6:12 PM"
+          }
+        },
+        {
+          "kind": "timestamp",
+          "id": "t02",
+          "label": "Mon, Jan 26 at 9:47 PM"
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "callum",
+          "text": "ah"
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "callum",
+          "text": "ok it wasnt the boiler"
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "callum",
+          "text": "can we talk tonight? properly"
+        },
+        {
+          "kind": "message",
+          "id": "m05",
+          "sender": "priya",
+          "text": "Yes. I'm in."
+        },
+        {
+          "kind": "timestamp",
+          "id": "t03",
+          "label": "Mon, Jan 26 at 10:30 PM"
+        },
+        {
+          "kind": "message",
+          "id": "m06",
+          "sender": "callum",
+          "text": "sorry still at the venue, gear isnt packed. tomorrow i swear"
+        },
+        {
+          "kind": "message",
+          "id": "m07",
+          "sender": "priya",
+          "text": "You said that yesterday."
+        },
+        {
+          "kind": "message",
+          "id": "m08",
+          "sender": "callum",
+          "text": "i know"
+        },
+        {
+          "kind": "message",
+          "id": "m09",
+          "sender": "callum",
+          "text": "tomorrow. 7. i'll cook"
+        },
+        {
+          "kind": "message",
+          "id": "m10",
+          "sender": "priya",
+          "text": "What was the top-up, Callum?"
+        },
+        {
+          "kind": "message",
+          "id": "m11",
+          "sender": "callum",
+          "text": "tomorrow. please. not over text"
+        },
+        {
+          "kind": "message",
+          "id": "m12",
+          "sender": "priya",
+          "text": "Fine.",
+          "receipt": {
+            "status": "read",
+            "at": "10:34 PM"
+          }
+        }
+      ],
+      "meta": {
+        "beat": "Callum admits the lie but delays."
+      }
+    },
+    {
+      "id": "s04",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "8:02"
+        }
+      },
+      "deviceOwner": "priya",
+      "participants": [
+        "priya",
+        "anjali"
+      ],
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Tue, Jan 27 at 7:52 PM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "priya",
+          "text": "He's not here. He texted at quarter to seven that he's 'stuck in Wakefield'."
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "anjali",
+          "text": "of course he is"
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "anjali",
+          "text": "babe. 2 cancelled chats, a fake boiler, a secret letter, a lease you cant see and a landlord told to keep quiet"
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "anjali",
+          "text": "what more do you need"
+        },
+        {
+          "kind": "message",
+          "id": "m05",
+          "sender": "priya",
+          "text": "For him to just tell me."
+        },
+        {
+          "kind": "message",
+          "id": "m06",
+          "sender": "anjali",
+          "text": "hes not going to. so ask somewhere he cant wriggle"
+        },
+        {
+          "kind": "message",
+          "id": "m07",
+          "sender": "priya",
+          "text": "Meaning?"
+        },
+        {
+          "kind": "message",
+          "id": "m08",
+          "sender": "anjali",
+          "text": "the house chat. daves in it. dave doesnt lie"
+        },
+        {
+          "kind": "message",
+          "id": "m09",
+          "sender": "priya",
+          "text": "That's a horrible thing to do to someone."
+        },
+        {
+          "kind": "message",
+          "id": "m10",
+          "sender": "anjali",
+          "text": "so is taking money off your mate the month her hours got cut"
+        },
+        {
+          "kind": "message",
+          "id": "m11",
+          "sender": "priya",
+          "text": "We don't know that."
+        },
+        {
+          "kind": "message",
+          "id": "m12",
+          "sender": "anjali",
+          "text": "then ask and find out"
+        },
+        {
+          "kind": "timestamp",
+          "id": "t02",
+          "label": "Wed, Jan 28 at 8:02 AM"
+        },
+        {
+          "kind": "message",
+          "id": "m13",
+          "sender": "priya",
+          "text": "I'm doing it."
+        },
+        {
+          "kind": "message",
+          "id": "m14",
+          "sender": "anjali",
+          "text": "❤️ proud of you"
+        }
+      ],
+      "meta": {
+        "beat": "Anjali pushes for a public question."
+      }
+    },
+    {
+      "id": "s05",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "8:17"
+        }
+      },
+      "deviceOwner": "priya",
+      "participants": [
+        "priya",
+        "callum",
+        "dave"
+      ],
+      "title": "14 Ashgrove Rd",
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Fri, Dec 12 at 10:03 AM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "dave",
+          "text": "Good morning both… the window man is coming Thursday between 10 and 2. Regards, Dave"
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "callum",
+          "text": "👍 i'll be in"
+        },
+        {
+          "kind": "timestamp",
+          "id": "t02",
+          "label": "Today 8:15 AM"
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "priya",
+          "text": "Morning both. Can someone tell me what the rent on this house actually is?"
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "priya",
+          "text": "Not what I pay. What it is."
+        },
+        {
+          "kind": "message",
+          "id": "m05",
+          "sender": "callum",
+          "text": "p"
+        },
+        {
+          "kind": "message",
+          "id": "m06",
+          "sender": "callum",
+          "text": "can we talk about this in person please"
+        },
+        {
+          "kind": "message",
+          "id": "m07",
+          "sender": "priya",
+          "text": "No. Here.",
+          "receipt": {
+            "status": "read",
+            "at": "8:17 AM"
+          }
+        },
+        {
+          "kind": "typing",
+          "id": "typing",
+          "sender": "dave"
+        }
+      ],
+      "meta": {
+        "beat": "Cliffhanger: the question is out, and Dave is typing."
+      }
+    }
+  ]
+}

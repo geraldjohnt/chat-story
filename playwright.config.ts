@@ -4,7 +4,7 @@ import { existsSync } from 'node:fs';
 /**
  * E2E tests run against real production builds served under the GitHub Pages base path:
  *  - dist-e2e: production build + development fixtures (renderer/dashboard/export coverage)
- *  - dist: the actual production artifact (empty library, no fixtures)
+ *  - dist: the actual production artifact (published library, no fixtures)
  * The environment's preinstalled Chromium is used when present.
  */
 const preinstalled = ['/opt/pw-browsers/chromium-1194/chrome-linux/chrome'].find((p) => existsSync(p));

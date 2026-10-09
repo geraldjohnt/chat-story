@@ -1,0 +1,338 @@
+{
+  "schemaVersion": 1,
+  "id": "0002",
+  "title": "Pickup at 3:15",
+  "slug": "pickup-at-3-15",
+  "genre": "co-parenting-drama",
+  "tags": [
+    "co-parents",
+    "family",
+    "secrets",
+    "school",
+    "bittersweet"
+  ],
+  "language": "en",
+  "setting": "Columbus, Ohio, USA; 5–18 March 2026.",
+  "premise": "A divorced mom discovers her ex's new girlfriend has been secretly picking up their daughter from school — and assumes she's being edged out, until she learns her daughter arranged it to hide something.",
+  "synopsis": "A new school text alert tells ER nurse Dana that her ex-husband's girlfriend signed their daughter out on Dana's day. Marcus is evasive, Renée is apologetic but vague, and Dana's lawyer friend sees a custody play taking shape. But the messages on her daughter's iPad tell a different story — one a nine-year-old has been carrying alone.",
+  "characters": [
+    {
+      "id": "dana",
+      "name": "Dana Whitfield",
+      "contactName": "Dana",
+      "role": "Device owner, Lily's mom",
+      "age": 38,
+      "description": "ER nurse on 12-hour shifts. Fiercely protective, tired, quick to read threats. Efficient and punctuation-correct; 'K.' when angry.",
+      "avatar": {
+        "initials": "DW",
+        "color": "#00796B"
+      }
+    },
+    {
+      "id": "marcus",
+      "name": "Marcus Bell",
+      "contactName": "Marcus",
+      "role": "Lily's dad, Dana's ex-husband",
+      "age": 40,
+      "description": "Runs an HVAC business. Loves Lily; avoids conflict by under-informing. Short replies, 👍.",
+      "avatar": {
+        "initials": "MB",
+        "color": "#455A64"
+      }
+    },
+    {
+      "id": "renee",
+      "name": "Renée Okafor",
+      "contactName": "Renée",
+      "role": "Marcus's girlfriend",
+      "age": 34,
+      "description": "Middle-school art teacher; together with Marcus eight months. Careful, warm, apologetic; complete sentences.",
+      "avatar": {
+        "initials": "RO",
+        "color": "#EF6C00"
+      }
+    },
+    {
+      "id": "lily",
+      "name": "Lily Bell",
+      "contactName": "Lily 🏀",
+      "role": "Dana and Marcus's daughter",
+      "age": 9,
+      "description": "Third grader with a kid iPad on Dana's Apple ID. Bright, private, loves drawing and basketball. Emoji strings, 'ya', spelling slips, never answers directly.",
+      "avatar": {
+        "initials": "LB",
+        "color": "#AD1457"
+      }
+    },
+    {
+      "id": "tasha",
+      "name": "Tasha Grant",
+      "contactName": "Tasha",
+      "role": "Dana's friend, family lawyer",
+      "age": 39,
+      "description": "Strategic, wants receipts. Brisk, numbered lists, 'screenshot that'.",
+      "avatar": {
+        "initials": "TG",
+        "color": "#283593"
+      }
+    },
+    {
+      "id": "jenna",
+      "name": "Jenna Alvarez",
+      "contactName": "Jenna (Maya's mom)",
+      "role": "Classmate's mom",
+      "age": 36,
+      "description": "Mom of Lily's classmate Maya. Friendly, careful.",
+      "avatar": {
+        "initials": "JA",
+        "color": "#7CB342"
+      }
+    },
+    {
+      "id": "school",
+      "name": "Hamilton Elementary",
+      "role": "Automated school SMS",
+      "description": "Template pickup alerts.",
+      "avatar": {
+        "initials": "HE",
+        "color": "#1E88E5"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "dana",
+      "to": "marcus",
+      "type": "divorced co-parents",
+      "description": "Divorced two years; civil but brittle. Dana has Lily Mon–Thu, Marcus Fri–Sun."
+    },
+    {
+      "from": "marcus",
+      "to": "renee",
+      "type": "partners",
+      "description": "Together eight months."
+    },
+    {
+      "from": "dana",
+      "to": "renee",
+      "type": "near strangers",
+      "description": "Have met twice."
+    },
+    {
+      "from": "lily",
+      "to": "renee",
+      "type": "trust",
+      "description": "Lily trusts Renée because she 'doesn't make a big deal'."
+    },
+    {
+      "from": "dana",
+      "to": "tasha",
+      "type": "best friends",
+      "description": "Friends since nursing school."
+    },
+    {
+      "from": "dana",
+      "to": "jenna",
+      "type": "school-parent acquaintances",
+      "description": "Daughters are classmates."
+    }
+  ],
+  "centralConflict": "Dana's fear of losing her place in Lily's life against Marcus's and Renée's secrecy — and, underneath, a child handling bullying alone because she sees her parents as already at war.",
+  "secrets": [
+    {
+      "id": "thursday-pickups",
+      "holder": "lily",
+      "description": "Lily asked Renée to drive her from school to the Y on Thursdays (Feb 19, Feb 26, Mar 5, Mar 12) instead of riding the Y bus, telling her 'mom knows'.",
+      "revealedInPart": 2
+    },
+    {
+      "id": "marcus-assumed",
+      "holder": "marcus",
+      "description": "Marcus knew Renée was 'helping out' on Thursdays and assumed Dana had agreed.",
+      "revealedInPart": 2
+    },
+    {
+      "id": "bus-bullying",
+      "holder": "lily",
+      "description": "Two fifth graders on the Thursday Y bus took Lily's water bottle and sketchbook and mocked her ('here, Bell Bell').",
+      "revealedInPart": 3
+    },
+    {
+      "id": "why-silent",
+      "holder": "lily",
+      "description": "Lily told no parent because 'you guys would fight'.",
+      "revealedInPart": 3
+    }
+  ],
+  "plotOutline": [
+    {
+      "partNumber": 1,
+      "title": "Authorized Adult",
+      "beats": [
+        "School SMS: Renée signed Lily out",
+        "Marcus evasive; Renée vague; Lily deflects",
+        "Tasha: find out how many times",
+        "Three Thursdays; Marcus promises to handle it",
+        "Another pickup, mid-shift"
+      ]
+    },
+    {
+      "partNumber": 2,
+      "title": "I Thought You Knew",
+      "beats": [
+        "Marcus: Renée said she was helping out",
+        "Tasha drafts a firm email; custody fear",
+        "Renée calls Dana's iPad 'sweetie'",
+        "Synced thread: Lily begs Renée not to tell"
+      ]
+    },
+    {
+      "partNumber": 3,
+      "title": "Thursdays",
+      "beats": [
+        "Renée keeps the promise but says 'ask her why Thursdays'",
+        "Jenna: fifth graders on the Y bus",
+        "Lily opens up by text from her room"
+      ]
+    },
+    {
+      "partNumber": 4,
+      "title": "Team Chat",
+      "beats": [
+        "Dana brings Marcus onto the same side",
+        "School acts; Tasha's draft deleted",
+        "Thank-you and a boundary for Renée",
+        "New group chat; Lily: 'is this the team chat'"
+      ]
+    }
+  ],
+  "plannedEnding": "Bittersweet: the school removes the fifth graders from the Y bus and adds a monitor, and Lily gets her sketchbook back, but her reason for silence — 'you guys would fight' — lands hard. Dana deletes the lawyer's draft and she, Marcus, Renée and Lily start a shared pickup group chat that Lily renames 'team chat 🏀'.",
+  "continuity": [
+    "Custody: Dana has Lily Mon–Thu; Marcus Fri–Sun. Handover Friday after school, return Sunday 6 PM.",
+    "On Thursdays Dana works 7:00 AM–7:30 PM; Lily normally rides the after-school bus to the YMCA program and Dana collects her at 7:30.",
+    "Renée was added to the school pickup list by Marcus in January 'for emergencies'. She drove Lily to the Y on Feb 19, Feb 26, Mar 5 and Mar 12.",
+    "The school's text pickup alerts started on Mar 5, 2026.",
+    "Lily's iPad is signed into Dana's Apple ID, so its messages sync to Dana's phone.",
+    "Lily's classmate Maya (Jenna's daughter) knew about the bullying and was sworn to secrecy.",
+    "Resolution: Mr. Patel rides the Thursday Y bus; the two fifth graders were moved off it; the sketchbook was found in the fifth-grade lost and found.",
+    "New group chat (Dana, Marcus, Renée, Lily) named 'team chat 🏀' by Lily; all pickup changes go there first."
+  ],
+  "timeline": [
+    {
+      "id": "tl-01",
+      "when": "2026-01",
+      "event": "Marcus adds Renée to the school pickup list."
+    },
+    {
+      "id": "tl-02",
+      "when": "2026-02-18",
+      "event": "Lily first asks Renée to pick her up, claiming her mom knows."
+    },
+    {
+      "id": "tl-03",
+      "when": "2026-02-19 / 2026-02-26",
+      "event": "Renée's first two Thursday pickups."
+    },
+    {
+      "id": "tl-04",
+      "when": "2026-03-05 15:15",
+      "event": "First school SMS alert reaches Dana.",
+      "partNumber": 1
+    },
+    {
+      "id": "tl-05",
+      "when": "2026-03-06",
+      "event": "Office confirms three pickups; Marcus says he'll handle it.",
+      "partNumber": 1
+    },
+    {
+      "id": "tl-06",
+      "when": "2026-03-12 15:15",
+      "event": "Fourth pickup.",
+      "partNumber": 1
+    },
+    {
+      "id": "tl-07",
+      "when": "2026-03-13",
+      "event": "Handover argument; Tasha drafts an email.",
+      "partNumber": 2
+    },
+    {
+      "id": "tl-08",
+      "when": "2026-03-15 21:44",
+      "event": "Synced messages reveal Lily's request.",
+      "partNumber": 2
+    },
+    {
+      "id": "tl-09",
+      "when": "2026-03-16",
+      "event": "Renée, Jenna and Lily fill in the truth.",
+      "partNumber": 3
+    },
+    {
+      "id": "tl-10",
+      "when": "2026-03-17",
+      "event": "Dana and Marcus meet the school together.",
+      "partNumber": 4
+    },
+    {
+      "id": "tl-11",
+      "when": "2026-03-18",
+      "event": "Team chat begins.",
+      "partNumber": 4
+    }
+  ],
+  "unresolvedThreads": [
+    {
+      "id": "why-renee",
+      "description": "Why is Renée picking Lily up on Dana's days?",
+      "introducedInPart": 1,
+      "resolvedInPart": 3
+    },
+    {
+      "id": "custody-fear",
+      "description": "Is Marcus building a custody case?",
+      "introducedInPart": 1,
+      "resolvedInPart": 4
+    },
+    {
+      "id": "lily-secret",
+      "description": "What is Lily hiding?",
+      "introducedInPart": 2,
+      "resolvedInPart": 3
+    },
+    {
+      "id": "co-parenting",
+      "description": "Can Dana and Marcus stop fighting long enough to help Lily?",
+      "introducedInPart": 3,
+      "resolvedInPart": 4
+    }
+  ],
+  "status": "completed",
+  "createdAt": "2026-10-09T19:00:00Z",
+  "updatedAt": "2026-10-09T19:00:00Z",
+  "partSummaries": [
+    {
+      "partNumber": 1,
+      "title": "Authorized Adult",
+      "summary": "Mid-shift, Dana gets the school's new pickup alert: Renée signed Lily out. Marcus is evasive, Renée politely refuses to explain, and Lily changes the subject. Tasha tells her to find out how many times — the answer is three Thursdays. Marcus promises to handle it. A week later, another alert arrives while Dana is on shift."
+    },
+    {
+      "partNumber": 2,
+      "title": "I Thought You Knew",
+      "summary": "Marcus admits Renée told him she was 'helping out' on Thursdays and he assumed Dana knew. Tasha drafts a firm email and names Dana's real fear: a paper trail that makes her shifts look like a problem. Then Renée's reply arrives on Dana's phone calling her 'sweetie' — Lily's iPad is synced to Dana's account, and the thread shows Lily begging Renée not to tell."
+    },
+    {
+      "partNumber": 3,
+      "title": "Thursdays",
+      "summary": "Renée owns her mistake but won't break Lily's trust over text — she tells Dana to ask why Thursdays. Jenna, a classmate's mom, reveals two fifth graders on the Thursday Y bus have been taking Lily's things and mocking her. Lily, texting from her bedroom so she doesn't have to look at her mom, admits it — and explains why she told no one."
+    },
+    {
+      "partNumber": 4,
+      "title": "Team Chat",
+      "summary": "Dana tells Marcus everything and asks him to be on the same side for once; he shows up. The school moves the fifth graders off the bus and adds a monitor. Tasha's draft is deleted. Dana thanks Renée — and sets a boundary. The four of them start a pickup group chat, and Lily names it."
+    }
+  ],
+  "plannedPartCount": 4,
+  "completedPartCount": 4
+}

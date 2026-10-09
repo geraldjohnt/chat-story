@@ -1,0 +1,523 @@
+{
+  "schemaVersion": 1,
+  "storyId": "0002",
+  "partNumber": 1,
+  "title": "Authorized Adult",
+  "summary": "Mid-shift, Dana gets the school's new pickup alert: Renée signed Lily out. Marcus is evasive, Renée politely refuses to explain, and Lily changes the subject. Tasha tells her to find out how many times — the answer is three Thursdays. Marcus promises to handle it. A week later, another alert arrives while Dana is on shift.",
+  "status": "final",
+  "cliffhanger": "Another 3:15 alert — Renée has picked Lily up again, after Marcus promised to handle it.",
+  "createdAt": "2026-10-09T19:00:00Z",
+  "updatedAt": "2026-10-09T19:00:00Z",
+  "screenshots": [
+    {
+      "id": "s01",
+      "type": "notification",
+      "theme": "dark",
+      "exportProfile": "iphone",
+      "deviceOwner": "dana",
+      "lockScreen": {
+        "time": "3:21",
+        "date": "Thursday, March 5"
+      },
+      "notifications": [
+        {
+          "id": "n1",
+          "app": "messages",
+          "sender": "school",
+          "body": "Lily Bell was signed out at 3:15 PM by authorized adult RENEE OKAFOR. Reply STOP to end pickup alerts.",
+          "time": "now"
+        },
+        {
+          "id": "n2",
+          "app": "messages",
+          "sender": "school",
+          "body": "New! Hamilton Elementary will now text you whenever your child is signed out by an adult.",
+          "time": "9:00 AM"
+        }
+      ],
+      "meta": {
+        "beat": "Hook: an alert on Dana's day."
+      }
+    },
+    {
+      "id": "s02",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "4:55"
+        }
+      },
+      "deviceOwner": "dana",
+      "participants": [
+        "dana",
+        "marcus"
+      ],
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Today 3:40 PM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "dana",
+          "text": "Why did Renée pick Lily up from school today?"
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "dana",
+          "text": "It's Thursday. She takes the bus to the Y on Thursdays."
+        },
+        {
+          "kind": "timestamp",
+          "id": "t02",
+          "label": "Today 4:52 PM"
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "marcus",
+          "text": "she's fine. renee dropped her at the Y"
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "dana",
+          "text": "That's not what I asked."
+        },
+        {
+          "kind": "message",
+          "id": "m05",
+          "sender": "marcus",
+          "text": "she was in the area"
+        },
+        {
+          "kind": "message",
+          "id": "m06",
+          "sender": "dana",
+          "text": "Renée teaches across town. Why is she on the pickup list at all?"
+        },
+        {
+          "kind": "message",
+          "id": "m07",
+          "sender": "marcus",
+          "text": "added her in january. for emergencies. you said fine"
+        },
+        {
+          "kind": "message",
+          "id": "m08",
+          "sender": "dana",
+          "text": "For EMERGENCIES."
+        },
+        {
+          "kind": "message",
+          "id": "m09",
+          "sender": "marcus",
+          "text": "👍"
+        },
+        {
+          "kind": "message",
+          "id": "m10",
+          "sender": "dana",
+          "text": "Don't thumbs-up me, Marcus."
+        },
+        {
+          "kind": "message",
+          "id": "m11",
+          "sender": "marcus",
+          "text": "can we not do this on your shift. she's fine"
+        },
+        {
+          "kind": "message",
+          "id": "m12",
+          "sender": "dana",
+          "text": "K.",
+          "receipt": {
+            "status": "read",
+            "at": "4:55 PM"
+          }
+        }
+      ],
+      "meta": {
+        "beat": "Marcus deflects."
+      }
+    },
+    {
+      "id": "s03",
+      "type": "conversation",
+      "theme": "dark",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "8:24"
+        }
+      },
+      "deviceOwner": "dana",
+      "participants": [
+        "dana",
+        "renee"
+      ],
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Today 8:15 PM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "dana",
+          "text": "Hi Renée, it's Dana. Can I ask why you picked Lily up today?"
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "renee",
+          "text": "Hi Dana! Of course. I gave her a ride to the Y, that's all. She's such a sweetheart."
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "dana",
+          "text": "Was this arranged with Marcus?"
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "renee",
+          "text": "I'm so sorry if it caused any worry. I really didn't mean to step on any toes."
+        },
+        {
+          "kind": "message",
+          "id": "m05",
+          "sender": "dana",
+          "text": "That isn't an answer."
+        },
+        {
+          "kind": "message",
+          "id": "m06",
+          "sender": "renee",
+          "text": "I know. I'm sorry. I think it's best if you talk to Marcus."
+        },
+        {
+          "kind": "message",
+          "id": "m07",
+          "sender": "dana",
+          "text": "I'm talking to you.",
+          "receipt": {
+            "status": "read",
+            "at": "8:21 PM"
+          }
+        },
+        {
+          "kind": "message",
+          "id": "m08",
+          "sender": "renee",
+          "text": "I understand. I'm sorry, Dana."
+        }
+      ],
+      "meta": {
+        "beat": "Renée's polite non-answer."
+      }
+    },
+    {
+      "id": "s04",
+      "type": "conversation",
+      "theme": "dark",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "8:34"
+        }
+      },
+      "deviceOwner": "dana",
+      "participants": [
+        "dana",
+        "lily"
+      ],
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Today 8:30 PM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "dana",
+          "text": "Hey bug, how was the Y?"
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "lily",
+          "text": "good 🏀🏀"
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "dana",
+          "text": "Did Renée drive you today?"
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "lily",
+          "text": "ya"
+        },
+        {
+          "kind": "message",
+          "id": "m05",
+          "sender": "dana",
+          "text": "How come?"
+        },
+        {
+          "kind": "message",
+          "id": "m06",
+          "sender": "lily",
+          "text": "can we have mac n cheese tmrw 🧀🧀🧀"
+        },
+        {
+          "kind": "message",
+          "id": "m07",
+          "sender": "dana",
+          "text": "Answer first 🙂"
+        },
+        {
+          "kind": "message",
+          "id": "m08",
+          "sender": "lily",
+          "text": "she was nice and gave me a ride"
+        },
+        {
+          "kind": "message",
+          "id": "m09",
+          "sender": "lily",
+          "text": "mac n cheese??"
+        },
+        {
+          "kind": "message",
+          "id": "m10",
+          "sender": "dana",
+          "text": "Deal. Love you. Bed in 10.",
+          "receipt": {
+            "status": "read",
+            "at": "8:34 PM"
+          }
+        },
+        {
+          "kind": "message",
+          "id": "m11",
+          "sender": "lily",
+          "text": "❤️💜❤️💜"
+        }
+      ],
+      "meta": {
+        "beat": "Lily deflects (clue)."
+      }
+    },
+    {
+      "id": "s05",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "10:07"
+        }
+      },
+      "deviceOwner": "dana",
+      "participants": [
+        "dana",
+        "tasha"
+      ],
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Today 10:40 PM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "dana",
+          "text": "Need your lawyer brain for a sec."
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "tasha",
+          "text": "Always. Go."
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "dana",
+          "text": "Marcus put his girlfriend on Lily's pickup list in January. Today she signed Lily out on MY day. Nobody told me."
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "tasha",
+          "text": "Ok. Three questions."
+        },
+        {
+          "kind": "message",
+          "id": "m05",
+          "sender": "tasha",
+          "text": "1) Did he have the authority to add her? 2) What does the parenting plan say? 3) How many times?"
+        },
+        {
+          "kind": "message",
+          "id": "m06",
+          "sender": "dana",
+          "text": "1) I think so. 2) Each parent handles their own days. 3) No idea."
+        },
+        {
+          "kind": "message",
+          "id": "m07",
+          "sender": "tasha",
+          "text": "Find out #3. Call the front office tomorrow."
+        },
+        {
+          "kind": "message",
+          "id": "m08",
+          "sender": "tasha",
+          "text": "And screenshot that school text."
+        },
+        {
+          "kind": "message",
+          "id": "m09",
+          "sender": "dana",
+          "text": "Already did."
+        },
+        {
+          "kind": "message",
+          "id": "m10",
+          "sender": "tasha",
+          "text": "Good. Don't send Marcus anything angry in writing."
+        },
+        {
+          "kind": "message",
+          "id": "m11",
+          "sender": "dana",
+          "text": "It's a school pickup, Tash, not a custody fight."
+        },
+        {
+          "kind": "message",
+          "id": "m12",
+          "sender": "tasha",
+          "text": "Every custody fight starts as a school pickup."
+        },
+        {
+          "kind": "timestamp",
+          "id": "t02",
+          "label": "Fri, Mar 6 at 10:05 AM"
+        },
+        {
+          "kind": "message",
+          "id": "m13",
+          "sender": "dana",
+          "text": "Office says three times. Feb 19, Feb 26 and yesterday. All Thursdays."
+        },
+        {
+          "kind": "message",
+          "id": "m14",
+          "sender": "tasha",
+          "text": "Three Thursdays. That's not an emergency. That's a schedule."
+        }
+      ],
+      "meta": {
+        "beat": "The pattern."
+      }
+    },
+    {
+      "id": "s06",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "11:34"
+        }
+      },
+      "deviceOwner": "dana",
+      "participants": [
+        "dana",
+        "marcus"
+      ],
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Fri, Mar 6 at 11:30 AM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "dana",
+          "text": "Three times, Marcus. Feb 19, Feb 26 and yesterday."
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "dana",
+          "text": "Please take her off the list, or tell me why she's on it."
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "marcus",
+          "text": "I'll handle it"
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "dana",
+          "text": "Thank you.",
+          "receipt": {
+            "status": "read",
+            "at": "11:34 AM"
+          }
+        }
+      ],
+      "meta": {
+        "beat": "A promise."
+      }
+    },
+    {
+      "id": "s07",
+      "type": "notification",
+      "theme": "dark",
+      "exportProfile": "iphone",
+      "deviceOwner": "dana",
+      "lockScreen": {
+        "time": "3:16",
+        "date": "Thursday, March 12"
+      },
+      "notifications": [
+        {
+          "id": "n1",
+          "app": "messages",
+          "sender": "school",
+          "body": "Lily Bell was signed out at 3:15 PM by authorized adult RENEE OKAFOR. Reply STOP to end pickup alerts.",
+          "time": "now"
+        },
+        {
+          "id": "n2",
+          "app": "calendar",
+          "title": "ER shift",
+          "body": "7:00 AM – 7:30 PM · Riverside",
+          "time": "6:00 AM"
+        }
+      ],
+      "meta": {
+        "beat": "Cliffhanger: again, mid-shift."
+      }
+    }
+  ]
+}
