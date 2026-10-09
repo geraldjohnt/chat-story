@@ -1,0 +1,121 @@
+{
+  "schemaVersion": 1,
+  "id": "9001",
+  "title": "Fixture: Renderer Coverage",
+  "slug": "fixture-renderer-coverage",
+  "genre": "fixture",
+  "tags": [
+    "test"
+  ],
+  "language": "en",
+  "setting": "Test environment",
+  "premise": "Development fixture used to exercise every screenshot type.",
+  "synopsis": "Not a real story. Exercises conversation, notification, Notification Center and conversation-list rendering, overflow and pagination.",
+  "characters": [
+    {
+      "id": "avery",
+      "name": "Avery Lane",
+      "role": "Device owner (fixture)",
+      "description": "Fixture character used to test outgoing messages."
+    },
+    {
+      "id": "jordan",
+      "name": "Jordan Pike",
+      "contactName": "Jordan",
+      "role": "Contact (fixture)",
+      "description": "Fixture contact."
+    },
+    {
+      "id": "sam",
+      "name": "Sam Ortiz",
+      "role": "Group member (fixture)",
+      "description": "Fixture group member.",
+      "avatar": {
+        "color": "#FF9F0A"
+      }
+    },
+    {
+      "id": "robin",
+      "name": "Robin Wu",
+      "role": "Group member (fixture)",
+      "description": "Fixture group member."
+    },
+    {
+      "id": "casey",
+      "name": "Casey Hart",
+      "role": "Contact (fixture)",
+      "description": "Fixture contact."
+    }
+  ],
+  "relationships": [
+    {
+      "from": "avery",
+      "to": "jordan",
+      "type": "friends",
+      "description": "Fixture relationship."
+    }
+  ],
+  "centralConflict": "None (fixture).",
+  "secrets": [
+    {
+      "id": "sec1",
+      "holder": "jordan",
+      "description": "Fixture secret.",
+      "revealedInPart": null
+    }
+  ],
+  "plotOutline": [
+    {
+      "partNumber": 1,
+      "title": "Conversation coverage",
+      "beats": [
+        "Fixture beat."
+      ]
+    },
+    {
+      "partNumber": 2,
+      "title": "Notifications and inbox coverage",
+      "beats": [
+        "Fixture beat."
+      ]
+    }
+  ],
+  "plannedEnding": "Fixture ending.",
+  "continuity": [
+    "Fixture continuity note."
+  ],
+  "timeline": [
+    {
+      "id": "e1",
+      "when": "Day 1",
+      "event": "Fixture event.",
+      "partNumber": 1
+    }
+  ],
+  "unresolvedThreads": [
+    {
+      "id": "th1",
+      "description": "Fixture thread.",
+      "introducedInPart": 1,
+      "resolvedInPart": null
+    }
+  ],
+  "plannedPartCount": 3,
+  "completedPartCount": 1,
+  "status": "ongoing",
+  "partSummaries": [
+    {
+      "partNumber": 1,
+      "title": "Conversation coverage",
+      "summary": "Fixture summary 1."
+    },
+    {
+      "partNumber": 2,
+      "title": "Notifications and inbox coverage",
+      "summary": "Fixture summary 2."
+    }
+  ],
+  "fixture": true,
+  "createdAt": "2026-01-10T09:00:00Z",
+  "updatedAt": "2026-01-15T12:00:00Z"
+}

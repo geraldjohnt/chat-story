@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "9002",
+  "title": "Fixture: Completed Sample",
+  "slug": "fixture-completed-sample",
+  "genre": "fixture-alt",
+  "language": "en",
+  "setting": "Test environment",
+  "premise": "Second fixture for filtering and sorting.",
+  "synopsis": "Not a real story. A completed single-part fixture with a lighthouse keyword for search tests.",
+  "characters": [
+    {
+      "id": "avery",
+      "name": "Avery Lane",
+      "role": "Device owner (fixture)",
+      "description": "Fixture character used to test outgoing messages."
+    },
+    {
+      "id": "jordan",
+      "name": "Jordan Pike",
+      "contactName": "Jordan",
+      "role": "Contact (fixture)",
+      "description": "Fixture contact."
+    }
+  ],
+  "relationships": [],
+  "centralConflict": "",
+  "secrets": [],
+  "plotOutline": [
+    {
+      "partNumber": 1,
+      "title": "Only part",
+      "beats": []
+    }
+  ],
+  "plannedEnding": "Fixture resolution.",
+  "continuity": [],
+  "timeline": [],
+  "unresolvedThreads": [],
+  "plannedPartCount": 1,
+  "completedPartCount": 1,
+  "status": "completed",
+  "partSummaries": [
+    {
+      "partNumber": 1,
+      "title": "Only part",
+      "summary": "Fixture."
+    }
+  ],
+  "fixture": true,
+  "createdAt": "2026-01-02T09:00:00Z",
+  "updatedAt": "2026-01-03T09:00:00Z"
+}

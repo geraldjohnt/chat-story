@@ -1,0 +1,381 @@
+{
+  "schemaVersion": 1,
+  "storyId": "9001",
+  "partNumber": 1,
+  "title": "Conversation coverage",
+  "summary": "Fixture part covering conversation screenshots.",
+  "status": "final",
+  "cliffhanger": "Fixture cliffhanger text.",
+  "createdAt": "2026-01-15T12:00:00Z",
+  "updatedAt": "2026-01-15T12:00:00Z",
+  "screenshots": [
+    {
+      "id": "s01",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "deviceOwner": "avery",
+      "participants": [
+        "avery",
+        "jordan"
+      ],
+      "presentation": {
+        "statusBar": {
+          "time": "9:41",
+          "battery": 76
+        },
+        "backBadgeCount": 3
+      },
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t1",
+          "label": "Today 9:38 PM"
+        },
+        {
+          "kind": "message",
+          "id": "m1",
+          "sender": "jordan",
+          "text": "Are you still awake?"
+        },
+        {
+          "kind": "message",
+          "id": "m2",
+          "sender": "jordan",
+          "text": "I need to ask you something"
+        },
+        {
+          "kind": "message",
+          "id": "m3",
+          "sender": "avery",
+          "text": "Yeah, what is it?",
+          "reactions": [
+            {
+              "by": "jordan",
+              "type": "heart"
+            }
+          ]
+        },
+        {
+          "kind": "message",
+          "id": "m4",
+          "sender": "jordan",
+          "text": "Can I call you?",
+          "reactions": [
+            {
+              "by": "avery",
+              "type": "thumbs-up"
+            },
+            {
+              "by": "jordan",
+              "type": "question"
+            }
+          ]
+        },
+        {
+          "kind": "message",
+          "id": "m5",
+          "sender": "avery",
+          "text": "Give me five minutes",
+          "receipt": {
+            "status": "delivered"
+          }
+        }
+      ]
+    },
+    {
+      "id": "s02",
+      "type": "conversation",
+      "theme": "dark",
+      "exportProfile": "vertical-9-16",
+      "deviceOwner": "avery",
+      "participants": [
+        "avery",
+        "jordan"
+      ],
+      "meta": {
+        "beat": "Long conversation that must paginate"
+      },
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t1",
+          "label": "Mon, Jan 12 at 8:03 PM"
+        },
+        {
+          "kind": "message",
+          "id": "m1",
+          "sender": "jordan",
+          "text": "Did you get the schedule for Saturday?"
+        },
+        {
+          "kind": "message",
+          "id": "m2",
+          "sender": "avery",
+          "text": "Yes, just now"
+        },
+        {
+          "kind": "message",
+          "id": "m3",
+          "sender": "avery",
+          "text": "Setup starts at 9 so we should leave by 8:15"
+        },
+        {
+          "kind": "message",
+          "id": "m4",
+          "sender": "jordan",
+          "text": "Okay. Can you bring the folding table from the garage?"
+        },
+        {
+          "kind": "message",
+          "id": "m5",
+          "sender": "avery",
+          "text": "Sure. Anything else?"
+        },
+        {
+          "kind": "message",
+          "id": "m6",
+          "sender": "jordan",
+          "text": "The extension cord and the blue cooler"
+        },
+        {
+          "kind": "message",
+          "id": "m7",
+          "sender": "avery",
+          "text": "Got it"
+        },
+        {
+          "kind": "message",
+          "id": "m8",
+          "sender": "jordan",
+          "text": "Also, the venue changed the parking entrance. It is now on the north side next to the loading dock, not the main gate."
+        },
+        {
+          "kind": "message",
+          "id": "m9",
+          "sender": "avery",
+          "text": "Good to know, thanks"
+        },
+        {
+          "kind": "message",
+          "id": "m10",
+          "sender": "jordan",
+          "text": "One more thing"
+        },
+        {
+          "kind": "message",
+          "id": "m11",
+          "sender": "jordan",
+          "text": "The caterer asked for a final headcount by Thursday"
+        },
+        {
+          "kind": "timestamp",
+          "id": "t2",
+          "label": "Tue, Jan 13 at 7:41 AM"
+        },
+        {
+          "kind": "message",
+          "id": "m12",
+          "sender": "avery",
+          "text": "I will send it tomorrow morning"
+        },
+        {
+          "kind": "message",
+          "id": "m13",
+          "sender": "jordan",
+          "text": "Perfect 👍"
+        },
+        {
+          "kind": "message",
+          "id": "m14",
+          "sender": "avery",
+          "text": "Do we still need the projector?"
+        },
+        {
+          "kind": "message",
+          "id": "m15",
+          "sender": "jordan",
+          "text": "Probably not. The hall has a screen built in."
+        },
+        {
+          "kind": "message",
+          "id": "m16",
+          "sender": "avery",
+          "text": "Great, one less thing to carry"
+        },
+        {
+          "kind": "message",
+          "id": "m17",
+          "sender": "jordan",
+          "text": "Exactly"
+        },
+        {
+          "kind": "message",
+          "id": "m18",
+          "sender": "avery",
+          "text": "What time does it end?"
+        },
+        {
+          "kind": "message",
+          "id": "m19",
+          "sender": "jordan",
+          "text": "Around 4, then cleanup until 5"
+        },
+        {
+          "kind": "message",
+          "id": "m20",
+          "sender": "avery",
+          "text": "Okay. I can stay for cleanup"
+        },
+        {
+          "kind": "message",
+          "id": "m21",
+          "sender": "jordan",
+          "text": "Thank you!! You are a lifesaver"
+        },
+        {
+          "kind": "message",
+          "id": "m22",
+          "sender": "avery",
+          "text": "Of course"
+        },
+        {
+          "kind": "message",
+          "id": "m99",
+          "sender": "avery",
+          "text": "See you Saturday",
+          "receipt": {
+            "status": "read",
+            "at": "9:58 PM"
+          }
+        }
+      ]
+    },
+    {
+      "id": "s03",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "deviceOwner": "avery",
+      "participants": [
+        "avery",
+        "sam",
+        "robin"
+      ],
+      "title": "Saturday Crew",
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t1",
+          "label": "Yesterday 6:12 PM"
+        },
+        {
+          "kind": "message",
+          "id": "g1",
+          "sender": "sam",
+          "text": "Photos from today"
+        },
+        {
+          "kind": "message",
+          "id": "g2",
+          "sender": "sam",
+          "attachment": {
+            "type": "image",
+            "label": "Photo",
+            "detail": "IMG_2041"
+          }
+        },
+        {
+          "kind": "message",
+          "id": "g3",
+          "sender": "robin",
+          "text": "These came out great",
+          "reactions": [
+            {
+              "by": "sam",
+              "type": "haha"
+            }
+          ]
+        },
+        {
+          "kind": "message",
+          "id": "g4",
+          "sender": "avery",
+          "text": "Love them. Sending the receipt now"
+        },
+        {
+          "kind": "message",
+          "id": "g5",
+          "sender": "avery",
+          "attachment": {
+            "type": "file",
+            "label": "receipt.pdf",
+            "detail": "128 KB"
+          },
+          "receipt": {
+            "status": "sent"
+          }
+        },
+        {
+          "kind": "system",
+          "id": "sy1",
+          "text": "Robin named the conversation “Saturday Crew”."
+        },
+        {
+          "kind": "message",
+          "id": "g6",
+          "sender": "robin",
+          "attachment": {
+            "type": "link",
+            "label": "Community Hall – Directions",
+            "detail": "maps.example.com"
+          }
+        },
+        {
+          "kind": "typing",
+          "id": "ty1",
+          "sender": "sam"
+        }
+      ]
+    },
+    {
+      "id": "s04",
+      "type": "conversation",
+      "theme": "dark",
+      "exportProfile": "iphone",
+      "deviceOwner": "avery",
+      "participants": [
+        "avery",
+        "casey"
+      ],
+      "presentation": {
+        "showComposer": true,
+        "composerText": "Okay, I read all of it"
+      },
+      "messages": [
+        {
+          "kind": "message",
+          "id": "x1",
+          "sender": "casey",
+          "text": "This is sentence number 1 of a deliberately long fixture message that tests wrapping and splitting across screenshots without losing any text. This is sentence number 2 of a deliberately long fixture message that tests wrapping and splitting across screenshots without losing any text. This is sentence number 3 of a deliberately long fixture message that tests wrapping and splitting across screenshots without losing any text. This is sentence number 4 of a deliberately long fixture message that tests wrapping and splitting across screenshots without losing any text. This is sentence number 5 of a deliberately long fixture message that tests wrapping and splitting across screenshots without losing any text. This is sentence number 6 of a deliberately long fixture message that tests wrapping and splitting across screenshots without losing any text. This is sentence number 7 of a deliberately long fixture message that tests wrapping and splitting across screenshots without losing any text. This is sentence number 8 of a deliberately long fixture message that tests wrapping and splitting across screenshots without losing any text. This is sentence number 9 of a deliberately long fixture message that tests wrapping and splitting across screenshots without losing any text. This is sentence number 10 of a deliberately long fixture message that tests wrapping and splitting across screenshots without losing any text. This is sentence number 11 of a deliberately long fixture message that tests wrapping and splitting across screenshots without losing any text. This is sentence number 12 of a deliberately long fixture message that tests wrapping and splitting across screenshots without losing any text. This is sentence number 13 of a deliberately long fixture message that tests wrapping and splitting across screenshots without losing any text. This is sentence number 14 of a deliberately long fixture message that tests wrapping and splitting across screenshots without losing any text."
+        },
+        {
+          "kind": "message",
+          "id": "x2",
+          "sender": "avery",
+          "text": "That was a lot",
+          "receipt": {
+            "status": "read",
+            "at": "Yesterday"
+          }
+        },
+        {
+          "kind": "message",
+          "id": "x3",
+          "sender": "casey",
+          "unsent": true
+        }
+      ]
+    }
+  ]
+}

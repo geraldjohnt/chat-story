@@ -1,0 +1,5 @@
+{
+  "schemaVersion": 1,
+  "description": "Characters across stories. Key by story ID; character IDs match story.json. Note cross-story links only if stories share a universe.",
+  "stories": {}
+}

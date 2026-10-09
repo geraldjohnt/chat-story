@@ -1,0 +1,401 @@
+{
+  "schemaVersion": 1,
+  "storyId": "9001",
+  "partNumber": 2,
+  "title": "Notifications and inbox coverage",
+  "summary": "Fixture part covering notification and list screenshots.",
+  "status": "draft",
+  "cliffhanger": null,
+  "createdAt": "2026-01-15T12:00:00Z",
+  "updatedAt": "2026-01-15T12:00:00Z",
+  "screenshots": [
+    {
+      "id": "s01",
+      "type": "notification",
+      "theme": "dark",
+      "exportProfile": "iphone",
+      "deviceOwner": "avery",
+      "lockScreen": {
+        "time": "11:52",
+        "date": "Friday, January 16"
+      },
+      "notifications": [
+        {
+          "id": "n1",
+          "app": "messages",
+          "sender": "jordan",
+          "body": "Are you up? I need to tell you something before tomorrow.",
+          "time": "now",
+          "groupCount": 2
+        },
+        {
+          "id": "n2",
+          "app": "phone",
+          "title": "Missed Call",
+          "body": "Casey Hart",
+          "time": "4m ago"
+        }
+      ]
+    },
+    {
+      "id": "s02",
+      "type": "notification-center",
+      "theme": "light",
+      "exportProfile": "vertical-9-16",
+      "lockScreen": {
+        "time": "7:05",
+        "date": "Saturday, January 17"
+      },
+      "notifications": [
+        {
+          "id": "n1",
+          "app": "messages",
+          "sender": "jordan",
+          "body": "Fixture notification 1",
+          "time": "1m ago",
+          "groupCount": 3
+        },
+        {
+          "id": "n2",
+          "app": "messages",
+          "sender": "sam",
+          "body": "Fixture notification 2",
+          "time": "4m ago"
+        },
+        {
+          "id": "n3",
+          "app": "messages",
+          "sender": "robin",
+          "body": "This notification body is intentionally long so that it wraps across several lines inside the card and pushes later cards onto another screenshot when the space runs out.",
+          "time": "7m ago"
+        },
+        {
+          "id": "n4",
+          "app": "mail",
+          "title": "Venue Office",
+          "body": "Fixture notification 4",
+          "time": "10m ago"
+        },
+        {
+          "id": "n5",
+          "app": "messages",
+          "sender": "sam",
+          "body": "Fixture notification 5",
+          "time": "13m ago"
+        },
+        {
+          "id": "n6",
+          "app": "messages",
+          "sender": "robin",
+          "body": "Fixture notification 6",
+          "time": "16m ago"
+        },
+        {
+          "id": "n7",
+          "app": "messages",
+          "sender": "jordan",
+          "body": "Fixture notification 7",
+          "time": "19m ago"
+        },
+        {
+          "id": "n8",
+          "app": "mail",
+          "title": "Venue Office",
+          "body": "Fixture notification 8",
+          "time": "22m ago"
+        },
+        {
+          "id": "n9",
+          "app": "messages",
+          "sender": "robin",
+          "body": "Fixture notification 9",
+          "time": "25m ago"
+        }
+      ]
+    },
+    {
+      "id": "s03",
+      "type": "conversation-list",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "deviceOwner": "avery",
+      "conversations": [
+        {
+          "id": "p1",
+          "participants": [
+            "avery",
+            "jordan"
+          ],
+          "preview": "See you soon",
+          "time": "9:41 PM",
+          "pinned": true,
+          "unread": true
+        },
+        {
+          "id": "p2",
+          "participants": [
+            "avery",
+            "sam",
+            "robin"
+          ],
+          "name": "Saturday Crew",
+          "preview": "Sam: Photos from today",
+          "time": "6:12 PM",
+          "pinned": true
+        },
+        {
+          "id": "p3",
+          "participants": [
+            "avery",
+            "casey"
+          ],
+          "preview": "Okay",
+          "time": "Yesterday",
+          "pinned": true
+        },
+        {
+          "id": "c1",
+          "participants": [
+            "avery",
+            "jordan"
+          ],
+          "preview": "Fixture preview 1",
+          "time": "9:00 PM",
+          "unread": true,
+          "muted": false
+        },
+        {
+          "id": "c2",
+          "participants": [
+            "avery",
+            "sam"
+          ],
+          "preview": "A longer preview line that should be clamped at two lines in the inbox row because it keeps going and going.",
+          "time": "8:01 PM",
+          "unread": false,
+          "muted": false
+        },
+        {
+          "id": "c3",
+          "participants": [
+            "avery",
+            "robin"
+          ],
+          "preview": "Fixture preview 3",
+          "time": "7:02 PM",
+          "unread": false,
+          "muted": false
+        },
+        {
+          "id": "c4",
+          "participants": [
+            "avery",
+            "casey"
+          ],
+          "preview": "Fixture preview 4",
+          "time": "Yesterday",
+          "unread": false,
+          "muted": false
+        },
+        {
+          "id": "c5",
+          "participants": [
+            "avery",
+            "jordan"
+          ],
+          "preview": "Fixture preview 5",
+          "time": "Yesterday",
+          "unread": false,
+          "muted": false
+        }
+      ]
+    },
+    {
+      "id": "s04",
+      "type": "conversation-list",
+      "theme": "dark",
+      "exportProfile": "vertical-9-16",
+      "deviceOwner": "avery",
+      "title": "Messages",
+      "conversations": [
+        {
+          "id": "c1",
+          "participants": [
+            "avery",
+            "jordan"
+          ],
+          "preview": "Fixture preview 1",
+          "time": "9:00 PM",
+          "unread": true,
+          "muted": false
+        },
+        {
+          "id": "c2",
+          "participants": [
+            "avery",
+            "sam"
+          ],
+          "preview": "A longer preview line that should be clamped at two lines in the inbox row because it keeps going and going.",
+          "time": "8:01 PM",
+          "unread": false,
+          "muted": false
+        },
+        {
+          "id": "c3",
+          "participants": [
+            "avery",
+            "robin"
+          ],
+          "preview": "Fixture preview 3",
+          "time": "7:02 PM",
+          "unread": false,
+          "muted": false
+        },
+        {
+          "id": "c4",
+          "participants": [
+            "avery",
+            "casey"
+          ],
+          "preview": "Fixture preview 4",
+          "time": "Yesterday",
+          "unread": false,
+          "muted": false
+        },
+        {
+          "id": "c5",
+          "participants": [
+            "avery",
+            "jordan"
+          ],
+          "preview": "Fixture preview 5",
+          "time": "Yesterday",
+          "unread": false,
+          "muted": false
+        },
+        {
+          "id": "c6",
+          "participants": [
+            "avery",
+            "sam"
+          ],
+          "preview": "Fixture preview 6",
+          "time": "Yesterday",
+          "unread": true,
+          "unreadCount": 4,
+          "muted": false
+        },
+        {
+          "id": "c7",
+          "participants": [
+            "avery",
+            "robin"
+          ],
+          "preview": "Fixture preview 7",
+          "time": "Yesterday",
+          "unread": false,
+          "muted": false
+        },
+        {
+          "id": "c8",
+          "participants": [
+            "avery",
+            "casey"
+          ],
+          "preview": "Fixture preview 8",
+          "time": "Yesterday",
+          "unread": false,
+          "muted": true
+        },
+        {
+          "id": "c9",
+          "participants": [
+            "avery",
+            "jordan"
+          ],
+          "preview": "Fixture preview 9",
+          "time": "Monday",
+          "unread": false,
+          "muted": false
+        },
+        {
+          "id": "c10",
+          "participants": [
+            "avery",
+            "sam"
+          ],
+          "preview": "Fixture preview 10",
+          "time": "Monday",
+          "unread": false,
+          "muted": false
+        },
+        {
+          "id": "c11",
+          "participants": [
+            "avery",
+            "robin"
+          ],
+          "preview": "Fixture preview 11",
+          "time": "Monday",
+          "unread": true,
+          "muted": false
+        },
+        {
+          "id": "c12",
+          "participants": [
+            "avery",
+            "casey"
+          ],
+          "preview": "Fixture preview 12",
+          "time": "Monday",
+          "unread": false,
+          "muted": false
+        },
+        {
+          "id": "c13",
+          "participants": [
+            "avery",
+            "jordan"
+          ],
+          "preview": "Fixture preview 13",
+          "time": "Monday",
+          "unread": false,
+          "muted": false
+        },
+        {
+          "id": "c14",
+          "participants": [
+            "avery",
+            "sam"
+          ],
+          "preview": "Fixture preview 14",
+          "time": "Monday",
+          "unread": false,
+          "muted": false
+        },
+        {
+          "id": "c15",
+          "participants": [
+            "avery",
+            "robin"
+          ],
+          "preview": "Fixture preview 15",
+          "time": "Monday",
+          "unread": false,
+          "muted": false
+        },
+        {
+          "id": "c16",
+          "participants": [
+            "avery",
+            "casey"
+          ],
+          "preview": "Fixture preview 16",
+          "time": "Monday",
+          "unread": true,
+          "muted": false
+        }
+      ]
+    }
+  ]
+}

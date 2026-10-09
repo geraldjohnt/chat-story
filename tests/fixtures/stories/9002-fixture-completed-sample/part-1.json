@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "storyId": "9002",
+  "partNumber": 1,
+  "title": "Only part",
+  "summary": "Fixture.",
+  "status": "final",
+  "cliffhanger": null,
+  "createdAt": "2026-01-02T09:00:00Z",
+  "updatedAt": "2026-01-03T09:00:00Z",
+  "screenshots": [
+    {
+      "id": "s01",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "vertical-9-16",
+      "deviceOwner": "avery",
+      "participants": [
+        "avery",
+        "jordan"
+      ],
+      "messages": [
+        {
+          "kind": "message",
+          "id": "a",
+          "sender": "jordan",
+          "text": "Fixture message"
+        },
+        {
+          "kind": "message",
+          "id": "b",
+          "sender": "avery",
+          "text": "Fixture reply",
+          "receipt": {
+            "status": "read",
+            "at": "8:00 AM"
+          }
+        }
+      ]
+    }
+  ]
+}

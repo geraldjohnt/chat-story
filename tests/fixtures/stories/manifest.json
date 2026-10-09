@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "environment": "fixture",
+  "updatedAt": "2026-01-15T12:00:00Z",
+  "stories": [
+    {
+      "id": "9001",
+      "slug": "fixture-renderer-coverage",
+      "title": "Fixture: Renderer Coverage",
+      "genres": [
+        "fixture"
+      ],
+      "status": "ongoing",
+      "partCount": 2,
+      "storyPath": "9001-fixture-renderer-coverage/story.json",
+      "parts": [
+        {
+          "partNumber": 1,
+          "path": "9001-fixture-renderer-coverage/part-1.json",
+          "title": "Conversation coverage"
+        },
+        {
+          "partNumber": 2,
+          "path": "9001-fixture-renderer-coverage/part-2.json",
+          "title": "Notifications and inbox coverage"
+        }
+      ],
+      "synopsis": "Not a real story. Exercises conversation, notification, Notification Center and conversation-list rendering, overflow and pagination.",
+      "createdAt": "2026-01-10T09:00:00Z",
+      "updatedAt": "2026-01-15T12:00:00Z"
+    },
+    {
+      "id": "9002",
+      "slug": "fixture-completed-sample",
+      "title": "Fixture: Completed Sample",
+      "genres": [
+        "fixture-alt"
+      ],
+      "status": "completed",
+      "partCount": 1,
+      "storyPath": "9002-fixture-completed-sample/story.json",
+      "parts": [
+        {
+          "partNumber": 1,
+          "path": "9002-fixture-completed-sample/part-1.json",
+          "title": "Only part"
+        }
+      ],
+      "synopsis": "Not a real story. A completed single-part fixture with a lighthouse keyword for search tests.",
+      "createdAt": "2026-01-02T09:00:00Z",
+      "updatedAt": "2026-01-03T09:00:00Z"
+    }
+  ]
+}

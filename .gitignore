@@ -1,0 +1,17 @@
+node_modules/
+dist/
+dist-e2e/
+coverage/
+test-results/
+playwright-report/
+*.log
+.env
+.env.*
+!.env.example
+!.env.fixtures
+*.local
+.DS_Store
+# Rendered screenshots are temporary outputs, never committed
+*.png
+*.zip
+!public/**/*.png

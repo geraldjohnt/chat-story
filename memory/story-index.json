@@ -1,0 +1,6 @@
+{
+  "schemaVersion": 1,
+  "description": "Compact index of every story ever allocated. Keep entries even if a story is retired; IDs are never reused.",
+  "retiredIds": [],
+  "stories": []
+}
