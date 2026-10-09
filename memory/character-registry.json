@@ -197,6 +197,91 @@
         "role": "Iain's daughter (Dunedin)",
         "age": 26
       }
+    ],
+    "0007": [
+      {
+        "id": "tess",
+        "name": "Tess Pellerin",
+        "role": "Device owner, court stenographer (Halifax), June's executor",
+        "age": 34
+      },
+      {
+        "id": "kofi",
+        "name": "Kofi Mensah",
+        "role": "Tess's husband, high-school chemistry teacher",
+        "age": 36
+      },
+      {
+        "id": "owen",
+        "name": "Owen Pellerin",
+        "role": "Tess's younger brother, landscaper (Bridgewater)",
+        "age": 29
+      },
+      {
+        "id": "glen",
+        "name": "Glen Ashby",
+        "role": "June's partner of six years, retired ferry engineer",
+        "age": 74
+      },
+      {
+        "id": "margo",
+        "name": "Margo Doucette",
+        "role": "June's next-door neighbour and best friend",
+        "age": 69
+      },
+      {
+        "id": "leah",
+        "name": "Leah Morrison",
+        "role": "RCMP constable, Port Ardoise detachment",
+        "age": 38
+      },
+      {
+        "id": "paul",
+        "name": "Paul Comeau",
+        "role": "Owner-pharmacist of Harbour Drug",
+        "age": 52
+      },
+      {
+        "id": "bree",
+        "name": "Bree Langille",
+        "role": "Pharmacy technician at Harbour Drug, nursing student",
+        "age": 28
+      },
+      {
+        "id": "cody",
+        "name": "Cody Pike",
+        "role": "Harbour Drug delivery driver",
+        "age": 22
+      },
+      {
+        "id": "kyle",
+        "name": "Kyle Brandt",
+        "role": "Acquisitions agent, Harbourline Properties",
+        "age": 41
+      },
+      {
+        "id": "noah",
+        "name": "Noah Comeau",
+        "role": "Paul's son, Grade 11, wharf hand; June's chemistry tutee",
+        "age": 16
+      },
+      {
+        "id": "june",
+        "name": "June Pellerin",
+        "role": "Tess and Owen's aunt, retired pharmacist (deceased)",
+        "age": 71
+      },
+      {
+        "id": "shannon",
+        "name": "Shannon Hiltz",
+        "role": "Noah's mother (Bridgewater)",
+        "age": 45
+      },
+      {
+        "id": "harbour-drug",
+        "name": "Harbour Drug",
+        "role": "Automated pharmacy SMS"
+      }
     ]
   }
 }

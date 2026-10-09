@@ -1,0 +1,437 @@
+{
+  "schemaVersion": 1,
+  "storyId": "0007",
+  "partNumber": 20,
+  "title": "Bring Your Sensible Head",
+  "summary": "June's phone comes home. On it is a draft to Tess, written at 5:58 pm on the 12th and never sent, pointing to a green tin behind the preserves where \"both things\" are. Tess shares it with the family. Owen sets out a repayment plan, Glen's radiation begins in April, and Noah texts from his own number with June's chemistry notes. In the cellar Tess finds the second set of register copies, which Paul never found and which Cst. Morrison says makes the case. Under them is a sealed envelope addressed to Tess.",
+  "status": "final",
+  "cliffhanger": "June's letter begins: \"Your parents' accident wasn't what you were told, and I've let you both believe it for fifteen years.\" Owen: \"tess what is this\".",
+  "createdAt": "2026-10-09T22:30:00Z",
+  "updatedAt": "2026-10-09T22:30:00Z",
+  "screenshots": [
+    {
+      "id": "s01",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "11:09"
+        }
+      },
+      "deviceOwner": "tess",
+      "participants": [
+        "tess",
+        "kofi"
+      ],
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Fri, Mar 19 at 11:02 AM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "tess",
+          "text": "I have it. Lemon case. Battery at 4%."
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "tess",
+          "text": "Leah said the draft is in our thread. Unsent. 5:58 PM on the 12th. Two minutes before he was due."
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "kofi",
+          "text": "Do you want me on the phone while you read it"
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "tess",
+          "text": "Yes."
+        }
+      ],
+      "meta": {
+        "beat": "The phone comes home."
+      }
+    },
+    {
+      "id": "s02",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "11:14"
+        },
+        "showComposer": true,
+        "composerText": "Tess, if anything about tomorrow goes sideways, there's a green tin behind the preserves. Both things are in it. Bring your sensible head. J."
+      },
+      "deviceOwner": "june",
+      "participants": [
+        "june",
+        "tess"
+      ],
+      "title": "Tess",
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Mon, Jan 11 at 10:02 PM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "june",
+          "text": "Tess, could you come down Saturday? I need to talk to you about something. Not on the phone."
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "june",
+          "text": "Bring your sensible head. J."
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "tess",
+          "text": "Can we do the 23rd? I've got the Fraser trial till the 20th, it's mad."
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "june",
+          "text": "The 23rd then. It will keep. J."
+        }
+      ],
+      "meta": {
+        "beat": "June's screen: the unsent draft in the composer."
+      }
+    },
+    {
+      "id": "s03",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "2:21"
+        }
+      },
+      "deviceOwner": "tess",
+      "participants": [
+        "tess",
+        "owen",
+        "glen",
+        "kofi",
+        "june"
+      ],
+      "title": "Pellerins 🦞",
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Fri, Mar 19 at 1:55 PM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "tess",
+          "text": "I've read June's last message. It was to me and she never sent it. I'm sharing it because it belongs to all of us."
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "tess",
+          "text": "\"Tess, if anything about tomorrow goes sideways, there's a green tin behind the preserves. Both things are in it. Bring your sensible head. J.\""
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "glen",
+          "text": "That's her..."
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "owen",
+          "text": "she knew something might go wrong and she still let him come"
+        },
+        {
+          "kind": "message",
+          "id": "m05",
+          "sender": "owen",
+          "text": "ok owen update since we're doing truth. truck went back to the bank. im running on the trailer and the old ford til spring. glen im paying 200 a month toward the house. not a loan. idiot tax"
+        },
+        {
+          "kind": "message",
+          "id": "m06",
+          "sender": "glen",
+          "text": "You'll pay nothing... but you'll come Saturdays"
+        },
+        {
+          "kind": "message",
+          "id": "m07",
+          "sender": "owen",
+          "text": "deal"
+        },
+        {
+          "kind": "message",
+          "id": "m08",
+          "sender": "glen",
+          "text": "First radiation is April 6. Margo is driving me. She says she'll bring shortbread"
+        },
+        {
+          "kind": "message",
+          "id": "m09",
+          "sender": "kofi",
+          "text": "❤️"
+        }
+      ],
+      "meta": {
+        "beat": "The family reads it."
+      }
+    },
+    {
+      "id": "s04",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "4:12"
+        }
+      },
+      "deviceOwner": "tess",
+      "participants": [
+        "tess",
+        "noah"
+      ],
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Fri, Mar 19 at 4:02 PM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "noah",
+          "text": "hi its noah. this is my actual number"
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "tess",
+          "text": "Hi, Noah. I'm so glad you wrote. I got her phone back today."
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "tess",
+          "text": "She'd have been proud of you. She said so every Thursday."
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "noah",
+          "text": "thanks"
+        },
+        {
+          "kind": "message",
+          "id": "m05",
+          "sender": "noah",
+          "text": "ngl i still have her chem notes"
+        },
+        {
+          "kind": "message",
+          "id": "m06",
+          "sender": "noah",
+          "attachment": {
+            "type": "image",
+            "label": "Photo",
+            "detail": "\"Moles are just a way of counting things too small to see. J.\""
+          }
+        },
+        {
+          "kind": "message",
+          "id": "m07",
+          "sender": "tess",
+          "text": "Keep them. She'd want them used."
+        }
+      ],
+      "meta": {
+        "beat": "Noah, from his own phone."
+      }
+    },
+    {
+      "id": "s05",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "5:37"
+        }
+      },
+      "deviceOwner": "tess",
+      "participants": [
+        "tess",
+        "glen"
+      ],
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Fri, Mar 19 at 5:28 PM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "tess",
+          "text": "I'm at the bottom of the cellar stairs. The light works now."
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "tess",
+          "text": "Green tin, behind the crabapple jelly. It's here."
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "glen",
+          "text": "She hid biscuits back there for six years. I let her think I didn't know..."
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "tess",
+          "text": "It's register copies. All four Tuesdays, her notes in the margins. Paul never found these."
+        },
+        {
+          "kind": "message",
+          "id": "m05",
+          "sender": "tess",
+          "text": "And an envelope with my name on it."
+        }
+      ],
+      "meta": {
+        "beat": "The green tin."
+      }
+    },
+    {
+      "id": "s06",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "5:49"
+        }
+      },
+      "deviceOwner": "tess",
+      "participants": [
+        "tess",
+        "leah"
+      ],
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Fri, Mar 19 at 5:41 PM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "tess",
+          "text": "A second set of register copies in June's hand, in a tin in her cellar. Photographed where I found it. When can you collect?"
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "leah",
+          "text": "Tonight. Don't move it. That's the case made, Ms. Pellerin."
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "tess",
+          "text": "There's also a sealed envelope addressed to me underneath."
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "leah",
+          "text": "If it isn't about the pharmacy, it's yours. We'll check it together when I collect."
+        }
+      ],
+      "meta": {
+        "beat": "Leah: the case is made."
+      }
+    },
+    {
+      "id": "s07",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "9:48"
+        }
+      },
+      "deviceOwner": "tess",
+      "participants": [
+        "tess",
+        "owen"
+      ],
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Fri, Mar 19 at 9:40 PM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "tess",
+          "text": "Leah took the copies. The envelope was mine. It says \"Tess — the other thing. Not on the phone.\" I opened it."
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "tess",
+          "attachment": {
+            "type": "image",
+            "label": "Photo",
+            "detail": "Letter in June's handwriting, first lines"
+          }
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "tess",
+          "text": "\"Your parents' accident wasn't what you were told, and I've let you both believe it for fifteen years.\""
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "owen",
+          "text": "tess what is this"
+        },
+        {
+          "kind": "typing",
+          "id": "y01",
+          "sender": "tess"
+        }
+      ],
+      "meta": {
+        "beat": "Cliffhanger: the other thing."
+      }
+    }
+  ]
+}

@@ -1,0 +1,332 @@
+{
+  "schemaVersion": 1,
+  "storyId": "0007",
+  "partNumber": 17,
+  "title": "Chain of Custody",
+  "summary": "Noah sends Tess one last thing from June's phone, a test June marked \"Told you so. J.\", before he and his mother hand it to a Bridgewater constable. Tess watches every step of the chain of custody. That evening she tells the family everything. Owen finally confesses to Glen, and Glen forgives him. Cst. Morrison writes on Friday night.",
+  "status": "final",
+  "cliffhanger": "Leah: \"We've reopened the file. There is something on the phone you should hear from me, not the news.\"",
+  "createdAt": "2026-10-09T22:30:00Z",
+  "updatedAt": "2026-10-09T22:30:00Z",
+  "screenshots": [
+    {
+      "id": "s01",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "6:21"
+        }
+      },
+      "deviceOwner": "tess",
+      "participants": [
+        "tess",
+        "kofi"
+      ],
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Thu, Mar 4 at 6:15 AM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "tess",
+          "text": "On the road. Bridgewater detachment at 10."
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "kofi",
+          "text": "Text me when you get there. And when you leave. And in between"
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "tess",
+          "text": "Paul wrote last night. \"Call me before you do anything you can't take back.\""
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "kofi",
+          "text": "Did you send it to Leah"
+        },
+        {
+          "kind": "message",
+          "id": "m05",
+          "sender": "tess",
+          "text": "At 10:32 PM. She answered at 10:33. I like her."
+        }
+      ],
+      "meta": {
+        "beat": "On the road."
+      }
+    },
+    {
+      "id": "s02",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "9:48"
+        }
+      },
+      "deviceOwner": "tess",
+      "participants": [
+        "tess",
+        "june"
+      ],
+      "title": "Aunt June",
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Thu, Mar 4 at 9:40 AM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "june",
+          "text": "were here. moms parking"
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "june",
+          "text": "is it gonna be ok"
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "tess",
+          "text": "I don't know everything that's going to happen. I know you're doing the right thing, and you're not doing it alone."
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "june",
+          "text": "can i send one more thing before i give it to them"
+        },
+        {
+          "kind": "message",
+          "id": "m05",
+          "sender": "tess",
+          "text": "Of course."
+        },
+        {
+          "kind": "message",
+          "id": "m06",
+          "sender": "june",
+          "attachment": {
+            "type": "image",
+            "label": "Photo",
+            "detail": "Chem test — \"Stoichiometry: 9/10. Told you so. J.\""
+          }
+        },
+        {
+          "kind": "message",
+          "id": "m07",
+          "sender": "june",
+          "text": "she wrote that on my test in december"
+        },
+        {
+          "kind": "message",
+          "id": "m08",
+          "sender": "june",
+          "text": "ok. going in"
+        }
+      ],
+      "meta": {
+        "beat": "Noah's last message from June's phone."
+      }
+    },
+    {
+      "id": "s03",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "1:16"
+        }
+      },
+      "deviceOwner": "tess",
+      "participants": [
+        "tess",
+        "kofi"
+      ],
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Thu, Mar 4 at 1:08 PM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "tess",
+          "text": "Done. Noah and Shannon handed the phone to a Bridgewater constable with Leah on speaker. Sealed bag, signed, dated, timed. 10:22 AM. I watched every step."
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "kofi",
+          "text": "Chain of custody, supervised by a court stenographer. She'd have loved that"
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "tess",
+          "text": "He held his mum's hand the whole time. He's 6'1\"."
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "kofi",
+          "text": "That is the most sixteen thing I've ever heard"
+        }
+      ],
+      "meta": {
+        "beat": "The handover."
+      }
+    },
+    {
+      "id": "s04",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "7:24"
+        }
+      },
+      "deviceOwner": "tess",
+      "participants": [
+        "tess",
+        "owen",
+        "glen",
+        "kofi",
+        "june"
+      ],
+      "title": "Pellerins 🦞",
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Thu, Mar 4 at 7:02 PM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "tess",
+          "text": "I need to tell you all something. Please read the whole thing before you reply."
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "tess",
+          "text": "The person texting from June's phone is a 16-year-old she tutored. He found her phone hidden in his father's truck. His father is Paul Comeau."
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "tess",
+          "text": "The phone is with the RCMP now. They're looking at the 12th properly."
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "glen",
+          "text": "Paul.... He did the reading at her funeral"
+        },
+        {
+          "kind": "message",
+          "id": "m05",
+          "sender": "owen",
+          "text": "wtf"
+        },
+        {
+          "kind": "message",
+          "id": "m06",
+          "sender": "owen",
+          "text": "sorry glen"
+        },
+        {
+          "kind": "message",
+          "id": "m07",
+          "sender": "owen",
+          "text": "actually not sorry. wtf"
+        },
+        {
+          "kind": "message",
+          "id": "m08",
+          "sender": "owen",
+          "text": "glen i lied. i was at the house on the 12th, 2 til 2:40. i asked her for money and she said no. i should have told everyone"
+        },
+        {
+          "kind": "message",
+          "id": "m09",
+          "sender": "glen",
+          "text": "I know son... Tess said you'd tell me yourself one day. It's done"
+        },
+        {
+          "kind": "message",
+          "id": "m10",
+          "sender": "owen",
+          "text": "can i come saturday. ill fix the porch light"
+        },
+        {
+          "kind": "message",
+          "id": "m11",
+          "sender": "glen",
+          "text": "Bring the good ladder..."
+        }
+      ],
+      "meta": {
+        "beat": "Tess tells the family; Owen confesses."
+      }
+    },
+    {
+      "id": "s05",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "8:16"
+        }
+      },
+      "deviceOwner": "tess",
+      "participants": [
+        "tess",
+        "leah"
+      ],
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Fri, Mar 5 at 8:12 PM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "leah",
+          "text": "Ms. Pellerin, we've reopened the file."
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "leah",
+          "text": "There is something on the phone you should hear from me, not the news. Can you be at the detachment Monday at 9?"
+        }
+      ],
+      "meta": {
+        "beat": "Cliffhanger: the file is reopened."
+      }
+    }
+  ]
+}

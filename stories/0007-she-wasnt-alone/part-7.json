@@ -1,0 +1,331 @@
+{
+  "schemaVersion": 1,
+  "storyId": "0007",
+  "partNumber": 7,
+  "title": "Harbourline",
+  "summary": "Kyle Brandt of Harbourline Properties is slick with the executor and shuts down when Tess asks where he was on the 12th. Owen wants to \"go round there\". Tess does it the boring way. The council minutes show Kyle presenting at a public meeting from 4:00 to 7:10 pm. Kofi lines up every time the phone has come online and spots a school bell schedule: the texter is a kid. Late that night Tess finds one unsent email in June's Drafts.",
+  "status": "final",
+  "cliffhanger": "June's only draft, 11 January, 11:52 pm: \"To the Nova Scotia College of Pharmacists — I wish to report a colleague…\"",
+  "createdAt": "2026-10-09T22:30:00Z",
+  "updatedAt": "2026-10-09T22:30:00Z",
+  "screenshots": [
+    {
+      "id": "s01",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "9:24"
+        }
+      },
+      "deviceOwner": "tess",
+      "participants": [
+        "tess",
+        "kyle"
+      ],
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Fri, Feb 12 at 9:00 AM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "tess",
+          "text": "Mr. Brandt, this is Tess Pellerin, executor of June Pellerin's estate. You emailed her on January 13 about proceeding \"once the property is vacant.\" What did you and June discuss on January 12?"
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "kyle",
+          "text": "Hi Tess! Sincere condolences 👍 Harbourline has been in dialogue with Ms. Pellerin re: the waterfront parcel since the fall."
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "tess",
+          "text": "That isn't what I asked."
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "kyle",
+          "text": "We spoke briefly by phone on the 12th. Per my email, our offer remains open to the estate. Strong number. Happy to walk you through it!"
+        },
+        {
+          "kind": "message",
+          "id": "m05",
+          "sender": "tess",
+          "text": "\"Once the property is vacant.\" Her partner lives there."
+        },
+        {
+          "kind": "message",
+          "id": "m06",
+          "sender": "kyle",
+          "text": "Standard language, no disrespect intended. Per my last, happy to connect at your convenience."
+        },
+        {
+          "kind": "message",
+          "id": "m07",
+          "sender": "tess",
+          "text": "Where were you on the evening of January 12?"
+        },
+        {
+          "kind": "message",
+          "id": "m08",
+          "sender": "kyle",
+          "text": "I'm going to pause this conversation here. Further correspondence via our office, please."
+        }
+      ],
+      "meta": {
+        "beat": "The developer."
+      }
+    },
+    {
+      "id": "s02",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "12:34"
+        }
+      },
+      "deviceOwner": "tess",
+      "participants": [
+        "tess",
+        "owen"
+      ],
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Fri, Feb 12 at 12:30 PM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "owen",
+          "text": "whats this guys address"
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "tess",
+          "text": "No."
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "owen",
+          "text": "i just wanna talk to him"
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "tess",
+          "text": "You want to talk to him with your truck. No."
+        },
+        {
+          "kind": "message",
+          "id": "m05",
+          "sender": "owen",
+          "text": "he wrote VACANT tess"
+        },
+        {
+          "kind": "message",
+          "id": "m06",
+          "sender": "tess",
+          "text": "I know. I'm doing this the boring way."
+        }
+      ],
+      "meta": {
+        "beat": "Owen wants to go round there."
+      }
+    },
+    {
+      "id": "s03",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "7:36"
+        }
+      },
+      "deviceOwner": "tess",
+      "participants": [
+        "tess",
+        "kofi"
+      ],
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Fri, Feb 12 at 7:30 PM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "tess",
+          "text": "The boring way worked. Port Ardoise posts its council minutes. January 12, public meeting, 4:00 PM to 7:10 PM."
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "tess",
+          "attachment": {
+            "type": "link",
+            "label": "Council Minutes — January 12, 2027",
+            "detail": "portardoise.ca"
+          }
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "tess",
+          "text": "Item 3: \"Presentation by K. Brandt, Harbourline Properties, re: waterfront rezoning.\" He took questions to the end."
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "kofi",
+          "text": "So he's a jerk with an alibi"
+        },
+        {
+          "kind": "message",
+          "id": "m05",
+          "sender": "tess",
+          "text": "He phoned her, she said no, he sent a vulture email. That's all it was."
+        },
+        {
+          "kind": "message",
+          "id": "m06",
+          "sender": "kofi",
+          "text": "Sad news for Owen's road rage"
+        }
+      ],
+      "meta": {
+        "beat": "Kyle's alibi."
+      }
+    },
+    {
+      "id": "s04",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "10:22"
+        }
+      },
+      "deviceOwner": "tess",
+      "participants": [
+        "tess",
+        "kofi"
+      ],
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Sat, Feb 13 at 10:15 AM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "kofi",
+          "text": "ok I did a thing. Every time the phone came online, in a row:"
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "kofi",
+          "text": "Tue 12:31. Thu 12:14. Mon 3:41. Tue 12:37. Wed 3:28. Sun 3:47"
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "kofi",
+          "text": "Weekdays it's only ever lunch or after 3:20. Never 10am. Never 2pm. Weekends, whenever"
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "kofi",
+          "text": "That's a bell schedule. I live on one"
+        },
+        {
+          "kind": "message",
+          "id": "m05",
+          "sender": "kofi",
+          "text": "Your texter is a kid, Tess"
+        },
+        {
+          "kind": "message",
+          "id": "m06",
+          "sender": "tess",
+          "text": "A kid wouldn't know what happened in that house."
+        },
+        {
+          "kind": "message",
+          "id": "m07",
+          "sender": "kofi",
+          "text": "A kid with her phone would know whatever's on her phone"
+        }
+      ],
+      "meta": {
+        "beat": "Kofi: the texter is a kid."
+      }
+    },
+    {
+      "id": "s05",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "11:53"
+        }
+      },
+      "deviceOwner": "tess",
+      "participants": [
+        "tess",
+        "kofi"
+      ],
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Sat, Feb 13 at 11:48 PM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "tess",
+          "text": "Can't sleep. Went back into June's email. She has one draft."
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "tess",
+          "attachment": {
+            "type": "image",
+            "label": "Screenshot",
+            "detail": "Drafts (1) · Mon, Jan 11, 11:52 PM"
+          }
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "tess",
+          "text": "\"To the Nova Scotia College of Pharmacists — I wish to report a colleague…\""
+        }
+      ],
+      "meta": {
+        "beat": "Cliffhanger: June's unsent report."
+      }
+    }
+  ]
+}

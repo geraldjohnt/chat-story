@@ -1,0 +1,293 @@
+{
+  "schemaVersion": 1,
+  "storyId": "0007",
+  "partNumber": 8,
+  "title": "Drafts (1)",
+  "summary": "Tess types out June's draft for Kofi. Since November, on relief shifts at \"a community pharmacy\", June had found small, regular gaps in the oxycodone and hydromorphone counts, always on a Tuesday. She raised it with the pharmacist in charge and no longer believed his explanation. Tess forwards the draft to Cst. Morrison. Paul checks in warmly and mentions \"those cellar stairs in the dark\". Then Tess finds the draft's hidden last line.",
+  "status": "final",
+  "cliffhanger": "Below June's signature, after a run of blank lines: \"Entries initialled B.L. on each Tuesday in question.\"",
+  "createdAt": "2026-10-09T22:30:00Z",
+  "updatedAt": "2026-10-09T22:30:00Z",
+  "screenshots": [
+    {
+      "id": "s01",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "12:09"
+        }
+      },
+      "deviceOwner": "tess",
+      "participants": [
+        "tess",
+        "kofi"
+      ],
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Sun, Feb 14 at 12:01 AM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "kofi",
+          "text": "I'm up. Read it to me"
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "tess",
+          "text": "I'll type it. Typing is what I do."
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "tess",
+          "text": "\"I have practised pharmacy for 44 years and I do not write this lightly.\""
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "tess",
+          "text": "\"Since November, while providing relief coverage at a community pharmacy, I have found discrepancies in the narcotic count. Oxycodone and hydromorphone. Small amounts. Always on a Tuesday.\""
+        },
+        {
+          "kind": "message",
+          "id": "m05",
+          "sender": "tess",
+          "text": "\"I raised it informally with the pharmacist in charge. I was given an explanation. I no longer believe it.\""
+        },
+        {
+          "kind": "message",
+          "id": "m06",
+          "sender": "kofi",
+          "text": "who's the pharmacist in charge"
+        },
+        {
+          "kind": "message",
+          "id": "m07",
+          "sender": "tess",
+          "text": "She doesn't name anyone. She says she'll attach \"copies of the relevant register pages.\" There's no attachment."
+        }
+      ],
+      "meta": {
+        "beat": "Reading the draft."
+      }
+    },
+    {
+      "id": "s02",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "12:21"
+        }
+      },
+      "deviceOwner": "tess",
+      "participants": [
+        "tess",
+        "kofi"
+      ],
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Sun, Feb 14 at 12:14 AM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "kofi",
+          "text": "11:52 the night before she died"
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "tess",
+          "text": "I know."
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "kofi",
+          "text": "\"Sometimes you find out a person you like isn't who you thought.\" What Margo said"
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "tess",
+          "text": "I know."
+        },
+        {
+          "kind": "message",
+          "id": "m05",
+          "sender": "kofi",
+          "text": "Call Leah"
+        },
+        {
+          "kind": "message",
+          "id": "m06",
+          "sender": "tess",
+          "text": "It's midnight. It's Valentine's Day. Happy Valentine's Day."
+        },
+        {
+          "kind": "message",
+          "id": "m07",
+          "sender": "kofi",
+          "text": "happy valentine's ❤️ call her at 9"
+        }
+      ],
+      "meta": {
+        "beat": "Kofi: call Leah."
+      }
+    },
+    {
+      "id": "s03",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "9:14"
+        }
+      },
+      "deviceOwner": "tess",
+      "participants": [
+        "tess",
+        "leah"
+      ],
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Sun, Feb 14 at 9:02 AM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "tess",
+          "text": "Cst. Morrison, I've found an unsent email in June's account, written at 11:52 PM on January 11. It reports narcotic discrepancies at a pharmacy where she did relief shifts. I've forwarded it to your work email."
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "leah",
+          "text": "Received. I'll read it today."
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "tess",
+          "text": "She was writing it the night before she died."
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "leah",
+          "text": "I understand why that matters. I'll read it carefully. Please don't contact any pharmacy about it in the meantime."
+        }
+      ],
+      "meta": {
+        "beat": "Tess sends it to Leah."
+      }
+    },
+    {
+      "id": "s04",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "2:36"
+        }
+      },
+      "deviceOwner": "tess",
+      "participants": [
+        "tess",
+        "paul"
+      ],
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Sun, Feb 14 at 2:30 PM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "paul",
+          "text": "Hi Tess! Just checking in. How's Glen holding up?"
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "tess",
+          "text": "Up and down. Thanks for asking."
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "paul",
+          "text": "Poor man. I can't stop thinking about those cellar stairs in the dark. I always told June to put a proper light down there!"
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "paul",
+          "text": "Offer stands on the records! Thinking of you!"
+        },
+        {
+          "kind": "message",
+          "id": "m05",
+          "sender": "tess",
+          "text": "Thank you, Paul."
+        }
+      ],
+      "meta": {
+        "beat": "Paul: \"in the dark\" (second clue)."
+      }
+    },
+    {
+      "id": "s05",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "4:16"
+        }
+      },
+      "deviceOwner": "tess",
+      "participants": [
+        "tess",
+        "kofi"
+      ],
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Sun, Feb 14 at 4:10 PM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "tess",
+          "text": "There's more to the draft. Under her signature, after a long run of blank lines, like she was hiding it from herself."
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "tess",
+          "text": "\"Entries initialled B.L. on each Tuesday in question.\""
+        }
+      ],
+      "meta": {
+        "beat": "Cliffhanger: B.L."
+      }
+    }
+  ]
+}

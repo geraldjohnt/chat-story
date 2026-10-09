@@ -131,6 +131,30 @@
       "endingType": "ambiguous / open",
       "outline": "memory/pending-outlines/20261009-before-8-am.md",
       "createdAt": "2026-10-09T20:00:00Z"
+    },
+    {
+      "id": "0007",
+      "slug": "she-wasnt-alone",
+      "title": "She Wasn't Alone",
+      "status": "completed",
+      "parts": 20,
+      "genre": "mystery",
+      "relationshipType": "niece / late aunt, siblings, late-life partner, neighbour, teenage witness",
+      "setting": "Port Ardoise (fictional), Nova Scotia + Halifax, Feb–Mar 2027",
+      "premise": "A dead aunt's missing phone texts the family chat 'she wasnt alone'; her executor niece investigates; the texter is the culprit's teenage son.",
+      "centralConflict": "Truth vs. loyalty: family members' small lies hide the real crime; a boy must turn in his father.",
+      "secrets": [
+        "nephew's hidden visit for money",
+        "partner's cancer appointment",
+        "pharmacist diverting narcotics and forging the tech's initials",
+        "pharmacist left her after the fall; cancelled 911 call",
+        "second set of copies in a green tin",
+        "letter about the parents' accident"
+      ],
+      "twistMechanism": "Find My 'Notify When Found' pings (bell-schedule pattern), unsent email draft, delivery log, register initials; anonymous texter is the culprit's child.",
+      "endingType": "exposure / bittersweet justice with sequel hook",
+      "outline": "memory/pending-outlines/20261009-she-wasnt-alone.md",
+      "createdAt": "2026-10-09T22:30:00Z"
     }
   ]
 }

@@ -1,0 +1,415 @@
+{
+  "schemaVersion": 1,
+  "storyId": "0007",
+  "partNumber": 2,
+  "title": "Notify When Found",
+  "summary": "Glen confirms June never went anywhere without her phone and that it wasn't among the effects the police returned. Cst. Leah Morrison notes the message but says the file is closed and suggests suspending the line. Owen calls it a prank and gets oddly defensive. Tess remembers June's phone is on her Family Sharing and turns on Find My's \"Notify When Found\".",
+  "status": "final",
+  "cliffhanger": "Find My: June's iPhone is found near Port Ardoise Regional High School at 12:14 PM.",
+  "createdAt": "2026-10-09T22:30:00Z",
+  "updatedAt": "2026-10-09T22:30:00Z",
+  "screenshots": [
+    {
+      "id": "s01",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "7:24"
+        }
+      },
+      "deviceOwner": "tess",
+      "participants": [
+        "tess",
+        "glen"
+      ],
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Tue, Feb 2 at 7:12 PM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "tess",
+          "text": "Glen, can I ask you some things about her phone? One at a time."
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "glen",
+          "text": "Of course dear..."
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "tess",
+          "text": "1. When did you last see it?"
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "glen",
+          "text": "The morning of the 12th... in her cardigan pocket like always. The green one. She never left it on a table in her life... said tables are where phones go to get sat on"
+        },
+        {
+          "kind": "message",
+          "id": "m05",
+          "sender": "tess",
+          "text": "2. The police returned her things. Was it in the bag?"
+        },
+        {
+          "kind": "message",
+          "id": "m06",
+          "sender": "glen",
+          "text": "No. Her glasses, her watch, the cardigan... no phone. I asked the young constable and she wrote it down"
+        },
+        {
+          "kind": "message",
+          "id": "m07",
+          "sender": "tess",
+          "text": "3. Did you ever try ringing it?"
+        },
+        {
+          "kind": "message",
+          "id": "m08",
+          "sender": "glen",
+          "text": "Every night for a week... it went to her message. Then I stopped because hearing her was WORSE"
+        },
+        {
+          "kind": "message",
+          "id": "m09",
+          "sender": "glen",
+          "text": "sorry. caps"
+        },
+        {
+          "kind": "message",
+          "id": "m10",
+          "sender": "tess",
+          "text": "Don't be sorry."
+        },
+        {
+          "kind": "message",
+          "id": "m11",
+          "sender": "glen",
+          "text": "\"She wasnt alone.\" I was at the bonspiel Tess. I should have been home"
+        },
+        {
+          "kind": "message",
+          "id": "m12",
+          "sender": "tess",
+          "text": "You couldn't have known, Glen."
+        }
+      ],
+      "meta": {
+        "beat": "Glen: the phone was always in her cardigan."
+      }
+    },
+    {
+      "id": "s02",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "9:21"
+        }
+      },
+      "deviceOwner": "tess",
+      "participants": [
+        "tess",
+        "leah"
+      ],
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Wed, Feb 3 at 9:05 AM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "tess",
+          "text": "Cst. Morrison, this is Tess Pellerin, June Pellerin's niece and executor. We spoke on January 13. I need to report something."
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "leah",
+          "text": "Good morning Ms. Pellerin. Go ahead."
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "tess",
+          "text": "Yesterday at 12:31 PM a message was sent from June's mobile number to our family group chat: \"she wasnt alone.\" Her phone was not among her effects."
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "tess",
+          "attachment": {
+            "type": "image",
+            "label": "Screenshot",
+            "detail": "Pellerins 🦞 · Feb 2, 12:31 PM"
+          }
+        },
+        {
+          "kind": "message",
+          "id": "m05",
+          "sender": "leah",
+          "text": "Thank you. I've noted it on the file. The effects list doesn't include a phone, that's correct."
+        },
+        {
+          "kind": "message",
+          "id": "m06",
+          "sender": "tess",
+          "text": "So someone has it."
+        },
+        {
+          "kind": "message",
+          "id": "m07",
+          "sender": "leah",
+          "text": "Someone has the phone or the number. SIMs get reused. People are sometimes cruel after a death, more often than you'd think."
+        },
+        {
+          "kind": "message",
+          "id": "m08",
+          "sender": "leah",
+          "text": "The medical examiner's finding was accidental and the file is closed. I'd recommend reporting the device lost and suspending the line."
+        },
+        {
+          "kind": "message",
+          "id": "m09",
+          "sender": "tess",
+          "text": "If I suspend the line, I lose the only person who has said anything about that night."
+        },
+        {
+          "kind": "message",
+          "id": "m10",
+          "sender": "leah",
+          "text": "Understood. If you receive anything threatening or specific, call the detachment."
+        },
+        {
+          "kind": "message",
+          "id": "m11",
+          "sender": "tess",
+          "text": "I'll keep a record. To the minute."
+        }
+      ],
+      "meta": {
+        "beat": "The RCMP: file closed."
+      }
+    },
+    {
+      "id": "s03",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "6:31"
+        }
+      },
+      "deviceOwner": "tess",
+      "participants": [
+        "tess",
+        "owen"
+      ],
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Wed, Feb 3 at 6:18 PM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "owen",
+          "text": "did u tell the cops"
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "tess",
+          "text": "I told Cst. Morrison. She thinks it might be someone being cruel."
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "owen",
+          "text": "ok so its a prank"
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "owen",
+          "text": "some loser saw the obituary"
+        },
+        {
+          "kind": "message",
+          "id": "m05",
+          "sender": "tess",
+          "text": "A loser with June's phone, Owen."
+        },
+        {
+          "kind": "message",
+          "id": "m06",
+          "sender": "owen",
+          "text": "or a loser who found it in a ditch. she drops stuff"
+        },
+        {
+          "kind": "message",
+          "id": "m07",
+          "sender": "owen",
+          "text": "dropped"
+        },
+        {
+          "kind": "message",
+          "id": "m08",
+          "sender": "tess",
+          "text": "She didn't drop that phone."
+        },
+        {
+          "kind": "message",
+          "id": "m09",
+          "sender": "owen",
+          "text": "u didnt post anything else in the group did u"
+        },
+        {
+          "kind": "message",
+          "id": "m10",
+          "sender": "tess",
+          "text": "No. Why?"
+        },
+        {
+          "kind": "message",
+          "id": "m11",
+          "sender": "owen",
+          "text": "bc glen would have a stroke"
+        },
+        {
+          "kind": "message",
+          "id": "m12",
+          "sender": "owen",
+          "text": "im not doing this tess. shes gone. let her be gone"
+        },
+        {
+          "kind": "message",
+          "id": "m13",
+          "sender": "tess",
+          "text": "Owen, what's going on with you?"
+        },
+        {
+          "kind": "message",
+          "id": "m14",
+          "sender": "owen",
+          "text": "nothing. busy. truck stuff"
+        }
+      ],
+      "meta": {
+        "beat": "Owen is oddly hostile."
+      }
+    },
+    {
+      "id": "s04",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "9:55"
+        }
+      },
+      "deviceOwner": "tess",
+      "participants": [
+        "tess",
+        "kofi"
+      ],
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Wed, Feb 3 at 9:48 PM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "tess",
+          "text": "I'm the family organiser on Apple. June's phone is on my Family Sharing. I never thought of it till tonight."
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "kofi",
+          "text": "Find My?"
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "tess",
+          "text": "\"No location found.\" It's off. But there's a switch: Notify When Found. The moment it connects, I get told where."
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "kofi",
+          "text": "That's brilliant and terrifying"
+        },
+        {
+          "kind": "message",
+          "id": "m05",
+          "sender": "tess",
+          "text": "I flipped it."
+        },
+        {
+          "kind": "message",
+          "id": "m06",
+          "sender": "kofi",
+          "text": "Now come to bed and stop refreshing it"
+        },
+        {
+          "kind": "message",
+          "id": "m07",
+          "sender": "tess",
+          "text": "I'm not refreshing it."
+        },
+        {
+          "kind": "message",
+          "id": "m08",
+          "sender": "tess",
+          "text": "I refreshed it."
+        }
+      ],
+      "meta": {
+        "beat": "Tess turns on Notify When Found."
+      }
+    },
+    {
+      "id": "s05",
+      "type": "notification",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "deviceOwner": "tess",
+      "lockScreen": {
+        "time": "12:14",
+        "date": "Thursday, February 4"
+      },
+      "notifications": [
+        {
+          "id": "n1",
+          "app": "other",
+          "appName": "Find My",
+          "title": "June's iPhone was found",
+          "body": "Located near Port Ardoise Regional High School, Lunenburg St, Port Ardoise.",
+          "time": "now"
+        }
+      ],
+      "meta": {
+        "beat": "Cliffhanger: the phone wakes up at a high school."
+      }
+    }
+  ]
+}

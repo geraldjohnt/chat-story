@@ -30,7 +30,8 @@
 - Application implemented and tested (unit, integration, Playwright E2E). Production library empty.
 - Deployed by GitHub Actions to https://geraldjohnt.github.io/chat-story/ (deploy job reported success).
 - Published (2026-10-09): 0001 The Rent Went Up (3 parts), 0002 Pickup at 3:15 (4), 0003 Deposit Returned (3),
-  0004 Is This Still Ben? (4), 0005 Split the Rental (3), 0006 Before 8 A.M. (3); all completed. Next ID: 0007.
+  0004 Is This Still Ben? (4), 0005 Split the Rental (3), 0006 Before 8 A.M. (3), 0007 She Wasn't Alone (20,
+  mystery, ends on a sequel hook); all completed. Next ID: 0008.
 
 ## Repository / Pages setup facts
 - Repository is public; Pages source = GitHub Actions.

@@ -1,0 +1,344 @@
+{
+  "schemaVersion": 1,
+  "storyId": "0007",
+  "partNumber": 15,
+  "title": "The Toolbox",
+  "summary": "In short bursts from the wharf, the texter explains. On 31 January he borrowed his dad's truck and found June's phone sealed in a Ziploc in the lockbox under the toolbox tray. He opened it with June's birth year, which shows on her Medical ID. He read her messages: Owen asking for money, and June and his dad. Kofi tells Tess not to make the boy choose between them, but to find his safe adult. It's his mom in Bridgewater.",
+  "status": "final",
+  "cliffhanger": "The texter: \"he noticed its gone. hes asking me if i took anything from the truck\".",
+  "createdAt": "2026-10-09T22:30:00Z",
+  "updatedAt": "2026-10-09T22:30:00Z",
+  "screenshots": [
+    {
+      "id": "s01",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "3:52"
+        }
+      },
+      "deviceOwner": "tess",
+      "participants": [
+        "tess",
+        "june"
+      ],
+      "title": "Aunt June",
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Mon, Mar 1 at 3:35 PM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "tess",
+          "text": "Thank you for telling me. Are you safe right now?"
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "june",
+          "text": "im at the wharf"
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "june",
+          "text": "yeah"
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "tess",
+          "text": "Can you tell me how you found it? Slowly. Only what you want to."
+        },
+        {
+          "kind": "message",
+          "id": "m05",
+          "sender": "june",
+          "text": "jan 31. i borrowed the truck to haul traps for dale"
+        },
+        {
+          "kind": "message",
+          "id": "m06",
+          "sender": "june",
+          "text": "needed a bungee. theres a lockbox under the tray in the toolbox"
+        },
+        {
+          "kind": "message",
+          "id": "m07",
+          "sender": "june",
+          "text": "it was in there. in a ziploc. dead"
+        },
+        {
+          "kind": "message",
+          "id": "m08",
+          "sender": "june",
+          "text": "i knew the case. the one with the lemons"
+        }
+      ],
+      "meta": {
+        "beat": "The lockbox."
+      }
+    },
+    {
+      "id": "s02",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "4:22"
+        }
+      },
+      "deviceOwner": "tess",
+      "participants": [
+        "tess",
+        "june"
+      ],
+      "title": "Aunt June",
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Mon, Mar 1 at 3:50 PM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "tess",
+          "text": "How did you open it?"
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "june",
+          "text": "her lock screen has the medical id thing with her birthday. she used 1955 for everything. she told me once like it was a joke"
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "june",
+          "text": "i charged it at the wharf. i wasnt gonna read anything. i just wanted to know why it was in there"
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "june",
+          "text": "then i read everything"
+        },
+        {
+          "kind": "message",
+          "id": "m05",
+          "sender": "june",
+          "text": "owen asking for money. thats why i said someone was lying"
+        },
+        {
+          "kind": "message",
+          "id": "m06",
+          "sender": "june",
+          "text": "and her and my dad"
+        },
+        {
+          "kind": "timestamp",
+          "id": "t02",
+          "label": "Mon, Mar 1 at 4:20 PM"
+        },
+        {
+          "kind": "message",
+          "id": "m07",
+          "sender": "june",
+          "text": "i didnt get it at first. i thought maybe he was getting it fixed for glen or something"
+        },
+        {
+          "kind": "message",
+          "id": "m08",
+          "sender": "june",
+          "text": "then i read it again"
+        }
+      ],
+      "meta": {
+        "beat": "He read everything."
+      }
+    },
+    {
+      "id": "s03",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "7:14"
+        }
+      },
+      "deviceOwner": "tess",
+      "participants": [
+        "tess",
+        "kofi"
+      ],
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Mon, Mar 1 at 7:02 PM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "tess",
+          "text": "It's him. Paul's son. He found her phone in a Ziploc in his dad's truck on Jan 31. He's read her messages with Paul."
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "kofi",
+          "text": "Oh, Tess"
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "tess",
+          "text": "I didn't ask what they say. He should give it to Leah himself, not to me in a parking lot."
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "kofi",
+          "text": "Good. You can't be his evidence and his counsellor"
+        },
+        {
+          "kind": "message",
+          "id": "m05",
+          "sender": "kofi",
+          "text": "Teacher advice. Don't make him choose between you and his dad. Ask who his safe adult is. There's always one. Coach, aunt, mom"
+        },
+        {
+          "kind": "message",
+          "id": "m06",
+          "sender": "tess",
+          "text": "Margo says his parents are divorced. Mom's in Bridgewater."
+        },
+        {
+          "kind": "message",
+          "id": "m07",
+          "sender": "kofi",
+          "text": "Start there"
+        }
+      ],
+      "meta": {
+        "beat": "Kofi: find his safe adult."
+      }
+    },
+    {
+      "id": "s04",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "12:24"
+        }
+      },
+      "deviceOwner": "tess",
+      "participants": [
+        "tess",
+        "june"
+      ],
+      "title": "Aunt June",
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Tue, Mar 2 at 12:15 PM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "tess",
+          "text": "Can I ask you something that isn't about the phone? Who's the adult you trust most?"
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "june",
+          "text": "my mom i guess. shes in bridgewater"
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "june",
+          "text": "her and my dad dont really talk"
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "tess",
+          "text": "Would you tell her? Not everything. Just that you have something and you're scared."
+        },
+        {
+          "kind": "message",
+          "id": "m05",
+          "sender": "june",
+          "text": "shell freak"
+        },
+        {
+          "kind": "message",
+          "id": "m06",
+          "sender": "tess",
+          "text": "She'll freak because she loves you. That's a good kind of freak."
+        },
+        {
+          "kind": "message",
+          "id": "m07",
+          "sender": "june",
+          "text": "maybe"
+        }
+      ],
+      "meta": {
+        "beat": "His mom."
+      }
+    },
+    {
+      "id": "s05",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "3:41"
+        }
+      },
+      "deviceOwner": "tess",
+      "participants": [
+        "tess",
+        "june"
+      ],
+      "title": "Aunt June",
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Wed, Mar 3 at 3:40 PM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "june",
+          "text": "he noticed its gone"
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "june",
+          "text": "hes asking me if i took anything from the truck"
+        }
+      ],
+      "meta": {
+        "beat": "Cliffhanger: Paul has noticed."
+      }
+    }
+  ]
+}

@@ -209,7 +209,125 @@
       "synopsis": "A noise complaint about Ruth's early-morning piano lessons sends her straight to the building directory and the new man in 3B. Iain swears he didn't complain. A truce, a note about Chopin and a walk along Oriental Bay later, Ruth learns two things he didn't tell her, and has to decide what six weeks are worth.",
       "createdAt": "2026-10-09T20:00:00Z",
       "updatedAt": "2026-10-09T20:00:00Z"
+    },
+    {
+      "id": "0007",
+      "slug": "she-wasnt-alone",
+      "title": "She Wasn't Alone",
+      "genres": [
+        "mystery",
+        "whodunit",
+        "sequel-hook"
+      ],
+      "status": "completed",
+      "partCount": 20,
+      "storyPath": "0007-she-wasnt-alone/story.json",
+      "parts": [
+        {
+          "partNumber": 1,
+          "path": "0007-she-wasnt-alone/part-1.json",
+          "title": "She Wasn't Alone"
+        },
+        {
+          "partNumber": 2,
+          "path": "0007-she-wasnt-alone/part-2.json",
+          "title": "Notify When Found"
+        },
+        {
+          "partNumber": 3,
+          "path": "0007-she-wasnt-alone/part-3.json",
+          "title": "Not on the Phone"
+        },
+        {
+          "partNumber": 4,
+          "path": "0007-she-wasnt-alone/part-4.json",
+          "title": "2:40"
+        },
+        {
+          "partNumber": 5,
+          "path": "0007-she-wasnt-alone/part-5.json",
+          "title": "Fine at Five"
+        },
+        {
+          "partNumber": 6,
+          "path": "0007-she-wasnt-alone/part-6.json",
+          "title": "Three Hours"
+        },
+        {
+          "partNumber": 7,
+          "path": "0007-she-wasnt-alone/part-7.json",
+          "title": "Harbourline"
+        },
+        {
+          "partNumber": 8,
+          "path": "0007-she-wasnt-alone/part-8.json",
+          "title": "Drafts (1)"
+        },
+        {
+          "partNumber": 9,
+          "path": "0007-she-wasnt-alone/part-9.json",
+          "title": "Tuesdays"
+        },
+        {
+          "partNumber": 10,
+          "path": "0007-she-wasnt-alone/part-10.json",
+          "title": "B.L."
+        },
+        {
+          "partNumber": 11,
+          "path": "0007-she-wasnt-alone/part-11.json",
+          "title": "Signed at 5:05"
+        },
+        {
+          "partNumber": 12,
+          "path": "0007-she-wasnt-alone/part-12.json",
+          "title": "Two Mugs"
+        },
+        {
+          "partNumber": 13,
+          "path": "0007-she-wasnt-alone/part-13.json",
+          "title": "Kaulbach Street"
+        },
+        {
+          "partNumber": 14,
+          "path": "0007-she-wasnt-alone/part-14.json",
+          "title": "Thursdays"
+        },
+        {
+          "partNumber": 15,
+          "path": "0007-she-wasnt-alone/part-15.json",
+          "title": "The Toolbox"
+        },
+        {
+          "partNumber": 16,
+          "path": "0007-she-wasnt-alone/part-16.json",
+          "title": "Noah"
+        },
+        {
+          "partNumber": 17,
+          "path": "0007-she-wasnt-alone/part-17.json",
+          "title": "Chain of Custody"
+        },
+        {
+          "partNumber": 18,
+          "path": "0007-she-wasnt-alone/part-18.json",
+          "title": "4:48 PM"
+        },
+        {
+          "partNumber": 19,
+          "path": "0007-she-wasnt-alone/part-19.json",
+          "title": "Six O'Clock"
+        },
+        {
+          "partNumber": 20,
+          "path": "0007-she-wasnt-alone/part-20.json",
+          "title": "Bring Your Sensible Head"
+        }
+      ],
+      "synopsis": "June Pellerin's death was ruled an accident and her phone was never found. Then it texts the family chat. Tess, a court stenographer, turns on Find My and builds a timeline. Everyone close to June lied about the 12th: her nephew, her partner, a developer. June's unsent report about missing narcotics points to the town pharmacy, and the anonymous texter keeps surfacing at lunchtime, after school and on the wharf. The person holding June's phone is sixteen, and he found it in his father's truck.",
+      "createdAt": "2026-10-09T22:30:00Z",
+      "updatedAt": "2026-10-09T22:30:00Z"
     }
   ],
-  "updatedAt": "2026-10-09T20:00:00Z"
+  "updatedAt": "2026-10-09T22:30:00Z"
 }

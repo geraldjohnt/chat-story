@@ -1,0 +1,298 @@
+{
+  "schemaVersion": 1,
+  "storyId": "0007",
+  "partNumber": 5,
+  "title": "Fine at Five",
+  "summary": "Tess builds a timeline. Between 5 pm and 9:10 pm, when Glen found June, nobody accounts for anything. Paul Comeau, the town pharmacist June trained, sends warm condolences and offers to pull her records, mentioning he last saw her \"the week before\". Glen says he was at the curling bonspiel in Chester all evening and forwards the results to help.",
+  "status": "final",
+  "cliffhanger": "Behind the results in Glen's screenshot, the club chat asks: \"anyone know where Glen took off to at 6??\"",
+  "createdAt": "2026-10-09T22:30:00Z",
+  "updatedAt": "2026-10-09T22:30:00Z",
+  "screenshots": [
+    {
+      "id": "s01",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "8:41"
+        }
+      },
+      "deviceOwner": "tess",
+      "participants": [
+        "tess",
+        "kofi"
+      ],
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Sun, Feb 7 at 8:30 PM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "tess",
+          "text": "Timeline. Tell me what I'm missing."
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "tess",
+          "text": "1. 2:00–2:40 Owen at the house. Call log says he left."
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "tess",
+          "text": "2. About 5:00 \"fine at 5,\" per the texter. Margo saw the pharmacy delivery around suppertime."
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "tess",
+          "text": "3. Glen at the bonspiel in Chester \"all evening.\" Home about 9:10, found her. 911 at 9:12."
+        },
+        {
+          "kind": "message",
+          "id": "m05",
+          "sender": "tess",
+          "text": "4. Cellar light was off when Glen found her. That's in the police notes, not the obituary."
+        },
+        {
+          "kind": "message",
+          "id": "m06",
+          "sender": "tess",
+          "text": "5. Medical examiner: a fall on the cellar stairs, \"some hours\" before she was found."
+        },
+        {
+          "kind": "message",
+          "id": "m07",
+          "sender": "tess",
+          "text": "So from 5 to 9:10 nobody knows anything. Except whoever has her phone."
+        },
+        {
+          "kind": "message",
+          "id": "m08",
+          "sender": "kofi",
+          "text": "Or whoever had it before them"
+        },
+        {
+          "kind": "message",
+          "id": "m09",
+          "sender": "tess",
+          "text": "...Yes."
+        },
+        {
+          "kind": "message",
+          "id": "m10",
+          "sender": "kofi",
+          "text": "\"Fine at 5\" isn't a guess. Someone saw her or read something"
+        }
+      ],
+      "meta": {
+        "beat": "The timeline."
+      }
+    },
+    {
+      "id": "s02",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "9:26"
+        }
+      },
+      "deviceOwner": "tess",
+      "participants": [
+        "tess",
+        "paul"
+      ],
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Mon, Feb 8 at 9:20 AM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "paul",
+          "text": "Hi Tess, Paul Comeau here, from Harbour Drug! Margo mentioned you're handling June's estate. I'm so sorry. June trained me back in '96 — best pharmacist this coast ever had!"
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "paul",
+          "text": "If it helps with the paperwork, I'm happy to pull her prescription history for the estate. Just say the word!"
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "tess",
+          "text": "Thank you, Paul. That's kind. I might take you up on it."
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "paul",
+          "text": "Anytime! She was in great form the last time I saw her, the week before. Laughing at my terrible coffee 😊"
+        },
+        {
+          "kind": "message",
+          "id": "m05",
+          "sender": "paul",
+          "text": "Thinking of you all!"
+        }
+      ],
+      "meta": {
+        "beat": "Paul's condolences (first clue: \"the week before\")."
+      }
+    },
+    {
+      "id": "s03",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "7:09"
+        }
+      },
+      "deviceOwner": "tess",
+      "participants": [
+        "tess",
+        "glen"
+      ],
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Mon, Feb 8 at 7:00 PM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "tess",
+          "text": "Glen, one more question about the 12th and then I'll stop. When did you leave for Chester, and when did you leave the bonspiel?"
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "glen",
+          "text": "Left about 3... first draw at 4. We played the 4 o'clock and the 7 o'clock... then I drove home. Home 9.10 or thereabouts"
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "tess",
+          "text": "Was anyone with you the whole evening?"
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "glen",
+          "text": "The whole rink... Doug, Frank, Alvin. Ask any of them"
+        },
+        {
+          "kind": "message",
+          "id": "m05",
+          "sender": "glen",
+          "text": "Tess... do you think I"
+        },
+        {
+          "kind": "message",
+          "id": "m06",
+          "sender": "tess",
+          "text": "No. I'm doing what I'd want done if it were me."
+        },
+        {
+          "kind": "message",
+          "id": "m07",
+          "sender": "glen",
+          "text": "She'd say that. Sensible head..."
+        }
+      ],
+      "meta": {
+        "beat": "Glen's account."
+      }
+    },
+    {
+      "id": "s04",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "11:36"
+        }
+      },
+      "deviceOwner": "tess",
+      "participants": [
+        "tess",
+        "glen"
+      ],
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Tue, Feb 9 at 11:20 AM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "glen",
+          "text": "Doug sent this round the curling chat... thought you'd want it. For your timeline"
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "glen",
+          "attachment": {
+            "type": "image",
+            "label": "Screenshot",
+            "detail": "Chester Curling Club 🥌 · Jan 12 results"
+          }
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "tess",
+          "text": "Thank you, Glen."
+        },
+        {
+          "kind": "timestamp",
+          "id": "t02",
+          "label": "Tue, Feb 9 at 11:34 AM"
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "tess",
+          "text": "Glen, under the results in your screenshot there's a message from Frank at 6:12 PM."
+        },
+        {
+          "kind": "message",
+          "id": "m05",
+          "sender": "tess",
+          "text": "\"anyone know where Glen took off to at 6??\""
+        },
+        {
+          "kind": "message",
+          "id": "m06",
+          "sender": "tess",
+          "receipt": {
+            "status": "read",
+            "at": "11:35 AM"
+          },
+          "text": "You said you played the 7 o'clock."
+        }
+      ],
+      "meta": {
+        "beat": "Cliffhanger: Glen left at 6."
+      }
+    }
+  ]
+}

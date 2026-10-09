@@ -1,0 +1,342 @@
+{
+  "schemaVersion": 1,
+  "storyId": "0007",
+  "partNumber": 3,
+  "title": "Not on the Phone",
+  "summary": "The phone was online for six minutes at lunchtime at a high school. Scrolling back through her own thread, Tess finds the visit June asked for on 11 January, \"not on the phone\", and her own reply postponing it. Margo, June's next-door neighbour, says June was out of sorts that week and that a truck was in the lane on the 12th.",
+  "status": "final",
+  "cliffhanger": "Margo: \"it was Owen's truck. The green one.\"",
+  "createdAt": "2026-10-09T22:30:00Z",
+  "updatedAt": "2026-10-09T22:30:00Z",
+  "screenshots": [
+    {
+      "id": "s01",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "12:21"
+        }
+      },
+      "deviceOwner": "tess",
+      "participants": [
+        "tess",
+        "kofi"
+      ],
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Thu, Feb 4 at 12:16 PM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "tess",
+          "attachment": {
+            "type": "image",
+            "label": "Screenshot",
+            "detail": "Find My · June's iPhone · 12:14 PM"
+          }
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "tess",
+          "text": "A high school, Kofi."
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "kofi",
+          "text": "12:14. That's lunch almost everywhere"
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "tess",
+          "text": "It's offline again. Six minutes."
+        },
+        {
+          "kind": "message",
+          "id": "m05",
+          "sender": "kofi",
+          "text": "Somebody switching it on, checking, switching it off. Somebody who knows about Find My"
+        },
+        {
+          "kind": "message",
+          "id": "m06",
+          "sender": "tess",
+          "text": "Or a phone in a backpack that fell out of a ditch. Owen's theory."
+        },
+        {
+          "kind": "message",
+          "id": "m07",
+          "sender": "kofi",
+          "text": "Owen's theories have had a 0% hit rate since 2009"
+        }
+      ],
+      "meta": {
+        "beat": "Six minutes at lunchtime."
+      }
+    },
+    {
+      "id": "s02",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "12:33"
+        }
+      },
+      "deviceOwner": "tess",
+      "participants": [
+        "tess",
+        "june"
+      ],
+      "title": "Aunt June",
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Sat, Jan 9 at 4:10 PM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "june",
+          "text": "Glen made the marmalade and forgot the sugar. Do not let him tell you otherwise. J."
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "tess",
+          "text": "😂 Noted."
+        },
+        {
+          "kind": "timestamp",
+          "id": "t02",
+          "label": "Mon, Jan 11 at 10:02 PM"
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "june",
+          "text": "Tess, could you come down Saturday? I need to talk to you about something. Not on the phone."
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "june",
+          "text": "Bring your sensible head. J."
+        },
+        {
+          "kind": "message",
+          "id": "m05",
+          "sender": "tess",
+          "text": "Can we do the 23rd? I've got the Fraser trial till the 20th, it's mad."
+        },
+        {
+          "kind": "message",
+          "id": "m06",
+          "sender": "june",
+          "text": "The 23rd then. It will keep. J."
+        },
+        {
+          "kind": "timestamp",
+          "id": "t03",
+          "label": "Today 12:24 PM"
+        },
+        {
+          "kind": "message",
+          "id": "m07",
+          "sender": "tess",
+          "text": "You were near the high school. Are you a student?"
+        },
+        {
+          "kind": "message",
+          "id": "m08",
+          "sender": "tess",
+          "receipt": {
+            "status": "read",
+            "at": "12:31 PM"
+          },
+          "text": "I'm not angry. I just need to know what you know."
+        }
+      ],
+      "meta": {
+        "beat": "Scrolling back: \"Not on the phone.\""
+      }
+    },
+    {
+      "id": "s03",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "12:52"
+        }
+      },
+      "deviceOwner": "tess",
+      "participants": [
+        "tess",
+        "kofi"
+      ],
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Thu, Feb 4 at 12:40 PM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "tess",
+          "text": "I scrolled up. \"It will keep.\" She asked me to come on the 16th and I said I was busy."
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "kofi",
+          "text": "You WERE busy"
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "tess",
+          "text": "After Mum and Dad, she drove up every Sunday for a year. She never once asked me to come to her for a reason."
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "kofi",
+          "text": "Tess. You didn't know"
+        },
+        {
+          "kind": "message",
+          "id": "m05",
+          "sender": "tess",
+          "text": "I write down what people say for a living. I should have heard that one."
+        }
+      ],
+      "meta": {
+        "beat": "Guilt."
+      }
+    },
+    {
+      "id": "s04",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "10:31"
+        }
+      },
+      "deviceOwner": "tess",
+      "participants": [
+        "tess",
+        "margo"
+      ],
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Fri, Feb 5 at 10:15 AM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "margo",
+          "text": "Now Tess, I hope you don't mind me texting, Glen gave me your number and said you were asking about things."
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "margo",
+          "text": "June was out of sorts that week. She came over for tea on the Monday after her shift at Harbour Drug and she barely touched her shortbread, which as you know is not like her."
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "margo",
+          "text": "She said \"Margo, sometimes you find out a person you like isn't who you thought.\" I assumed it was Glen and the TV remote. She wouldn't say."
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "tess",
+          "text": "Thank you, Margo. That helps. Did you see anyone at the house on Tuesday the 12th?"
+        },
+        {
+          "kind": "message",
+          "id": "m05",
+          "sender": "margo",
+          "text": "The delivery boy from the pharmacy about suppertime, he always parks across my lane. And earlier there was a truck in the lane. Early afternoon."
+        },
+        {
+          "kind": "message",
+          "id": "m06",
+          "sender": "tess",
+          "text": "What kind of truck?"
+        },
+        {
+          "kind": "message",
+          "id": "m07",
+          "sender": "margo",
+          "text": "I'd rather not say on a text, dear. You know how this town is."
+        }
+      ],
+      "meta": {
+        "beat": "Margo: a truck in the lane."
+      }
+    },
+    {
+      "id": "s05",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "9:03"
+        }
+      },
+      "deviceOwner": "tess",
+      "participants": [
+        "tess",
+        "margo"
+      ],
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Sat, Feb 6 at 9:02 AM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "margo",
+          "text": "I didn't sleep. Your aunt would want me to be truthful."
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "margo",
+          "text": "Now Tess, it was Owen's truck. The green one with the lettering on the door. About 2 o'clock. I didn't want to say."
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "margo",
+          "text": "xo M"
+        }
+      ],
+      "meta": {
+        "beat": "Cliffhanger: Owen was there."
+      }
+    }
+  ]
+}

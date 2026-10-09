@@ -1,0 +1,278 @@
+{
+  "schemaVersion": 1,
+  "storyId": "0007",
+  "partNumber": 16,
+  "title": "Noah",
+  "summary": "Tess gets Noah onto the 5 o'clock bus to his mother's in Bridgewater, and he tells her his name. She gives Cst. Morrison everything, and the RCMP arrange to meet Noah with his mother present. Shannon Hiltz, Noah's mother, writes to Tess, shaken: Noah wants Tess there tomorrow. That night Paul writes, without a single exclamation mark.",
+  "status": "final",
+  "cliffhanger": "Paul: \"Whatever he thinks he saw, he's a kid. Call me before you do anything you can't take back.\"",
+  "createdAt": "2026-10-09T22:30:00Z",
+  "updatedAt": "2026-10-09T22:30:00Z",
+  "screenshots": [
+    {
+      "id": "s01",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "3:58"
+        }
+      },
+      "deviceOwner": "tess",
+      "participants": [
+        "tess",
+        "june"
+      ],
+      "title": "Aunt June",
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Wed, Mar 3 at 3:42 PM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "tess",
+          "text": "What did you tell him?"
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "june",
+          "text": "that i took a bungee"
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "june",
+          "text": "he looked at me for a long time"
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "tess",
+          "text": "Can you go to your mom's tonight?"
+        },
+        {
+          "kind": "message",
+          "id": "m05",
+          "sender": "june",
+          "text": "theres a bus to bridgewater at 5"
+        },
+        {
+          "kind": "message",
+          "id": "m06",
+          "sender": "tess",
+          "text": "Take it. Please."
+        },
+        {
+          "kind": "message",
+          "id": "m07",
+          "sender": "june",
+          "text": "ok"
+        },
+        {
+          "kind": "message",
+          "id": "m08",
+          "sender": "june",
+          "text": "my names noah btw. you probably knew"
+        },
+        {
+          "kind": "message",
+          "id": "m09",
+          "sender": "june",
+          "text": "noah comeau"
+        },
+        {
+          "kind": "message",
+          "id": "m10",
+          "sender": "tess",
+          "text": "Hi, Noah. I'm Tess. You're doing really, really well."
+        }
+      ],
+      "meta": {
+        "beat": "Noah says his name."
+      }
+    },
+    {
+      "id": "s02",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "4:16"
+        }
+      },
+      "deviceOwner": "tess",
+      "participants": [
+        "tess",
+        "leah"
+      ],
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Wed, Mar 3 at 4:05 PM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "tess",
+          "text": "Cst. Morrison, the person with June's phone is Noah Comeau, 16, Paul Comeau's son. He found it in a lockbox in his father's truck on Jan 31. His father has noticed it's missing. Noah is taking the 5 PM bus to his mother's in Bridgewater."
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "leah",
+          "text": "Thank you. This is the right call. I'm bringing in our Bridgewater detachment now."
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "leah",
+          "text": "Please don't ask him to bring the phone anywhere. We'll arrange it with his mother present. He's a minor."
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "tess",
+          "text": "Understood."
+        },
+        {
+          "kind": "message",
+          "id": "m05",
+          "sender": "leah",
+          "text": "And Ms. Pellerin, don't reply to Mr. Comeau tonight. About anything."
+        }
+      ],
+      "meta": {
+        "beat": "Tess tells Leah."
+      }
+    },
+    {
+      "id": "s03",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "7:34"
+        }
+      },
+      "deviceOwner": "tess",
+      "participants": [
+        "tess",
+        "shannon"
+      ],
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Wed, Mar 3 at 7:20 PM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "shannon",
+          "text": "Is this Tess Pellerin? This is Shannon Hiltz, Noah's mom."
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "shannon",
+          "text": "He's here. He showed me. I've been sick twice"
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "shannon",
+          "text": "I knew June. She came to his parent-teacher night once when Paul couldn't. I didn't know any of this"
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "tess",
+          "text": "Shannon, I'm so sorry. He's been incredibly brave. The RCMP will arrange everything with you there."
+        },
+        {
+          "kind": "message",
+          "id": "m05",
+          "sender": "shannon",
+          "text": "They already called. Tomorrow 10am in Bridgewater. Will you come? He asked for you"
+        },
+        {
+          "kind": "message",
+          "id": "m06",
+          "sender": "tess",
+          "text": "Yes. I'll be there."
+        }
+      ],
+      "meta": {
+        "beat": "Shannon."
+      }
+    },
+    {
+      "id": "s04",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "10:32"
+        }
+      },
+      "deviceOwner": "tess",
+      "participants": [
+        "tess",
+        "paul"
+      ],
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Wed, Mar 3 at 9:48 PM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "paul",
+          "text": "Tess, is my son talking to you?"
+        },
+        {
+          "kind": "timestamp",
+          "id": "t02",
+          "label": "Wed, Mar 3 at 9:55 PM"
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "paul",
+          "text": "He's at his mother's. He won't answer me. Shannon won't answer me."
+        },
+        {
+          "kind": "timestamp",
+          "id": "t03",
+          "label": "Wed, Mar 3 at 10:31 PM"
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "paul",
+          "text": "Whatever he thinks he saw, he's a kid. He doesn't understand pharmacy, or adults, or any of it."
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "paul",
+          "text": "Call me before you do anything you can't take back."
+        }
+      ],
+      "meta": {
+        "beat": "Cliffhanger: Paul's warning."
+      }
+    }
+  ]
+}

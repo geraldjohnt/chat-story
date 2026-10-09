@@ -1,0 +1,361 @@
+{
+  "schemaVersion": 1,
+  "storyId": "0007",
+  "partNumber": 11,
+  "title": "Signed at 5:05",
+  "summary": "Tess asks Cody Pike whether he's the one texting from June's phone. He's furious at being made \"the Pike kid\" again. The next evening he's in Halifax at a hockey game while June's phone comes online on the Port Ardoise wharf, so he can't be the texter. Tess apologises. Cody then gives her a detail he'd kept to himself: when he dropped off the delivery at 5:05, June had two mugs and the good cookies out for \"company\".",
+  "status": "final",
+  "cliffhanger": "The texter: \"stop asking cody. youre making it worse\".",
+  "createdAt": "2026-10-09T22:30:00Z",
+  "updatedAt": "2026-10-09T22:30:00Z",
+  "screenshots": [
+    {
+      "id": "s01",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "3:52"
+        }
+      },
+      "deviceOwner": "tess",
+      "participants": [
+        "tess",
+        "cody"
+      ],
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Thu, Feb 18 at 3:40 PM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "tess",
+          "text": "Hi Cody, this is Tess Pellerin, June Pellerin's niece. You delivered to her on January 12 at 5:05. Could I ask you a couple of questions?"
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "cody",
+          "text": "who gave u my number"
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "tess",
+          "text": "Margo Doucette."
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "cody",
+          "text": "course she did"
+        },
+        {
+          "kind": "message",
+          "id": "m05",
+          "sender": "tess",
+          "text": "How did June seem when you saw her?"
+        },
+        {
+          "kind": "message",
+          "id": "m06",
+          "sender": "cody",
+          "text": "fine. she signed. i left"
+        },
+        {
+          "kind": "message",
+          "id": "m07",
+          "sender": "tess",
+          "text": "Cody, have you been texting me from June's phone?"
+        },
+        {
+          "kind": "message",
+          "id": "m08",
+          "sender": "cody",
+          "text": "what"
+        },
+        {
+          "kind": "message",
+          "id": "m09",
+          "sender": "cody",
+          "text": "yo im not ur texter"
+        },
+        {
+          "kind": "message",
+          "id": "m10",
+          "sender": "cody",
+          "text": "i dont have her phone. i dont have anybodys phone"
+        },
+        {
+          "kind": "message",
+          "id": "m11",
+          "sender": "tess",
+          "text": "Someone does, and they know she was \"fine at 5.\" You're the one who saw her at 5."
+        },
+        {
+          "kind": "message",
+          "id": "m12",
+          "sender": "cody",
+          "text": "so thats what this is. pin it on the pike kid"
+        },
+        {
+          "kind": "message",
+          "id": "m13",
+          "sender": "cody",
+          "text": "she was fine at 5 bc it was 5 and she was fine"
+        }
+      ],
+      "meta": {
+        "beat": "Tess suspects Cody."
+      }
+    },
+    {
+      "id": "s02",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "8:06"
+        }
+      },
+      "deviceOwner": "tess",
+      "participants": [
+        "tess",
+        "kofi"
+      ],
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Thu, Feb 18 at 8:01 PM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "tess",
+          "text": "Cody's hostile. \"Pin it on the Pike kid.\""
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "kofi",
+          "text": "He's 22? He texts like my Grade 11s but so does every 22 year old"
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "tess",
+          "text": "He saw her at 5. The texter knows 5. Nobody else had that."
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "kofi",
+          "text": "Unless it's on the phone"
+        },
+        {
+          "kind": "message",
+          "id": "m05",
+          "sender": "tess",
+          "text": "If it's Cody, the phone goes quiet whenever Cody's busy. Let's see."
+        }
+      ],
+      "meta": {
+        "beat": "Testing the theory."
+      }
+    },
+    {
+      "id": "s03",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "8:19"
+        }
+      },
+      "deviceOwner": "tess",
+      "participants": [
+        "tess",
+        "kofi"
+      ],
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Fri, Feb 19 at 8:14 PM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "tess",
+          "text": "Cody just posted a story from the Mooseheads game. Scotiabank Centre, Halifax. 8:04 PM."
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "tess",
+          "text": "Find My pinged at 8:12 PM. Port Ardoise. The wharf."
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "tess",
+          "attachment": {
+            "type": "image",
+            "label": "Screenshot",
+            "detail": "Find My · June's iPhone · Government Wharf, Port Ardoise · 8:12 PM"
+          }
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "kofi",
+          "text": "Ninety minutes apart. Not Cody"
+        },
+        {
+          "kind": "message",
+          "id": "m05",
+          "sender": "tess",
+          "text": "Not Cody."
+        }
+      ],
+      "meta": {
+        "beat": "Cody is cleared."
+      }
+    },
+    {
+      "id": "s04",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "11:43"
+        }
+      },
+      "deviceOwner": "tess",
+      "participants": [
+        "tess",
+        "cody"
+      ],
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Sat, Feb 20 at 11:02 AM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "tess",
+          "text": "Cody, I owe you an apology. I know now you weren't the one texting me. I'm sorry."
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "cody",
+          "text": "k"
+        },
+        {
+          "kind": "timestamp",
+          "id": "t02",
+          "label": "Sat, Feb 20 at 11:40 AM"
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "cody",
+          "text": "she was waiting on someone"
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "cody",
+          "text": "when i dropped off. two mugs out on the counter and the good cookies. she said \"not for you cody, company\""
+        },
+        {
+          "kind": "message",
+          "id": "m05",
+          "sender": "cody",
+          "text": "figured it was glen. whatever"
+        },
+        {
+          "kind": "message",
+          "id": "m06",
+          "sender": "tess",
+          "text": "Thank you. That matters more than you know."
+        },
+        {
+          "kind": "message",
+          "id": "m07",
+          "sender": "cody",
+          "text": "dont tell people i said stuff"
+        }
+      ],
+      "meta": {
+        "beat": "Two mugs."
+      }
+    },
+    {
+      "id": "s05",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "4:06"
+        }
+      },
+      "deviceOwner": "tess",
+      "participants": [
+        "tess",
+        "june"
+      ],
+      "title": "Aunt June",
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Sat, Feb 20 at 4:02 PM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "june",
+          "text": "stop asking cody"
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "june",
+          "text": "youre making it worse"
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "tess",
+          "text": "Worse for who?"
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "tess",
+          "receipt": {
+            "status": "read",
+            "at": "4:05 PM"
+          },
+          "text": "Who was the company? The two mugs?"
+        }
+      ],
+      "meta": {
+        "beat": "Cliffhanger: the texter warns her off."
+      }
+    }
+  ]
+}

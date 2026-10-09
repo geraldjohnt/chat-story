@@ -1,6 +1,6 @@
 # She Wasn't Alone
 
-Status: pending (revised 2026-10-09: a cliffhanger on every part, including part 20)
+Status: approved → story 0007 (revised 2026-10-09: a cliffhanger on every part, including part 20)
 Proposed: 2026-10-09
 Genre: Mystery / small-town whodunit → family drama
 Setting: Port Ardoise, a fictional fishing town on Nova Scotia's South Shore, and Halifax (80 minutes
@@ -317,3 +317,10 @@ Compared with 0001–0006 (there are no other pending outlines).
 - **Risks to watch:** 20 parts invites repetition. Each part must add one new fact or eliminate a
   suspect, with no filler "who are you?" exchanges. Paul's clues must be fair but quiet so the
   midpoint doesn't give him away.
+
+## Generation notes (2026-10-09)
+Generated as 20 parts / 103 screenshots. Noah's mother is Shannon Hiltz. The family chat includes Kofi.
+Paul's tells: "the week before" (pt 5), "stairs in the dark" (pt 8), asks if the number was traced
+(pts 10, 14). The completed story's final part keeps its cliffhanger by request (validator warns).
+The letter's hook is recorded in continuity.md, not in unresolvedThreads (a completed story can't have
+open threads).

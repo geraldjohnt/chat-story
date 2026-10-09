@@ -1,0 +1,329 @@
+{
+  "schemaVersion": 1,
+  "storyId": "0007",
+  "partNumber": 10,
+  "title": "B.L.",
+  "summary": "Bree is frantic and apologetic. June asked her questions about the count before she died, and Bree needs \"till the weekend\" to be sure of something before she says more. Tess can't tell whether she's guilty or scared. Paul gets in touch, cheerful and \"nothing to hide\". He steers Tess toward Bree's hard year, asks whether the police have traced the number, and offers June's delivery log for the estate.",
+  "status": "final",
+  "cliffhanger": "Paul's delivery log: \"Pellerin, J. — 5:05 PM — signed — driver: C. Pike\". Cody saw June at five.",
+  "createdAt": "2026-10-09T22:30:00Z",
+  "updatedAt": "2026-10-09T22:30:00Z",
+  "screenshots": [
+    {
+      "id": "s01",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "8:22"
+        }
+      },
+      "deviceOwner": "tess",
+      "participants": [
+        "tess",
+        "bree"
+      ],
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Tue, Feb 16 at 8:10 AM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "tess",
+          "text": "Hi Bree. Why would I go to the police about you?"
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "bree",
+          "text": "sorry sorry I know that sounds bad"
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "bree",
+          "text": "Margo told my mom you were asking about me. In this town that's basically a subpoena"
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "bree",
+          "text": "June was the only person who ever explained things to me properly"
+        },
+        {
+          "kind": "message",
+          "id": "m05",
+          "sender": "bree",
+          "text": "Before she died she asked me some questions about the count. I didn't know what to say"
+        },
+        {
+          "kind": "message",
+          "id": "m06",
+          "sender": "tess",
+          "text": "What questions?"
+        },
+        {
+          "kind": "message",
+          "id": "m07",
+          "sender": "bree",
+          "text": "I can't do this over text, I'm sorry, I'm not trying to be weird"
+        },
+        {
+          "kind": "message",
+          "id": "m08",
+          "sender": "bree",
+          "text": "I just need to be sure about something first. Then I'll tell you everything I promise"
+        },
+        {
+          "kind": "message",
+          "id": "m09",
+          "sender": "tess",
+          "text": "Bree, if you know something about the count, the safest thing for you is to tell someone now."
+        },
+        {
+          "kind": "message",
+          "id": "m10",
+          "sender": "bree",
+          "text": "I know. I know. Please give me till the weekend"
+        }
+      ],
+      "meta": {
+        "beat": "Bree is frightened."
+      }
+    },
+    {
+      "id": "s02",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "6:07"
+        }
+      },
+      "deviceOwner": "tess",
+      "participants": [
+        "tess",
+        "kofi"
+      ],
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Tue, Feb 16 at 6:01 PM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "tess",
+          "text": "Bree Langille sounds terrified and won't say why."
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "kofi",
+          "text": "guilty terrified or scared terrified"
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "tess",
+          "text": "I can't tell over text. That's the whole problem with text."
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "kofi",
+          "text": "You've been reading texts like court transcripts for two weeks. What does your gut say"
+        },
+        {
+          "kind": "message",
+          "id": "m05",
+          "sender": "tess",
+          "text": "That she's protecting something. Maybe herself."
+        }
+      ],
+      "meta": {
+        "beat": "Guilty or scared?"
+      }
+    },
+    {
+      "id": "s03",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "1:24"
+        }
+      },
+      "deviceOwner": "tess",
+      "participants": [
+        "tess",
+        "paul"
+      ],
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Wed, Feb 17 at 1:15 PM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "paul",
+          "text": "Hi Tess! Small town, I hear you've been asking about my shop 😊 Nothing to hide here!"
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "paul",
+          "text": "Between us, Bree's had a hard year. Money troubles, her mum's not well. Go easy on her, eh?"
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "tess",
+          "text": "I haven't been hard on anyone, Paul."
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "paul",
+          "text": "Of course not! June was very fond of her. We all are."
+        },
+        {
+          "kind": "message",
+          "id": "m05",
+          "sender": "paul",
+          "text": "Random question, did the police ever trace that number? The one sending those texts? Glen mentioned it at the counter. Awful thing to do to a family!"
+        },
+        {
+          "kind": "message",
+          "id": "m06",
+          "sender": "tess",
+          "text": "Not that I know of."
+        },
+        {
+          "kind": "message",
+          "id": "m07",
+          "sender": "paul",
+          "text": "Shame! Let me help however I can. I'll send over June's delivery log, you'll want it for the insurance."
+        }
+      ],
+      "meta": {
+        "beat": "Paul points at Bree and asks about the number."
+      }
+    },
+    {
+      "id": "s04",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "10:03"
+        }
+      },
+      "deviceOwner": "tess",
+      "participants": [
+        "tess",
+        "paul"
+      ],
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Thu, Feb 18 at 10:02 AM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "paul",
+          "text": "As promised!"
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "paul",
+          "attachment": {
+            "type": "image",
+            "label": "Harbour Drug · Delivery Log · Jan 12"
+          }
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "paul",
+          "text": "Cheers!"
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "tess",
+          "text": "Thank you."
+        }
+      ],
+      "meta": {
+        "beat": "The delivery log."
+      }
+    },
+    {
+      "id": "s05",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "10:17"
+        }
+      },
+      "deviceOwner": "tess",
+      "participants": [
+        "tess",
+        "kofi"
+      ],
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Thu, Feb 18 at 10:14 AM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "tess",
+          "attachment": {
+            "type": "image",
+            "label": "Harbour Drug · Delivery Log · Jan 12"
+          }
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "tess",
+          "text": "Third line."
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "tess",
+          "text": "\"Pellerin, J. — 5:05 PM — signed — driver: C. Pike\""
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "tess",
+          "text": "\"Fine at 5.\" Cody Pike saw her at 5:05. And our texter knows it."
+        }
+      ],
+      "meta": {
+        "beat": "Cliffhanger: Cody saw her at five."
+      }
+    }
+  ]
+}

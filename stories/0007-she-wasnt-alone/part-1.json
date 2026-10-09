@@ -1,0 +1,339 @@
+{
+  "schemaVersion": 1,
+  "storyId": "0007",
+  "partNumber": 1,
+  "title": "She Wasn't Alone",
+  "summary": "Three weeks after June Pellerin was found at the bottom of her cellar stairs, her missing phone posts four words to the family group chat: \"she wasnt alone.\" Owen panics, Glen says the phone was never found, and the call goes to June's voicemail. Tess, a court stenographer who knows exactly how her aunt typed, is sure it isn't June. Then the number messages her privately.",
+  "status": "final",
+  "cliffhanger": "A private text from June's number: \"dont post in the group. someone in that chat is lying about the 12th\".",
+  "createdAt": "2026-10-09T22:30:00Z",
+  "updatedAt": "2026-10-09T22:30:00Z",
+  "screenshots": [
+    {
+      "id": "s01",
+      "type": "notification",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "deviceOwner": "tess",
+      "lockScreen": {
+        "time": "12:31",
+        "date": "Tuesday, February 2"
+      },
+      "notifications": [
+        {
+          "id": "n1",
+          "app": "messages",
+          "sender": "june",
+          "title": "Pellerins 🦞",
+          "body": "Aunt June: she wasnt alone",
+          "time": "now"
+        },
+        {
+          "id": "n2",
+          "app": "messages",
+          "sender": "owen",
+          "title": "Pellerins 🦞",
+          "body": "Owen: glen this is u trying to work the new tv remote 😭",
+          "time": "1h ago"
+        }
+      ],
+      "meta": {
+        "beat": "Hook: a dead woman's number posts to the family chat."
+      }
+    },
+    {
+      "id": "s02",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "12:35"
+        }
+      },
+      "deviceOwner": "tess",
+      "participants": [
+        "tess",
+        "owen",
+        "glen",
+        "kofi",
+        "june"
+      ],
+      "title": "Pellerins 🦞",
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Today 11:02 AM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "owen",
+          "attachment": {
+            "type": "image",
+            "label": "Photo",
+            "detail": "IMG_4471.jpg"
+          },
+          "text": "glen this is u trying to work the new tv remote 😭"
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "glen",
+          "text": "Very funny Owen... It is a SMART tv. It is smarter than me"
+        },
+        {
+          "kind": "timestamp",
+          "id": "t02",
+          "label": "Today 12:31 PM"
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "june",
+          "text": "she wasnt alone"
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "owen",
+          "text": "what"
+        },
+        {
+          "kind": "message",
+          "id": "m05",
+          "sender": "owen",
+          "text": "WHAT"
+        },
+        {
+          "kind": "message",
+          "id": "m06",
+          "sender": "owen",
+          "text": "who is this. this isnt funny"
+        },
+        {
+          "kind": "message",
+          "id": "m07",
+          "sender": "glen",
+          "text": "Who has Junes phone..."
+        },
+        {
+          "kind": "message",
+          "id": "m08",
+          "sender": "glen",
+          "text": "Her phone was never found. I looked everywhere... the police looked..."
+        },
+        {
+          "kind": "message",
+          "id": "m09",
+          "sender": "kofi",
+          "text": "Tess are you seeing this?"
+        },
+        {
+          "kind": "message",
+          "id": "m10",
+          "sender": "tess",
+          "text": "I'm seeing it. I'm calling the number now."
+        }
+      ],
+      "meta": {
+        "beat": "Panic in the group chat."
+      }
+    },
+    {
+      "id": "s03",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "12:39"
+        }
+      },
+      "deviceOwner": "tess",
+      "participants": [
+        "tess",
+        "june"
+      ],
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Today 12:36 PM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "tess",
+          "text": "This is Tess Pellerin. You're using my aunt's phone. Who are you?"
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "tess",
+          "receipt": {
+            "status": "read",
+            "at": "12:38 PM"
+          },
+          "text": "If you know something about how June died, I want to hear it. Just me."
+        }
+      ],
+      "meta": {
+        "beat": "Tess writes to the number directly."
+      }
+    },
+    {
+      "id": "s04",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "12:43"
+        }
+      },
+      "deviceOwner": "tess",
+      "participants": [
+        "tess",
+        "kofi"
+      ],
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Today 12:40 PM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "tess",
+          "text": "It went straight to voicemail. Her voice. \"You've reached June Pellerin, I'm likely in the garden.\""
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "kofi",
+          "text": "oh babe"
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "kofi",
+          "text": "Could it be a glitch? An old scheduled message? Something stuck in iCloud?"
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "tess",
+          "text": "June didn't schedule messages. June used full stops and signed every text \"J.\""
+        },
+        {
+          "kind": "message",
+          "id": "m05",
+          "sender": "tess",
+          "text": "She'd have written \"She was not alone.\" Capital S."
+        },
+        {
+          "kind": "message",
+          "id": "m06",
+          "sender": "kofi",
+          "text": "ok so not June"
+        },
+        {
+          "kind": "message",
+          "id": "m07",
+          "sender": "tess",
+          "text": "Not June."
+        },
+        {
+          "kind": "message",
+          "id": "m08",
+          "sender": "tess",
+          "text": "Three weeks, Kofi. The medical examiner said accident. The RCMP closed it the same week."
+        },
+        {
+          "kind": "message",
+          "id": "m09",
+          "sender": "kofi",
+          "text": "Where are you right now?"
+        },
+        {
+          "kind": "message",
+          "id": "m10",
+          "sender": "tess",
+          "text": "Courtroom 3, recess. I have eleven minutes and I am not going back in calm."
+        },
+        {
+          "kind": "message",
+          "id": "m11",
+          "sender": "kofi",
+          "text": "Call me in ten. I've got a free period"
+        }
+      ],
+      "meta": {
+        "beat": "Kofi; it isn't June's voice."
+      }
+    },
+    {
+      "id": "s05",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "12:45"
+        }
+      },
+      "deviceOwner": "tess",
+      "participants": [
+        "tess",
+        "june"
+      ],
+      "title": "Aunt June",
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Today 12:36 PM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "tess",
+          "text": "This is Tess Pellerin. You're using my aunt's phone. Who are you?"
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "tess",
+          "receipt": {
+            "status": "read",
+            "at": "12:38 PM"
+          },
+          "text": "If you know something about how June died, I want to hear it. Just me."
+        },
+        {
+          "kind": "timestamp",
+          "id": "t02",
+          "label": "Today 12:44 PM"
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "june",
+          "text": "dont post in the group"
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "june",
+          "text": "someone in that chat is lying about the 12th"
+        }
+      ],
+      "meta": {
+        "beat": "Cliffhanger: someone in the family chat is lying."
+      }
+    }
+  ]
+}

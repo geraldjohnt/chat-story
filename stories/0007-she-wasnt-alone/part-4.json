@@ -1,0 +1,389 @@
+{
+  "schemaVersion": 1,
+  "storyId": "0007",
+  "partNumber": 4,
+  "title": "2:40",
+  "summary": "Owen denies it, deflects, then admits it. He went to June's at 2 pm on the 12th to ask for $3,500 to stop the bank taking his truck. She refused, he said something cruel, and he left at 2:40. His call log proves the time. He lied to the RCMP because he panicked. Tess believes the call log; Kofi asks whether she believes him.",
+  "status": "final",
+  "cliffhanger": "The texter: \"he left at 2:40. she was fine at 5\". How could they know?",
+  "createdAt": "2026-10-09T22:30:00Z",
+  "updatedAt": "2026-10-09T22:30:00Z",
+  "screenshots": [
+    {
+      "id": "s01",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "10:44"
+        }
+      },
+      "deviceOwner": "tess",
+      "participants": [
+        "tess",
+        "owen"
+      ],
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Sat, Feb 6 at 9:30 AM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "tess",
+          "text": "When did you last see June?"
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "owen",
+          "text": "christmas. u know this. why"
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "tess",
+          "text": "Margo saw your truck in June's lane on the 12th. About 2."
+        },
+        {
+          "kind": "timestamp",
+          "id": "t02",
+          "label": "Sat, Feb 6 at 9:58 AM"
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "tess",
+          "text": "Owen."
+        },
+        {
+          "kind": "timestamp",
+          "id": "t03",
+          "label": "Sat, Feb 6 at 10:40 AM"
+        },
+        {
+          "kind": "message",
+          "id": "m05",
+          "sender": "owen",
+          "text": "margo is 69 and thinks every green truck is mine"
+        },
+        {
+          "kind": "message",
+          "id": "m06",
+          "sender": "tess",
+          "text": "It says Pellerin Landscaping on the door."
+        },
+        {
+          "kind": "message",
+          "id": "m07",
+          "sender": "owen",
+          "text": "ok so maybe i dropped by"
+        },
+        {
+          "kind": "message",
+          "id": "m08",
+          "sender": "tess",
+          "text": "Maybe?"
+        },
+        {
+          "kind": "message",
+          "id": "m09",
+          "sender": "owen",
+          "text": "i was in town for a quote. i dropped by. its not a crime to see ur aunt"
+        },
+        {
+          "kind": "message",
+          "id": "m10",
+          "sender": "tess",
+          "text": "Then why did you tell the RCMP and all of us that you hadn't seen her since Christmas?"
+        },
+        {
+          "kind": "typing",
+          "id": "y01",
+          "sender": "owen"
+        }
+      ],
+      "meta": {
+        "beat": "Denial, then the question."
+      }
+    },
+    {
+      "id": "s02",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "11:31"
+        }
+      },
+      "deviceOwner": "tess",
+      "participants": [
+        "tess",
+        "owen"
+      ],
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Sat, Feb 6 at 11:22 AM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "owen",
+          "text": "bc the cops were asking weird questions and i panicked ok"
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "owen",
+          "text": "bc i went to ask her for money"
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "owen",
+          "text": "3500. the bank was gonna take the truck. the truck is the business. no truck no business"
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "owen",
+          "text": "she said no. she said shed paid for my business twice already and she loved me too much to do it a third time"
+        },
+        {
+          "kind": "message",
+          "id": "m05",
+          "sender": "owen",
+          "text": "i said some stuff. i left. i was in the truck by 2:40 bc i called the bank from her driveway"
+        },
+        {
+          "kind": "message",
+          "id": "m06",
+          "sender": "owen",
+          "text": "she was alive tess. she was mad at me and she was alive"
+        },
+        {
+          "kind": "message",
+          "id": "m07",
+          "sender": "tess",
+          "text": "What did you say to her?"
+        },
+        {
+          "kind": "message",
+          "id": "m08",
+          "sender": "owen",
+          "text": "that she cared more about her stupid principles than me"
+        },
+        {
+          "kind": "message",
+          "id": "m09",
+          "sender": "owen",
+          "text": "last thing i ever said to her"
+        },
+        {
+          "kind": "message",
+          "id": "m10",
+          "sender": "tess",
+          "text": "Oh, Owen."
+        }
+      ],
+      "meta": {
+        "beat": "Owen confesses."
+      }
+    },
+    {
+      "id": "s03",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "11:44"
+        }
+      },
+      "deviceOwner": "tess",
+      "participants": [
+        "tess",
+        "owen"
+      ],
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Sat, Feb 6 at 11:38 AM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "owen",
+          "attachment": {
+            "type": "image",
+            "label": "Screenshot",
+            "detail": "Recents · Atlantic Credit Union · Jan 12, 2:41 PM · 14 min"
+          }
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "owen",
+          "text": "there. proof. happy?"
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "tess",
+          "text": "Not happy. Glad you told me."
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "owen",
+          "text": "she half raised me after mum and dad. and i yelled at her about a TRUCK"
+        },
+        {
+          "kind": "message",
+          "id": "m05",
+          "sender": "owen",
+          "text": "dont tell glen. he already thinks im a bum"
+        },
+        {
+          "kind": "message",
+          "id": "m06",
+          "sender": "tess",
+          "text": "Glen has never once said that."
+        },
+        {
+          "kind": "message",
+          "id": "m07",
+          "sender": "owen",
+          "text": "he thinks it loudly"
+        }
+      ],
+      "meta": {
+        "beat": "The call log."
+      }
+    },
+    {
+      "id": "s04",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "12:09"
+        }
+      },
+      "deviceOwner": "tess",
+      "participants": [
+        "tess",
+        "kofi"
+      ],
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Sat, Feb 6 at 12:01 PM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "tess",
+          "text": "Owen was there. 2 to 2:40. Asked her for $3,500. She said no. He lied to the RCMP because he \"panicked.\""
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "kofi",
+          "text": "oof"
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "kofi",
+          "text": "Do you believe him?"
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "tess",
+          "text": "I believe the call log. I believe he left. I don't know what he still isn't saying."
+        },
+        {
+          "kind": "message",
+          "id": "m05",
+          "sender": "kofi",
+          "text": "That's the stenographer answer"
+        },
+        {
+          "kind": "message",
+          "id": "m06",
+          "sender": "tess",
+          "text": "It's the only answer I've got."
+        }
+      ],
+      "meta": {
+        "beat": "Kofi: do you believe him?"
+      }
+    },
+    {
+      "id": "s05",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "3:49"
+        }
+      },
+      "deviceOwner": "tess",
+      "participants": [
+        "tess",
+        "june"
+      ],
+      "title": "Aunt June",
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Sun, Feb 7 at 3:47 PM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "june",
+          "text": "he left at 2:40"
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "june",
+          "text": "she was fine at 5"
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "tess",
+          "text": "How do you know that?"
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "tess",
+          "receipt": {
+            "status": "read",
+            "at": "3:49 PM"
+          },
+          "text": "Were you there?"
+        }
+      ],
+      "meta": {
+        "beat": "Cliffhanger: the texter knows the timeline."
+      }
+    }
+  ]
+}

@@ -1,0 +1,251 @@
+{
+  "schemaVersion": 1,
+  "storyId": "0007",
+  "partNumber": 18,
+  "title": "4:48 PM",
+  "summary": "At the detachment, Cst. Morrison shows Tess June's messages to Paul from the afternoon of the 12th, and Tess types them out for Kofi word for word. June wrote that she'd send her report unless he could explain. Paul asked to come by at 6, and June agreed because Glen was out. The register photos are in June's camera roll, but the paper copies she made are missing. By Tuesday Harbour Drug's shutters are down and two police cars are on Kaulbach Street.",
+  "status": "final",
+  "cliffhanger": "Leah: June's phone shows a 911 call at 6:41 pm on 12 January, cancelled after 0 seconds.",
+  "createdAt": "2026-10-09T22:30:00Z",
+  "updatedAt": "2026-10-09T22:30:00Z",
+  "screenshots": [
+    {
+      "id": "s01",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "8:21"
+        }
+      },
+      "deviceOwner": "tess",
+      "participants": [
+        "tess",
+        "leah"
+      ],
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Fri, Mar 5 at 8:18 PM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "tess",
+          "text": "Yes. I'll be there at 9."
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "leah",
+          "text": "Bring someone with you."
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "tess",
+          "text": "My husband."
+        }
+      ],
+      "meta": {
+        "beat": "Monday at 9."
+      }
+    },
+    {
+      "id": "s02",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "11:38"
+        }
+      },
+      "deviceOwner": "tess",
+      "participants": [
+        "tess",
+        "kofi"
+      ],
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Mon, Mar 8 at 11:30 AM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "tess",
+          "text": "I'm in the car outside. Leah showed me three messages from June's phone and said I can tell the family. I'm typing them exactly, the way I would in court, because if I paraphrase I'll fall apart."
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "tess",
+          "text": "Jan 12, 4:48 PM, June to Paul: \"I've written it up. I'll send it tomorrow unless you can explain.\""
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "tess",
+          "text": "4:51 PM, Paul: \"Please let me come by. 6?\""
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "tess",
+          "text": "5:06 PM, June: \"Cody's just been. Come at 6, Glen's out.\""
+        },
+        {
+          "kind": "message",
+          "id": "m05",
+          "sender": "kofi",
+          "text": "two mugs"
+        },
+        {
+          "kind": "message",
+          "id": "m06",
+          "sender": "tess",
+          "text": "Two mugs and the good cookies. She was going to give him a chance."
+        }
+      ],
+      "meta": {
+        "beat": "The messages from the 12th."
+      }
+    },
+    {
+      "id": "s03",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "11:49"
+        }
+      },
+      "deviceOwner": "tess",
+      "participants": [
+        "tess",
+        "kofi"
+      ],
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Mon, Mar 8 at 11:41 AM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "tess",
+          "text": "Her camera roll has photos of the register too. December 1, 8, 15, 22. Bree's initials. Taken at the shop on the 11th."
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "tess",
+          "text": "She made paper copies. Leah asked if I'd seen a box of them at the house. I haven't. Glen hasn't."
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "kofi",
+          "text": "So whoever took the phone took the box"
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "tess",
+          "text": "That's what Leah didn't say, very carefully."
+        }
+      ],
+      "meta": {
+        "beat": "The missing box."
+      }
+    },
+    {
+      "id": "s04",
+      "type": "notification-center",
+      "theme": "dark",
+      "exportProfile": "iphone",
+      "deviceOwner": "tess",
+      "lockScreen": {
+        "time": "8:14",
+        "date": "Tuesday, March 9"
+      },
+      "notifications": [
+        {
+          "id": "n1",
+          "app": "messages",
+          "sender": "margo",
+          "body": "Now Tess, there are two police cars on Kaulbach Street this morning. Just so you know. xo M",
+          "time": "8:02 AM"
+        },
+        {
+          "id": "n2",
+          "app": "messages",
+          "sender": "owen",
+          "body": "pharmacy's got paper on the windows",
+          "time": "7:51 AM"
+        },
+        {
+          "id": "n3",
+          "app": "messages",
+          "sender": "harbour-drug",
+          "body": "Harbour Drug: Our pharmacy is temporarily closed. Prescriptions have been transferred to Bridgewater Family Pharmacy.",
+          "time": "7:30 AM"
+        },
+        {
+          "id": "n4",
+          "app": "messages",
+          "sender": "kofi",
+          "body": "Thinking of you. Call me at lunch ❤️",
+          "time": "7:12 AM"
+        }
+      ],
+      "meta": {
+        "beat": "The morning the shutters come down."
+      }
+    },
+    {
+      "id": "s05",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "5:34"
+        }
+      },
+      "deviceOwner": "tess",
+      "participants": [
+        "tess",
+        "leah"
+      ],
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Tue, Mar 9 at 5:30 PM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "leah",
+          "text": "Ms. Pellerin, one more thing before tomorrow's news. I'd rather you heard it from me."
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "leah",
+          "text": "The call log on June's phone shows an outgoing 911 call at 6:41 PM on January 12. It was cancelled after 0 seconds."
+        }
+      ],
+      "meta": {
+        "beat": "Cliffhanger: the cancelled 911 call."
+      }
+    }
+  ]
+}

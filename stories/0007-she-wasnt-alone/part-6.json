@@ -1,0 +1,347 @@
+{
+  "schemaVersion": 1,
+  "storyId": "0007",
+  "partNumber": 6,
+  "title": "Three Hours",
+  "summary": "Glen goes silent for a day, then accidentally forwards a hospital parking receipt: Bridgewater, 6:31 to 8:47 pm on 12 January. He explains. He has early, treatable prostate cancer, and the results came that night. He and June had planned to tell the family together. Owen softens. Tess finds June's email password and, in her inbox, a developer's message sent the day after she died.",
+  "status": "final",
+  "cliffhanger": "Harbourline Properties, 13 January: \"Following our conversation on January 12, we'll proceed once the property is vacant.\"",
+  "createdAt": "2026-10-09T22:30:00Z",
+  "updatedAt": "2026-10-09T22:30:00Z",
+  "screenshots": [
+    {
+      "id": "s01",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "6:42"
+        }
+      },
+      "deviceOwner": "tess",
+      "participants": [
+        "tess",
+        "glen"
+      ],
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Tue, Feb 9 at 2:02 PM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "tess",
+          "text": "Glen, I'm not accusing you of anything. I just need the hours."
+        },
+        {
+          "kind": "timestamp",
+          "id": "t02",
+          "label": "Tue, Feb 9 at 6:40 PM"
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "tess",
+          "receipt": {
+            "status": "read",
+            "at": "6:41 PM"
+          },
+          "text": "Margo says you haven't left the house today. Please eat something."
+        }
+      ],
+      "meta": {
+        "beat": "Silence."
+      }
+    },
+    {
+      "id": "s02",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "9:32"
+        }
+      },
+      "deviceOwner": "tess",
+      "participants": [
+        "tess",
+        "glen"
+      ],
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Wed, Feb 10 at 8:05 AM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "glen",
+          "text": "Fwd: BRHC Parking: Thank you for parking with us. Session 6:31 PM – 8:47 PM, Jan 12. Total $6.00"
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "glen",
+          "text": "Sorry Tess that wasnt meant for you. I was looking for the furnace man"
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "tess",
+          "text": "Glen. Bridgewater hospital, 6:31 to 8:47, January 12th?"
+        },
+        {
+          "kind": "timestamp",
+          "id": "t02",
+          "label": "Wed, Feb 10 at 9:30 AM"
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "glen",
+          "text": "Can I phone you instead"
+        },
+        {
+          "kind": "message",
+          "id": "m05",
+          "sender": "tess",
+          "text": "I'm in court till 12. Text me, and I'll read every word."
+        }
+      ],
+      "meta": {
+        "beat": "The parking receipt."
+      }
+    },
+    {
+      "id": "s03",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "12:31"
+        }
+      },
+      "deviceOwner": "tess",
+      "participants": [
+        "tess",
+        "glen"
+      ],
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Wed, Feb 10 at 12:15 PM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "glen",
+          "text": "In November I had a scan. Prostate. June drove me"
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "glen",
+          "text": "The results came on the 12th. The doctor could only see me that evening so I left the bonspiel at 6... told the boys my back was sore"
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "glen",
+          "text": "It's early. Very treatable they said. Radiation in the spring"
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "glen",
+          "text": "June and I agreed we'd tell you and Owen together. When you came down on the Saturday"
+        },
+        {
+          "kind": "message",
+          "id": "m05",
+          "sender": "glen",
+          "text": "I sat in the car after and phoned her at 8.50 to say it was good news. She didnt answer. I thought she was in the bath"
+        },
+        {
+          "kind": "message",
+          "id": "m06",
+          "sender": "glen",
+          "text": "She was on the stairs Tess. While I sat in a parking lot feeling lucky"
+        },
+        {
+          "kind": "message",
+          "id": "m07",
+          "sender": "tess",
+          "text": "Glen, I'm so sorry. For all of it."
+        },
+        {
+          "kind": "message",
+          "id": "m08",
+          "sender": "tess",
+          "text": "I'm coming down this weekend. You're not doing radiation on your own."
+        },
+        {
+          "kind": "message",
+          "id": "m09",
+          "sender": "glen",
+          "text": "You have your own life dear"
+        },
+        {
+          "kind": "message",
+          "id": "m10",
+          "sender": "tess",
+          "text": "You're in it. That's not up for debate."
+        },
+        {
+          "kind": "message",
+          "id": "m11",
+          "sender": "glen",
+          "text": "I've been eating her preserves for supper. The cellar shelf is still full. I can't go down there yet..."
+        }
+      ],
+      "meta": {
+        "beat": "Glen's secret."
+      }
+    },
+    {
+      "id": "s04",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "7:20"
+        }
+      },
+      "deviceOwner": "tess",
+      "participants": [
+        "tess",
+        "owen"
+      ],
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Thu, Feb 11 at 7:02 PM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "tess",
+          "text": "I'm telling you this with Glen's permission. He has prostate cancer, early and treatable. That's where he was on the 12th. He and June were going to tell us together."
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "owen",
+          "text": "oh"
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "owen",
+          "text": "oh man"
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "owen",
+          "text": "and i was in her kitchen yelling about a truck"
+        },
+        {
+          "kind": "message",
+          "id": "m05",
+          "sender": "tess",
+          "text": "You didn't know."
+        },
+        {
+          "kind": "message",
+          "id": "m06",
+          "sender": "owen",
+          "text": "im gonna text him"
+        },
+        {
+          "kind": "message",
+          "id": "m07",
+          "sender": "owen",
+          "text": "not a weird text. a normal text"
+        },
+        {
+          "kind": "message",
+          "id": "m08",
+          "sender": "tess",
+          "text": "A normal text is perfect."
+        }
+      ],
+      "meta": {
+        "beat": "Owen softens."
+      }
+    },
+    {
+      "id": "s05",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "9:19"
+        }
+      },
+      "deviceOwner": "tess",
+      "participants": [
+        "tess",
+        "kofi"
+      ],
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Thu, Feb 11 at 9:12 PM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "tess",
+          "text": "Found June's password notebook in the desk. I'm in her email. She'd hate that."
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "kofi",
+          "text": "she'd hate that she has a password notebook"
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "tess",
+          "attachment": {
+            "type": "image",
+            "label": "Screenshot",
+            "detail": "Inbox — june.pellerin"
+          }
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "tess",
+          "text": "Seed catalogues, the church bulletin, and this. Dated the 13th. The day after."
+        },
+        {
+          "kind": "message",
+          "id": "m05",
+          "sender": "tess",
+          "text": "Harbourline Properties: \"Following our conversation on January 12, we'll proceed once the property is vacant. Best, Kyle Brandt\""
+        }
+      ],
+      "meta": {
+        "beat": "Cliffhanger: \"once the property is vacant\"."
+      }
+    }
+  ]
+}

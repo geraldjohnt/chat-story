@@ -1,0 +1,392 @@
+{
+  "schemaVersion": 1,
+  "storyId": "0007",
+  "partNumber": 14,
+  "title": "Thursdays",
+  "summary": "Tess reports Paul's invitation and the Kaulbach Street ping to Cst. Morrison and stays in Halifax. The texter can't answer her question, because answering means \"everything happens\". Then they say June helped them with chemistry on Thursdays. Tess remembers June at Christmas talking about \"my Thursday boy\": the Comeau boy. Paul asks again whether the number has been traced, and Owen admits he told half the Legion about the messages.",
+  "status": "final",
+  "cliffhanger": "The texter: \"i found it in my dads truck.\"",
+  "createdAt": "2026-10-09T22:30:00Z",
+  "updatedAt": "2026-10-09T22:30:00Z",
+  "screenshots": [
+    {
+      "id": "s01",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "10:07"
+        }
+      },
+      "deviceOwner": "tess",
+      "participants": [
+        "tess",
+        "leah"
+      ],
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Sat, Feb 27 at 10:00 AM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "tess",
+          "text": "For the record: Paul Comeau invited me to the pharmacy's back office \"after 6.\" I'm not going."
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "tess",
+          "text": "Also, June's phone was online on Kaulbach Street last night at 10:47 PM. Paul Comeau lives on Kaulbach Street."
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "leah",
+          "text": "Thank you. That's the right decision. Send me the screenshot."
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "leah",
+          "text": "I'm asking you again not to go there."
+        },
+        {
+          "kind": "message",
+          "id": "m05",
+          "sender": "tess",
+          "text": "I'm in Halifax. I'm staying in Halifax."
+        }
+      ],
+      "meta": {
+        "beat": "Tess stays away."
+      }
+    },
+    {
+      "id": "s02",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "2:53"
+        }
+      },
+      "deviceOwner": "tess",
+      "participants": [
+        "tess",
+        "june"
+      ],
+      "title": "Aunt June",
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Sat, Feb 27 at 2:30 PM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "june",
+          "text": "i cant answer that"
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "june",
+          "text": "if i answer it everything happens"
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "tess",
+          "text": "Okay. You don't have to answer."
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "tess",
+          "text": "Can I tell you what I think instead? You can just read."
+        },
+        {
+          "kind": "message",
+          "id": "m05",
+          "sender": "june",
+          "text": "ok"
+        },
+        {
+          "kind": "message",
+          "id": "m06",
+          "sender": "tess",
+          "text": "I think June was kind to you. I think you found something you weren't supposed to find. And I think you've carried it on your own for a month."
+        },
+        {
+          "kind": "timestamp",
+          "id": "t02",
+          "label": "Sat, Feb 27 at 2:51 PM"
+        },
+        {
+          "kind": "message",
+          "id": "m07",
+          "sender": "june",
+          "text": "she helped me with chem on thursdays"
+        },
+        {
+          "kind": "message",
+          "id": "m08",
+          "sender": "june",
+          "text": "she said i was good at it"
+        },
+        {
+          "kind": "message",
+          "id": "m09",
+          "sender": "june",
+          "text": "nobody ever said i was good at anything except the wharf"
+        }
+      ],
+      "meta": {
+        "beat": "Thursdays."
+      }
+    },
+    {
+      "id": "s03",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "3:09"
+        }
+      },
+      "deviceOwner": "tess",
+      "participants": [
+        "tess",
+        "kofi"
+      ],
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Sat, Feb 27 at 3:01 PM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "tess",
+          "text": "Chemistry on Thursdays. Kofi, she talked about it at Christmas. \"My Thursday boy. The Comeau boy. Brilliant and doesn't know it.\""
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "kofi",
+          "text": "oh no"
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "tess",
+          "text": "Paul Comeau's son."
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "kofi",
+          "text": "If that's right, that kid is texting you from his dad's house"
+        },
+        {
+          "kind": "message",
+          "id": "m05",
+          "sender": "tess",
+          "text": "I know."
+        },
+        {
+          "kind": "message",
+          "id": "m06",
+          "sender": "kofi",
+          "text": "Then it isn't a clue anymore. It's a sixteen year old who might be in trouble. Go slow"
+        }
+      ],
+      "meta": {
+        "beat": "The Comeau boy."
+      }
+    },
+    {
+      "id": "s04",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "6:18"
+        }
+      },
+      "deviceOwner": "tess",
+      "participants": [
+        "tess",
+        "paul"
+      ],
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Sun, Feb 28 at 6:12 PM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "paul",
+          "text": "Hi Tess! Sorry to bother on a Sunday. Did the RCMP ever trace that number? Glen didn't seem to know."
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "paul",
+          "text": "Only asking because people are saying all sorts and it's not good for anyone, least of all the family!"
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "tess",
+          "text": "I don't know, Paul."
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "paul",
+          "text": "Owen was telling the Legion the messages say June \"wasn't alone.\" Terrible thing to put in a grieving family's head!"
+        },
+        {
+          "kind": "message",
+          "id": "m05",
+          "sender": "tess",
+          "text": "Yes. Terrible."
+        }
+      ],
+      "meta": {
+        "beat": "Paul asks again."
+      }
+    },
+    {
+      "id": "s05",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "6:37"
+        }
+      },
+      "deviceOwner": "tess",
+      "participants": [
+        "tess",
+        "owen"
+      ],
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Sun, Feb 28 at 6:25 PM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "tess",
+          "text": "Owen, did you tell people at the Legion about the messages?"
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "owen",
+          "text": "…maybe"
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "owen",
+          "text": "ok yes. friday. 3 beers and everyone kept saying sorry about june and i said maybe it wasnt even an accident"
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "owen",
+          "text": "is that bad"
+        },
+        {
+          "kind": "message",
+          "id": "m05",
+          "sender": "tess",
+          "text": "It means all of Port Ardoise knows someone has her phone."
+        },
+        {
+          "kind": "message",
+          "id": "m06",
+          "sender": "owen",
+          "text": "oh"
+        },
+        {
+          "kind": "message",
+          "id": "m07",
+          "sender": "owen",
+          "text": "tess im sorry. i keep making it worse"
+        },
+        {
+          "kind": "message",
+          "id": "m08",
+          "sender": "tess",
+          "text": "You told the truth too loudly. There are worse family traits."
+        }
+      ],
+      "meta": {
+        "beat": "Owen talked."
+      }
+    },
+    {
+      "id": "s06",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "12:36"
+        }
+      },
+      "deviceOwner": "tess",
+      "participants": [
+        "tess",
+        "june"
+      ],
+      "title": "Aunt June",
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Mon, Mar 1 at 12:31 PM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "june",
+          "text": "you know who i am now dont you"
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "tess",
+          "text": "I think so. You don't have to say it."
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "june",
+          "text": "i found it in my dads truck."
+        }
+      ],
+      "meta": {
+        "beat": "Cliffhanger: his dad's truck."
+      }
+    }
+  ]
+}

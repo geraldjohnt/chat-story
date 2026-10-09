@@ -1,0 +1,283 @@
+{
+  "schemaVersion": 1,
+  "storyId": "0007",
+  "partNumber": 9,
+  "title": "Tuesdays",
+  "summary": "Margo names everyone at Harbour Drug: Paul Comeau, the owner; Bree Langille, the technician; Cody Pike, the delivery driver. B.L. is Bree. The texter says June told them to stay out of \"grown up business\" and that she was kind to them when she didn't have to be. Cst. Morrison agrees to \"have a look\" at the draft. Before Tess can decide what to do about Bree, Bree texts her.",
+  "status": "final",
+  "cliffhanger": "Bree Langille: \"Please don't go to the police about me before we talk.\"",
+  "createdAt": "2026-10-09T22:30:00Z",
+  "updatedAt": "2026-10-09T22:30:00Z",
+  "screenshots": [
+    {
+      "id": "s01",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "6:12"
+        }
+      },
+      "deviceOwner": "tess",
+      "participants": [
+        "tess",
+        "margo"
+      ],
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Sun, Feb 14 at 6:02 PM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "tess",
+          "text": "Margo, who works at Harbour Drug? Everyone, I mean."
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "margo",
+          "text": "Now Tess, that's an easy one. Paul Comeau owns it, he's the pharmacist. Bree Langille is the technician, lovely girl, doing her nursing. Cody Pike drives the deliveries, he's a Pike from the Cove, they're all a bit rough but he's fine. And June, when Paul needed a day off."
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "tess",
+          "text": "Bree Langille."
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "margo",
+          "text": "Why do you ask, dear?"
+        },
+        {
+          "kind": "message",
+          "id": "m05",
+          "sender": "tess",
+          "text": "Paperwork. Thank you, Margo."
+        },
+        {
+          "kind": "message",
+          "id": "m06",
+          "sender": "margo",
+          "text": "You sound just like June when you say paperwork. xo M"
+        }
+      ],
+      "meta": {
+        "beat": "B.L. is Bree Langille."
+      }
+    },
+    {
+      "id": "s02",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "12:34"
+        }
+      },
+      "deviceOwner": "tess",
+      "participants": [
+        "tess",
+        "june"
+      ],
+      "title": "Aunt June",
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Mon, Feb 15 at 12:20 PM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "tess",
+          "receipt": {
+            "status": "read",
+            "at": "12:26 PM"
+          },
+          "text": "Did June ever talk to you about the pharmacy?"
+        },
+        {
+          "kind": "timestamp",
+          "id": "t02",
+          "label": "Mon, Feb 15 at 12:29 PM"
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "june",
+          "text": "she told me to stay out of it"
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "june",
+          "text": "she said it was grown up business"
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "tess",
+          "text": "So you knew her. She talked to you."
+        },
+        {
+          "kind": "message",
+          "id": "m05",
+          "sender": "june",
+          "text": "everybody knew her"
+        },
+        {
+          "kind": "message",
+          "id": "m06",
+          "sender": "june",
+          "text": "she was nice to me when she didnt have to be"
+        }
+      ],
+      "meta": {
+        "beat": "The texter knew June."
+      }
+    },
+    {
+      "id": "s03",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "4:08"
+        }
+      },
+      "deviceOwner": "tess",
+      "participants": [
+        "tess",
+        "leah"
+      ],
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Mon, Feb 15 at 4:01 PM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "leah",
+          "text": "Ms. Pellerin, I've read the draft. Given its timing, I'm going to have a look. That isn't reopening the file. It's a look."
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "tess",
+          "text": "Thank you. Truly."
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "leah",
+          "text": "Send me anything else you have. The texts from her number too, with times."
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "tess",
+          "text": "Already in a document. Times to the minute."
+        },
+        {
+          "kind": "message",
+          "id": "m05",
+          "sender": "leah",
+          "text": "Of course they are."
+        }
+      ],
+      "meta": {
+        "beat": "Leah will \"have a look\"."
+      }
+    },
+    {
+      "id": "s04",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "9:03"
+        }
+      },
+      "deviceOwner": "tess",
+      "participants": [
+        "tess",
+        "kofi"
+      ],
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Mon, Feb 15 at 9:00 PM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "tess",
+          "text": "Leah is \"having a look.\" That's RCMP for \"you were right.\""
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "kofi",
+          "text": "That's RCMP for \"having a look\""
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "tess",
+          "text": "Let me have this."
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "kofi",
+          "text": "you can have this ❤️"
+        }
+      ],
+      "meta": {
+        "beat": "A small win."
+      }
+    },
+    {
+      "id": "s05",
+      "type": "notification",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "deviceOwner": "tess",
+      "lockScreen": {
+        "time": "7:48",
+        "date": "Tuesday, February 16"
+      },
+      "notifications": [
+        {
+          "id": "n1",
+          "app": "messages",
+          "sender": "bree",
+          "body": "Hi Tess, this is Bree Langille from Harbour Drug. I know you're June's niece.",
+          "time": "now"
+        },
+        {
+          "id": "n2",
+          "app": "messages",
+          "sender": "bree",
+          "body": "Please don't go to the police about me before we talk.",
+          "time": "now"
+        }
+      ],
+      "meta": {
+        "beat": "Cliffhanger: Bree writes first."
+      }
+    }
+  ]
+}

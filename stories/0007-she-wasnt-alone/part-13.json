@@ -1,0 +1,311 @@
+{
+  "schemaVersion": 1,
+  "storyId": "0007",
+  "partNumber": 13,
+  "title": "Kaulbach Street",
+  "summary": "Tess passes Bree's evidence to Cst. Morrison, who tells her plainly not to approach Paul Comeau. Tess lists what she's noticed: Paul's \"the week before\", although June worked his shift the day before she died, and his \"stairs in the dark\", a detail only Glen and the police knew. Paul invites her to the pharmacy's back office \"after 6\". Late on Friday night, June's phone comes online on a residential street.",
+  "status": "final",
+  "cliffhanger": "Margo: Kaulbach Street is where Paul Comeau lives, \"him and the boy\". Tess asks the texter whether they live there, and the typing indicator keeps starting and stopping.",
+  "createdAt": "2026-10-09T22:30:00Z",
+  "updatedAt": "2026-10-09T22:30:00Z",
+  "screenshots": [
+    {
+      "id": "s01",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "9:13"
+        }
+      },
+      "deviceOwner": "tess",
+      "participants": [
+        "tess",
+        "leah"
+      ],
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Tue, Feb 23 at 9:00 AM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "tess",
+          "text": "Cst. Morrison, Bree Langille has evidence her initials were forged on the narcotic register on four Tuesdays in December. She was at a hospital practicum on those days, with sign-in sheets. She'll speak to you."
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "leah",
+          "text": "Thank you. I'll contact her today."
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "tess",
+          "text": "She says the narcotic orders are placed on Tuesdays, by Paul Comeau."
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "leah",
+          "text": "Ms. Pellerin, I need you to hear this clearly. Do not approach Mr. Comeau. Do not discuss any of this with him."
+        },
+        {
+          "kind": "message",
+          "id": "m05",
+          "sender": "tess",
+          "text": "He texts me. Every few days. Offering to help."
+        },
+        {
+          "kind": "message",
+          "id": "m06",
+          "sender": "leah",
+          "text": "Then be polite and brief, and send me what he sends."
+        }
+      ],
+      "meta": {
+        "beat": "Leah: do not approach him."
+      }
+    },
+    {
+      "id": "s02",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "7:16"
+        }
+      },
+      "deviceOwner": "tess",
+      "participants": [
+        "tess",
+        "kofi"
+      ],
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Tue, Feb 23 at 7:04 PM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "tess",
+          "text": "Paul. Kofi, he trained under her. He did a reading at the funeral."
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "kofi",
+          "text": "I know"
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "tess",
+          "text": "He said \"those cellar stairs in the dark.\" The light being off isn't in the obituary. Glen told the police and me. That's it."
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "tess",
+          "text": "And \"the last time I saw her, the week before.\" Margo says June worked a shift for him on the Monday. The day before she died."
+        },
+        {
+          "kind": "message",
+          "id": "m05",
+          "sender": "kofi",
+          "text": "Two slips is two slips. Could be gossip. Could be a guess. Let Leah do it"
+        },
+        {
+          "kind": "message",
+          "id": "m06",
+          "sender": "tess",
+          "text": "I'm letting her. I'm also making a list."
+        }
+      ],
+      "meta": {
+        "beat": "Tess lists Paul's slips."
+      }
+    },
+    {
+      "id": "s03",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "12:16"
+        }
+      },
+      "deviceOwner": "tess",
+      "participants": [
+        "tess",
+        "paul"
+      ],
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Wed, Feb 24 at 12:10 PM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "paul",
+          "text": "Hi Tess! Good news, I've pulled all of June's old relief schedules and files. Some lovely notes in her handwriting you'll want for the family!"
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "paul",
+          "text": "Come by the pharmacy whenever you're in town. Back office is nice and quiet after 6 😊"
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "tess",
+          "text": "Thank you, Paul. I'll let you know."
+        }
+      ],
+      "meta": {
+        "beat": "An invitation \"after 6\"."
+      }
+    },
+    {
+      "id": "s04",
+      "type": "notification",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "deviceOwner": "tess",
+      "lockScreen": {
+        "time": "10:48",
+        "date": "Friday, February 26"
+      },
+      "notifications": [
+        {
+          "id": "n1",
+          "app": "other",
+          "appName": "Find My",
+          "title": "June's iPhone",
+          "body": "Located near Kaulbach St, Port Ardoise. Updated just now.",
+          "time": "10:47 PM"
+        },
+        {
+          "id": "n2",
+          "app": "messages",
+          "sender": "june",
+          "title": "Aunt June",
+          "body": "cant sleep",
+          "time": "now"
+        }
+      ],
+      "meta": {
+        "beat": "A late-night ping on a residential street."
+      }
+    },
+    {
+      "id": "s05",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "8:14"
+        }
+      },
+      "deviceOwner": "tess",
+      "participants": [
+        "tess",
+        "margo"
+      ],
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Sat, Feb 27 at 8:02 AM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "tess",
+          "text": "Morning Margo. Quick question. Who lives on Kaulbach Street?"
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "margo",
+          "text": "Now Tess, that's the new end of town. The Rafuses, the dentist, and Paul Comeau, his is the one with the red door. Nice house. Him and the boy."
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "tess",
+          "text": "Thank you, Margo."
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "margo",
+          "text": "Is everything all right, dear?"
+        },
+        {
+          "kind": "message",
+          "id": "m05",
+          "sender": "tess",
+          "text": "Paperwork."
+        }
+      ],
+      "meta": {
+        "beat": "Margo: Paul's street."
+      }
+    },
+    {
+      "id": "s06",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "8:31"
+        }
+      },
+      "deviceOwner": "tess",
+      "participants": [
+        "tess",
+        "june"
+      ],
+      "title": "Aunt June",
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Sat, Feb 27 at 8:20 AM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "tess",
+          "receipt": {
+            "status": "read",
+            "at": "8:22 AM"
+          },
+          "text": "Do you live on Kaulbach Street?"
+        },
+        {
+          "kind": "typing",
+          "id": "y01",
+          "sender": "june"
+        }
+      ],
+      "meta": {
+        "beat": "Cliffhanger: the typing indicator starts and stops."
+      }
+    }
+  ]
+}

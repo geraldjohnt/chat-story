@@ -1,0 +1,870 @@
+{
+  "schemaVersion": 1,
+  "id": "0007",
+  "title": "She Wasn't Alone",
+  "slug": "she-wasnt-alone",
+  "genre": "mystery",
+  "tags": [
+    "mystery",
+    "whodunit",
+    "small-town",
+    "family",
+    "anonymous-texter",
+    "find-my",
+    "sequel-hook"
+  ],
+  "language": "en",
+  "setting": "Port Ardoise (fictional), South Shore of Nova Scotia, and Halifax; 2 February – 19 March 2027 (late winter). June died Tue 12 January 2027.",
+  "premise": "Three weeks after Aunt June was found at the bottom of her cellar stairs, her missing phone texts the family group chat: \"she wasnt alone.\" Her niece and executor sets out to learn who has the phone and what happened that night.",
+  "synopsis": "June Pellerin's death was ruled an accident and her phone was never found. Then it texts the family chat. Tess, a court stenographer, turns on Find My and builds a timeline. Everyone close to June lied about the 12th: her nephew, her partner, a developer. June's unsent report about missing narcotics points to the town pharmacy, and the anonymous texter keeps surfacing at lunchtime, after school and on the wharf. The person holding June's phone is sixteen, and he found it in his father's truck.",
+  "characters": [
+    {
+      "id": "tess",
+      "name": "Tess Pellerin",
+      "contactName": "Tess",
+      "role": "Device owner, court stenographer (Halifax), June's executor",
+      "age": 34,
+      "description": "Precise and calm on the surface; guilty that she postponed the visit June asked for. Full sentences, numbered lists, exact times.",
+      "avatar": {
+        "initials": "TP",
+        "color": "#283593"
+      }
+    },
+    {
+      "id": "kofi",
+      "name": "Kofi Mensah",
+      "contactName": "Kofi ❤️",
+      "role": "Tess's husband, high-school chemistry teacher",
+      "age": 36,
+      "description": "Grounded and funny; spots the school-bell pattern. Dry jokes, short lines, lowercase starts.",
+      "avatar": {
+        "initials": "KM",
+        "color": "#2E7D32"
+      }
+    },
+    {
+      "id": "owen",
+      "name": "Owen Pellerin",
+      "contactName": "Owen",
+      "role": "Tess's younger brother, landscaper (Bridgewater)",
+      "age": 29,
+      "description": "Charming, defensive, ashamed. All lowercase, rapid bursts, \"ok but\".",
+      "avatar": {
+        "initials": "OP",
+        "color": "#EF6C00"
+      }
+    },
+    {
+      "id": "glen",
+      "name": "Glen Ashby",
+      "contactName": "Glen",
+      "role": "June's partner of six years, retired ferry engineer",
+      "age": 74,
+      "description": "Gentle and private. Ellipses everywhere, the occasional accidental CAPS.",
+      "avatar": {
+        "initials": "GA",
+        "color": "#5D4037"
+      }
+    },
+    {
+      "id": "margo",
+      "name": "Margo Doucette",
+      "contactName": "Margo Doucette",
+      "role": "June's next-door neighbour and best friend",
+      "age": 69,
+      "description": "Observant, kind gossip. Long messages, \"Now Tess,\", signs \"xo M\".",
+      "avatar": {
+        "initials": "MD",
+        "color": "#AD1457"
+      }
+    },
+    {
+      "id": "leah",
+      "name": "Leah Morrison",
+      "contactName": "Cst. Leah Morrison",
+      "role": "RCMP constable, Port Ardoise detachment",
+      "age": 38,
+      "description": "Fair and overworked. Brief, formal, no emoji; addresses Tess as \"Ms. Pellerin\".",
+      "avatar": {
+        "initials": "LM",
+        "color": "#37474F"
+      }
+    },
+    {
+      "id": "paul",
+      "name": "Paul Comeau",
+      "contactName": "Paul Comeau (Harbour Drug)",
+      "role": "Owner-pharmacist of Harbour Drug",
+      "age": 52,
+      "description": "Warm, polished pillar of the town; trained under June in 1996. Exclamation marks and \"Thinking of you!\" until he is cornered.",
+      "avatar": {
+        "initials": "PC",
+        "color": "#00838F"
+      }
+    },
+    {
+      "id": "bree",
+      "name": "Bree Langille",
+      "contactName": "Bree Langille",
+      "role": "Pharmacy technician at Harbour Drug, nursing student",
+      "age": 28,
+      "description": "Anxious and conscientious; kept her own count notebook. Many quick messages, \"sorry sorry\".",
+      "avatar": {
+        "initials": "BL",
+        "color": "#7B1FA2"
+      }
+    },
+    {
+      "id": "cody",
+      "name": "Cody Pike",
+      "contactName": "Cody Pike",
+      "role": "Harbour Drug delivery driver",
+      "age": 22,
+      "description": "Blunt and quick to take offence. Lowercase, one-liners, \"yo\".",
+      "avatar": {
+        "initials": "CP",
+        "color": "#558B2F"
+      }
+    },
+    {
+      "id": "kyle",
+      "name": "Kyle Brandt",
+      "contactName": "Kyle Brandt – Harbourline",
+      "role": "Acquisitions agent, Harbourline Properties",
+      "age": 41,
+      "description": "Slick and persistent. \"Per my last\", 👍.",
+      "avatar": {
+        "initials": "KB",
+        "color": "#455A64"
+      }
+    },
+    {
+      "id": "noah",
+      "name": "Noah Comeau",
+      "contactName": "Noah Comeau",
+      "role": "Paul's son, Grade 11, wharf hand; June's chemistry tutee",
+      "age": 16,
+      "description": "The anonymous texter (he writes from June's number until part 17). Lowercase, no apostrophes, \"ngl\"; never signs.",
+      "avatar": {
+        "initials": "NC",
+        "color": "#1565C0"
+      }
+    },
+    {
+      "id": "june",
+      "name": "June Pellerin",
+      "contactName": "Aunt June",
+      "role": "Tess and Owen's aunt, retired pharmacist (deceased)",
+      "age": 71,
+      "description": "Died 12 Jan 2027. Her own messages: sentence case, full stops, signed \"J.\" Messages from this contact sent from 2 Feb to 4 Mar are Noah's.",
+      "avatar": {
+        "initials": "JP",
+        "color": "#9E9D24"
+      }
+    },
+    {
+      "id": "shannon",
+      "name": "Shannon Hiltz",
+      "contactName": "Shannon Hiltz",
+      "role": "Noah's mother (Bridgewater)",
+      "age": 45,
+      "description": "Divorced from Paul; shaken but steady.",
+      "avatar": {
+        "initials": "SH",
+        "color": "#6D4C41"
+      }
+    },
+    {
+      "id": "harbour-drug",
+      "name": "Harbour Drug",
+      "contactName": "Harbour Drug",
+      "role": "Automated pharmacy SMS",
+      "description": "Automated notices.",
+      "avatar": {
+        "initials": "HD",
+        "color": "#00838F"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "tess",
+      "to": "june",
+      "type": "niece / aunt",
+      "description": "June helped raise Tess and Owen after their parents died in 2012; Tess is her executor."
+    },
+    {
+      "from": "tess",
+      "to": "owen",
+      "type": "siblings",
+      "description": "Close but strained by Owen's lie about the 12th."
+    },
+    {
+      "from": "tess",
+      "to": "kofi",
+      "type": "married",
+      "description": "Halifax; no children."
+    },
+    {
+      "from": "glen",
+      "to": "june",
+      "type": "partners (unmarried)",
+      "description": "Six years; Glen still lives in her house."
+    },
+    {
+      "from": "margo",
+      "to": "june",
+      "type": "neighbours / best friends",
+      "description": "Forty years next door; holds a spare key."
+    },
+    {
+      "from": "paul",
+      "to": "june",
+      "type": "former trainee / colleague",
+      "description": "June trained Paul in 1996; she did relief shifts at Harbour Drug after retiring."
+    },
+    {
+      "from": "noah",
+      "to": "june",
+      "type": "tutee / tutor",
+      "description": "Free chemistry tutoring every Thursday."
+    },
+    {
+      "from": "noah",
+      "to": "paul",
+      "type": "son / father",
+      "description": "Lives with his father; mother in Bridgewater."
+    },
+    {
+      "from": "bree",
+      "to": "paul",
+      "type": "employee / employer",
+      "description": "Pharmacy technician."
+    },
+    {
+      "from": "cody",
+      "to": "paul",
+      "type": "employee / employer",
+      "description": "Delivery driver."
+    }
+  ],
+  "centralConflict": "Truth against loyalty. Everyone guards a small secret that hides a big one; Tess must stop being the person who writes down what others say and ask the questions that hurt her own family, while a sixteen-year-old must decide whether to turn in his father.",
+  "secrets": [
+    {
+      "id": "phone-taken",
+      "holder": "paul",
+      "description": "Paul took June's phone and her box of register copies on 12 Jan and hid the phone in his truck's toolbox lockbox.",
+      "revealedInPart": 14
+    },
+    {
+      "id": "texter",
+      "holder": "noah",
+      "description": "Noah found the phone on 31 Jan, opened it with June's birth year (1955) and texts anonymously from her number.",
+      "revealedInPart": 16
+    },
+    {
+      "id": "owen-visit",
+      "holder": "owen",
+      "description": "Owen was at June's 2:00–2:40 pm on 12 Jan asking for $3,500; lied that he hadn't seen her since Christmas.",
+      "revealedInPart": 4
+    },
+    {
+      "id": "glen-hours",
+      "holder": "glen",
+      "description": "Glen left the bonspiel at 6 for prostate-cancer results at the Bridgewater hospital (6:31–8:47 pm).",
+      "revealedInPart": 6
+    },
+    {
+      "id": "june-report",
+      "holder": "june",
+      "description": "June's unsent report to the NS College of Pharmacists about Tuesday narcotic discrepancies at Harbour Drug.",
+      "revealedInPart": 8
+    },
+    {
+      "id": "forged-initials",
+      "holder": "paul",
+      "description": "Bree's initials were forged on the register on four December Tuesdays; she was at her practicum.",
+      "revealedInPart": 12
+    },
+    {
+      "id": "six-oclock",
+      "holder": "paul",
+      "description": "June invited Paul at 6 pm to explain; she fell at the cellar door; a 911 call from her phone at 6:41 pm was cancelled; Paul left with the phone and the box.",
+      "revealedInPart": 18
+    },
+    {
+      "id": "green-tin",
+      "holder": "june",
+      "description": "A second set of register copies and a sealed letter to Tess, hidden in a green tin behind the cellar preserves.",
+      "revealedInPart": 20
+    }
+  ],
+  "plotOutline": [
+    {
+      "partNumber": 1,
+      "title": "She Wasn't Alone",
+      "beats": [
+        "Group chat: \"she wasnt alone\"",
+        "Voicemail",
+        "Not June's voice",
+        "Private: someone in the chat is lying"
+      ]
+    },
+    {
+      "partNumber": 2,
+      "title": "Notify When Found",
+      "beats": [
+        "Glen: phone always in cardigan",
+        "RCMP: file closed",
+        "Owen hostile",
+        "Notify When Found",
+        "Found near the high school"
+      ]
+    },
+    {
+      "partNumber": 3,
+      "title": "Not on the Phone",
+      "beats": [
+        "Six minutes at lunch",
+        "\"Not on the phone\"",
+        "Guilt",
+        "Margo: out of sorts; a truck",
+        "Owen's truck"
+      ]
+    },
+    {
+      "partNumber": 4,
+      "title": "2:40",
+      "beats": [
+        "Owen denies",
+        "Owen confesses: $3,500",
+        "Call log 2:41",
+        "\"Do you believe him?\"",
+        "\"she was fine at 5\""
+      ]
+    },
+    {
+      "partNumber": 5,
+      "title": "Fine at Five",
+      "beats": [
+        "Timeline; light was off",
+        "Paul's condolences (\"the week before\")",
+        "Glen's account",
+        "\"where'd Glen go at 6??\""
+      ]
+    },
+    {
+      "partNumber": 6,
+      "title": "Three Hours",
+      "beats": [
+        "Silence",
+        "Parking receipt",
+        "Glen's diagnosis",
+        "Owen softens",
+        "Harbourline email"
+      ]
+    },
+    {
+      "partNumber": 7,
+      "title": "Harbourline",
+      "beats": [
+        "Kyle stonewalls",
+        "Owen wants to go round",
+        "Council minutes alibi",
+        "Bell schedule: a kid",
+        "Drafts (1)"
+      ]
+    },
+    {
+      "partNumber": 8,
+      "title": "Drafts (1)",
+      "beats": [
+        "The draft",
+        "Kofi: call Leah",
+        "Leah reads it",
+        "Paul: \"in the dark\"",
+        "B.L."
+      ]
+    },
+    {
+      "partNumber": 9,
+      "title": "Tuesdays",
+      "beats": [
+        "Margo names the staff",
+        "Texter: \"grown up business\"",
+        "Leah has a look",
+        "Bree writes first"
+      ]
+    },
+    {
+      "partNumber": 10,
+      "title": "B.L.",
+      "beats": [
+        "Bree frightened",
+        "Guilty or scared",
+        "Paul points at Bree; asks about the number",
+        "Delivery log 5:05"
+      ]
+    },
+    {
+      "partNumber": 11,
+      "title": "Signed at 5:05",
+      "beats": [
+        "Tess suspects Cody",
+        "Mooseheads game vs wharf ping",
+        "Apology; two mugs",
+        "\"stop asking cody\""
+      ]
+    },
+    {
+      "partNumber": 12,
+      "title": "Two Mugs",
+      "beats": [
+        "\"J.\" slip",
+        "June texted this kid",
+        "Bree's notebook",
+        "Tuesdays are Paul's"
+      ]
+    },
+    {
+      "partNumber": 13,
+      "title": "Kaulbach Street",
+      "beats": [
+        "Leah: don't approach",
+        "Paul's slips listed",
+        "\"after 6\"",
+        "Kaulbach Street ping",
+        "Margo: Paul's house",
+        "Typing"
+      ]
+    },
+    {
+      "partNumber": 14,
+      "title": "Thursdays",
+      "beats": [
+        "Tess stays in Halifax",
+        "Thursdays",
+        "The Comeau boy",
+        "Paul asks again",
+        "Owen at the Legion",
+        "\"my dads truck\""
+      ]
+    },
+    {
+      "partNumber": 15,
+      "title": "The Toolbox",
+      "beats": [
+        "The lockbox",
+        "He read everything",
+        "Safe adult",
+        "His mom",
+        "Paul noticed"
+      ]
+    },
+    {
+      "partNumber": 16,
+      "title": "Noah",
+      "beats": [
+        "Noah's name",
+        "Leah briefed",
+        "Shannon",
+        "Paul's warning"
+      ]
+    },
+    {
+      "partNumber": 17,
+      "title": "Chain of Custody",
+      "beats": [
+        "On the road",
+        "\"Told you so. J.\"",
+        "Handover",
+        "Family told; Owen confesses to Glen",
+        "File reopened"
+      ]
+    },
+    {
+      "partNumber": 18,
+      "title": "4:48 PM",
+      "beats": [
+        "Monday at 9",
+        "4:48 / 4:51 / 5:06 messages",
+        "Missing box",
+        "Pharmacy closed",
+        "911 at 6:41"
+      ]
+    },
+    {
+      "partNumber": 19,
+      "title": "Six O'Clock",
+      "beats": [
+        "Alive at 6:41",
+        "Paul charged",
+        "Amended findings",
+        "Glen",
+        "Bree cleared",
+        "Noah's question",
+        "Unsent message"
+      ]
+    },
+    {
+      "partNumber": 20,
+      "title": "Bring Your Sensible Head",
+      "beats": [
+        "Phone returned",
+        "The unsent draft",
+        "Family reads it",
+        "Noah's chem notes",
+        "Green tin",
+        "Case made",
+        "The other thing"
+      ]
+    }
+  ],
+  "plannedEnding": "Exposure with bittersweet justice and a sequel hook. Noah hands the phone to the RCMP with his mother and Tess present; Paul Comeau is charged (criminal negligence causing death, drug offences), trial pending. Owen confesses and helps Glen, whose treatment begins; Bree is cleared. June's returned phone holds an unsent draft leading to a green tin: the second set of register copies makes the case, and a sealed letter to Tess opens a new question about her parents' accident. The story ends on Tess typing.",
+  "continuity": [
+    "Port Ardoise is fictional (South Shore, NS), 80 min from Halifax. Harbour Drug and Harbourline Properties are fictional; real institutions (RCMP, NS Medical Examiner Service, NS College of Pharmacists) only referenced generically.",
+    "12 Jan 2027: Owen 2:00–2:40 (call to Atlantic Credit Union 2:41, 14 min); June→Paul 4:48, Paul 4:51 \"6?\"; Cody delivers 5:05 (two mugs, good cookies); June 5:06 \"Come at 6, Glen's out\"; Glen leaves bonspiel at 6, hospital parking 6:31–8:47, calls June 8:50; 911 from June's phone 6:41, cancelled; Glen finds her 9:10, calls 911 at 9:12; cellar light off.",
+    "June's draft report: 11 Jan 11:52 pm; Tuesdays Dec 1, 8, 15, 22 initialled B.L.; Bree at her nursing practicum in Bridgewater on Tuesdays. Paul places the narcotic orders on Tuesdays.",
+    "June's phone: lemon case, passcode 1955 (birth year on Medical ID). Found by Noah 31 Jan in a Ziploc in the lockbox under the toolbox tray of Paul's truck. On Tess's Family Sharing; handed to RCMP Thu 4 Mar 10:22 am in Bridgewater; returned to Tess Fri 19 Mar.",
+    "Messages from the \"Aunt June\" contact dated 2 Feb – 4 Mar are Noah's (lowercase, no apostrophes, one deliberate \"J.\" slip on 21 Feb). June's own messages: sentence case, signed \"J.\"",
+    "Find My pings on school days only at lunch (12:10–12:50) or after 3:20; evenings/weekends any time. Pings: high school 4 Feb 12:14; wharf 19 Feb 8:12 pm; Kaulbach St 26 Feb 10:47 pm.",
+    "Glen: early, treatable prostate cancer; first radiation 6 Apr 2027 (Margo driving). Owen: truck repossessed; pays Glen $200/month; fixes the porch light.",
+    "Paul Comeau charged 10 Mar 2027: criminal negligence causing death and drug offences; in custody; trial pending (no verdict invented). Medical examiner amended manner of death to \"undetermined\" pending proceedings (12 Mar). Bree cleared in writing by the College (13 Mar).",
+    "Green tin behind the crabapple jelly in the cellar: second set of register copies (collected by Leah 19 Mar) and a sealed letter to Tess: \"Your parents' accident wasn't what you were told, and I've let you both believe it for fifteen years.\" Contents beyond the first line are unrevealed (sequel hook). Tess and Owen's parents died in a car accident in 2012."
+  ],
+  "timeline": [
+    {
+      "id": "tl-01",
+      "when": "2012",
+      "event": "Tess and Owen's parents die in a car accident (Tess 19, Owen 14)."
+    },
+    {
+      "id": "tl-02",
+      "when": "2026-11",
+      "event": "June notices Tuesday narcotic discrepancies; Bree starts her own counts; Glen's scan."
+    },
+    {
+      "id": "tl-03",
+      "when": "2026-12",
+      "event": "Register initialled \"B.L.\" on Tue 1, 8, 15, 22 Dec while Bree is at her practicum."
+    },
+    {
+      "id": "tl-04",
+      "when": "2027-01-11",
+      "event": "June's relief shift; asks Bree about the count; texts Tess \"Not on the phone\"; drafts her report at 11:52 pm."
+    },
+    {
+      "id": "tl-05",
+      "when": "2027-01-12 14:00",
+      "event": "Owen at June's, refused $3,500; leaves 2:40.",
+      "partNumber": 4
+    },
+    {
+      "id": "tl-06",
+      "when": "2027-01-12 16:00",
+      "event": "Kyle Brandt presents at council 4:00–7:10 pm.",
+      "partNumber": 7
+    },
+    {
+      "id": "tl-07",
+      "when": "2027-01-12 16:48",
+      "event": "June texts Paul; Paul asks to come at 6.",
+      "partNumber": 18
+    },
+    {
+      "id": "tl-08",
+      "when": "2027-01-12 17:05",
+      "event": "Cody delivers; two mugs out. June: \"Come at 6, Glen's out\" (5:06).",
+      "partNumber": 11
+    },
+    {
+      "id": "tl-09",
+      "when": "2027-01-12 18:00",
+      "event": "Glen leaves the bonspiel; hospital 6:31–8:47. Paul at June's around 6.",
+      "partNumber": 6
+    },
+    {
+      "id": "tl-10",
+      "when": "2027-01-12 18:41",
+      "event": "Cancelled 911 call from June's phone.",
+      "partNumber": 18
+    },
+    {
+      "id": "tl-11",
+      "when": "2027-01-12 21:10",
+      "event": "Glen finds June; 911 at 9:12.",
+      "partNumber": 5
+    },
+    {
+      "id": "tl-12",
+      "when": "2027-01-31",
+      "event": "Noah finds the phone in his father's truck.",
+      "partNumber": 15
+    },
+    {
+      "id": "tl-13",
+      "when": "2027-02-02",
+      "event": "\"she wasnt alone.\"",
+      "partNumber": 1
+    },
+    {
+      "id": "tl-14",
+      "when": "2027-02-04",
+      "event": "Find My: high school, 12:14 pm.",
+      "partNumber": 2
+    },
+    {
+      "id": "tl-15",
+      "when": "2027-02-06",
+      "event": "Margo names Owen's truck; Owen confesses.",
+      "partNumber": 4
+    },
+    {
+      "id": "tl-16",
+      "when": "2027-02-10",
+      "event": "Glen's diagnosis revealed.",
+      "partNumber": 6
+    },
+    {
+      "id": "tl-17",
+      "when": "2027-02-13",
+      "event": "Bell-schedule pattern; June's draft found.",
+      "partNumber": 7
+    },
+    {
+      "id": "tl-18",
+      "when": "2027-02-14",
+      "event": "Draft sent to Leah; \"B.L.\"",
+      "partNumber": 8
+    },
+    {
+      "id": "tl-19",
+      "when": "2027-02-18",
+      "event": "Delivery log: Cody 5:05.",
+      "partNumber": 10
+    },
+    {
+      "id": "tl-20",
+      "when": "2027-02-19",
+      "event": "Cody at Mooseheads game while phone pings at the wharf.",
+      "partNumber": 11
+    },
+    {
+      "id": "tl-21",
+      "when": "2027-02-22",
+      "event": "Bree's notebook clears her.",
+      "partNumber": 12
+    },
+    {
+      "id": "tl-22",
+      "when": "2027-02-26",
+      "event": "Kaulbach Street ping, 10:47 pm.",
+      "partNumber": 13
+    },
+    {
+      "id": "tl-23",
+      "when": "2027-03-01",
+      "event": "\"i found it in my dads truck.\"",
+      "partNumber": 14
+    },
+    {
+      "id": "tl-24",
+      "when": "2027-03-03",
+      "event": "Paul notices; Noah to his mother's; Paul's warning.",
+      "partNumber": 16
+    },
+    {
+      "id": "tl-25",
+      "when": "2027-03-04",
+      "event": "Phone handed to RCMP, 10:22 am.",
+      "partNumber": 17
+    },
+    {
+      "id": "tl-26",
+      "when": "2027-03-08",
+      "event": "Tess shown the 12 Jan messages.",
+      "partNumber": 18
+    },
+    {
+      "id": "tl-27",
+      "when": "2027-03-10",
+      "event": "Paul charged.",
+      "partNumber": 19
+    },
+    {
+      "id": "tl-28",
+      "when": "2027-03-19",
+      "event": "Phone returned; green tin; the letter.",
+      "partNumber": 20
+    }
+  ],
+  "unresolvedThreads": [
+    {
+      "id": "who-has-phone",
+      "description": "Who has June's phone?",
+      "introducedInPart": 1,
+      "resolvedInPart": 16
+    },
+    {
+      "id": "who-is-lying",
+      "description": "Who in the family chat lied about the 12th?",
+      "introducedInPart": 1,
+      "resolvedInPart": 4
+    },
+    {
+      "id": "glen-hours",
+      "description": "Where was Glen from 6 to 9?",
+      "introducedInPart": 5,
+      "resolvedInPart": 6
+    },
+    {
+      "id": "harbourline",
+      "description": "Did Harbourline have anything to do with it?",
+      "introducedInPart": 6,
+      "resolvedInPart": 7
+    },
+    {
+      "id": "june-report",
+      "description": "Whom was June reporting?",
+      "introducedInPart": 7,
+      "resolvedInPart": 13
+    },
+    {
+      "id": "bl",
+      "description": "Is Bree diverting narcotics?",
+      "introducedInPart": 8,
+      "resolvedInPart": 12
+    },
+    {
+      "id": "fine-at-five",
+      "description": "How does the texter know \"fine at 5\"; is it Cody?",
+      "introducedInPart": 4,
+      "resolvedInPart": 11
+    },
+    {
+      "id": "six-oclock",
+      "description": "What happened at six?",
+      "introducedInPart": 11,
+      "resolvedInPart": 19
+    },
+    {
+      "id": "justice",
+      "description": "Will Paul answer for it?",
+      "introducedInPart": 16,
+      "resolvedInPart": 19
+    },
+    {
+      "id": "unsent-message",
+      "description": "What is June's unsent message to Tess?",
+      "introducedInPart": 19,
+      "resolvedInPart": 20
+    }
+  ],
+  "plannedPartCount": 20,
+  "completedPartCount": 20,
+  "status": "completed",
+  "partSummaries": [
+    {
+      "partNumber": 1,
+      "title": "She Wasn't Alone",
+      "summary": "Three weeks after June Pellerin was found at the bottom of her cellar stairs, her missing phone posts four words to the family group chat: \"she wasnt alone.\" Owen panics, Glen says the phone was never found, and the call goes to June's voicemail. Tess, a court stenographer who knows exactly how her aunt typed, is sure it isn't June. Then the number messages her privately."
+    },
+    {
+      "partNumber": 2,
+      "title": "Notify When Found",
+      "summary": "Glen confirms June never went anywhere without her phone and that it wasn't among the effects the police returned. Cst. Leah Morrison notes the message but says the file is closed and suggests suspending the line. Owen calls it a prank and gets oddly defensive. Tess remembers June's phone is on her Family Sharing and turns on Find My's \"Notify When Found\"."
+    },
+    {
+      "partNumber": 3,
+      "title": "Not on the Phone",
+      "summary": "The phone was online for six minutes at lunchtime at a high school. Scrolling back through her own thread, Tess finds the visit June asked for on 11 January, \"not on the phone\", and her own reply postponing it. Margo, June's next-door neighbour, says June was out of sorts that week and that a truck was in the lane on the 12th."
+    },
+    {
+      "partNumber": 4,
+      "title": "2:40",
+      "summary": "Owen denies it, deflects, then admits it. He went to June's at 2 pm on the 12th to ask for $3,500 to stop the bank taking his truck. She refused, he said something cruel, and he left at 2:40. His call log proves the time. He lied to the RCMP because he panicked. Tess believes the call log; Kofi asks whether she believes him."
+    },
+    {
+      "partNumber": 5,
+      "title": "Fine at Five",
+      "summary": "Tess builds a timeline. Between 5 pm and 9:10 pm, when Glen found June, nobody accounts for anything. Paul Comeau, the town pharmacist June trained, sends warm condolences and offers to pull her records, mentioning he last saw her \"the week before\". Glen says he was at the curling bonspiel in Chester all evening and forwards the results to help."
+    },
+    {
+      "partNumber": 6,
+      "title": "Three Hours",
+      "summary": "Glen goes silent for a day, then accidentally forwards a hospital parking receipt: Bridgewater, 6:31 to 8:47 pm on 12 January. He explains. He has early, treatable prostate cancer, and the results came that night. He and June had planned to tell the family together. Owen softens. Tess finds June's email password and, in her inbox, a developer's message sent the day after she died."
+    },
+    {
+      "partNumber": 7,
+      "title": "Harbourline",
+      "summary": "Kyle Brandt of Harbourline Properties is slick with the executor and shuts down when Tess asks where he was on the 12th. Owen wants to \"go round there\". Tess does it the boring way. The council minutes show Kyle presenting at a public meeting from 4:00 to 7:10 pm. Kofi lines up every time the phone has come online and spots a school bell schedule: the texter is a kid. Late that night Tess finds one unsent email in June's Drafts."
+    },
+    {
+      "partNumber": 8,
+      "title": "Drafts (1)",
+      "summary": "Tess types out June's draft for Kofi. Since November, on relief shifts at \"a community pharmacy\", June had found small, regular gaps in the oxycodone and hydromorphone counts, always on a Tuesday. She raised it with the pharmacist in charge and no longer believed his explanation. Tess forwards the draft to Cst. Morrison. Paul checks in warmly and mentions \"those cellar stairs in the dark\". Then Tess finds the draft's hidden last line."
+    },
+    {
+      "partNumber": 9,
+      "title": "Tuesdays",
+      "summary": "Margo names everyone at Harbour Drug: Paul Comeau, the owner; Bree Langille, the technician; Cody Pike, the delivery driver. B.L. is Bree. The texter says June told them to stay out of \"grown up business\" and that she was kind to them when she didn't have to be. Cst. Morrison agrees to \"have a look\" at the draft. Before Tess can decide what to do about Bree, Bree texts her."
+    },
+    {
+      "partNumber": 10,
+      "title": "B.L.",
+      "summary": "Bree is frantic and apologetic. June asked her questions about the count before she died, and Bree needs \"till the weekend\" to be sure of something before she says more. Tess can't tell whether she's guilty or scared. Paul gets in touch, cheerful and \"nothing to hide\". He steers Tess toward Bree's hard year, asks whether the police have traced the number, and offers June's delivery log for the estate."
+    },
+    {
+      "partNumber": 11,
+      "title": "Signed at 5:05",
+      "summary": "Tess asks Cody Pike whether he's the one texting from June's phone. He's furious at being made \"the Pike kid\" again. The next evening he's in Halifax at a hockey game while June's phone comes online on the Port Ardoise wharf, so he can't be the texter. Tess apologises. Cody then gives her a detail he'd kept to himself: when he dropped off the delivery at 5:05, June had two mugs and the good cookies out for \"company\"."
+    },
+    {
+      "partNumber": 12,
+      "title": "Two Mugs",
+      "summary": "The texter says Cody has been shouting on the wharf that \"the Pellerin lady\" thinks he's a killer, and that the wrong person might hear. Then they slip and sign a message \"J.\", the way June did, and apologise. Tess realises June must have texted this person often. Bree comes back with the notebook where she kept her own counts. On the four December Tuesdays initialled B.L., she was at her nursing practicum in Bridgewater, and Tuesday is Paul's order day."
+    },
+    {
+      "partNumber": 13,
+      "title": "Kaulbach Street",
+      "summary": "Tess passes Bree's evidence to Cst. Morrison, who tells her plainly not to approach Paul Comeau. Tess lists what she's noticed: Paul's \"the week before\", although June worked his shift the day before she died, and his \"stairs in the dark\", a detail only Glen and the police knew. Paul invites her to the pharmacy's back office \"after 6\". Late on Friday night, June's phone comes online on a residential street."
+    },
+    {
+      "partNumber": 14,
+      "title": "Thursdays",
+      "summary": "Tess reports Paul's invitation and the Kaulbach Street ping to Cst. Morrison and stays in Halifax. The texter can't answer her question, because answering means \"everything happens\". Then they say June helped them with chemistry on Thursdays. Tess remembers June at Christmas talking about \"my Thursday boy\": the Comeau boy. Paul asks again whether the number has been traced, and Owen admits he told half the Legion about the messages."
+    },
+    {
+      "partNumber": 15,
+      "title": "The Toolbox",
+      "summary": "In short bursts from the wharf, the texter explains. On 31 January he borrowed his dad's truck and found June's phone sealed in a Ziploc in the lockbox under the toolbox tray. He opened it with June's birth year, which shows on her Medical ID. He read her messages: Owen asking for money, and June and his dad. Kofi tells Tess not to make the boy choose between them, but to find his safe adult. It's his mom in Bridgewater."
+    },
+    {
+      "partNumber": 16,
+      "title": "Noah",
+      "summary": "Tess gets Noah onto the 5 o'clock bus to his mother's in Bridgewater, and he tells her his name. She gives Cst. Morrison everything, and the RCMP arrange to meet Noah with his mother present. Shannon Hiltz, Noah's mother, writes to Tess, shaken: Noah wants Tess there tomorrow. That night Paul writes, without a single exclamation mark."
+    },
+    {
+      "partNumber": 17,
+      "title": "Chain of Custody",
+      "summary": "Noah sends Tess one last thing from June's phone, a test June marked \"Told you so. J.\", before he and his mother hand it to a Bridgewater constable. Tess watches every step of the chain of custody. That evening she tells the family everything. Owen finally confesses to Glen, and Glen forgives him. Cst. Morrison writes on Friday night."
+    },
+    {
+      "partNumber": 18,
+      "title": "4:48 PM",
+      "summary": "At the detachment, Cst. Morrison shows Tess June's messages to Paul from the afternoon of the 12th, and Tess types them out for Kofi word for word. June wrote that she'd send her report unless he could explain. Paul asked to come by at 6, and June agreed because Glen was out. The register photos are in June's camera roll, but the paper copies she made are missing. By Tuesday Harbour Drug's shutters are down and two police cars are on Kaulbach Street."
+    },
+    {
+      "partNumber": 19,
+      "title": "Six O'Clock",
+      "summary": "Paul Comeau is charged with criminal negligence causing death and with drug offences, and the trial is pending. The medical examiner amends June's manner of death from accident to undetermined. Tess, Owen and Glen grieve again, differently. Tess helps Glen see that June chose 6 pm to protect his hospital appointment. The College clears Bree. Through his mother, Noah asks whether he did the right thing."
+    },
+    {
+      "partNumber": 20,
+      "title": "Bring Your Sensible Head",
+      "summary": "June's phone comes home. On it is a draft to Tess, written at 5:58 pm on the 12th and never sent, pointing to a green tin behind the preserves where \"both things\" are. Tess shares it with the family. Owen sets out a repayment plan, Glen's radiation begins in April, and Noah texts from his own number with June's chemistry notes. In the cellar Tess finds the second set of register copies, which Paul never found and which Cst. Morrison says makes the case. Under them is a sealed envelope addressed to Tess."
+    }
+  ],
+  "createdAt": "2026-10-09T22:30:00Z",
+  "updatedAt": "2026-10-09T22:30:00Z"
+}

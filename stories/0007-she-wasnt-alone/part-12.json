@@ -1,0 +1,300 @@
+{
+  "schemaVersion": 1,
+  "storyId": "0007",
+  "partNumber": 12,
+  "title": "Two Mugs",
+  "summary": "The texter says Cody has been shouting on the wharf that \"the Pellerin lady\" thinks he's a killer, and that the wrong person might hear. Then they slip and sign a message \"J.\", the way June did, and apologise. Tess realises June must have texted this person often. Bree comes back with the notebook where she kept her own counts. On the four December Tuesdays initialled B.L., she was at her nursing practicum in Bridgewater, and Tuesday is Paul's order day.",
+  "status": "final",
+  "cliffhanger": "Bree: \"If it wasn't me, there's only one other person who signs that register.\"",
+  "createdAt": "2026-10-09T22:30:00Z",
+  "updatedAt": "2026-10-09T22:30:00Z",
+  "screenshots": [
+    {
+      "id": "s01",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "3:22"
+        }
+      },
+      "deviceOwner": "tess",
+      "participants": [
+        "tess",
+        "june"
+      ],
+      "title": "Aunt June",
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Sat, Feb 20 at 5:30 PM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "june",
+          "text": "cody was yelling at the wharf that the pellerin lady thinks hes a killer"
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "june",
+          "text": "people talk. if people talk the wrong person hears"
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "tess",
+          "text": "Who's the wrong person?"
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "june",
+          "text": "i cant"
+        },
+        {
+          "kind": "timestamp",
+          "id": "t02",
+          "label": "Sun, Feb 21 at 3:15 PM"
+        },
+        {
+          "kind": "message",
+          "id": "m05",
+          "sender": "june",
+          "text": "please be careful. she would want you to be careful"
+        },
+        {
+          "kind": "message",
+          "id": "m06",
+          "sender": "june",
+          "text": "J."
+        },
+        {
+          "kind": "timestamp",
+          "id": "t03",
+          "label": "Sun, Feb 21 at 3:16 PM"
+        },
+        {
+          "kind": "message",
+          "id": "m07",
+          "sender": "june",
+          "text": "sorry. that was dumb"
+        },
+        {
+          "kind": "message",
+          "id": "m08",
+          "sender": "tess",
+          "text": "You knew her well enough to copy her."
+        },
+        {
+          "kind": "message",
+          "id": "m09",
+          "sender": "tess",
+          "text": "She signed everything \"J.\" Birthday cards. Marmalade warnings."
+        },
+        {
+          "kind": "message",
+          "id": "m10",
+          "sender": "june",
+          "text": "i know"
+        }
+      ],
+      "meta": {
+        "beat": "The \"J.\" slip."
+      }
+    },
+    {
+      "id": "s02",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "4:09"
+        }
+      },
+      "deviceOwner": "tess",
+      "participants": [
+        "tess",
+        "kofi"
+      ],
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Sun, Feb 21 at 4:01 PM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "tess",
+          "text": "They signed \"J.\" and then apologised. Like a reflex. Like they've read a hundred of her messages."
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "kofi",
+          "text": "or got a hundred"
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "tess",
+          "text": "Kofi. What if June texted this kid. Regularly."
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "kofi",
+          "text": "Babysitting? Church? Lessons? Who does a 71 year old pharmacist text every week"
+        },
+        {
+          "kind": "message",
+          "id": "m05",
+          "sender": "tess",
+          "text": "I'll ask Margo. Margo knows the bin schedule of the whole street."
+        }
+      ],
+      "meta": {
+        "beat": "June texted this kid."
+      }
+    },
+    {
+      "id": "s03",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "6:49"
+        }
+      },
+      "deviceOwner": "tess",
+      "participants": [
+        "tess",
+        "bree"
+      ],
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Mon, Feb 22 at 6:40 PM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "bree",
+          "text": "ok I'm ready. Sorry it took so long"
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "bree",
+          "attachment": {
+            "type": "image",
+            "label": "Photo",
+            "detail": "Notebook page — \"Counts, Dec\""
+          }
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "bree",
+          "text": "I started keeping my own counts in November because the numbers scared me"
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "bree",
+          "text": "The register for Dec 1, 8, 15 and 22 has my initials on the Tuesday entries"
+        },
+        {
+          "kind": "message",
+          "id": "m05",
+          "sender": "bree",
+          "text": "I wasn't there. I do my nursing practicum Tuesdays in Bridgewater. The hospital has sign-in sheets with my name on every one"
+        },
+        {
+          "kind": "message",
+          "id": "m06",
+          "sender": "tess",
+          "text": "So someone wrote B.L. who wasn't you."
+        },
+        {
+          "kind": "message",
+          "id": "m07",
+          "sender": "bree",
+          "text": "Yes"
+        },
+        {
+          "kind": "message",
+          "id": "m08",
+          "sender": "bree",
+          "text": "June asked me about it on January 11. I told her the truth. I think that's why she wrote it up"
+        }
+      ],
+      "meta": {
+        "beat": "Bree's notebook."
+      }
+    },
+    {
+      "id": "s04",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "6:58"
+        }
+      },
+      "deviceOwner": "tess",
+      "participants": [
+        "tess",
+        "bree"
+      ],
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Mon, Feb 22 at 6:52 PM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "tess",
+          "text": "Bree, who else works on Tuesdays?"
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "bree",
+          "text": "Tuesday is order day. Narcotics too. He doesn't let anyone else touch the order"
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "bree",
+          "text": "Paul's day"
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "bree",
+          "text": "I'm sorry I made you wait. I had to be sure it wasn't somehow me making mistakes"
+        },
+        {
+          "kind": "message",
+          "id": "m05",
+          "sender": "bree",
+          "text": "If it wasn't me, there's only one other person who signs that register."
+        }
+      ],
+      "meta": {
+        "beat": "Cliffhanger: Tuesdays are Paul's."
+      }
+    }
+  ]
+}

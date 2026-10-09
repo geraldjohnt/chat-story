@@ -1,0 +1,378 @@
+{
+  "schemaVersion": 1,
+  "storyId": "0007",
+  "partNumber": 19,
+  "title": "Six O'Clock",
+  "summary": "Paul Comeau is charged with criminal negligence causing death and with drug offences, and the trial is pending. The medical examiner amends June's manner of death from accident to undetermined. Tess, Owen and Glen grieve again, differently. Tess helps Glen see that June chose 6 pm to protect his hospital appointment. The College clears Bree. Through his mother, Noah asks whether he did the right thing.",
+  "status": "final",
+  "cliffhanger": "Leah: June's phone is being released to Tess as executor, and \"there's an unsent message on it addressed to you.\"",
+  "createdAt": "2026-10-09T22:30:00Z",
+  "updatedAt": "2026-10-09T22:30:00Z",
+  "screenshots": [
+    {
+      "id": "s01",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "5:47"
+        }
+      },
+      "deviceOwner": "tess",
+      "participants": [
+        "tess",
+        "leah"
+      ],
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Tue, Mar 9 at 5:38 PM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "tess",
+          "text": "She tried to call for help."
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "leah",
+          "text": "A call was started from her phone and ended before it connected. I can't go further than the record right now."
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "tess",
+          "text": "Then she was alive at 6:41."
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "leah",
+          "text": "I'm sorry. Is someone with you?"
+        },
+        {
+          "kind": "message",
+          "id": "m05",
+          "sender": "tess",
+          "text": "My husband. Thank you for telling me yourself."
+        }
+      ],
+      "meta": {
+        "beat": "Alive at 6:41."
+      }
+    },
+    {
+      "id": "s02",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "9:16"
+        }
+      },
+      "deviceOwner": "tess",
+      "participants": [
+        "tess",
+        "owen"
+      ],
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Wed, Mar 10 at 9:04 AM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "owen",
+          "attachment": {
+            "type": "link",
+            "label": "Port Ardoise pharmacist charged in connection with January death",
+            "detail": "southshorenow.ca"
+          }
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "owen",
+          "text": "tess"
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "tess",
+          "text": "I know. Leah called at 7."
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "owen",
+          "text": "criminal negligence causing death. and drug charges"
+        },
+        {
+          "kind": "message",
+          "id": "m05",
+          "sender": "owen",
+          "text": "he was in her kitchen after me. i was yelling at her and two hours later he was"
+        },
+        {
+          "kind": "message",
+          "id": "m06",
+          "sender": "tess",
+          "text": "Owen. Breathe. Go and see Glen."
+        },
+        {
+          "kind": "message",
+          "id": "m07",
+          "sender": "owen",
+          "text": "going"
+        }
+      ],
+      "meta": {
+        "beat": "Paul is charged."
+      }
+    },
+    {
+      "id": "s03",
+      "type": "notification",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "deviceOwner": "tess",
+      "lockScreen": {
+        "time": "6:05",
+        "date": "Friday, March 12"
+      },
+      "notifications": [
+        {
+          "id": "n1",
+          "app": "mail",
+          "appName": "Mail",
+          "title": "NS Medical Examiner Service",
+          "body": "Amended findings — Pellerin, June. Dear Ms. Pellerin, as executor, please find attached the amended report. The manner of death has been revised from \"accident\" to \"undetermined\" pending court proceedings. Our office is available to discuss.",
+          "time": "4:12 PM"
+        },
+        {
+          "id": "n2",
+          "app": "messages",
+          "sender": "kofi",
+          "body": "Don't open it alone. I'm home at 6. We'll read it together.",
+          "time": "4:20 PM"
+        }
+      ],
+      "meta": {
+        "beat": "The amended findings."
+      }
+    },
+    {
+      "id": "s04",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "7:22"
+        }
+      },
+      "deviceOwner": "tess",
+      "participants": [
+        "tess",
+        "glen"
+      ],
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Fri, Mar 12 at 7:05 PM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "glen",
+          "text": "Tess... the report says help might have made a difference. If someone had called"
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "glen",
+          "text": "I keep thinking. 6.41. I was in that parking lot by then"
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "tess",
+          "text": "Glen, you were exactly where June wanted you. She told Paul to come at 6 because she knew you'd be at the hospital. She was protecting your appointment."
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "glen",
+          "text": "She would do that..."
+        },
+        {
+          "kind": "message",
+          "id": "m05",
+          "sender": "tess",
+          "text": "She did do that."
+        },
+        {
+          "kind": "message",
+          "id": "m06",
+          "sender": "glen",
+          "text": "Owen fixed the porch light. He wouldn't let me on the ladder"
+        }
+      ],
+      "meta": {
+        "beat": "Glen."
+      }
+    },
+    {
+      "id": "s05",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "11:16"
+        }
+      },
+      "deviceOwner": "tess",
+      "participants": [
+        "tess",
+        "bree"
+      ],
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Sat, Mar 13 at 11:02 AM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "bree",
+          "text": "The College called. My name is cleared, in writing. I cried in the Sobeys parking lot"
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "bree",
+          "text": "Thank you for believing me before anyone had to"
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "tess",
+          "text": "You kept a notebook when you were scared. That's what cleared you, not me."
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "bree",
+          "text": "June told me to. In November. \"Write it down, dear. Write everything down\""
+        }
+      ],
+      "meta": {
+        "beat": "Bree is cleared."
+      }
+    },
+    {
+      "id": "s06",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "8:14"
+        }
+      },
+      "deviceOwner": "tess",
+      "participants": [
+        "tess",
+        "shannon"
+      ],
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Sun, Mar 14 at 8:02 PM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "shannon",
+          "text": "Noah asked me to ask you something. He doesn't feel he can text you himself yet"
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "shannon",
+          "text": "He wants to know if he did the right thing. His dad's in custody and his grandmother won't speak to him"
+        },
+        {
+          "kind": "message",
+          "id": "m03",
+          "sender": "tess",
+          "text": "Tell him yes. It cost him more than it cost any adult in this, and it was still right."
+        },
+        {
+          "kind": "message",
+          "id": "m04",
+          "sender": "tess",
+          "text": "And tell him he can text me whenever he likes. From his own phone."
+        },
+        {
+          "kind": "message",
+          "id": "m05",
+          "sender": "shannon",
+          "text": "He read that over my shoulder. He's nodding"
+        }
+      ],
+      "meta": {
+        "beat": "Did he do the right thing?"
+      }
+    },
+    {
+      "id": "s07",
+      "type": "conversation",
+      "theme": "light",
+      "exportProfile": "iphone",
+      "presentation": {
+        "statusBar": {
+          "time": "10:06"
+        }
+      },
+      "deviceOwner": "tess",
+      "participants": [
+        "tess",
+        "leah"
+      ],
+      "messages": [
+        {
+          "kind": "timestamp",
+          "id": "t01",
+          "label": "Mon, Mar 15 at 10:01 AM"
+        },
+        {
+          "kind": "message",
+          "id": "m01",
+          "sender": "leah",
+          "text": "Ms. Pellerin, the Crown has a forensic copy of June's phone. We're releasing the device to you as executor on Friday."
+        },
+        {
+          "kind": "message",
+          "id": "m02",
+          "sender": "leah",
+          "text": "There's an unsent message on it addressed to you. I thought you should know before you open it."
+        }
+      ],
+      "meta": {
+        "beat": "Cliffhanger: an unsent message."
+      }
+    }
+  ]
+}
