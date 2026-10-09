@@ -36,6 +36,12 @@
   through a "main" deployment-branch rule on the `github-pages` environment. Keep both rules in mind if
   deployments are rejected with no log (environment protection).
 
+## Standing user instructions
+- **Always push to `main` after generating approved stories** (user, 2026-10-09). Once every approved
+  outline in the request is generated and the checks pass (validate, test, build), commit on the working
+  branch, push it, then push the same commit to `main` (`git push origin HEAD:main`, fast-forward
+  only, never force) so Pages deploys. Then report the deploy run's actual result.
+
 ## Known limitations / remaining work
 - iOS Safari may open downloads in a viewer instead of saving; ZIP export of many screenshots is
   memory-heavy on old phones.
