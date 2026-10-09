@@ -52,6 +52,8 @@ export function LibraryPage() {
             <option value="updated">Recently updated</option>
             <option value="created">Newest first</option>
             <option value="title">Title (A–Z)</option>
+            <option value="id-asc">Story number (low → high)</option>
+            <option value="id-desc">Story number (high → low)</option>
           </select>
         </label>
       </form>

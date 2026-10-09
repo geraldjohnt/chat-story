@@ -107,6 +107,10 @@ describe('story library', () => {
     expect(titles()).toEqual(['Fixture: Renderer Coverage', 'Fixture: Completed Sample']);
     await user.selectOptions(screen.getByLabelText('Sort by'), 'created');
     expect(titles()).toEqual(['Fixture: Renderer Coverage', 'Fixture: Completed Sample']);
+    await user.selectOptions(screen.getByLabelText('Sort by'), 'Story number (low → high)');
+    expect(titles()).toEqual(['Fixture: Renderer Coverage', 'Fixture: Completed Sample']);
+    await user.selectOptions(screen.getByLabelText('Sort by'), 'Story number (high → low)');
+    expect(titles()).toEqual(['Fixture: Completed Sample', 'Fixture: Renderer Coverage']);
   });
 });
 

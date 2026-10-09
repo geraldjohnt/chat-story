@@ -26,7 +26,7 @@ export function computeStats(lib: Library | null): LibraryStats {
   return s;
 }
 
-export type SortKey = 'updated' | 'created' | 'title';
+export type SortKey = 'updated' | 'created' | 'title' | 'id-asc' | 'id-desc';
 
 export interface LibraryFilter {
   query: string;
@@ -56,11 +56,14 @@ export function filterStories(items: LoadedStory[], f: LibraryFilter): LoadedSto
     }
     return true;
   });
+  const byId = (a: LoadedStory, b: LoadedStory) => a.entry.id.localeCompare(b.entry.id, undefined, { numeric: true });
   const by = {
+    'id-asc': byId,
+    'id-desc': (a: LoadedStory, b: LoadedStory) => byId(b, a),
     title: (a: LoadedStory, b: LoadedStory) => a.entry.title.localeCompare(b.entry.title),
     created: (a: LoadedStory, b: LoadedStory) => Date.parse(b.entry.createdAt) - Date.parse(a.entry.createdAt),
     updated: (a: LoadedStory, b: LoadedStory) => Date.parse(b.entry.updatedAt) - Date.parse(a.entry.updatedAt),
-  }[f.sort];
+  }[f.sort] ?? ((a: LoadedStory, b: LoadedStory) => Date.parse(b.entry.updatedAt) - Date.parse(a.entry.updatedAt));
   return [...out].sort(by);
 }
 
