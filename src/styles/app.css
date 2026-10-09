@@ -187,6 +187,17 @@ details summary { cursor: pointer; font-weight: 600; margin: 0.5rem 0; }
 .viewer__nav--prev { left: max(0.6rem, env(safe-area-inset-left)); }
 .viewer__nav--next { right: max(0.6rem, env(safe-area-inset-right)); }
 .viewer--controls .viewer__nav:disabled { opacity: 0.25; cursor: default; }
+.viewer__loading { margin: 0; color: rgba(255, 255, 255, 0.75); }
+.viewer__counter { position: absolute; top: calc(env(safe-area-inset-top) + 4.25rem); left: 50%; transform: translateX(-50%); padding: 0.25rem 0.75rem; border-radius: 999px; background: rgba(0, 0, 0, 0.55); backdrop-filter: blur(8px); font-size: 0.85rem; font-weight: 600; font-variant-numeric: tabular-nums; letter-spacing: 0.02em; pointer-events: none; opacity: 0; transition: opacity 0.3s ease; }
+.viewer__counter.is-visible { opacity: 1; }
+.viewer__dots { position: absolute; left: 50%; bottom: calc(env(safe-area-inset-bottom) + 1.6rem); transform: translateX(-50%); display: flex; align-items: center; gap: 6px; padding: 5px 8px; border-radius: 999px; background: rgba(0, 0, 0, 0.3); pointer-events: none; }
+.viewer__dot { width: 6px; height: 6px; border-radius: 50%; background: rgba(255, 255, 255, 0.45); transition: background 0.2s ease, transform 0.2s ease; }
+.viewer__dot.is-active { background: #fff; transform: scale(1.2); }
+.viewer__dot.is-edge { transform: scale(0.6); }
+.viewer__parts { position: absolute; left: 0; right: 0; bottom: calc(env(safe-area-inset-bottom) + 3.6rem); display: flex; justify-content: center; gap: 0.6rem; padding: 0 1rem; pointer-events: none; }
+.viewer__part-btn { pointer-events: auto; min-height: 40px; padding: 0.5rem 1.1rem; border-radius: 999px; border: 1px solid rgba(255, 255, 255, 0.3); background: rgba(0, 0, 0, 0.6); color: #fff; font: inherit; font-weight: 600; font-size: 0.9rem; cursor: pointer; backdrop-filter: blur(8px); box-shadow: 0 4px 14px rgba(0, 0, 0, 0.35); }
+.viewer__part-btn--next { background: var(--accent); border-color: transparent; color: var(--accent-text); }
+.viewer__part-btn:hover { filter: brightness(1.1); }
 
 /* Settings */
 .segmented { display: inline-flex; border: 1px solid var(--border); border-radius: 10px; padding: 3px; margin: 0 0 0.75rem; gap: 2px; background: var(--surface-2); }

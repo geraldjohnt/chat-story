@@ -52,4 +52,19 @@ test.describe('mobile layout', () => {
     await page.getByRole('button', { name: 'Close' }).tap();
     await expect(dialog).toHaveCount(0);
   });
+
+  test('shows the page counter and dots, and moves between parts at the boundaries', async ({ page }) => {
+    await page.goto('./#/stories/9001/parts/1');
+    await page.getByRole('button', { name: 'Open screenshot 1 preview' }).waitFor();
+    const total = await page.getByRole('list', { name: 'Screenshots' }).getByRole('listitem').count();
+    await page.getByRole('button', { name: `Open screenshot ${total} preview` }).click();
+    const dialog = page.getByRole('dialog');
+    await expect(page.getByTestId('viewer-counter')).toHaveText(`${total} / ${total}`);
+    await expect(page.getByTestId('viewer-dots').locator('.viewer__dot.is-active')).toHaveCount(1);
+    await page.getByRole('button', { name: 'Next: Part 2 →' }).tap();
+    await expect(dialog).toHaveAccessibleName(/^Screenshot 1 of \d+$/);
+    await expect(page).toHaveURL(/#\/stories\/9001\/parts\/2$/);
+    await page.getByRole('button', { name: '← Part 1' }).tap();
+    await expect(dialog).toHaveAccessibleName(`Screenshot ${total} of ${total}`);
+  });
 });

@@ -3,7 +3,7 @@ import userEvent from '@testing-library/user-event';
 import { readFileSync } from 'node:fs';
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
 import { App } from '../../src/App';
-import { CONTROLS_HIDE_DELAY } from '../../src/features/preview/ScreenshotViewer';
+import { CONTROLS_HIDE_DELAY, COUNTER_HIDE_DELAY } from '../../src/features/preview/ScreenshotViewer';
 import { createGateConfig, type GateState } from '../../src/services/accessGate';
 import { FIXTURE_ROOT, fileFetcher } from '../helpers/fixtures';
 
@@ -209,6 +209,52 @@ describe('story overview and part reader', () => {
     fireEvent.touchStart(stage, { touches: [{ clientX: 200, clientY: 100 }] });
     fireEvent.touchEnd(stage, { touches: [], changedTouches: [{ clientX: 140, clientY: 400 }] }); // mostly vertical
     expect(dialog()).toHaveAccessibleName(`Screenshot 2 of ${total}`);
+  });
+
+  it('flashes the page counter after each move and shows position dots', async () => {
+    renderAt('#/stories/9001/parts/1');
+    const gallery = await screen.findByRole('list', { name: 'Screenshots' });
+    const total = within(gallery).getAllByRole('listitem').length;
+    vi.useFakeTimers();
+    try {
+      fireEvent.click(screen.getByRole('button', { name: 'Open screenshot 1 preview' }));
+      const counter = screen.getByTestId('viewer-counter');
+      expect(counter).toHaveTextContent(`1 / ${total}`);
+      expect(counter).toHaveClass('is-visible');
+      act(() => vi.advanceTimersByTime(CONTROLS_HIDE_DELAY + 50));
+      expect(counter).not.toHaveClass('is-visible');
+      fireEvent.keyDown(document, { key: 'ArrowRight' });
+      expect(counter).toHaveTextContent(`2 / ${total}`);
+      expect(counter).toHaveClass('is-visible');
+      act(() => vi.advanceTimersByTime(COUNTER_HIDE_DELAY + 50));
+      expect(counter).not.toHaveClass('is-visible');
+      const dots = screen.getByTestId('viewer-dots').children;
+      expect(dots).toHaveLength(Math.min(total, 9));
+      expect(dots[1]).toHaveClass('is-active');
+    } finally {
+      vi.useRealTimers();
+    }
+  });
+
+  it('stops at part boundaries and offers buttons to the next and previous part', async () => {
+    renderAt('#/stories/9001/parts/1');
+    const gallery = await screen.findByRole('list', { name: 'Screenshots' });
+    const total = within(gallery).getAllByRole('listitem').length;
+    await userEvent.click(screen.getByRole('button', { name: 'Open screenshot 1 preview' }));
+    expect(screen.queryByRole('button', { name: /Part \d/ })).toBeNull(); // part 1 has no previous part
+    for (let i = 1; i < total; i++) await userEvent.keyboard('{ArrowRight}');
+    expect(screen.getByRole('dialog')).toHaveAccessibleName(`Screenshot ${total} of ${total}`);
+    const stage = screen.getByTestId('viewer-stage');
+    fireEvent.touchStart(stage, { touches: [{ clientX: 300, clientY: 300 }] });
+    fireEvent.touchEnd(stage, { touches: [], changedTouches: [{ clientX: 50, clientY: 300 }] });
+    expect(screen.getByRole('dialog')).toHaveAccessibleName(`Screenshot ${total} of ${total}`); // no swiping past the end
+
+    await userEvent.click(screen.getByRole('button', { name: 'Next: Part 2 →' }));
+    expect(await screen.findByRole('dialog', { name: /^Screenshot 1 of \d+$/ })).toBeInTheDocument();
+    expect(screen.getByRole('heading', { level: 1 })).toHaveTextContent('Notifications and inbox coverage');
+    await userEvent.click(screen.getByRole('button', { name: '← Part 1' }));
+    expect(await screen.findByRole('dialog', { name: `Screenshot ${total} of ${total}` })).toBeInTheDocument();
+    expect(screen.getByRole('button', { name: 'Next: Part 2 →' })).toBeInTheDocument();
   });
 
   it('auto-hides the viewer controls and toggles them with a tap', async () => {

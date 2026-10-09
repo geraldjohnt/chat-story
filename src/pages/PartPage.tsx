@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from 'react';
-import { Link, useParams } from 'react-router-dom';
+import { Link, useLocation, useNavigate, useParams } from 'react-router-dom';
 import { EmptyState, ErrorPanel, Loading, PageHeader, StatusBadge } from '../components/ui';
 import { ScaledScreenshot } from '../features/preview/ScaledScreenshot';
 import { ScreenshotViewer } from '../features/preview/ScreenshotViewer';
@@ -24,6 +24,11 @@ export function PartPage() {
   const [theme, setTheme] = useState<'' | ScreenshotTheme>('');
   const [profile, setProfile] = useState<'' | ExportProfileId>('');
   const [selected, setSelected] = useState<number | null>(null);
+  const location = useLocation();
+  const navigate = useNavigate();
+  /** Set when the viewer moved here from a neighbouring part: open at its first or last screenshot. */
+  const openAt = (location.state as { viewer?: 'first' | 'last' } | null)?.viewer;
+  const [viewedPart, setViewedPart] = useState(partNumber);
   const [exportStatus, setExportStatus] = useState<Status>({ kind: 'idle' });
   const fonts = useFontsReady();
 
@@ -44,11 +49,24 @@ export function PartPage() {
     };
   }, [entry, story, partNumber, baseUrl, cacheToken, fetcher, reload]);
 
+  // Leaving the part normally closes the viewer; moving via the viewer keeps it open (no flash, stays fullscreen).
+  if (viewedPart !== partNumber) {
+    setViewedPart(partNumber);
+    if (!openAt) setSelected(null);
+  }
+
   const characters = useMemo(() => characterMap(story?.characters ?? []), [story]);
   const pages = useMemo(
     () => (part && fonts.ready ? buildPages(part, getMeasurer(), { theme: theme || undefined, profile: profile || undefined }) : []),
     [part, fonts.ready, theme, profile],
   );
+
+  const partReady = part?.partNumber === partNumber && pages.length > 0;
+  useEffect(() => {
+    if (!openAt || !partReady) return;
+    setSelected(openAt === 'last' ? pages.length - 1 : 0);
+    void navigate({ pathname: location.pathname, search: location.search }, { replace: true, state: null });
+  }, [openAt, partReady, pages.length, navigate, location.pathname, location.search]);
 
   if (status === 'loading') return <Loading />;
   if (status === 'error') return <ErrorPanel title="The story library could not be loaded" error={error ?? 'Unknown error'} onRetry={() => void refresh()} />;
@@ -153,9 +171,9 @@ export function PartPage() {
         {next ? <Link className="btn" to={`/stories/${entry.id}/parts/${next.partNumber}`}>Part {next.partNumber} →</Link> : <span />}
       </nav>
 
-      {selected !== null && pages[selected] && (
+      {selected !== null && (
         <ScreenshotViewer
-          pages={pages}
+          pages={partReady && !openAt ? pages : []}
           index={selected}
           characters={characters}
           onIndexChange={setSelected}
@@ -163,6 +181,9 @@ export function PartPage() {
           onExport={(page) => void doPng(page)}
           busy={busy}
           status={exportStatus.kind === 'idle' ? undefined : exportStatus}
+          partNumber={partNumber}
+          prevPart={prev && { partNumber: prev.partNumber, onGo: () => void navigate(`/stories/${entry.id}/parts/${prev.partNumber}`, { state: { viewer: 'last' } }) }}
+          nextPart={next && { partNumber: next.partNumber, onGo: () => void navigate(`/stories/${entry.id}/parts/${next.partNumber}`, { state: { viewer: 'first' } }) }}
         />
       )}
     </>

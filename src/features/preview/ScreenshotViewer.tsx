@@ -7,6 +7,12 @@ import { ScaledScreenshot } from './ScaledScreenshot';
 const SWIPE_THRESHOLD = 50;
 /** How long the controls stay visible after the last interaction (ms). */
 export const CONTROLS_HIDE_DELAY = 2500;
+/** How long the "3 / 10" page counter stays up after moving to another screenshot (ms). */
+export const COUNTER_HIDE_DELAY = 1500;
+/** Dots shown at once; longer parts use a sliding window, like a TikTok photo carousel. */
+const MAX_DOTS = 9;
+
+export type PartLink = { partNumber: number; onGo: () => void };
 
 type Props = {
   pages: RenderedPage[];
@@ -17,7 +23,19 @@ type Props = {
   onExport: (page: RenderedPage) => void;
   busy: boolean;
   status?: { kind: 'busy' | 'ok' | 'error'; label: string };
+  partNumber: number;
+  /** Offered on the first screenshot of the part (swiping never crosses parts). */
+  prevPart?: PartLink;
+  /** Offered on the last screenshot of the part. */
+  nextPart?: PartLink;
 };
+
+/** Index range of the dots to draw, keeping the current one centred where possible. */
+export function dotWindow(index: number, total: number, max = MAX_DOTS): [number, number] {
+  if (total <= max) return [0, total];
+  const start = Math.min(Math.max(0, index - Math.floor(max / 2)), total - max);
+  return [start, start + max];
+}
 
 function useViewportHeight() {
   const [h, setH] = useState(() => window.innerHeight);
@@ -33,11 +51,13 @@ function useViewportHeight() {
  * Fullscreen screenshot viewer. Swipe (or ← / →, or the side buttons) to move between screenshots;
  * tap the screen to show or hide the controls, which fade out on their own after a short delay.
  */
-export function ScreenshotViewer({ pages, index, characters, onIndexChange, onClose, onExport, busy, status }: Props) {
+export function ScreenshotViewer({ pages, index, characters, onIndexChange, onClose, onExport, busy, status, partNumber, prevPart, nextPart }: Props) {
   const page = pages[index];
   const hasPrev = index > 0;
   const hasNext = index < pages.length - 1;
   const [controls, setControls] = useState(true);
+  const [counter, setCounter] = useState(true);
+  const [counterFor, setCounterFor] = useState(`${partNumber}:${index}`);
   const [dragX, setDragX] = useState(0);
   const touch = useRef<{ x: number; y: number; horizontal: boolean | null } | null>(null);
   const swiped = useRef(false);
@@ -70,6 +90,18 @@ export function ScreenshotViewer({ pages, index, characters, onIndexChange, onCl
     return () => document.removeEventListener('keydown', onKey);
   }, [go, onClose]);
 
+  // Flash the page counter whenever the screenshot changes (adjusting state during render, not in an effect).
+  const position = `${partNumber}:${index}`;
+  if (position !== counterFor) {
+    setCounterFor(position);
+    setCounter(true);
+  }
+  useEffect(() => {
+    if (!counter) return;
+    const t = window.setTimeout(() => setCounter(false), COUNTER_HIDE_DELAY);
+    return () => window.clearTimeout(t);
+  }, [counter, counterFor]);
+
   // Lock page scroll and use the real Fullscreen API on touch devices where it exists.
   useEffect(() => {
     const prevOverflow = document.body.style.overflow;
@@ -85,8 +117,6 @@ export function ScreenshotViewer({ pages, index, characters, onIndexChange, onCl
       if (entered && document.fullscreenElement && typeof document.exitFullscreen === 'function') void document.exitFullscreen().catch(() => undefined);
     };
   }, []);
-
-  if (!page) return null;
 
   const onTouchStart = (e: ReactTouchEvent) => {
     const p = e.touches.length === 1 ? e.touches[0] : undefined;
@@ -130,12 +160,17 @@ export function ScreenshotViewer({ pages, index, characters, onIndexChange, onCl
     fn();
   };
 
+  const [dotStart, dotEnd] = dotWindow(index, pages.length);
+  const atFirst = Boolean(page) && !hasPrev;
+  const atLast = Boolean(page) && !hasNext;
+  const partButtons = (atFirst && prevPart) || (atLast && nextPart);
+
   return (
     <div
       className={`viewer${controls ? ' viewer--controls' : ''}`}
       role="dialog"
       aria-modal="true"
-      aria-label={`Screenshot ${page.index} of ${pages.length}`}
+      aria-label={page ? `Screenshot ${page.index} of ${pages.length}` : `Loading part ${partNumber}`}
       data-controls={controls ? 'visible' : 'hidden'}
       onFocusCapture={() => setControls(true)}
       onPointerMove={(e) => e.pointerType === 'mouse' && setControls(true)}
@@ -152,18 +187,51 @@ export function ScreenshotViewer({ pages, index, characters, onIndexChange, onCl
           setDragX(0);
         }}
       >
-        <div className="viewer__slide" style={{ transform: dragX ? `translateX(${dragX}px)` : undefined, transition: dragX ? 'none' : undefined }}>
-          <ScaledScreenshot key={page.key} page={page} characters={characters} maxHeight={Math.max(240, viewportHeight - 24)} />
-        </div>
+        {page ? (
+          <div className="viewer__slide" style={{ transform: dragX ? `translateX(${dragX}px)` : undefined, transition: dragX ? 'none' : undefined }}>
+            <ScaledScreenshot key={page.key} page={page} characters={characters} maxHeight={Math.max(240, viewportHeight - 24)} />
+          </div>
+        ) : (
+          <p className="viewer__loading" role="status">Loading part {partNumber}…</p>
+        )}
       </div>
+
+      {page && (
+        <>
+          <div className={`viewer__counter${counter || controls ? ' is-visible' : ''}`} data-testid="viewer-counter" aria-hidden="true">
+            {page.index} / {pages.length}
+          </div>
+          {pages.length > 1 && (
+            <div className="viewer__dots" data-testid="viewer-dots" aria-hidden="true">
+              {pages.slice(dotStart, dotEnd).map((p, i) => {
+                const at = dotStart + i;
+                // Shrink the edge dots when more screenshots continue beyond the window.
+                const edge = (at === dotStart && dotStart > 0) || (at === dotEnd - 1 && dotEnd < pages.length);
+                return <span key={p.key} className={`viewer__dot${at === index ? ' is-active' : ''}${edge ? ' is-edge' : ''}`} />;
+              })}
+            </div>
+          )}
+        </>
+      )}
+
+      {partButtons && (
+        <div className="viewer__parts">
+          {atFirst && prevPart && (
+            <button className="viewer__part-btn" onClick={keep(prevPart.onGo)}>← Part {prevPart.partNumber}</button>
+          )}
+          {atLast && nextPart && (
+            <button className="viewer__part-btn viewer__part-btn--next" onClick={keep(nextPart.onGo)}>Next: Part {nextPart.partNumber} →</button>
+          )}
+        </div>
+      )}
 
       <div className="viewer__bar viewer__control" aria-hidden={!controls}>
         <span className="viewer__count">
-          {page.index} / {pages.length}
-          <span className="viewer__dims"> · {page.profile.pixelWidth} × {page.profile.pixelHeight}</span>
+          Part {partNumber}
+          {page && <span className="viewer__dims"> · {page.profile.pixelWidth} × {page.profile.pixelHeight}</span>}
         </span>
         <span className="viewer__actions">
-          <button className="btn btn--small" onClick={keep(() => onExport(page))} disabled={busy} tabIndex={controls ? 0 : -1}>Export PNG</button>
+          <button className="btn btn--small" onClick={keep(() => page && onExport(page))} disabled={busy || !page} tabIndex={controls ? 0 : -1}>Export PNG</button>
           <button className="btn btn--small" onClick={keep(onClose)} autoFocus tabIndex={controls ? 0 : -1}>Close</button>
         </span>
         {status && <p className={`viewer__status export-status--${status.kind}`} role={status.kind === 'error' ? 'alert' : 'status'}>{status.label}</p>}
