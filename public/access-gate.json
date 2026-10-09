@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "enabled": true,
+  "algorithm": "argon2id",
+  "params": {
+    "memorySize": 19456,
+    "iterations": 2,
+    "parallelism": 1,
+    "hashLength": 32
+  },
+  "salt": "tyVOS5EE43dNkTz8zhqjdg==",
+  "hash": "36aa3f91924c8a6dfe9a3a5daab16795f59ba86fec961c4daa7a095ecb3b7c1e",
+  "createdAt": "2026-10-09T21:47:25.292Z"
+}

@@ -1,4 +1,4 @@
-import { readFileSync } from 'node:fs';
+import { existsSync, readFileSync } from 'node:fs';
 import { expect, test } from '@playwright/test';
 
 /** The production library as committed; the artifact must serve exactly this. */
@@ -6,9 +6,22 @@ const manifest = JSON.parse(readFileSync('stories/manifest.json', 'utf8')) as {
   stories: { id: string; title: string; storyPath: string; parts: { path: string }[] }[];
 };
 
+/** The committed access gate, if any. The password itself is never in the repository. */
+const gate = existsSync('public/access-gate.json') ? (JSON.parse(readFileSync('public/access-gate.json', 'utf8')) as { enabled: boolean; hash: string }) : null;
+
 test.describe('production artifact (dist)', () => {
   test('renders the published library', async ({ page }) => {
-    await page.goto('./#/library');
+    if (gate?.enabled) {
+      await page.goto('./#/library');
+      await expect(page.getByRole('heading', { name: 'Chat Drama Studio' })).toBeVisible();
+      await expect(page.getByLabel('Password')).toBeVisible();
+      await expect(page.getByRole('list', { name: 'Stories' })).toHaveCount(0);
+      // Unlock through the session marker (a UI convenience, not a credential) to check the library behind it.
+      await page.evaluate((v) => sessionStorage.setItem('cds.gate.unlocked', v), gate.hash.slice(0, 16));
+      await page.reload();
+    } else {
+      await page.goto('./#/library');
+    }
     if (manifest.stories.length === 0) {
       await expect(page.getByRole('heading', { name: 'No published stories yet' })).toBeVisible();
       return;
@@ -29,14 +42,25 @@ test.describe('production artifact (dist)', () => {
     }
   });
 
-  test('does not publish fixtures, memory, pending outlines or the gate default', async ({ request }) => {
+  test('serves the committed access gate (hash and salt only) or none at all', async ({ request }) => {
+    const res = await request.get('access-gate.json');
+    const body = res.status() === 200 ? await res.text() : '';
+    if (!gate) {
+      expect(body.startsWith('{'), 'access-gate.json should not be published').toBe(false);
+      return;
+    }
+    const served = JSON.parse(body) as Record<string, unknown>;
+    expect(served).toEqual(JSON.parse(readFileSync('public/access-gate.json', 'utf8')));
+    expect(Object.keys(served).sort()).toEqual(['algorithm', 'createdAt', 'enabled', 'hash', 'params', 'salt', 'schemaVersion']);
+  });
+
+  test('does not publish fixtures, memory or pending outlines', async ({ request }) => {
     for (const p of [
       'stories/9001-fixture-renderer-coverage/story.json',
       'tests/fixtures/stories/manifest.json',
       'memory/project-memory.md',
       'memory/pending-outlines/README.md',
       'CLAUDE.md',
-      'access-gate.json',
     ]) {
       const res = await request.get(p);
       const body = res.status() === 200 ? await res.text() : '';

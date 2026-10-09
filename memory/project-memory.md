@@ -14,6 +14,8 @@
   verified from the IHDR header before download.
 - Profiles: `iphone` 390×844 pt @3× = 1170×2532; `vertical-9-16` 360×640 pt @3× = 1080×1920.
 - Access gate: Argon2id (hash-wasm, 19 MiB, t=2, p=1) config in `public/access-gate.json`; deterrent only.
+  Enabled on 2026-10-09 (password chosen by the user; never record it in the repo). The fixture E2E build
+  (`build:e2e`) strips the gate; the production E2E checks the gate screen, then unlocks via the session marker.
 
 ## Conventions
 - Story IDs: ≥4-digit zero-padded strings, never reused (`npm run story:next-id`). Directory

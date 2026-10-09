@@ -15,7 +15,7 @@
     "test:watch": "vitest",
     "test:e2e": "npm run build:e2e && npm run build && playwright test",
     "build": "vite build && tsx scripts/copy-story-data.ts && tsx scripts/verify-dist.ts",
-    "build:e2e": "vite build --outDir dist-e2e --base /chat-story/ && tsx scripts/copy-story-data.ts --root tests/fixtures/stories --out dist-e2e --fixtures && tsx scripts/verify-dist.ts --dir dist-e2e --fixtures",
+    "build:e2e": "vite build --outDir dist-e2e --base /chat-story/ && node -e \"require('node:fs').rmSync('dist-e2e/access-gate.json', { force: true })\" && tsx scripts/copy-story-data.ts --root tests/fixtures/stories --out dist-e2e --fixtures && tsx scripts/verify-dist.ts --dir dist-e2e --fixtures",
     "preview": "vite preview",
     "validate:stories": "tsx scripts/validate-stories.ts && tsx scripts/validate-stories.ts --root tests/fixtures/stories --fixtures",
     "check:parts": "tsx scripts/check-part-changes.ts",
