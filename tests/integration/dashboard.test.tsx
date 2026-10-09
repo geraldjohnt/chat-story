@@ -1,8 +1,9 @@
-import { act, render, screen, waitFor, within } from '@testing-library/react';
+import { act, fireEvent, render, screen, waitFor, within } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import { readFileSync } from 'node:fs';
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
 import { App } from '../../src/App';
+import { CONTROLS_HIDE_DELAY } from '../../src/features/preview/ScreenshotViewer';
 import { createGateConfig, type GateState } from '../../src/services/accessGate';
 import { FIXTURE_ROOT, fileFetcher } from '../helpers/fixtures';
 
@@ -159,13 +160,72 @@ describe('story overview and part reader', () => {
     expect(await screen.findByRole('heading', { name: 'Part not found' })).toBeInTheDocument();
   });
 
-  it('opens and closes the screenshot lightbox with the keyboard', async () => {
+  it('opens and closes the fullscreen screenshot viewer with the keyboard', async () => {
     renderAt('#/stories/9001/parts/1');
     await screen.findByRole('list', { name: 'Screenshots' });
     await userEvent.click(screen.getByRole('button', { name: 'Open screenshot 1 preview' }));
     expect(screen.getByRole('dialog')).toBeInTheDocument();
     await userEvent.keyboard('{Escape}');
     expect(screen.queryByRole('dialog')).toBeNull();
+  });
+
+  it('navigates the fullscreen viewer with buttons, arrow keys and swipes', async () => {
+    renderAt('#/stories/9001/parts/1');
+    const gallery = await screen.findByRole('list', { name: 'Screenshots' });
+    const total = within(gallery).getAllByRole('listitem').length;
+    expect(total).toBeGreaterThan(2);
+    await userEvent.click(screen.getByRole('button', { name: 'Open screenshot 2 preview' }));
+    const dialog = () => screen.getByRole('dialog');
+    expect(dialog()).toHaveAccessibleName(`Screenshot 2 of ${total}`);
+
+    await userEvent.click(screen.getByRole('button', { name: 'Next screenshot' }));
+    expect(dialog()).toHaveAccessibleName(`Screenshot 3 of ${total}`);
+    await userEvent.click(screen.getByRole('button', { name: 'Previous screenshot' }));
+    expect(dialog()).toHaveAccessibleName(`Screenshot 2 of ${total}`);
+    await userEvent.keyboard('{ArrowLeft}');
+    expect(dialog()).toHaveAccessibleName(`Screenshot 1 of ${total}`);
+    expect(screen.getByRole('button', { name: 'Previous screenshot' })).toBeDisabled();
+    await userEvent.keyboard('{ArrowLeft}');
+    expect(dialog()).toHaveAccessibleName(`Screenshot 1 of ${total}`);
+    await userEvent.keyboard('{ArrowRight}');
+    expect(dialog()).toHaveAccessibleName(`Screenshot 2 of ${total}`);
+
+    const stage = screen.getByTestId('viewer-stage');
+    const swipe = (from: number, to: number, y = 300) => {
+      fireEvent.touchStart(stage, { touches: [{ clientX: from, clientY: y }] });
+      fireEvent.touchMove(stage, { touches: [{ clientX: (from + to) / 2, clientY: y }] });
+      fireEvent.touchEnd(stage, { touches: [], changedTouches: [{ clientX: to, clientY: y }] });
+    };
+    swipe(300, 100); // swipe left → next
+    expect(dialog()).toHaveAccessibleName(`Screenshot 3 of ${total}`);
+    swipe(100, 300); // swipe right → previous
+    expect(dialog()).toHaveAccessibleName(`Screenshot 2 of ${total}`);
+    swipe(200, 180); // too short to count
+    expect(dialog()).toHaveAccessibleName(`Screenshot 2 of ${total}`);
+    fireEvent.touchStart(stage, { touches: [{ clientX: 200, clientY: 100 }] });
+    fireEvent.touchEnd(stage, { touches: [], changedTouches: [{ clientX: 140, clientY: 400 }] }); // mostly vertical
+    expect(dialog()).toHaveAccessibleName(`Screenshot 2 of ${total}`);
+  });
+
+  it('auto-hides the viewer controls and toggles them with a tap', async () => {
+    renderAt('#/stories/9001/parts/1');
+    await screen.findByRole('list', { name: 'Screenshots' });
+    vi.useFakeTimers();
+    try {
+      fireEvent.click(screen.getByRole('button', { name: 'Open screenshot 1 preview' }));
+      const dialog = screen.getByRole('dialog');
+      expect(dialog).toHaveAttribute('data-controls', 'visible');
+      act(() => vi.advanceTimersByTime(CONTROLS_HIDE_DELAY + 50));
+      expect(dialog).toHaveAttribute('data-controls', 'hidden');
+      expect(screen.queryByRole('button', { name: 'Next screenshot' })).toBeNull();
+      fireEvent.click(screen.getByTestId('viewer-stage'));
+      expect(dialog).toHaveAttribute('data-controls', 'visible');
+      expect(screen.getByRole('button', { name: 'Export PNG' })).toBeInTheDocument();
+      fireEvent.click(screen.getByTestId('viewer-stage'));
+      expect(dialog).toHaveAttribute('data-controls', 'hidden');
+    } finally {
+      vi.useRealTimers();
+    }
   });
 });
 

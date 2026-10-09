@@ -2,6 +2,7 @@ import { useEffect, useMemo, useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import { EmptyState, ErrorPanel, Loading, PageHeader, StatusBadge } from '../components/ui';
 import { ScaledScreenshot } from '../features/preview/ScaledScreenshot';
+import { ScreenshotViewer } from '../features/preview/ScreenshotViewer';
 import { useFontsReady } from '../hooks/useFontsReady';
 import { useStoryEntry } from '../hooks/useStoryEntry';
 import { getMeasurer } from '../renderers/measure';
@@ -22,16 +23,9 @@ export function PartPage() {
   const [reload, setReload] = useState(0);
   const [theme, setTheme] = useState<'' | ScreenshotTheme>('');
   const [profile, setProfile] = useState<'' | ExportProfileId>('');
-  const [selected, setSelected] = useState<RenderedPage | null>(null);
+  const [selected, setSelected] = useState<number | null>(null);
   const [exportStatus, setExportStatus] = useState<Status>({ kind: 'idle' });
   const fonts = useFontsReady();
-
-  useEffect(() => {
-    if (!selected) return;
-    const onKey = (e: KeyboardEvent) => e.key === 'Escape' && setSelected(null);
-    document.addEventListener('keydown', onKey);
-    return () => document.removeEventListener('keydown', onKey);
-  }, [selected]);
 
   const entry = item?.entry;
   const story = item?.story;
@@ -139,7 +133,7 @@ export function PartPage() {
           <ol className="gallery" aria-label="Screenshots">
             {pages.map((page) => (
               <li key={page.key} className="gallery__item card">
-                <button className="gallery__preview" onClick={() => setSelected(page)} aria-label={`Open screenshot ${page.index} preview`}>
+                <button className="gallery__preview" onClick={() => setSelected(pages.indexOf(page))} aria-label={`Open screenshot ${page.index} preview`}>
                   <ScaledScreenshot page={page} characters={characters} />
                 </button>
                 <div className="gallery__meta">
@@ -159,19 +153,17 @@ export function PartPage() {
         {next ? <Link className="btn" to={`/stories/${entry.id}/parts/${next.partNumber}`}>Part {next.partNumber} →</Link> : <span />}
       </nav>
 
-      {selected && (
-        <div className="lightbox" role="dialog" aria-modal="true" aria-label={`Screenshot ${selected.index}`} onClick={() => setSelected(null)}>
-          <div className="lightbox__body" onClick={(e) => e.stopPropagation()}>
-            <div className="lightbox__bar">
-              <span>Screenshot {selected.index} of {pages.length} · {selected.profile.pixelWidth} × {selected.profile.pixelHeight}</span>
-              <span className="lightbox__actions">
-                <button className="btn btn--small" onClick={() => void doPng(selected)} disabled={busy}>Export PNG</button>
-                <button className="btn btn--small" onClick={() => setSelected(null)} autoFocus>Close</button>
-              </span>
-            </div>
-            <ScaledScreenshot page={selected} characters={characters} maxHeight={Math.max(320, window.innerHeight - 140)} />
-          </div>
-        </div>
+      {selected !== null && pages[selected] && (
+        <ScreenshotViewer
+          pages={pages}
+          index={selected}
+          characters={characters}
+          onIndexChange={setSelected}
+          onClose={() => setSelected(null)}
+          onExport={(page) => void doPng(page)}
+          busy={busy}
+          status={exportStatus.kind === 'idle' ? undefined : exportStatus}
+        />
       )}
     </>
   );
