@@ -1,6 +1,6 @@
 # She Wasn't Alone
 
-Status: pending
+Status: pending (revised 2026-10-09: a cliffhanger on every part, including part 20)
 Proposed: 2026-10-09
 Genre: Mystery / small-town whodunit → family drama
 Setting: Port Ardoise, a fictional fishing town on Nova Scotia's South Shore, and Halifax (80 minutes
@@ -10,6 +10,11 @@ happened on 12 January, and who was there at six. Five suspects each need room f
 explanation and an alibi, and the texter's identity has to be earned before the final answer. There
 are four acts of five parts each: The Message (1–5), The Suspects (6–10), The Texter (11–15) and
 Six O'Clock (16–20).
+Cliffhanger rule: **every part, including part 20, ends on a cliffhanger.** Each one is a genuine
+turn: new evidence, a new suspect, a threat, or an unanswered question. None is an arbitrary
+cut-off. The final screenshot of each part carries it, usually as a lock-screen notification or the
+last message in a thread. Part 20 resolves the mystery and then ends on a new hook (see Planned
+ending).
 
 ## Premise
 Three weeks after Aunt June was found at the bottom of her cellar stairs, her missing phone texts the
@@ -126,7 +131,8 @@ own family. Noah's version is harder: the truth about June means turning in his 
   Paul on 12 Jan at 4:48 pm: "I've written it up. I'll send it tomorrow unless you can explain." Paul:
   "Please let me come by. 6?" June: "Cody's just been. Come at 6, Glen's out." At the cellar door they
   argued over the box of photocopied register pages. June fell. Paul took the phone and the box, and
-  left. A cancelled 911 call shows on the call log at 6:41 pm. The medical examiner's revised opinion
+  left. He never knew June had made a second set and hidden it in a green biscuit tin behind the
+  preserves. A cancelled 911 call shows on the call log at 6:41 pm. The medical examiner's revised opinion
   is that she might have survived with prompt help. That's handled non-graphically, through formal
   emails and Leah's careful wording. Paul hid the phone in his truck's toolbox. Noah found it on
   31 Jan while borrowing the truck for a wharf job and opened it with June's birth year (visible on her
@@ -139,9 +145,17 @@ the trial is pending, so the story doesn't invent a verdict. Owen tells the fami
 starts paying Glen's share of the house costs. Glen stays in the house, and his treatment begins. Bree
 is cleared publicly by the College. In the final part the RCMP return June's phone to Tess as
 executor. On it is one unsent draft to Tess from 12 Jan, 5:58 pm: "Tess, if anything about tomorrow
-goes sideways, it's in the box in the cellar. Bring your sensible head. J." Tess's last message is
-to Noah: "She'd have been proud of you. She said so every Thursday." Ending type: exposure /
-bittersweet justice. There's no romance and no cheating plot.
+goes sideways, there's a green tin behind the preserves. Both things are in it. Bring your sensible
+head. J." Tess sends Noah: "She'd have been proud of you. She said so every Thursday." Then she and
+Glen open the tin. The second set of register copies seals the case against Paul. Under it is a
+sealed envelope in June's hand: "Tess — the other thing. Not on the phone." The story ends on its
+first line, which Tess photographs and sends to Owen: "Your parents' accident wasn't what you were
+told, and I've let you both believe it for fifteen years." Owen: "tess what is this". Tess is typing.
+
+Ending type: exposure / bittersweet justice with a **sequel hook**. The mystery of June's death is
+fully resolved inside these 20 parts. The envelope opens a new question (what June knew about the
+parents' accident) that a continuation could pick up. It also pays off the part 3 line "Not on the
+phone": June had two things to tell Tess. There's no romance and no cheating plot.
 
 ## Part-by-part outline
 ### Act I — The Message
@@ -173,12 +187,14 @@ bittersweet justice. There's no romance and no cheating plot.
    Bridgewater hospital parking receipt SMS that Glen forwards by mistake while looking for something
    else. Glen explains the scan and the diagnosis they planned to tell the family together. Tess and
    Owen soften toward "the boyfriend". Cliffhanger: Tess logs into June's email (password from her
-   notebook). An inbox screenshot shows Harbourline Properties: "Following our conversation on
-   January 12…"
+   notebook). An inbox screenshot shows Harbourline Properties, dated 13 Jan, the day after she died:
+   "Following our conversation on January 12, we'll proceed once the property is vacant."
 7. **Harbourline** (11–13 Feb). Kyle Brandt is pushy with the executor and evasive about the 12th.
    Owen wants to "go round there". Tess finds the public council-meeting minutes: Kyle presented
    4:00–7:10 pm. Kofi notices that every Find My ping falls at 12:10–12:50 or after 3:20, the school
-   timetable, and says "Your texter is a kid." Cliffhanger: the Drafts folder count reads "Drafts (1)".
+   timetable, and says "Your texter is a kid." Cliffhanger: the Drafts folder shows one unsent email
+   from June, 11 Jan 11:52 pm, with the preview line "To the Nova Scotia College of Pharmacists — I
+   wish to report a colleague…"
 8. **Drafts (1)** (13–14 Feb). The draft's opening lines on screen: "To the Nova Scotia College of
    Pharmacists — I wish to report…" (11 Jan, 11:52 pm). Tess ↔ Kofi. Paul checks in warmly and says
    "those cellar stairs in the dark, I always worried". Tess doesn't catch it yet; the viewer can.
@@ -240,19 +256,32 @@ bittersweet justice. There's no romance and no cheating plot.
 19. **Six O'Clock** (9–15 Mar). Paul is arrested. Charges are reported via a local news link. The
     medical examiner's amended-findings email reaches the executor, worded carefully and
     non-graphically. Tess, Owen and Glen grieve again, differently. Bree is cleared by the College.
-    Noah, via Shannon: he wants to know if he did the right thing. Cliffhanger: Leah: "We're releasing
+    Noah, via Shannon: he wants to know if he did the right thing. Tess answers him honestly. Cliffhanger: Leah: "We're releasing
     June's phone to you as executor. There's an unsent message on it addressed to you."
 20. **Bring Your Sensible Head** (19 Mar). The returned phone: June's unsent draft to Tess from 5:58
-    pm on the 12th, about the box in the cellar. Tess sends it to the family chat. Owen's repayment
-    plan, Glen's first treatment date, Margo's "xo M". Final exchange: Tess → Noah: "She'd have been
-    proud of you. She said so every Thursday." Noah: "thanks. ngl i still have her chem notes" and a
-    photo of June's neat handwriting. A quiet ending, not a twist.
+    pm on the 12th, about the green tin "behind the preserves. Both things are in it." Tess sends it
+    to the family chat. Owen's repayment plan, Glen's first treatment date, Margo's "xo M". Tess →
+    Noah: "She'd have been proud of you. She said so every Thursday." Noah: "thanks. ngl i still have
+    her chem notes" and a photo of June's neat handwriting. Tess ↔ Glen in the cellar: the tin holds
+    the second set of register copies (Leah: "That's the case made"), and under them a sealed
+    envelope: "Tess — the other thing. Not on the phone." Cliffhanger: Tess photographs the letter's
+    first line and sends it to Owen: "Your parents' accident wasn't what you were told, and I've let
+    you both believe it for fifteen years." Owen: "tess what is this". The typing indicator ends the
+    story.
 
 ## Continuity considerations
 - Dates (2027): Mon 11 Jan, June's relief shift and the draft at 11:52 pm. Tue 12 Jan: Owen 2:00–2:40,
   Cody 5:05, Glen away 5:50–9:00, Paul around 6:00, the cancelled 911 call at 6:41, Glen finds her at
   9:10 pm. Paul takes the phone on 12 Jan. Noah finds it on 31 Jan. The first text is on Tue 2 Feb.
   Tess's Saturday visit was to be 16 Jan, and she postponed it to the 23rd.
+- Tess and Owen's parents died in a car accident in 2012, when Tess was 19 and Owen 14. Mention this
+  lightly in parts 3 and 4 so the part 20 hook is earned. Don't explain it in this story: the
+  envelope's contents beyond the first line are reserved for a possible continuation, and nothing in
+  parts 1–19 may contradict it.
+- Plant the green tin fairly: Glen mentions June's "preserves shelf" in part 6, and Leah's list of
+  items removed from the cellar (part 17) doesn't include it.
+- Every part's final screenshot carries its cliffhanger. Typing indicators are used as the final
+  item only in parts 13 and 20.
 - Find My pings must always fall at plausible times for Noah: 12:10–12:50 and 3:20+ on school days,
   any time at weekends. Never during the school day except at lunch.
 - Noah's texts from June's number: lowercase, no apostrophes, never "J." except the deliberate slip in
@@ -282,7 +311,8 @@ Compared with 0001–0006 (there are no other pending outlines).
   gambling (0003).
 - **Twist:** the texter is the culprit's child, which reframes the anonymous messages as an act of
   conscience. That's distinct from 0002, where the child is the secret-holder but no one did wrong.
-- **Ending:** exposure with bittersweet justice and a trial pending. The index has reconciliation,
+- **Ending:** exposure with bittersweet justice and a trial pending, plus a sequel hook (the index
+  has none so far). The index has reconciliation,
   bittersweet family, breakup, hopeful, romance-with-cost and open endings, but no exposure of a crime.
 - **Risks to watch:** 20 parts invites repetition. Each part must add one new fact or eliminate a
   suspect, with no filler "who are you?" exchanges. Paul's clues must be fair but quiet so the
